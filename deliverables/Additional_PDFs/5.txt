@@ -1,0 +1,192 @@
+--- Page 1 ---
+Online Trust and Reputation Systems 
+  
+Neel Sundaresan 
+eBay Research Labs 
+2145 Hamilton Avenue 
+San Jose, CA 95125 
+(408)376-8422 
+nsundaresan@ebay.com 
+ 
+ABSTRACT 
+As online commerce, social networks, and user-generated content 
+become common, need for trust and reputation models become 
+prime. This tutorial will give an overview of trust and reputation 
+systems as studied by social network researchers. Other topics 
+include: Reputation and its relationship to security and fraud; 
+Feedback and other Manifestations and Implementations of trust 
+and reputations; Models of reputation; platforms: P2P systems, 
+Centralized systems; Auctions, Incentive systems; Collaborative 
+filtering; Social Networking and Social reputation; Portability and 
+Universality of Identity, trust, and reputation.  
+Categories and Subject Descriptors 
+I.2.11 [Artificial Intelligence]: Distributed Artificial Intelligence. 
+General Terms 
+Economics, Human Factors, Verification, Management, 
+Algorithms, Theory. 
+Keywords 
+Identity; Trust; Fraud; Reputation; Electronic Commerce; Social 
+Networks 
+1. INTRODUCTION 
+Over the past decade electronic commerce, user generated content 
+and recommendations, and social networking applications have 
+become common on the web. As reliance on these applications 
+grow the need for a trust and reputation model has become 
+essential. Users look for recommendations on products, web site, 
+suppliers, buyers, content, and peers based upon the nature of 
+interaction. Recommendations are provided based upon personal 
+experience, usefulness of prior recommendations, and other 
+behaviors on the system. The roles and behaviors of any user in 
+an online application define the trust that other users of the system 
+have on the user. This also defines the reputation of the user in the 
+community. 
+Feedback on an online marketplace like eBay is an expression of 
+reputation. It provides a simple accumulative model for 
+reputation. Social network sites like Slashdot.org and digg.com 
+have their own model of reputation where users with extensive 
+authorship and recommendation are promoted to being 
+moderators and super-moderators.  
+Trust is well-studied among social network researchers. It is 
+explicated through referrals and ratings. Resnick[] has marked out 
+the characteristics of a reputation system. These include 1. actors 
+in such a system have to be long lived to influence future 
+reputation scores;  2. mechanism to capture current scores to 
+influence future scores; 3. ratings about past interactions to guide 
+current interactions. The characteristics apply well not only to 
+eCommerce systems like clicks-and-mortar stores where an 
+individual business is rated by its customers but also in peer-to-
+peer marketplaces and social network sites which include 
+interactions, reviews, and guides. 
+Trust and reputation often identify other related entities like fraud 
+and safety. Algorithms defined to compute reputation are closely 
+attached to those designed to detect fraud or compute safety 
+measures. Lack of trust leads means higher possibility of fraud or 
+fraud committers try and take over reputed member’s trust to 
+commit fraud. Mechanisms that restrict such takeover are of 
+importance to build low fraud applications. 
+2. TUTORIAL OVERVIEW 
+This tutorial will cover several areas of online reputation systems. 
+Some key topics include: 
+1. 
+Concepts and definition of online trust and reputation. 
+2. 
+Reputation and its relationship to security and fraud. 
+3. 
+Feedback and other manifestations and Implementations 
+of trust and reputations 
+4. 
+Models of reputation  
+5. 
+Platforms: P2P systems, Centralized systems  
+6. 
+Auctions, Incentive systems 
+7. 
+Collaborative filtering 
+8. 
+Social Networking and Social reputation 
+9. 
+Degrees of freedom; Circles of trust 
+10. Example Applications (Amazon, Epinions, eBay, 
+Slashdot.org, Digg etc.) 
+ 
+3. TUTOR BIOGRAPHY 
+Neel Sundaresan is the Director and Head of eBay Research Labs. 
+His current areas of research interest includes Social and 
+Incentive Networks, Trust and Reputation Systems, Machine 
+Learning as applied to Recommender systems, Classification, 
+Ontology, and Search. Prior to joining eBay was a founder and 
+CTO of a startup focused on multi-attribute fuzzy search and 
+network CRM. Prior to this he was the head of the eMerging 
+Internet Technologies group at the IBM Research Center. There 
+he built the first XML-based Search Engine. He was one of the 
+ 
+Copyright is held by the author/owner(s). 
+EC’07, June 11–15, 2007, San Diego, California, USA. 
+ACM  978-1-59593-653-0/07/0006. 
+ 
+366
+
+
+--- Page 2 ---
+early leaders in building XML technologies including schema-
+aware compression algorithms, application component generators 
+and pattern-match systems and compilers. He built the first RDF 
+reference implementation as a W3C standard recommendation. 
+He led research work in other areas like domain specific search 
+engines, multi-modal interfaces and assistive technologies, 
+semantic transcoding, web mining, query systems, and 
+classification for semi-structured data. Prior to this he worked on 
+C++ compiler and runtime systems for massively parallel 
+machines and for shared memory systems and also on retargetable 
+compilers, program translators and generators. He has over 40 
+research publications and several patents to his credit. He has 
+been a frequent speaker at several national and international 
+technology conferences. He has advised several PhD and masters 
+dissertations. He has a degree in mathematics and a masters in 
+computer science and engineering from the Indian Institute of 
+Technology, Mumbai India and a PhD in computer science from 
+Indiana University, Bloomington. 
+4. REFERENCES 
+[1] Z. Abrams, R. McGrew and S. Plotkin. A Non-Manipulable 
+Trust System Based on EigenTrust. ACM SIGecom 
+Exchanges, Vol.5, No. 4, July 2005, pages 21-30. 
+[2] Z. Abrams, R. McGrew and S. Plotkin. Keeping Peers 
+Honest in EigenTrust. Proceedings of the Second Workshop 
+on Economics of Peer-Peer Systems. 2004. 
+[3] C. Dellarocas. Goodwill Hunting: An Economically Efficient 
+Online Feedback Mechanism for Environments with 
+Variable kProduct Quality. AMEC 2002, LNAI 2531. J. 
+Padget et al. (Eds.). pages 238-252. 2002. 
+[4] O. Farideh. Bibliometrics, Citation Analysis and Co-citation 
+Analysis: A Review of Literature L. Libri 46, September 
+1996. 149-158.  
+[5] E. Fourquet, K. Larson and W. Cowan. A Reputation 
+Mechanism for Layered Communities. ACM SIGecom 
+Exchanges, Vol. 6 No. 1, 05 2006, pages 11-22. 
+[6] R. Guha, R. Kumar, P. Raghavan and A. Tomkins. 
+Propagation of Trust and Distrust. Proceedings of the 
+WWW2004, May 17-22, 2004, New York, New York, USA. 
+[7] D. Houser. Reputation in Auctions: Theory and Evidence 
+from eBay. Journal of Economics and Management Strategy, 
+2004.   
+[8] A. Josang, R. Ismail and Colin Boyd. A Survey of Trust and 
+Reputation Systems for Online Service Provision. Decision 
+Support Systems 2006. pages 1-46. 
+[9] S. Kamvar, M. Schlosser and H. Garcia-Molina. The 
+EigenTrust Algorithm for Reputation Management in P2P 
+Networks. Prodceedings of the WWW2003, Budapest, 
+Hungary. May 2003. 
+[10] R. Larson, Bibliometrics of the World Wide Web: An 
+exploratory analysis of the intellectual structure of 
+cyberspace. Annual Meeting of the American Society for 
+Information Science, 1996.  
+[11] T. Papaioannou and G. Stamoulis. An Incentives’ 
+Mechanism for Promoting Truthful Feedback in Peer-to-Peer 
+Systems. In CCGRID 05: Proceedings of the 5th IEEE/ACM 
+Internation Symposium on Cluster Computing and the Grid, 
+IEEE Computer Society Press, Pages 259-266. 
+[12] P. Resnick and R. Zeckhauser. Trust Among Strangers in 
+Internet Transactions: Empirical Analysis of eBay’s 
+Reputation System. In the Economics of the Internet and e-
+Commerce, M.R. Baye, Ed. Advances in Applied 
+micronomics, vol. 11. Elsevier Science, Amsterdam, 127-
+157. 
+[13] J. Sabater and C. Sierra. Reputation and Social Network 
+Analysis in Multi-Agent Systems. Proceedings of the 1st 
+International Joint Conference on Autonomous Agents and 
+Multi-agent Systems. 475-482. 2002. 
+[14] J. R. Seeley, The net of reciprocal influence: A problem in 
+treating sociometric data. Canadian Journal of Psychology, 
+3, pages 234-240, 1949. 
+[15] N. Sundaresan. On an Online Reputation System. eBay 
+Research Labs Technical Report. 2006. 
+[16] S. Wasserman and K. Faust, Social Network Analysis: 
+Methods and Applications. Cambridge University Press, 
+1994. 
+ 
+ 
+ 
+ 
+ 
+ 
+367
