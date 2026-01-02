@@ -1,0 +1,994 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Public Progress Report - COST Action CA19130 Mid-Term</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        :root {
+            --cost-purple: #5B2D8A;
+            --cost-blue: #2B5F9E;
+            --cost-teal: #00A0B0;
+            --cost-orange: #E87722;
+            --cost-green: #7AB800;
+            --dark: #1a1a2e;
+            --light: #f8f9fa;
+            --gray: #6c757d;
+            --border: #dee2e6;
+            --success: #28a745;
+            --warning: #ffc107;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Inter', sans-serif; line-height: 1.6; color: var(--dark); background: var(--light); }
+        nav { background: linear-gradient(135deg, var(--cost-purple), var(--cost-blue)); padding: 1rem 2rem; position: fixed; width: 100%; top: 0; z-index: 1000; }
+        nav .nav-content { max-width: 1400px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center; }
+        nav .logo { color: white; font-weight: 700; font-size: 1.2rem; }
+        nav .logo span { color: var(--cost-orange); }
+        nav ul { display: flex; list-style: none; gap: 2rem; }
+        nav a { color: rgba(255,255,255,0.9); text-decoration: none; font-size: 0.9rem; font-weight: 500; }
+        nav a:hover { color: white; }
+        .hero { background: linear-gradient(135deg, var(--cost-blue) 0%, var(--cost-teal) 100%); color: white; padding: 7rem 2rem 3rem; text-align: center; }
+        .hero h1 { font-size: 2.2rem; font-weight: 700; margin-bottom: 0.5rem; }
+        .hero .badge { display: inline-block; background: var(--cost-green); padding: 0.3rem 1rem; border-radius: 20px; font-size: 0.85rem; margin-bottom: 1rem; }
+        .hero p { opacity: 0.9; max-width: 700px; margin: 0 auto; }
+        .breadcrumb { background: white; padding: 1rem 2rem; border-bottom: 1px solid var(--border); }
+        .breadcrumb a { color: var(--cost-purple); text-decoration: none; }
+        .breadcrumb span { color: var(--gray); }
+        section { padding: 3rem 2rem; max-width: 1200px; margin: 0 auto; }
+        section h2 { font-size: 1.6rem; color: var(--cost-purple); margin-bottom: 1.5rem; border-bottom: 2px solid var(--cost-teal); padding-bottom: 0.5rem; }
+        section h3 { font-size: 1.2rem; color: var(--dark); margin: 1.5rem 0 1rem; }
+        .card { background: white; border-radius: 12px; padding: 1.5rem; box-shadow: 0 4px 15px rgba(0,0,0,0.08); margin-bottom: 1.5rem; }
+        .card h4 { color: var(--cost-purple); margin-bottom: 0.5rem; font-size: 1rem; }
+        .card p { color: var(--gray); font-size: 0.9rem; line-height: 1.7; }
+        .stats-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 1rem; margin: 1.5rem 0; }
+        .stat-box { background: linear-gradient(135deg, var(--cost-blue), var(--cost-teal)); color: white; padding: 1.5rem; border-radius: 12px; text-align: center; }
+        .stat-box .number { font-size: 2rem; font-weight: 700; }
+        .stat-box .label { font-size: 0.8rem; opacity: 0.9; }
+        .leadership-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1rem; }
+        .leadership-card { background: white; border-radius: 12px; padding: 1.2rem; box-shadow: 0 4px 15px rgba(0,0,0,0.08); border-left: 4px solid var(--cost-purple); }
+        .leadership-card h4 { color: var(--cost-purple); font-size: 0.9rem; margin-bottom: 0.3rem; }
+        .leadership-card .name { font-weight: 600; color: var(--dark); }
+        .leadership-card .affiliation { font-size: 0.8rem; color: var(--gray); }
+        .leadership-card .country { display: inline-block; background: rgba(91,45,138,0.1); color: var(--cost-purple); padding: 0.1rem 0.5rem; border-radius: 8px; font-size: 0.7rem; margin-top: 0.3rem; }
+        .wg-cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1rem; }
+        .wg-card { background: white; border-radius: 12px; padding: 1.5rem; box-shadow: 0 4px 15px rgba(0,0,0,0.08); }
+        .wg-card .wg-num { display: inline-block; background: var(--cost-teal); color: white; padding: 0.2rem 0.8rem; border-radius: 15px; font-size: 0.8rem; font-weight: 600; margin-bottom: 0.5rem; }
+        .wg-card h4 { color: var(--dark); font-size: 1rem; margin-bottom: 0.5rem; }
+        .wg-card .members { font-size: 1.5rem; font-weight: 700; color: var(--cost-purple); }
+        .wg-card .leader { font-size: 0.85rem; color: var(--gray); margin-top: 0.3rem; }
+        .country-list { display: flex; flex-wrap: wrap; gap: 0.4rem; margin: 1rem 0; }
+        .country-chip { background: rgba(43,95,158,0.1); color: var(--cost-blue); padding: 0.3rem 0.8rem; border-radius: 15px; font-size: 0.75rem; }
+        .country-chip.itc { background: rgba(232,119,34,0.15); color: var(--cost-orange); }
+        .deliverable-table { width: 100%; border-collapse: collapse; margin: 1rem 0; font-size: 0.85rem; }
+        .deliverable-table th { background: var(--cost-blue); color: white; padding: 0.8rem; text-align: left; }
+        .deliverable-table td { padding: 0.8rem; border-bottom: 1px solid var(--border); }
+        .deliverable-table tr:hover { background: rgba(43,95,158,0.03); }
+        .status-badge { display: inline-block; padding: 0.2rem 0.6rem; border-radius: 12px; font-size: 0.75rem; font-weight: 600; }
+        .status-badge.delivered { background: rgba(40,167,69,0.15); color: var(--success); }
+        .status-badge.expected { background: rgba(232,119,34,0.15); color: var(--cost-orange); }
+        .publication-list { max-height: 500px; overflow-y: auto; }
+        .pub-item { display: flex; gap: 1rem; padding: 0.8rem; border-bottom: 1px solid var(--border); }
+        .pub-item:last-child { border-bottom: none; }
+        .pub-num { background: var(--cost-blue); color: white; width: 28px; height: 28px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 0.7rem; font-weight: 600; flex-shrink: 0; }
+        .pub-details h5 { font-size: 0.85rem; color: var(--dark); margin-bottom: 0.2rem; }
+        .pub-details .authors { font-size: 0.75rem; color: var(--gray); }
+        .pub-details .journal { font-size: 0.7rem; color: var(--cost-blue); font-style: italic; }
+        .pub-details .doi { font-size: 0.7rem; color: var(--cost-teal); }
+        .project-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1rem; }
+        .project-card { background: white; border-radius: 12px; padding: 1.2rem; box-shadow: 0 4px 15px rgba(0,0,0,0.08); border-top: 3px solid var(--cost-green); }
+        .project-card h4 { color: var(--dark); font-size: 0.95rem; margin-bottom: 0.5rem; }
+        .project-card .type { display: inline-block; background: rgba(122,184,0,0.15); color: var(--cost-green); padding: 0.1rem 0.5rem; border-radius: 8px; font-size: 0.7rem; font-weight: 600; }
+        .project-card p { font-size: 0.8rem; color: var(--gray); margin-top: 0.3rem; }
+        .impact-grid { display: grid; gap: 1.5rem; }
+        .impact-card { background: white; border-radius: 12px; padding: 1.5rem; box-shadow: 0 4px 15px rgba(0,0,0,0.08); }
+        .impact-card h4 { color: var(--cost-purple); font-size: 1rem; margin-bottom: 0.5rem; }
+        .impact-card p { color: var(--gray); font-size: 0.85rem; line-height: 1.7; }
+        .impact-tags { display: flex; gap: 0.3rem; margin-top: 0.5rem; flex-wrap: wrap; }
+        .impact-tag { background: rgba(0,160,176,0.15); color: var(--cost-teal); padding: 0.2rem 0.5rem; border-radius: 8px; font-size: 0.7rem; }
+        .activity-list { margin: 1rem 0; }
+        .activity-item { background: white; border-radius: 8px; padding: 1rem; margin-bottom: 0.8rem; box-shadow: 0 2px 8px rgba(0,0,0,0.05); border-left: 3px solid var(--cost-teal); }
+        .activity-item h5 { color: var(--dark); font-size: 0.9rem; margin-bottom: 0.3rem; }
+        .activity-item p { color: var(--gray); font-size: 0.8rem; }
+        .activity-item a { color: var(--cost-blue); font-size: 0.8rem; }
+        .budget-table { width: 100%; border-collapse: collapse; margin: 1rem 0; }
+        .budget-table th { background: var(--cost-purple); color: white; padding: 0.8rem; text-align: left; font-size: 0.85rem; }
+        .budget-table td { padding: 0.8rem; border-bottom: 1px solid var(--border); font-size: 0.85rem; }
+        .budget-table tr:last-child td { font-weight: 600; background: rgba(91,45,138,0.05); }
+        .diversity-stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; margin: 1rem 0; }
+        .diversity-stat { background: white; border-radius: 12px; padding: 1.2rem; box-shadow: 0 4px 15px rgba(0,0,0,0.08); text-align: center; }
+        .diversity-stat .value { font-size: 1.8rem; font-weight: 700; color: var(--cost-purple); }
+        .diversity-stat .label { font-size: 0.8rem; color: var(--gray); }
+        .chart-container { background: white; border-radius: 12px; padding: 1.5rem; box-shadow: 0 4px 15px rgba(0,0,0,0.08); margin: 1rem 0; }
+        .tabs { display: flex; gap: 0.5rem; margin-bottom: 1rem; flex-wrap: wrap; }
+        .tab { padding: 0.5rem 1rem; border-radius: 20px; border: none; background: var(--border); color: var(--gray); cursor: pointer; font-size: 0.85rem; }
+        .tab.active { background: var(--cost-purple); color: white; }
+        .tab-content { display: none; }
+        .tab-content.active { display: block; }
+        footer { background: var(--dark); color: white; padding: 2rem; text-align: center; }
+        footer a { color: var(--cost-orange); text-decoration: none; margin: 0 1rem; }
+        @media (max-width: 768px) { nav ul { display: none; } .hero h1 { font-size: 1.6rem; } }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="nav-content">
+            <div class="logo">COST <span>CA19130</span></div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="midterm-report.html">Mid-Term Overview</a></li>
+                <li><a href="midterm-action-chair-report.html">Chair Report</a></li>
+                <li><a href="midterm-rapporteur-review.html">Rapporteur Review</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="badge">Public Document</div>
+        <h1>Second Progress Report</h1>
+        <p>Official Public Progress Report at 24 Months (14/09/2020 - 14/09/2022) - Submitted 17-01-2023</p>
+    </header>
+
+    <div class="breadcrumb">
+        <a href="midterm-report.html">Mid-Term Report</a> <span> / Public Progress Report</span>
+    </div>
+
+    <section>
+        <h2>Summary</h2>
+        <div class="card">
+            <p>The main aim and objective of the Action is to establish a large and interconnected community across academia, public institutions and industry focusing on Financial Technology and Artificial Intelligence in Finance, improving transparency in financial services, especially in and through FinTech, in financial modelling and investment performance evaluation.</p>
+            <p style="margin-top: 1rem;">The COST Action on Fintech and AI in Finance has brought together an incredibly diverse network with enormous growth to <strong>260 interdisciplinary researchers from 49 countries</strong>, with 39 being European COST countries, becoming one of the largest and most active COST Actions in Europe. This diversity ensures that the research is inclusive and addresses the needs of a global audience.</p>
+        </div>
+
+        <div class="stats-grid">
+            <div class="stat-box"><div class="number">260</div><div class="label">Working Group Members</div></div>
+            <div class="stat-box"><div class="number">49</div><div class="label">Countries Globally</div></div>
+            <div class="stat-box"><div class="number">39</div><div class="label">COST Countries</div></div>
+            <div class="stat-box"><div class="number">150+</div><div class="label">Research Events</div></div>
+            <div class="stat-box"><div class="number">6,000+</div><div class="label">Event Participants</div></div>
+            <div class="stat-box"><div class="number">300+</div><div class="label">Distinguished Speakers</div></div>
+            <div class="stat-box"><div class="number">10,000+</div><div class="label">Citations</div></div>
+            <div class="stat-box"><div class="number">100</div><div class="label">Co-authored Publications</div></div>
+        </div>
+    </section>
+
+    <section>
+        <h2>Action Leadership</h2>
+        <h3>Core Leadership</h3>
+        <div class="leadership-grid">
+            <div class="leadership-card">
+                <h4>Action Chair</h4>
+                <div class="name">Prof Jorg Osterrieder</div>
+                <div class="affiliation">University of Twente / ZHAW</div>
+                <div class="country">Switzerland</div>
+            </div>
+            <div class="leadership-card">
+                <h4>Action Vice-Chair</h4>
+                <div class="name">Prof Valerio Poti</div>
+                <div class="affiliation">University College Dublin</div>
+                <div class="country">Ireland</div>
+            </div>
+            <div class="leadership-card">
+                <h4>Science Communication Coordinator</h4>
+                <div class="name">Dr Ioana Coita</div>
+                <div class="affiliation">University of Oradea</div>
+                <div class="country">Romania</div>
+            </div>
+            <div class="leadership-card">
+                <h4>Grant Holder Scientific Representative</h4>
+                <div class="name">Branka Hadji Misheva</div>
+                <div class="affiliation">Bern University of Applied Sciences</div>
+                <div class="country">Switzerland</div>
+            </div>
+        </div>
+
+        <h3>Working Groups</h3>
+        <div class="wg-cards">
+            <div class="wg-card">
+                <div class="wg-num">WG1</div>
+                <h4>Transparency in FinTech</h4>
+                <div class="members">277 participants</div>
+                <div class="leader">Leader: Prof Wolfgang Hardle (Germany)</div>
+            </div>
+            <div class="wg-card">
+                <div class="wg-num">WG2</div>
+                <h4>Transparent vs Black Box Decision-Support Models</h4>
+                <div class="members">248 participants</div>
+                <div class="leader">Leader: Prof Petre Lameski (North Macedonia)</div>
+            </div>
+            <div class="wg-card">
+                <div class="wg-num">WG3</div>
+                <h4>Transparency into Investment Product Performance</h4>
+                <div class="members">218 participants</div>
+                <div class="leader">Leader: Prof Peter Schwendner (Switzerland)</div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h2>Participating Countries</h2>
+        <div class="card">
+            <h4>COST Members (39 countries)</h4>
+            <div class="country-list">
+                <span class="country-chip itc">Albania</span>
+                <span class="country-chip itc">Armenia</span>
+                <span class="country-chip">Austria</span>
+                <span class="country-chip">Belgium</span>
+                <span class="country-chip itc">Bosnia & Herzegovina</span>
+                <span class="country-chip itc">Bulgaria</span>
+                <span class="country-chip itc">Croatia</span>
+                <span class="country-chip itc">Cyprus</span>
+                <span class="country-chip itc">Czech Republic</span>
+                <span class="country-chip">Denmark</span>
+                <span class="country-chip itc">Estonia</span>
+                <span class="country-chip">Finland</span>
+                <span class="country-chip">France</span>
+                <span class="country-chip itc">Georgia</span>
+                <span class="country-chip">Germany</span>
+                <span class="country-chip">Greece</span>
+                <span class="country-chip itc">Hungary</span>
+                <span class="country-chip">Iceland</span>
+                <span class="country-chip">Ireland</span>
+                <span class="country-chip">Israel</span>
+                <span class="country-chip">Italy</span>
+                <span class="country-chip itc">Latvia</span>
+                <span class="country-chip itc">Lithuania</span>
+                <span class="country-chip">Luxembourg</span>
+                <span class="country-chip itc">Malta</span>
+                <span class="country-chip itc">Moldova</span>
+                <span class="country-chip itc">Montenegro</span>
+                <span class="country-chip">Netherlands</span>
+                <span class="country-chip itc">North Macedonia</span>
+                <span class="country-chip">Norway</span>
+                <span class="country-chip itc">Poland</span>
+                <span class="country-chip itc">Portugal</span>
+                <span class="country-chip itc">Romania</span>
+                <span class="country-chip itc">Serbia</span>
+                <span class="country-chip itc">Slovakia</span>
+                <span class="country-chip itc">Slovenia</span>
+                <span class="country-chip">Spain</span>
+                <span class="country-chip">Sweden</span>
+                <span class="country-chip">Switzerland</span>
+                <span class="country-chip itc">Turkey</span>
+                <span class="country-chip itc">Ukraine</span>
+                <span class="country-chip">United Kingdom</span>
+            </div>
+            <p style="margin-top: 1rem; font-size: 0.85rem; color: var(--gray);"><span class="country-chip itc">Orange</span> indicates Inclusiveness Target Countries (ITC) - 22 ITC countries participate</p>
+        </div>
+    </section>
+
+    <section>
+        <h2>Diversity and Inclusion</h2>
+        <div class="diversity-stats">
+            <div class="diversity-stat">
+                <div class="value">41%</div>
+                <div class="label">Female Members</div>
+            </div>
+            <div class="diversity-stat">
+                <div class="value">53%</div>
+                <div class="label">ITC Members</div>
+            </div>
+            <div class="diversity-stat">
+                <div class="value">41.3%</div>
+                <div class="label">Young Researchers</div>
+            </div>
+            <div class="diversity-stat">
+                <div class="value">46%</div>
+                <div class="label">Female MC Members</div>
+            </div>
+        </div>
+
+        <div class="card">
+            <h4>Gender Balance by Working Group</h4>
+            <div class="chart-container">
+                <canvas id="genderChart" height="200"></canvas>
+            </div>
+        </div>
+
+        <div class="card">
+            <h4>Virtual Mobility Grants Gender Distribution</h4>
+            <p><strong>GP1:</strong> 3 out of 4 VMGs awarded to female researchers (75%)</p>
+            <p><strong>GP2:</strong> 8 out of 9 VMGs awarded to female researchers (89%)</p>
+        </div>
+    </section>
+
+    <section>
+        <h2>MoU Objectives Progress</h2>
+        <div class="tabs">
+            <button class="tab active" onclick="showTab('obj-research')">Research Objectives</button>
+            <button class="tab" onclick="showTab('obj-capacity')">Capacity Building</button>
+            <button class="tab" onclick="showTab('obj-network')">Networking</button>
+        </div>
+
+        <div id="obj-research" class="tab-content active">
+            <div class="impact-grid">
+                <div class="impact-card">
+                    <h4>1. Blended Approaches for Financial Services (76-100%)</h4>
+                    <p>Development of blended approaches to evaluate innovative financial services, focusing on ML methods for early warning of operational fragility, fraud detection, and money-laundering activities.</p>
+                    <p style="margin-top: 0.5rem;"><strong>Partnerships:</strong> iFactor (Romania), ING Group (Netherlands), Swiss National Science Foundation projects on Blockchain anomaly detection.</p>
+                    <div class="impact-tags">
+                        <span class="impact-tag">Machine Learning</span>
+                        <span class="impact-tag">Fraud Detection</span>
+                        <span class="impact-tag">Early Warning Systems</span>
+                    </div>
+                </div>
+                <div class="impact-card">
+                    <h4>2. Black-Box Model Transparency (76-100%)</h4>
+                    <p>Development of conceptual and methodological tools for establishing when black-box models are admissible and making them more transparent with interpretable and explainable models.</p>
+                    <p style="margin-top: 0.5rem;"><strong>Key Output:</strong> <a href="https://www.explainableaiforfinance.com/" target="_blank">explainableaiforfinance.com</a> - Platform with use cases, papers, code repositories, and interactive apps.</p>
+                    <div class="impact-tags">
+                        <span class="impact-tag">XAI</span>
+                        <span class="impact-tag">Interpretability</span>
+                        <span class="impact-tag">Quantlet</span>
+                    </div>
+                </div>
+                <div class="impact-card">
+                    <h4>3. Regulator and Practitioner Input (51-75%)</h4>
+                    <p>Receiving input from regulators and practitioners' communities to validate results regarding AI transparency.</p>
+                    <p style="margin-top: 0.5rem;"><strong>Highlights:</strong> High-level COST policy event at Brussels (May 2023), member on CEDPO AI Working Group, close contacts with ECB AI team.</p>
+                    <div class="impact-tags">
+                        <span class="impact-tag">Policy</span>
+                        <span class="impact-tag">ECB</span>
+                        <span class="impact-tag">Brussels</span>
+                    </div>
+                </div>
+                <div class="impact-card">
+                    <h4>4. Performance Attribution Models (26-50%)</h4>
+                    <p>Pruning and improvement of performance attribution models by contributing to methodologies for reducing false discovery rate in financial research.</p>
+                    <p style="margin-top: 0.5rem;"><strong>Goal:</strong> Consolidate all research into unifying position and discussion papers in next grant periods.</p>
+                    <div class="impact-tags">
+                        <span class="impact-tag">Attribution</span>
+                        <span class="impact-tag">False Discovery Rate</span>
+                    </div>
+                </div>
+                <div class="impact-card">
+                    <h4>5. Dissemination to Public and Regulators (76-100%)</h4>
+                    <p>Comprehensive dissemination of investment product performance evaluation results through 150+ events, meetup group with 2,000+ members, and multiple platforms.</p>
+                    <div class="impact-tags">
+                        <span class="impact-tag">Meetup</span>
+                        <span class="impact-tag">Quantinar</span>
+                        <span class="impact-tag">Events</span>
+                    </div>
+                </div>
+                <div class="impact-card">
+                    <h4>6. European Platform for Investment Products (51-75%)</h4>
+                    <p><strong>Proposed Update:</strong> Creation of a stable, transparent European platform for research on digitalisation of Banks' financial products, including digital assets and tokens in a reproducible framework.</p>
+                    <p style="margin-top: 0.5rem;"><em>Note: Original objective dependent on regulatory changes that have not occurred. New objective better aligned with current developments.</em></p>
+                    <div class="impact-tags">
+                        <span class="impact-tag">Digital Assets</span>
+                        <span class="impact-tag">Tokens</span>
+                        <span class="impact-tag">Platform</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="obj-capacity" class="tab-content">
+            <div class="impact-grid">
+                <div class="impact-card">
+                    <h4>7. Excellent Research Network (76-100%)</h4>
+                    <p>Created one of the largest and most active COST Actions in Europe with 49 countries, 260+ working group members, and 2000+ meetup members globally.</p>
+                    <div class="impact-tags">
+                        <span class="impact-tag">Network</span>
+                        <span class="impact-tag">Collaboration</span>
+                        <span class="impact-tag">Sustainability</span>
+                    </div>
+                </div>
+                <div class="impact-card">
+                    <h4>8. Interdisciplinary Research (76-100%)</h4>
+                    <p>Bringing together technological, quantitative and economic researchers. Active involvement in 20+ Fintech associations across Europe. Network covers finance, computer science, economics, mathematics, engineering, banking, business, and law.</p>
+                    <div class="impact-tags">
+                        <span class="impact-tag">Interdisciplinary</span>
+                        <span class="impact-tag">FinTech Associations</span>
+                    </div>
+                </div>
+                <div class="impact-card">
+                    <h4>9. Knowledge Exchange Platform (76-100%)</h4>
+                    <p>Bridging practitioners, academics and regulators through platforms: <strong>quantlet.com</strong> (thousands of code pieces), <strong>quantinar.com</strong> (training materials), and <strong>Blockchain Research Center</strong> (datasets).</p>
+                    <div class="impact-tags">
+                        <span class="impact-tag">Quantlet</span>
+                        <span class="impact-tag">Quantinar</span>
+                        <span class="impact-tag">BRC</span>
+                    </div>
+                </div>
+                <div class="impact-card">
+                    <h4>10. Knowledge Transfer (76-100%)</h4>
+                    <p>150+ research events in interdisciplinary settings with both industry and academia. Substantial number of members work closely with industry in day-to-day research activities.</p>
+                    <div class="impact-tags">
+                        <span class="impact-tag">Industry Partnership</span>
+                        <span class="impact-tag">Academia</span>
+                    </div>
+                </div>
+                <div class="impact-card">
+                    <h4>11. Inclusive Research Community (76-100%)</h4>
+                    <p>20+ PhD thesis completions, 10+ professorship promotions. ECIs prioritized for funding, visible in prominent roles across the Action.</p>
+                    <div class="impact-tags">
+                        <span class="impact-tag">ECI Support</span>
+                        <span class="impact-tag">Promotions</span>
+                        <span class="impact-tag">PhD Training</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="obj-network" class="tab-content">
+            <div class="impact-grid">
+                <div class="impact-card">
+                    <h4>12. Geographical Diversity (76-100%)</h4>
+                    <p>53% of members from Inclusiveness Target Countries (ITC). 22 out of 39 COST countries are ITC. Albania and Romania have highest ECI representation.</p>
+                    <div class="impact-tags">
+                        <span class="impact-tag">ITC Priority</span>
+                        <span class="impact-tag">Diversity</span>
+                    </div>
+                </div>
+                <div class="impact-card">
+                    <h4>13. STSM and Educational Programs (76-100%)</h4>
+                    <p>Intensive use of Short Term Scientific Missions for international experience. Joint educational programs with industrial partners for hands-on experience on real-world projects.</p>
+                    <div class="impact-tags">
+                        <span class="impact-tag">STSM</span>
+                        <span class="impact-tag">Training</span>
+                        <span class="impact-tag">Industry</span>
+                    </div>
+                </div>
+                <div class="impact-card">
+                    <h4>14. PhD and ECI Job Opportunities (76-100%)</h4>
+                    <p>Substantial number of PhD students with open access to entire network. Successful PhD defenses, promotions to postdocs and professorships.</p>
+                    <div class="impact-tags">
+                        <span class="impact-tag">Career Development</span>
+                        <span class="impact-tag">PhD Support</span>
+                    </div>
+                </div>
+                <div class="impact-card">
+                    <h4>15. Dissemination to Scientific Community (76-100%)</h4>
+                    <p>150+ research conferences and events with 6,000+ participants. Digital platforms (quantlet.com, quantinar.com) making research accessible globally.</p>
+                    <div class="impact-tags">
+                        <span class="impact-tag">Open Access</span>
+                        <span class="impact-tag">Reproducibility</span>
+                    </div>
+                </div>
+                <div class="impact-card">
+                    <h4>16. Gender Equality (76-100%)</h4>
+                    <p>41% female members, 46% female MC members. Guidelines established for gender balance in event organization. VMGs prioritized for female researchers.</p>
+                    <div class="impact-tags">
+                        <span class="impact-tag">Gender Balance</span>
+                        <span class="impact-tag">Guidelines</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h2>Deliverables</h2>
+        <div class="card">
+            <table class="deliverable-table">
+                <thead>
+                    <tr>
+                        <th>Deliverable</th>
+                        <th>Month</th>
+                        <th>Status</th>
+                        <th>Link</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Database: Pre-ICO documentation and post-ICO performance</td>
+                        <td>24</td>
+                        <td><span class="status-badge expected">Expected</span></td>
+                        <td><a href="https://doi.org/10.3389/frai.2021.718450" target="_blank">DOI</a></td>
+                    </tr>
+                    <tr>
+                        <td>Database: Crowdfunding/P2P platform features for fraud prediction</td>
+                        <td>24</td>
+                        <td><span class="status-badge delivered">Delivered</span></td>
+                        <td><a href="https://drive.google.com/drive/folders/1qJmo2T0VeOojtC4037mmukYaElP2IGNP" target="_blank">Google Drive</a></td>
+                    </tr>
+                    <tr>
+                        <td>Discussion papers on ICO/crowdfunding evaluation methodology</td>
+                        <td>36</td>
+                        <td><span class="status-badge expected">Expected</span></td>
+                        <td><a href="https://fin-ai.eu/" target="_blank">fin-ai.eu</a></td>
+                    </tr>
+                    <tr>
+                        <td>Position paper on mitigating digital asset risks</td>
+                        <td>48</td>
+                        <td><span class="status-badge expected">Expected</span></td>
+                        <td><a href="https://doi.org/10.3389/frai.2021.718450" target="_blank">DOI</a></td>
+                    </tr>
+                    <tr>
+                        <td>Discussion paper on back-testing framework</td>
+                        <td>24</td>
+                        <td><span class="status-badge expected">Expected</span></td>
+                        <td><a href="https://doi.org/10.1016/j.ijforecast.2021.11.001" target="_blank">DOI</a></td>
+                    </tr>
+                    <tr>
+                        <td>Methodological discussion paper on AI/ML stress tests</td>
+                        <td>48</td>
+                        <td><span class="status-badge expected">Expected</span></td>
+                        <td>-</td>
+                    </tr>
+                    <tr>
+                        <td>Position papers on AI testing methodology for regulators</td>
+                        <td>36</td>
+                        <td><span class="status-badge expected">Expected</span></td>
+                        <td>-</td>
+                    </tr>
+                    <tr>
+                        <td>Report on best practices for transparent finance</td>
+                        <td>12</td>
+                        <td><span class="status-badge expected">Expected</span></td>
+                        <td><a href="https://fincrime.net/en/platform" target="_blank">FinCrime</a></td>
+                    </tr>
+                    <tr>
+                        <td>Internal database of financial time series</td>
+                        <td>24</td>
+                        <td><span class="status-badge expected">Expected</span></td>
+                        <td><a href="https://blockchain-research-center.com/" target="_blank">BRC</a></td>
+                    </tr>
+                    <tr>
+                        <td>Discussion papers on AI models for investment products</td>
+                        <td>48</td>
+                        <td><span class="status-badge expected">Expected</span></td>
+                        <td>-</td>
+                    </tr>
+                    <tr>
+                        <td>Four annual reports for lay audience</td>
+                        <td>48</td>
+                        <td><span class="status-badge expected">Expected</span></td>
+                        <td>-</td>
+                    </tr>
+                    <tr>
+                        <td>Key software developed by Working Groups</td>
+                        <td>48</td>
+                        <td><span class="status-badge expected">Expected</span></td>
+                        <td><a href="https://www.blackseachain.com/" target="_blank">BlackSeaChain</a></td>
+                    </tr>
+                    <tr>
+                        <td>Handbook on blockchain asset risk management</td>
+                        <td>36</td>
+                        <td><span class="status-badge expected">Expected</span></td>
+                        <td><a href="https://blockchain-research-center.com/" target="_blank">BRC</a></td>
+                    </tr>
+                    <tr>
+                        <td>Edited volume of scientific achievements</td>
+                        <td>48</td>
+                        <td><span class="status-badge expected">Expected (2 yrs post)</span></td>
+                        <td><a href="https://wiki.fin-ai.eu/" target="_blank">Wiki</a></td>
+                    </tr>
+                    <tr>
+                        <td>Stakeholder engagement strategy</td>
+                        <td>6</td>
+                        <td><span class="status-badge expected">Expected</span></td>
+                        <td><a href="https://fintech-ho2020.eu/" target="_blank">Fintech H2020</a></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <section>
+        <h2>Publications (100 Co-authored)</h2>
+        <div class="card">
+            <p style="margin-bottom: 1rem;">The Action reported <strong>100 publications</strong> on the topic of the Action, co-authored by at least two Action participants from two countries participating in the Action.</p>
+            <div class="publication-list">
+                <div class="pub-item">
+                    <div class="pub-num">1</div>
+                    <div class="pub-details">
+                        <h5>Data Science Techniques for Cryptocurrency Blockchains</h5>
+                        <div class="authors">Innar Liiv</div>
+                        <div class="journal">Behaviormetrics: Quantitative Approaches to Human Behavior - Springer Singapore</div>
+                        <div class="doi">doi:10.1007/978-981-16-2418-6</div>
+                    </div>
+                </div>
+                <div class="pub-item">
+                    <div class="pub-num">2</div>
+                    <div class="pub-details">
+                        <h5>Shall the winning last? A study of recent bubbles and persistence</h5>
+                        <div class="authors">Akanksha Jalan, Roman Matkovskyy, Valerio Poti</div>
+                        <div class="journal">Finance Research Letters - Elsevier</div>
+                        <div class="doi">doi:10.1016/j.frl.2021.102162</div>
+                    </div>
+                </div>
+                <div class="pub-item">
+                    <div class="pub-num">3</div>
+                    <div class="pub-details">
+                        <h5>Demand elasticities of Bitcoin and Ethereum</h5>
+                        <div class="authors">Akanksha Jalan, Roman Matkovskyy, Andrew Urquhart</div>
+                        <div class="journal">Economics Letters - Elsevier</div>
+                        <div class="doi">doi:10.1016/j.econlet.2022.110877</div>
+                    </div>
+                </div>
+                <div class="pub-item">
+                    <div class="pub-num">4</div>
+                    <div class="pub-details">
+                        <h5>COVID risk narratives: a computational linguistic approach</h5>
+                        <div class="authors">Yuting Chen, Don Bredin, Valerio Poti, Roman Matkovskyy</div>
+                        <div class="journal">Digital Finance - Springer</div>
+                        <div class="doi">doi:10.1007/s42521-021-00045-3</div>
+                    </div>
+                </div>
+                <div class="pub-item">
+                    <div class="pub-num">5</div>
+                    <div class="pub-details">
+                        <h5>Tail-Risk Protection: Machine Learning Meets Modern Econometrics</h5>
+                        <div class="authors">Bruno Spilak, Wolfgang Karl Hardle</div>
+                        <div class="journal">Encyclopedia of Finance - Springer</div>
+                        <div class="doi">doi:10.1007/978-3-030-73443-5_94-1</div>
+                    </div>
+                </div>
+                <div class="pub-item">
+                    <div class="pub-num">6</div>
+                    <div class="pub-details">
+                        <h5>Regime-based Implied Stochastic Volatility Model for Crypto Option Pricing</h5>
+                        <div class="authors">Danial Saef, Yuanrong Wang, Tomaso Aste</div>
+                        <div class="journal">arXiv</div>
+                        <div class="doi">doi:10.48550/arXiv.2208.12614</div>
+                    </div>
+                </div>
+                <div class="pub-item">
+                    <div class="pub-num">7</div>
+                    <div class="pub-details">
+                        <h5>Financial Risk Meter for emerging markets</h5>
+                        <div class="authors">Souhir Ben Amor, Michael Althof, Wolfgang Karl Hardle</div>
+                        <div class="journal">Research in International Business and Finance - Elsevier</div>
+                        <div class="doi">doi:10.1016/j.ribaf.2021.101594</div>
+                    </div>
+                </div>
+                <div class="pub-item">
+                    <div class="pub-num">8</div>
+                    <div class="pub-details">
+                        <h5>A Data-driven Explainable Case-based Reasoning Approach for Financial Risk Detection</h5>
+                        <div class="authors">Wei Li, Florentina Paraschiv, Georgios Sermpinis</div>
+                        <div class="journal">arXiv</div>
+                        <div class="doi">doi:10.48550/arXiv.2107.08808</div>
+                    </div>
+                </div>
+                <div class="pub-item">
+                    <div class="pub-num">9</div>
+                    <div class="pub-details">
+                        <h5>Bankruptcy Prediction of Privately Held SMEs Using Feature Selection</h5>
+                        <div class="authors">Florentina Paraschiv, Markus Schmid, Ranik Raaen Wahlstrom</div>
+                        <div class="journal">SSRN Electronic Journal - Elsevier</div>
+                        <div class="doi">doi:10.2139/ssrn.3911490</div>
+                    </div>
+                </div>
+                <div class="pub-item">
+                    <div class="pub-num">10</div>
+                    <div class="pub-details">
+                        <h5>Indices on cryptocurrencies: an evaluation</h5>
+                        <div class="authors">Konstantin Hausler, Hongyu Xia</div>
+                        <div class="journal">Digital Finance - Springer</div>
+                        <div class="doi">doi:10.1007/s42521-022-00048-8</div>
+                    </div>
+                </div>
+                <div class="pub-item">
+                    <div class="pub-num">...</div>
+                    <div class="pub-details">
+                        <h5 style="color: var(--gray);">+ 90 more publications</h5>
+                        <div class="authors">See full list in the official COST report</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h2>Research Projects</h2>
+        <p style="margin-bottom: 1rem;">The Action reported <strong>10 projects</strong> and <strong>10 proposals</strong> resulting from the Action networking.</p>
+        <div class="project-grid">
+            <div class="project-card">
+                <div class="type">Trans-national</div>
+                <h4>Crypto Currencies and Nordic Youth</h4>
+                <p>Academia-industry collaboration with Nasdaq</p>
+            </div>
+            <div class="project-card">
+                <div class="type">Trans-national</div>
+                <h4>Network-based Credit Risk Models on P2P Lending</h4>
+                <p>Czech Science Foundation and SNSF Lead Agency</p>
+            </div>
+            <div class="project-card">
+                <div class="type">Trans-national</div>
+                <h4>Blockchain and Fraud Detection</h4>
+                <p>Swiss National Science Foundation (SNF)</p>
+            </div>
+            <div class="project-card">
+                <div class="type">National</div>
+                <h4>Digital Finance and Reinforcement Learning</h4>
+                <p>Advanced AI methods for financial applications</p>
+            </div>
+            <div class="project-card">
+                <div class="type">National</div>
+                <h4>Narrative Digital Finance</h4>
+                <p>Structural breaks, bubbles and market narratives</p>
+            </div>
+            <div class="project-card">
+                <div class="type">National</div>
+                <h4>XAI in Credit Risk Management</h4>
+                <p>Explainable AI tools for credit assessment</p>
+            </div>
+            <div class="project-card">
+                <div class="type">National</div>
+                <h4>DataInc - Intelligent Data Integration</h4>
+                <p>Data cleaning and integration solutions</p>
+            </div>
+            <div class="project-card">
+                <div class="type">National</div>
+                <h4>IRTG 1792 Extension</h4>
+                <p>International Research Training Group (2022-2023)</p>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h2>Key Impacts and Achievements</h2>
+        <div class="impact-grid">
+            <div class="impact-card">
+                <h4>EIT Digital Summer Schools</h4>
+                <p>Contributed to establishment of summer schools on "Artificial Intelligence in Financial Services" and "Disrupting Finance by Digital Technologies" - combining lectures, workshops, and hands-on experience with real-world projects.</p>
+                <div class="impact-tags">
+                    <span class="impact-tag">Scientific</span>
+                    <span class="impact-tag">Economic</span>
+                    <span class="impact-tag">Societal</span>
+                </div>
+            </div>
+            <div class="impact-card">
+                <h4>Virtual Mobility Grants Impact</h4>
+                <p>12 VMGs in second grant period covering: VC bibliometric review, FinTech surveys, Quantinar library improvements, Romanian FinTech report, gender diversity analysis, and Datathon initiative.</p>
+                <div class="impact-tags">
+                    <span class="impact-tag">Achieved</span>
+                    <span class="impact-tag">Diversity</span>
+                </div>
+            </div>
+            <div class="impact-card">
+                <h4>STSM Research Contributions</h4>
+                <p>Development of algorithmic tools for anomaly detection in stock markets, efficient geometric and computational tools for Bayesian inference of systemic risk, and sustainability evaluation using sentiment analysis.</p>
+                <div class="impact-tags">
+                    <span class="impact-tag">Research</span>
+                    <span class="impact-tag">Collaboration</span>
+                </div>
+            </div>
+            <div class="impact-card">
+                <h4>Machine Learning Seminar Series</h4>
+                <p>Co-organized "Machine Learning NeEDS Mathematical Optimization" seminar series - weekly sessions since January 2021 with speakers from around the globe, including YOUNG seminar for junior academics.</p>
+                <div class="impact-tags">
+                    <span class="impact-tag">Education</span>
+                    <span class="impact-tag">H2020 MSCA</span>
+                </div>
+            </div>
+            <div class="impact-card">
+                <h4>EURO 2024 Copenhagen</h4>
+                <p>Member on conference organization committee for European Conference on Operational Research (EURO 2024), Copenhagen, June 30 - July 4, 2024.</p>
+                <div class="impact-tags">
+                    <span class="impact-tag">Conference</span>
+                    <span class="impact-tag">Leadership</span>
+                </div>
+            </div>
+            <div class="impact-card">
+                <h4>Lorentz Center Workshop</h4>
+                <p>"Making Sense of Interpretable Machine Learning" workshop (October 2022, Leiden) - 24 sessions with 95 presentations from leading researchers.</p>
+                <div class="impact-tags">
+                    <span class="impact-tag">XAI</span>
+                    <span class="impact-tag">Workshop</span>
+                </div>
+            </div>
+            <div class="impact-card">
+                <h4>Crypto Market Research Network</h4>
+                <p>Established internal research network focused on crypto-market studies, bringing together technological, quantitative, and economic researchers across Europe.</p>
+                <div class="impact-tags">
+                    <span class="impact-tag">Crypto</span>
+                    <span class="impact-tag">Network</span>
+                </div>
+            </div>
+            <div class="impact-card">
+                <h4>EIT Digital Master Schools</h4>
+                <p>Contributed to Master School programs on Digital Finance (FinTech) and Data Science - two-year programs combining academic study with industry engagement.</p>
+                <div class="impact-tags">
+                    <span class="impact-tag">Education</span>
+                    <span class="impact-tag">EIT Digital</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h2>Career Advancements</h2>
+        <div class="card">
+            <p>Several researchers received promotions since the start of the Action, demonstrating the network's impact on academic achievements:</p>
+            <ul style="margin: 1rem 0 0 1.5rem; color: var(--gray); font-size: 0.9rem;">
+                <li><strong>Simon Trimborn</strong> - Promoted to Assistant Professor, Amsterdam School of Economics, University of Amsterdam (2022)</li>
+                <li><strong>Wolfgang Karl Hardle</strong> - Promoted to Visiting Scholar and YuShan Scholar, National Yang Ming Chiao Tung University (2022)</li>
+                <li><strong>Jorg Osterrieder</strong> - Promoted to Associate Professor in Finance and AI, University of Twente; also appointed Professor of Sustainable Business, Bern University of Applied Sciences</li>
+                <li><strong>Branka Hadji Misheva</strong> - Promoted to Associate Professor of Applied Data Science and Finance, Bern University of Applied Sciences</li>
+                <li><strong>Alla Petukhina</strong> - Promoted to Lecturer and Researcher, Hochschule fur Technik und Wirtschaft Berlin (2021)</li>
+            </ul>
+        </div>
+    </section>
+
+    <section>
+        <h2>Dissemination Activities</h2>
+        <div class="activity-list">
+            <div class="activity-item">
+                <h5>BlackSeaChain 2022 Conference</h5>
+                <p>September 1-2, 2022, Varna, Bulgaria - 43 presentations on decentralized economy, Web 3.0, NFTs, smart contracts, blockchain-IoT-AI integrations</p>
+                <a href="https://www.blackseachain.com/" target="_blank">blackseachain.com</a>
+            </div>
+            <div class="activity-item">
+                <h5>IJCNN 2023 Special Session</h5>
+                <p>Deep Learning for Financial Data Analysis - International Joint Conference on Neural Networks, June 18-23, 2023</p>
+                <a href="https://2023.ijcnn.org/" target="_blank">2023.ijcnn.org</a>
+            </div>
+            <div class="activity-item">
+                <h5>Environmental Finance Workshop</h5>
+                <p>Co-organized with Money, Macro, and Finance Society (UK) - roundtable discussion, public lectures, and best paper award for ECI</p>
+                <a href="https://efcg2022.sciencesconf.org/" target="_blank">efcg2022.sciencesconf.org</a>
+            </div>
+            <div class="activity-item">
+                <h5>Diversity Challenges in FinTech Workshop (Naples)</h5>
+                <p>Bridging academics and policymakers on novel FinTech challenges with focus on diversity and STEM. Included kick-off for "Woman in Fintech Datathon"</p>
+                <a href="https://fin-ai.eu/diversity-workshop-naples2022/" target="_blank">fin-ai.eu/diversity-workshop</a>
+            </div>
+            <div class="activity-item">
+                <h5>Lake Como School on Neural Networks in Finance</h5>
+                <p>Educational event providing in-depth training on cutting-edge methodologies - trained 25 young researchers</p>
+                <a href="https://nnnf.lakecomoschool.org/" target="_blank">nnnf.lakecomoschool.org</a>
+            </div>
+            <div class="activity-item">
+                <h5>International Fintech Research Conference 2022</h5>
+                <p>October 27-28, Politecnico di Milano - 35 submissions, 24 accepted papers, special issue in Springer Digital Finance</p>
+                <a href="https://www.fintechlab.it/fintech_conference2022/" target="_blank">fintechlab.it</a>
+            </div>
+            <div class="activity-item">
+                <h5>Woman in Fintech Datathon</h5>
+                <p>18 teams (46 participants, 33% male) from 10 countries analyzing Global Findex database for financial inclusion insights</p>
+                <a href="https://fin-ai.eu/datathon/" target="_blank">fin-ai.eu/datathon</a>
+            </div>
+            <div class="activity-item">
+                <h5>Digital Finance Special Issue (Springer)</h5>
+                <p>Call for papers on fintech revolution - AI in finance, cryptoassets, blockchain, smart contracts, peer-to-peer finance, behavioral finance</p>
+                <a href="https://www.springer.com/journal/42521" target="_blank">springer.com/journal/42521</a>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h2>Knowledge Exchange Platforms</h2>
+        <div class="project-grid">
+            <div class="project-card" style="border-top-color: var(--cost-purple);">
+                <h4>Quantlet</h4>
+                <p>Web interface for exchanging numerical methods. Contains source code in Python, R, C++, Solidity, Matlab, SAS. Thousands of self-contained reproducible code pieces.</p>
+                <a href="https://www.quantlet.de/" target="_blank">quantlet.de</a>
+            </div>
+            <div class="project-card" style="border-top-color: var(--cost-blue);">
+                <h4>Quantinar</h4>
+                <p>Data science education platform with lecture-based courses. Materials on ML, fintech, cryptocurrencies, data science, blockchain, statistics at various difficulty levels.</p>
+                <a href="https://www.quantinar.com/" target="_blank">quantinar.com</a>
+            </div>
+            <div class="project-card" style="border-top-color: var(--cost-teal);">
+                <h4>Blockchain Research Center</h4>
+                <p>Organization promoting blockchain technology study. Provides customized solutions, scientific support, high-level lectures, and global blockchain forums.</p>
+                <a href="https://blockchain-research-center.com/" target="_blank">blockchain-research-center.com</a>
+            </div>
+            <div class="project-card" style="border-top-color: var(--cost-orange);">
+                <h4>Meetup Group</h4>
+                <p>2,080+ members globally. Regular updates on talks, paper presentations, conference events, and working group meetings.</p>
+                <a href="https://www.meetup.com/fintech_ai_in_finance/" target="_blank">meetup.com/fintech_ai_in_finance</a>
+            </div>
+            <div class="project-card" style="border-top-color: var(--cost-green);">
+                <h4>Explainable AI for Finance</h4>
+                <p>Comprehensive platform on visual analytics tools for financial applications - use cases, papers, code repositories, interactive apps.</p>
+                <a href="https://www.explainableaiforfinance.com/" target="_blank">explainableaiforfinance.com</a>
+            </div>
+            <div class="project-card" style="border-top-color: var(--cost-purple);">
+                <h4>fintech.mk Community</h4>
+                <p>First fintech community in North Macedonia. Non-profit organization publishing fintech-related articles. 28 members, 13 articles.</p>
+                <a href="https://fintech-mk.medium.com/" target="_blank">fintech-mk.medium.com</a>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h2>Budget Summary</h2>
+        <div class="card">
+            <table class="budget-table">
+                <thead>
+                    <tr>
+                        <th>Grant Period</th>
+                        <th>Start Date</th>
+                        <th>End Date</th>
+                        <th>Budget Allocated (EUR)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>AGA-CA19130-1</td>
+                        <td>1 Nov 2020</td>
+                        <td>31 Oct 2021</td>
+                        <td>62,985.50</td>
+                    </tr>
+                    <tr>
+                        <td>AGA-CA19130-2</td>
+                        <td>1 Nov 2021</td>
+                        <td>31 May 2022</td>
+                        <td>202,607.00</td>
+                    </tr>
+                    <tr>
+                        <td>AGA-CA19130-3</td>
+                        <td>1 Jun 2022</td>
+                        <td>31 Oct 2022</td>
+                        <td>169,820.50</td>
+                    </tr>
+                    <tr>
+                        <td>AGA-CA19130-4</td>
+                        <td>1 Nov 2022</td>
+                        <td>31 Oct 2023</td>
+                        <td>257,925.91</td>
+                    </tr>
+                    <tr>
+                        <td>AGA-CA19130-5</td>
+                        <td>1 Nov 2023</td>
+                        <td>13 Sep 2024</td>
+                        <td>270,315.26</td>
+                    </tr>
+                    <tr>
+                        <td colspan="3"><strong>Total Allocated</strong></td>
+                        <td><strong>963,654.17</strong></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <footer>
+        <p>COST Action CA19130 - Fintech and Artificial Intelligence in Finance</p>
+        <div>
+            <a href="https://fin-ai.eu" target="_blank">fin-ai.eu</a>
+            <a href="https://www.cost.eu/actions/CA19130/" target="_blank">COST Website</a>
+            <a href="index.html">Main Report</a>
+        </div>
+        <p style="margin-top: 1rem; opacity: 0.7; font-size: 0.8rem;">Second Progress Report - Submitted 17 January 2023</p>
+    </footer>
+
+    <script>
+        // Tab functionality
+        function showTab(tabId) {
+            document.querySelectorAll('.tab-content').forEach(c => c.classList.remove('active'));
+            document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+            document.getElementById(tabId).classList.add('active');
+            event.target.classList.add('active');
+        }
+
+        // Gender distribution chart
+        const ctx = document.getElementById('genderChart').getContext('2d');
+        new Chart(ctx, {
+            type: 'bar',
+            data: {
+                labels: ['WG1: Transparency in FinTech', 'WG2: Decision-Support Models', 'WG3: Investment Performance', 'Management Committee'],
+                datasets: [{
+                    label: 'Female %',
+                    data: [47, 33, 40, 46],
+                    backgroundColor: 'rgba(232, 119, 34, 0.7)',
+                    borderColor: 'rgba(232, 119, 34, 1)',
+                    borderWidth: 1
+                }, {
+                    label: 'Male %',
+                    data: [53, 67, 60, 54],
+                    backgroundColor: 'rgba(43, 95, 158, 0.7)',
+                    borderColor: 'rgba(43, 95, 158, 1)',
+                    borderWidth: 1
+                }]
+            },
+            options: {
+                responsive: true,
+                scales: {
+                    x: { stacked: true },
+                    y: { stacked: true, max: 100 }
+                },
+                plugins: {
+                    legend: { position: 'top' }
+                }
+            }
+        });
+    </script>
+</body>
+</html>
