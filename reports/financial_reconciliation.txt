@@ -1,0 +1,51 @@
+Financial Reconciliation Report - COST Action CA19130
+======================================================================
+Generated: 2026-01-02T22:37:53.530710
+
+
+GP1:
+----------------------------------------
+  FFR Budget: 62,985.50 EUR
+  FFR Actual: 459.83 EUR
+  Meetings: FFR=300.30, JSON=8,300.30 [DISCREPANCY]
+  STSM: FFR=800.00, JSON=20,800.00 [DISCREPANCY]
+  Virtual Mobility: FFR=0.00, JSON=0.00 [OK]
+
+GP2:
+----------------------------------------
+  FFR Budget: 202,607.00 EUR
+  FFR Actual: 770.46 EUR
+  Meetings: FFR=175.62, JSON=26,175.62 [DISCREPANCY]
+  STSM: FFR=0.00, JSON=0.00 [OK]
+  Virtual Mobility: FFR=190.00, JSON=190.00 [OK]
+
+GP3:
+----------------------------------------
+  FFR Budget: 169,820.50 EUR
+  FFR Actual: 262.38 EUR
+  Meetings: FFR=782.98, JSON=68,782.98 [DISCREPANCY]
+  STSM: FFR=140.00, JSON=24,140.00 [DISCREPANCY]
+  Virtual Mobility: FFR=310.00, JSON=17,310.00 [DISCREPANCY]
+
+GP4:
+----------------------------------------
+  FFR Budget: 257,925.91 EUR
+  FFR Actual: 854.39 EUR
+  Meetings: FFR=240.80, JSON=94,641.89 [DISCREPANCY]
+  STSM: FFR=500.00, JSON=10,500.00 [DISCREPANCY]
+  Virtual Mobility: FFR=0.00, JSON=18,000.00 [DISCREPANCY]
+
+GP5:
+----------------------------------------
+  FFR Budget: 270,315.26 EUR
+  FFR Actual: 315.26 EUR
+  Meetings: FFR=194.99, JSON=107,609.95 [DISCREPANCY]
+  STSM: FFR=642.00, JSON=4,642.00 [DISCREPANCY]
+  Virtual Mobility: FFR=0.00, JSON=21,000.00 [DISCREPANCY]
+
+======================================================================
+SUMMARY
+----------------------------------------
+Total Checks: 15
+Within Tolerance: 3
+Discrepancies: 12

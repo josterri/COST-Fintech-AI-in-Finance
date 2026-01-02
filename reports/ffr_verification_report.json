@@ -1,0 +1,216 @@
+{
+  "timestamp": "2026-01-02T22:45:14.994070",
+  "ffr_data": {
+    "GP1": {
+      "grant_period": 1,
+      "source_file": "AGA-CA19130-1-FFR_ID2193.txt",
+      "budget": 62985.5,
+      "actual": 459.83,
+      "meetings_expenditure": 300.3,
+      "meetings_count": 21,
+      "training_schools_expenditure": 0.0,
+      "training_schools_count": 0,
+      "stsm_expenditure": 70.0,
+      "stsm_count": 9,
+      "vm_expenditure": 0.0,
+      "vm_count": 3,
+      "itc_expenditure": 375.0,
+      "dissemination_expenditure": 294.12,
+      "oersa_expenditure": 500.0,
+      "vns_expenditure": 0.0,
+      "fsac_expenditure": 190.41,
+      "los_grants": [
+        500.0,
+        440.0
+      ]
+    },
+    "GP2": {
+      "grant_period": 2,
+      "source_file": "AGA-CA19130-2-FFR_ID2346.txt",
+      "budget": 202607.0,
+      "actual": 770.46,
+      "meetings_expenditure": 175.62,
+      "meetings_count": 4,
+      "training_schools_expenditure": 0.0,
+      "training_schools_count": 0,
+      "stsm_expenditure": 0.0,
+      "stsm_count": 0,
+      "vm_expenditure": 190.0,
+      "vm_count": 1,
+      "itc_expenditure": 0.0,
+      "dissemination_expenditure": 0.0,
+      "oersa_expenditure": 0.0,
+      "vns_expenditure": 0.0,
+      "fsac_expenditure": 404.84,
+      "los_grants": [
+        2000.0,
+        2000.0,
+        3000.0,
+        3000.0
+      ]
+    },
+    "GP3": {
+      "grant_period": 3,
+      "source_file": "AGA-CA19130-3-FFR_ID2998.txt",
+      "budget": 169820.5,
+      "actual": 262.38,
+      "meetings_expenditure": 782.98,
+      "meetings_count": 9,
+      "training_schools_expenditure": 0.0,
+      "training_schools_count": 0,
+      "stsm_expenditure": 140.0,
+      "stsm_count": 0,
+      "vm_expenditure": 310.0,
+      "vm_count": 12,
+      "itc_expenditure": 0.0,
+      "dissemination_expenditure": 343.0,
+      "oersa_expenditure": 0.0,
+      "vns_expenditure": 0.0,
+      "fsac_expenditure": 686.4,
+      "los_grants": [
+        1000.0,
+        6000.0,
+        3000.0,
+        6000.0,
+        6000.0,
+        1000.0,
+        500.0,
+        1000.0
+      ]
+    },
+    "GP4": {
+      "grant_period": 4,
+      "source_file": "AGA-CA19130-4-FFR_ID3993.txt",
+      "budget": 257925.91,
+      "actual": 854.39,
+      "meetings_expenditure": 351.4,
+      "meetings_count": 8,
+      "training_schools_expenditure": 401.09,
+      "training_schools_count": 4,
+      "stsm_expenditure": 500.0,
+      "stsm_count": 0,
+      "vm_expenditure": 0.0,
+      "vm_count": 12,
+      "itc_expenditure": 0.0,
+      "dissemination_expenditure": 0.0,
+      "oersa_expenditure": 209.75,
+      "vns_expenditure": 0.0,
+      "fsac_expenditure": 502.75,
+      "los_grants": [
+        2000.0,
+        1000.0,
+        1000.0,
+        1141.6,
+        930.0,
+        6000.0,
+        1585.53,
+        3000.0,
+        3000.0,
+        1000.0,
+        1000.0
+      ]
+    },
+    "GP5": {
+      "grant_period": 5,
+      "source_file": "AGA-CA19130-5-FFR_ID4828.txt",
+      "budget": 270315.26,
+      "actual": 2.0,
+      "meetings_expenditure": 194.99,
+      "meetings_count": 10,
+      "training_schools_expenditure": 632.96,
+      "training_schools_count": 3,
+      "stsm_expenditure": 642.0,
+      "stsm_count": 0,
+      "vm_expenditure": 0.0,
+      "vm_count": 0,
+      "itc_expenditure": 0.0,
+      "dissemination_expenditure": 0.0,
+      "oersa_expenditure": 0.0,
+      "vns_expenditure": 0.0,
+      "fsac_expenditure": 0.0,
+      "los_grants": [
+        2000.0,
+        161.43,
+        1000.0,
+        1000.0,
+        1500.0,
+        1694.33,
+        2500.0,
+        1000.0,
+        4000.0,
+        2000.0
+      ]
+    }
+  },
+  "json_data": {
+    "meetings_count": 52,
+    "stsm_count": 27,
+    "vm_count": 39,
+    "ts_count": 7,
+    "participants_count": 182,
+    "meetings_by_gp": {
+      "1": 21,
+      "2": 4,
+      "3": 9,
+      "4": 8,
+      "5": 10
+    },
+    "stsm_by_gp": {
+      "1": 9,
+      "2": 0,
+      "3": 10,
+      "4": 6,
+      "5": 2
+    },
+    "vm_by_gp": {
+      "1": 0,
+      "2": 1,
+      "3": 12,
+      "4": 12,
+      "5": 14
+    },
+    "ts_by_gp": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 4,
+      "5": 3
+    }
+  },
+  "comparisons": [
+    {
+      "metric": "Total Meetings",
+      "ffr_value": 52,
+      "json_value": 52,
+      "match": true,
+      "status": "PASS"
+    },
+    {
+      "metric": "Total STSMs",
+      "ffr_value": 9,
+      "json_value": 27,
+      "match": false,
+      "status": "FAIL"
+    },
+    {
+      "metric": "Total VM Grants",
+      "ffr_value": 28,
+      "json_value": 39,
+      "match": false,
+      "status": "FAIL"
+    },
+    {
+      "metric": "Total Training Schools",
+      "ffr_value": 7,
+      "json_value": 7,
+      "match": true,
+      "status": "PASS"
+    }
+  ],
+  "summary": {
+    "total_checks": 4,
+    "passed": 2,
+    "failed": 2,
+    "warnings": 0
+  }
+}
