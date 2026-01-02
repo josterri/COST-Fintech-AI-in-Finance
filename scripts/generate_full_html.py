@@ -527,11 +527,10 @@ def generate_report_html(report_data, is_final=True):
 
     <div class="nav-bar">
         <a href="index.html">Home</a>
-        <a href="final-action-chair-report-full.html">Final Report (Full)</a>
-        <a href="midterm-action-chair-report-full.html">Mid-Term Report (Full)</a>
-        <a href="comparison-action-chair-full.html">Comparison (Full)</a>
-        <a href="final-action-chair-report.html">Final Report (Summary)</a>
-        <a href="midterm-action-chair-report.html">Mid-Term Report (Summary)</a>
+        <a href="final-action-chair-report-full.html">Final Report</a>
+        <a href="midterm-action-chair-report-full.html">Mid-Term Report</a>
+        <a href="comparison-enhanced.html">Comparison Dashboard</a>
+        <a href="report-editor.html">Report Editor</a>
     </div>
 
     <div class="container">
@@ -888,10 +887,10 @@ def generate_comparison_html(comparison_data, final_data, midterm_data):
 
     <div class="nav-bar">
         <a href="index.html">Home</a>
-        <a href="final-action-chair-report-full.html">Final Report (Full)</a>
-        <a href="midterm-action-chair-report-full.html">Mid-Term Report (Full)</a>
-        <a href="comparison-action-chair-full.html">Comparison (Full)</a>
-        <a href="comparison-action-chair.html">Comparison (Summary)</a>
+        <a href="final-action-chair-report-full.html">Final Report</a>
+        <a href="midterm-action-chair-report-full.html">Mid-Term Report</a>
+        <a href="comparison-enhanced.html">Comparison Dashboard</a>
+        <a href="report-editor.html">Report Editor</a>
     </div>
 
     <div class="container">
