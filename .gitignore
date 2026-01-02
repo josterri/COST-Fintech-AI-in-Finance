@@ -4,11 +4,28 @@ CLAUDE.md
 
 # Python
 __pycache__/
-*.pyc
+*.py[cod]
 *.pyo
+.Python
+*.egg-info/
+dist/
+build/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+nul
 
 # Temp files
 temp/
 *.tmp
 *.log
-nul
+
+# Excel temp files
+~$*.xls*
