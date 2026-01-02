@@ -1,0 +1,1143 @@
+[
+  {
+    "name": "Pelegrina Jimenez, Antonio",
+    "country": "Spain",
+    "grant_period": 1,
+    "expenses": [
+      {
+        "type": "plane",
+        "description": "different bookings towards Spain, for a competitive price",
+        "amount": 39.59
+      },
+      {
+        "type": "plane",
+        "description": "different bookings for a competitive price",
+        "amount": 43.39
+      },
+      {
+        "type": "plane",
+        "description": "(and avoiding rare departing times as 6am that would need a taxi)",
+        "amount": 30.32
+      }
+    ]
+  },
+  {
+    "name": "Skaftadottir, Hanna Kristin",
+    "country": "Iceland",
+    "grant_period": 1,
+    "expenses": [
+      {
+        "type": "plane",
+        "description": "University. Once I had the approval and was able to book the ticket - the prices had gone up.",
+        "amount": 1200.0
+      }
+    ]
+  },
+  {
+    "name": "Ben Amor, Souhir",
+    "country": "Germany",
+    "grant_period": 1,
+    "expenses": [
+      {
+        "type": "plane",
+        "description": "AO:according to invoice 207.82 Eur and direct comparative quote EUR206 without stop over",
+        "amount": 206.0
+      }
+    ]
+  },
+  {
+    "name": "Lameski, Petre",
+    "country": "North Macedonia",
+    "grant_period": 1,
+    "expenses": [
+      {
+        "type": "car",
+        "description": "Transfer by Car from home address to airport and back",
+        "amount": 21.0
+      }
+    ]
+  },
+  {
+    "name": "Oosterlee, Cornelis",
+    "country": "Netherlands",
+    "grant_period": 1,
+    "expenses": [
+      {
+        "type": "plane",
+        "description": "Flight from Amsterdam to Bucharest and back.",
+        "amount": 234.36
+      }
+    ]
+  },
+  {
+    "name": "Chen, Cathy Yi-Hsuan",
+    "country": "United Kingdom",
+    "grant_period": 2,
+    "expenses": [
+      {
+        "type": "plane",
+        "description": "The amount 227.45 is denominated in British Pound for flight fare including tax.",
+        "amount": 273.14
+      }
+    ]
+  },
+  {
+    "name": "Poti, Valerio",
+    "country": "Ireland",
+    "grant_period": 2,
+    "expenses": [
+      {
+        "type": "plane",
+        "description": "Economy flight from my place of residence to the conference location.",
+        "amount": 165.27
+      }
+    ]
+  },
+  {
+    "name": "MARE, Codruta",
+    "country": "Romania",
+    "grant_period": 2,
+    "expenses": [
+      {
+        "type": "train",
+        "description": "Schedule and price are to be found in the supporting document",
+        "amount": 15.8
+      }
+    ]
+  },
+  {
+    "name": "Perri, Rezarta",
+    "country": "Albania",
+    "grant_period": 2,
+    "expenses": [
+      {
+        "type": "train",
+        "description": "Train Ticket from Rome to Naples where the Workshop is located.",
+        "amount": 29.9
+      },
+      {
+        "type": "train",
+        "description": "Train Ticket from Naples to Rome.",
+        "amount": 26.9
+      }
+    ]
+  },
+  {
+    "name": "Shala, Albulena",
+    "country": "Kosovo",
+    "grant_period": 2,
+    "expenses": [
+      {
+        "type": "plane",
+        "description": "Highlighted in green are the expenses that belong to Ms.Albulena Shala.",
+        "amount": 64.94
+      },
+      {
+        "type": "plane",
+        "description": "Please find attached my ticket, which was bought for me by my college professor, Rezarta",
+        "amount": 44.99
+      }
+    ]
+  },
+  {
+    "name": "Skaftadóttir, Hanna Kristín",
+    "country": "Iceland",
+    "grant_period": 2,
+    "expenses": [
+      {
+        "type": "plane",
+        "description": "By far the cheapest flight option.",
+        "amount": 198.98
+      }
+    ]
+  },
+  {
+    "name": "kabaklarli, esra",
+    "country": "Turkey",
+    "grant_period": 2,
+    "expenses": [
+      {
+        "type": "plane",
+        "description": "TRL 6911.49 following invoice and eticket. 11/07/22",
+        "amount": 411.51
+      }
+    ]
+  },
+  {
+    "name": "Belbe, Stefana",
+    "country": "Romania",
+    "grant_period": 3,
+    "expenses": [
+      {
+        "type": "plane",
+        "description": "from Dortmund to Enschede there are good connecting trains. The flight from Sibiu to",
+        "amount": 304.89
+      }
+    ]
+  },
+  {
+    "name": "Coita, Ioana",
+    "country": "Romania",
+    "grant_period": 3,
+    "expenses": [
+      {
+        "type": "plane",
+        "description": "Name Coita Ioana Florina",
+        "amount": 81.68
+      }
+    ]
+  },
+  {
+    "name": "MARE, Codruta",
+    "country": "Romania",
+    "grant_period": 3,
+    "expenses": [
+      {
+        "type": "plane",
+        "description": "Enschede).",
+        "amount": 286.39
+      }
+    ]
+  },
+  {
+    "name": "OZTURKKAL, Belma",
+    "country": "Turkey",
+    "grant_period": 3,
+    "expenses": [
+      {
+        "type": "plane",
+        "description": "tiicket and two boarding passes return",
+        "amount": 428.9
+      }
+    ]
+  },
+  {
+    "name": "Shala, Albulena",
+    "country": "Kosovo",
+    "grant_period": 3,
+    "expenses": [
+      {
+        "type": "bus",
+        "description": "The ticket bus was 15 euros for one direction. In total 30 euros.",
+        "amount": 15.0
+      }
+    ]
+  },
+  {
+    "name": "Tarantola, Claudia",
+    "country": "Italy",
+    "grant_period": 3,
+    "expenses": [
+      {
+        "type": "plane",
+        "description": "was not used. Since I had to stop in Athens the following week for another meeting, it was",
+        "amount": 76.0
+      }
+    ]
+  },
+  {
+    "name": "Atanasova - Pachemska, Tatjana",
+    "country": "North Macedonia",
+    "grant_period": 3,
+    "expenses": [
+      {
+        "type": "plane",
+        "description": "Travel route Skopje -Amsterdam via Belgrade",
+        "amount": 222.36
+      },
+      {
+        "type": "plane",
+        "description": "Return flight from Karlsruhe to Skopje",
+        "amount": 125.98
+      },
+      {
+        "type": "bus",
+        "description": "Bus from Utrecht to Heidelberg",
+        "amount": 31.48
+      }
+    ]
+  },
+  {
+    "name": "Marazzina, Daniele",
+    "country": "Italy",
+    "grant_period": 3,
+    "expenses": [
+      {
+        "type": "plane",
+        "description": "Name of the passenger: Daniele Marazzina",
+        "amount": 368.67
+      }
+    ]
+  },
+  {
+    "name": "Pelegrina Jimenez, Antonio",
+    "country": "Spain",
+    "grant_period": 3,
+    "expenses": [
+      {
+        "type": "plane",
+        "description": "Full price of the ticket: 113.35 EUR",
+        "amount": 113.35
+      },
+      {
+        "type": "train",
+        "description": "although my initial plans were to go Salamanca, trains there were fully booked, so I joined to",
+        "amount": 36.7
+      }
+    ]
+  },
+  {
+    "name": "Abdul Nasir, Jamal",
+    "country": "Ireland",
+    "grant_period": 3,
+    "expenses": [
+      {
+        "type": "train",
+        "description": "8.60 cancelled (part of DA)",
+        "amount": 31.8
+      }
+    ]
+  },
+  {
+    "name": "Coita, Ioana",
+    "country": "Romania",
+    "grant_period": 3,
+    "expenses": [
+      {
+        "type": "car",
+        "description": "I uploaded some selection of petrol fuel receipt.",
+        "amount": 416.5
+      }
+    ]
+  },
+  {
+    "name": "Belbe, Stefana",
+    "country": "Romania",
+    "grant_period": 4,
+    "expenses": [
+      {
+        "type": "plane",
+        "description": "The most inexpensive way to travel to Pavia is by flying on the route Cluj Napoca-Bergamo",
+        "amount": 239.28
+      }
+    ]
+  },
+  {
+    "name": "MARE, Codruta",
+    "country": "Romania",
+    "grant_period": 4,
+    "expenses": [
+      {
+        "type": "plane",
+        "description": "Bergamo Airport, Orio al Serio, Bergamo, ITA.",
+        "amount": 235.9
+      },
+      {
+        "type": "plane",
+        "description": "One invoice for travelling forward and back to Vilnius airport (VNO).",
+        "amount": 324.86
+      }
+    ]
+  },
+  {
+    "name": "Šutienė, Kristina",
+    "country": "Lithuania",
+    "grant_period": 4,
+    "expenses": [
+      {
+        "type": "plane",
+        "description": "One invoice for travelling forward and back to Vilnius airport (VNO).",
+        "amount": 324.86
+      }
+    ]
+  },
+  {
+    "name": "Coita, Ioana",
+    "country": "Romania",
+    "grant_period": 4,
+    "expenses": [
+      {
+        "type": "car",
+        "description": "On the 14th I left Oradea around 4 am to reach airplane in Cluj at",
+        "amount": 0.0
+      }
+    ]
+  },
+  {
+    "name": "Paccagnini, Alessia",
+    "country": "Italy",
+    "grant_period": 4,
+    "expenses": [
+      {
+        "type": "plane",
+        "description": "I bought the ticket for me and for another person. I only claim my ticket named Alessia",
+        "amount": 216.66
+      }
+    ]
+  },
+  {
+    "name": "Poti, Valerio",
+    "country": "Ireland",
+    "grant_period": 4,
+    "expenses": [
+      {
+        "type": "other",
+        "description": "plane",
+        "amount": 84.97
+      }
+    ]
+  },
+  {
+    "name": "Shala, Albulena",
+    "country": "Kosovo",
+    "grant_period": 4,
+    "expenses": [
+      {
+        "type": "visa",
+        "description": "24 euros.",
+        "amount": 80.0
+      }
+    ]
+  },
+  {
+    "name": "Silva, Catarina",
+    "country": "Portugal",
+    "grant_period": 4,
+    "expenses": [
+      {
+        "type": "plane",
+        "description": "Discount obtained due to booking via eDreams (from 559.58 to 534.81 eur).",
+        "amount": 534.81
+      }
+    ]
+  },
+  {
+    "name": "Belbe, Stefana",
+    "country": "Romania",
+    "grant_period": 4,
+    "expenses": [
+      {
+        "type": "plane",
+        "description": "Flight operared by Lufthansa",
+        "amount": 492.41
+      }
+    ]
+  },
+  {
+    "name": "Shala, Albulena",
+    "country": "Kosovo",
+    "grant_period": 4,
+    "expenses": [
+      {
+        "type": "train",
+        "description": "Minibus transport",
+        "amount": 66.6
+      }
+    ]
+  },
+  {
+    "name": "Tarantola, Claudia",
+    "country": "Italy",
+    "grant_period": 4,
+    "expenses": [
+      {
+        "type": "plane",
+        "description": "I travelled by train from Pavia to Milano Malpensa",
+        "amount": 307.96
+      }
+    ]
+  },
+  {
+    "name": "Bolesta, Karolina",
+    "country": "Poland",
+    "grant_period": 4,
+    "expenses": [
+      {
+        "type": "plane",
+        "description": "seat reservation from Warsaw to Helsinki (62.53 PLN) and seat reservation from Helsinki to",
+        "amount": 518.87
+      }
+    ]
+  },
+  {
+    "name": "Coita, Ioana",
+    "country": "Romania",
+    "grant_period": 4,
+    "expenses": [
+      {
+        "type": "plane",
+        "description": "Name of the passenger Coita Ioana Florina",
+        "amount": 304.61
+      }
+    ]
+  },
+  {
+    "name": "Belbe, Stefana",
+    "country": "Romania",
+    "grant_period": 4,
+    "expenses": [
+      {
+        "type": "plane",
+        "description": "Follow invoice",
+        "amount": 258.72
+      }
+    ]
+  },
+  {
+    "name": "Moloney, Maria",
+    "country": "Ireland",
+    "grant_period": 4,
+    "expenses": [
+      {
+        "type": "plane",
+        "description": "flights but I paid for them both together and so therefore there is only one document for both",
+        "amount": 266.32
+      }
+    ]
+  },
+  {
+    "name": "Coita, Ioana",
+    "country": "Romania",
+    "grant_period": 4,
+    "expenses": [
+      {
+        "type": "car",
+        "description": "DEPARTURE FROM BUDAPEST AIRPORT, near Oradea hometown",
+        "amount": 215.6
+      }
+    ]
+  },
+  {
+    "name": "Curticapean, Cosmin",
+    "country": "Romania",
+    "grant_period": 4,
+    "expenses": [
+      {
+        "type": "plane",
+        "description": "WizzAir Return Flight Bucharest - Barcelona 30.10 to",
+        "amount": 0.0
+      }
+    ]
+  },
+  {
+    "name": "Belbe, Stefana",
+    "country": "Romania",
+    "grant_period": 4,
+    "expenses": [
+      {
+        "type": "car",
+        "description": "Car from Dortmund Airport to Twente University, Enschede.",
+        "amount": 44.45
+      }
+    ]
+  },
+  {
+    "name": "Coita, Ioana",
+    "country": "Romania",
+    "grant_period": 4,
+    "expenses": [
+      {
+        "type": "car",
+        "description": "I rented a car to reach from Eindhoven to Twente (Enschede) on 15th till 17th in the morning.",
+        "amount": 125.3
+      }
+    ]
+  },
+  {
+    "name": "Shala, Albulena",
+    "country": "Kosovo",
+    "grant_period": 4,
+    "expenses": [
+      {
+        "type": "plane",
+        "description": "I converted 425 CHF to euros based on an online calculator. 425=433 euro.",
+        "amount": 434.8
+      },
+      {
+        "type": "train",
+        "description": "In second page is the ticekt.",
+        "amount": 27.4
+      }
+    ]
+  },
+  {
+    "name": "Zhu, Laqiqige",
+    "country": "Ireland",
+    "grant_period": 4,
+    "expenses": [
+      {
+        "type": "train",
+        "description": "No direct flight from Dublin to Enschede, arrive in Cologne first and take the train to Enschede.",
+        "amount": 97.9
+      },
+      {
+        "type": "plane",
+        "description": "No direct flight from Enschede, so I took the train to Amsterdam and fly back to Dublin.",
+        "amount": 54.59
+      },
+      {
+        "type": "visa",
+        "description": "availability of visa application slots, I could only book the visa application from the German",
+        "amount": 80.0
+      }
+    ]
+  },
+  {
+    "name": "Belbe, Stefana",
+    "country": "Romania",
+    "grant_period": 4,
+    "expenses": [
+      {
+        "type": "car",
+        "description": "Car to Cluj, the nearest city from where there are direct flights to Naples.",
+        "amount": 128.8
+      }
+    ]
+  },
+  {
+    "name": "Skaftadóttir, Hanna Kristín",
+    "country": "Iceland",
+    "grant_period": 4,
+    "expenses": [
+      {
+        "type": "plane",
+        "description": "Most economical flight chosen + seat/baggage.",
+        "amount": 672.88
+      }
+    ]
+  },
+  {
+    "name": "Machado, Marcos",
+    "country": "Netherlands",
+    "grant_period": 5,
+    "expenses": [
+      {
+        "type": "plane",
+        "description": "luggage expense",
+        "amount": 50.0
+      }
+    ]
+  },
+  {
+    "name": "van Heeswijk, Wouter",
+    "country": "Netherlands",
+    "grant_period": 5,
+    "expenses": [
+      {
+        "type": "plane",
+        "description": "Luggage expense is for taking check-in luggage as cabin luggage.",
+        "amount": 292.88
+      }
+    ]
+  },
+  {
+    "name": "Belbe, Stefana",
+    "country": "Lithuania",
+    "grant_period": 5,
+    "expenses": [
+      {
+        "type": "plane",
+        "description": "1/2x administration fee: 47 RON",
+        "amount": 183.34
+      }
+    ]
+  },
+  {
+    "name": "Coita, Ioana",
+    "country": "Romania",
+    "grant_period": 5,
+    "expenses": [
+      {
+        "type": "car",
+        "description": "I returned on the 18th because we had 2 subsequent COST events, after Brussels there was",
+        "amount": 110.6
+      }
+    ]
+  },
+  {
+    "name": "Liana, Stanca",
+    "country": "Romania",
+    "grant_period": 5,
+    "expenses": [
+      {
+        "type": "plane",
+        "description": "133.31 - 18.39 (wizzair ticket/4) =151.7",
+        "amount": 165.7
+      }
+    ]
+  },
+  {
+    "name": "MARE, Codruta",
+    "country": "Romania",
+    "grant_period": 5,
+    "expenses": [
+      {
+        "type": "plane",
+        "description": "AO: removed insurance, policy excludes the cancellation!",
+        "amount": 428.32
+      }
+    ]
+  },
+  {
+    "name": "Muniz Martinez, Jose Antonio",
+    "country": "United Kingdom",
+    "grant_period": 5,
+    "expenses": [
+      {
+        "type": "train",
+        "description": "meeting to spend less money and I will only arrive 20 mins late to the first talk. (I converted the",
+        "amount": 77.38
+      }
+    ]
+  },
+  {
+    "name": "Wenzlaff, Karsten",
+    "country": "Germany",
+    "grant_period": 5,
+    "expenses": [
+      {
+        "type": "train",
+        "description": "Continuation after Conference to Paris",
+        "amount": 124.0
+      }
+    ]
+  },
+  {
+    "name": "Härdle, Wolfgang",
+    "country": "Germany",
+    "grant_period": 5,
+    "expenses": [
+      {
+        "type": "plane",
+        "description": "- Berlin > Vienna, Vienna > Bucharest",
+        "amount": 441.17
+      }
+    ]
+  },
+  {
+    "name": "Tiron-Tudor, Adriana",
+    "country": "Romania",
+    "grant_period": 5,
+    "expenses": [
+      {
+        "type": "plane",
+        "description": "attend and present my paper at the COST event organized at ASE Bucharest. The retur flight",
+        "amount": 192.99
+      }
+    ]
+  },
+  {
+    "name": "Baals, Lennart John",
+    "country": "Switzerland",
+    "grant_period": 5,
+    "expenses": [
+      {
+        "type": "train",
+        "description": "Going to the airport.",
+        "amount": 59.65
+      }
+    ]
+  },
+  {
+    "name": "Liu, Yiting",
+    "country": "Switzerland",
+    "grant_period": 5,
+    "expenses": [
+      {
+        "type": "visa",
+        "description": "My nationality is Chinese. A visa is needed for a travel to Istanbul.",
+        "amount": 56.66
+      }
+    ]
+  },
+  {
+    "name": "Silva, Catarina",
+    "country": "Portugal",
+    "grant_period": 5,
+    "expenses": [
+      {
+        "type": "car",
+        "description": "in Lisbon in any hotel.",
+        "amount": 144.9
+      }
+    ]
+  },
+  {
+    "name": "Coita, Ioana",
+    "country": "Romania",
+    "grant_period": 5,
+    "expenses": [
+      {
+        "type": "plane",
+        "description": "Arrival 1st July",
+        "amount": 0.0
+      }
+    ]
+  },
+  {
+    "name": "Giordano, Sabrina",
+    "country": "Italy",
+    "grant_period": 5,
+    "expenses": [
+      {
+        "type": "plane",
+        "description": "Total = euro",
+        "amount": 0.0
+      }
+    ]
+  },
+  {
+    "name": "MARE, Codruta",
+    "country": "Romania",
+    "grant_period": 5,
+    "expenses": [
+      {
+        "type": "plane",
+        "description": "The airplane was late by more than one hour on return.",
+        "amount": 234.21
+      }
+    ]
+  },
+  {
+    "name": "Petukhina, Alla",
+    "country": "Germany",
+    "grant_period": 5,
+    "expenses": [
+      {
+        "type": "plane",
+        "description": "AO: EUR 13 meals incl in DA",
+        "amount": 91.3
+      }
+    ]
+  },
+  {
+    "name": "Tarantola, Claudia",
+    "country": "Italy",
+    "grant_period": 5,
+    "expenses": [
+      {
+        "type": "plane",
+        "description": "Vilnius airport (Lithuania) - Heraklion airport (Crete) - Vilnius airport (Lithuania)",
+        "amount": 544.0
+      }
+    ]
+  },
+  {
+    "name": "Šutienė, Kristina",
+    "country": "Lithuania",
+    "grant_period": 5,
+    "expenses": [
+      {
+        "type": "plane",
+        "description": "Vilnius airport (Lithuania) - Heraklion airport (Crete) - Vilnius airport (Lithuania)",
+        "amount": 544.0
+      }
+    ]
+  },
+  {
+    "name": "Belbe, Stefana",
+    "country": "Lithuania",
+    "grant_period": 5,
+    "expenses": [
+      {
+        "type": "car",
+        "description": "attached the Bolt Invoices from the airport to the parking lot and from the parking lot to the",
+        "amount": 144.2
+      }
+    ]
+  },
+  {
+    "name": "RON\nNew flight to Lisbon, earliest flight available from Luton",
+    "country": "earlier flights being fully booked due\nto high season",
+    "grant_period": 5,
+    "expenses": [
+      {
+        "type": "plane",
+        "description": "Claimed amount breakdown:",
+        "amount": 212.73
+      }
+    ]
+  },
+  {
+    "name": "Coita, Ioana",
+    "country": "Romania",
+    "grant_period": 5,
+    "expenses": [
+      {
+        "type": "car",
+        "description": "Coimbra. I brought the car back and stayed for the July 16th night in Madrid. I attached the",
+        "amount": 370.3
+      },
+      {
+        "type": "car",
+        "description": "rental and invoice for accommodation in Madrid for the 07.07.24 and",
+        "amount": 0.0
+      }
+    ]
+  },
+  {
+    "name": "Filipovska, Olivija",
+    "country": "North Macedonia",
+    "grant_period": 5,
+    "expenses": [
+      {
+        "type": "car",
+        "description": "The parking is for 4 days.",
+        "amount": 281.4
+      }
+    ]
+  },
+  {
+    "name": "Liana, Stanca",
+    "country": "Romania",
+    "grant_period": 5,
+    "expenses": [
+      {
+        "type": "bus",
+        "description": "Ticket value divided by",
+        "amount": 35.32
+      }
+    ]
+  },
+  {
+    "name": "From Lisbon to Coimbra, I take the bus",
+    "country": "Flexibus",
+    "grant_period": 5,
+    "expenses": [
+      {
+        "type": "bus",
+        "description": "Ticket value divided by",
+        "amount": 35.32
+      }
+    ]
+  },
+  {
+    "name": "Belbe, Stefana",
+    "country": "Lithuania",
+    "grant_period": 5,
+    "expenses": [
+      {
+        "type": "plane",
+        "description": "Flight got delayed overnight, hence landed around 23:00 to destination (Basel)",
+        "amount": 106.99
+      },
+      {
+        "type": "plane",
+        "description": "1 x fare 188.61 EUR",
+        "amount": 238.61
+      }
+    ]
+  },
+  {
+    "name": "to destination",
+    "country": "Basel",
+    "grant_period": 5,
+    "expenses": [
+      {
+        "type": "plane",
+        "description": "1 x fare 188.61 EUR",
+        "amount": 238.61
+      }
+    ]
+  },
+  {
+    "name": "Coita, Ioana",
+    "country": "Romania",
+    "grant_period": 5,
+    "expenses": [
+      {
+        "type": "plane",
+        "description": "departure time 17.07.24: 17.50 -",
+        "amount": 0.0
+      }
+    ]
+  },
+  {
+    "name": "HUF",
+    "country": "flight",
+    "grant_period": 5,
+    "expenses": [
+      {
+        "type": "plane",
+        "description": "departure time 17.07.24: 17.50 -",
+        "amount": 0.0
+      }
+    ]
+  },
+  {
+    "name": "HUF",
+    "country": "taxes",
+    "grant_period": 5,
+    "expenses": [
+      {
+        "type": "plane",
+        "description": "departure time 17.07.24: 17.50 -",
+        "amount": 0.0
+      }
+    ]
+  },
+  {
+    "name": "MARE, Codruta",
+    "country": "Romania",
+    "grant_period": 5,
+    "expenses": [
+      {
+        "type": "plane",
+        "description": "On the way there I used Turkish Airlines and on the way back I used TAROM Airlines.",
+        "amount": 592.14
+      }
+    ]
+  },
+  {
+    "name": "Osterrieder, Jörg",
+    "country": "Switzerland",
+    "grant_period": 5,
+    "expenses": [
+      {
+        "type": "plane",
+        "description": "1",
+        "amount": 163.26
+      }
+    ]
+  },
+  {
+    "name": "Wenzlaff, Karsten",
+    "country": "Germany",
+    "grant_period": 5,
+    "expenses": [
+      {
+        "type": "plane",
+        "description": "KLM Hamburg-Paris-Madrid-Las Palmas",
+        "amount": 393.51
+      },
+      {
+        "type": "plane",
+        "description": "Eurowings Gran Canaria-Hamburg",
+        "amount": 448.88
+      }
+    ]
+  },
+  {
+    "name": "MARE, Codruta",
+    "country": "Romania",
+    "grant_period": 5,
+    "expenses": [
+      {
+        "type": "plane",
+        "description": "Tickets for business class were cheaper than economy class, as can be seen in the proof.",
+        "amount": 536.04
+      }
+    ]
+  },
+  {
+    "name": "Muniz Martinez, Jose Antonio",
+    "country": "United Kingdom",
+    "grant_period": 5,
+    "expenses": [
+      {
+        "type": "plane",
+        "description": "uploaded the ticket by the date in the email but just noticed the error in the system. I added up",
+        "amount": 322.8
+      }
+    ]
+  },
+  {
+    "name": "Dellaportas, Petros",
+    "country": "Greece",
+    "grant_period": 5,
+    "expenses": [
+      {
+        "type": "plane",
+        "description": "Advance seat reservation 20.30 Athens - Roma",
+        "amount": 316.53
+      },
+      {
+        "type": "plane",
+        "description": "Flight with Ryanair -the only direct flight to London from Lamezia",
+        "amount": 106.83
+      }
+    ]
+  },
+  {
+    "name": "Euro",
+    "country": "ITA airways",
+    "grant_period": 5,
+    "expenses": [
+      {
+        "type": "plane",
+        "description": "Advance seat reservation 20.30 Athens - Roma",
+        "amount": 316.53
+      },
+      {
+        "type": "plane",
+        "description": "Flight with Ryanair -the only direct flight to London from Lamezia",
+        "amount": 106.83
+      }
+    ]
+  },
+  {
+    "name": "Belbe, Stefana",
+    "country": "Lithuania",
+    "grant_period": 5,
+    "expenses": [
+      {
+        "type": "train",
+        "description": "I claim 1/2 of the amount as I used this ticket to travel with another person.",
+        "amount": 23.65
+      },
+      {
+        "type": "car",
+        "description": "Travelling to the closest airport where I can get a direct flight from.",
+        "amount": 131.6
+      }
+    ]
+  },
+  {
+    "name": "Härdle, Wolfgang",
+    "country": "Germany",
+    "grant_period": 5,
+    "expenses": [
+      {
+        "type": "train",
+        "description": "2 train tickets and 2 Taxis trip (on one I took Daniel PELE to Hegel station)",
+        "amount": 246.3
+      }
+    ]
+  },
+  {
+    "name": "Coita, Ioana",
+    "country": "Romania",
+    "grant_period": 5,
+    "expenses": [
+      {
+        "type": "plane",
+        "description": "Depart>03.09. 14.25-16.15",
+        "amount": 259.72
+      }
+    ]
+  },
+  {
+    "name": "Gómez Teijeiro, Lucía",
+    "country": "Switzerland",
+    "grant_period": 5,
+    "expenses": [
+      {
+        "type": "train",
+        "description": "fare travelcard plus)",
+        "amount": 20.32
+      }
+    ]
+  },
+  {
+    "name": "Rupeika-Apoga, Ramona",
+    "country": "Lithuania",
+    "grant_period": 5,
+    "expenses": [
+      {
+        "type": "plane",
+        "description": "Name of the passenger: Ramona Rupeika-Apoga",
+        "amount": 233.96
+      }
+    ]
+  }
+]
