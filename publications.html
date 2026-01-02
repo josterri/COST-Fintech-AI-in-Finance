@@ -391,9 +391,8 @@
             <select id="typeFilter">
                 <option value="">All Types</option>
             </select>
-            <select id="authorFilter">
-                <option value="">All Authors</option>
-            </select>
+            <input type="text" id="authorFilter" list="authorList" placeholder="Search author...">
+            <datalist id="authorList"></datalist>
         </div>
 
         <div class="results-info">
@@ -457,14 +456,13 @@
                 typeSelect.appendChild(opt);
             });
 
-            // Authors
-            const authors = Object.keys(pubData.statistics.top_authors).sort();
-            const authorSelect = document.getElementById('authorFilter');
+            // Authors (all authors with datalist for autocomplete)
+            const authors = Object.keys(pubData.statistics.all_authors).sort();
+            const authorList = document.getElementById('authorList');
             authors.forEach(a => {
                 const opt = document.createElement('option');
                 opt.value = a;
-                opt.textContent = a;
-                authorSelect.appendChild(opt);
+                authorList.appendChild(opt);
             });
         }
 

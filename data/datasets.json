@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated": "2026-01-02T22:08:39.322167",
+    "generated": "2026-01-02T22:32:51.531605",
     "category": "Datasets",
     "total_publications": 569,
     "unique_dois": 546,
@@ -20,7 +20,7 @@
       "software": 3,
       "data-set": 2
     },
-    "top_authors": {
+    "all_authors": {
       "Javier Arroyo": 297,
       "Alla Petukhina": 81,
       "Daniel Traian Pele": 74,

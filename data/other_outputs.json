@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated": "2026-01-02T22:08:39.378739",
+    "generated": "2026-01-02T22:32:51.575613",
     "category": "Other Outputs",
     "total_publications": 306,
     "unique_dois": 159,
@@ -28,7 +28,7 @@
       "conference-presentation": 2,
       "license": 1
     },
-    "top_authors": {
+    "all_authors": {
       "Alexandros Iosifidis": 76,
       "Dervis Kirikkaleli": 11,
       "Jörg Osterrieder": 11,
@@ -78,7 +78,43 @@
       "Jana Peliova": 1,
       "Jasmina Djordjevic": 1,
       "Cesario Mateus": 1,
-      "Miljan Vučetić": 1
+      "Miljan Vučetić": 1,
+      "Aviv Gibali": 1,
+      "Codruta MARE": 1,
+      "Claudia Tarantola": 1,
+      "Rezarta Shkurti (Perri)": 1,
+      "Thomas DASAKLIS": 1,
+      "Barbara Będowska-Sójka": 1,
+      "Galena Pisoni": 1,
+      "Albulena Shala": 1,
+      "Ismail Kirbas": 1,
+      "Gokce Nur Yilmaz": 1,
+      "Carlos Vazquez": 1,
+      "Karolina Bolesta": 1,
+      "Esteban Guerrero": 1,
+      "Marko Pešović": 1,
+      "Christos Themistocleous": 1,
+      "Maria Dolores Romero Morales": 1,
+      "Petraq Papajorgji": 1,
+      "Mohammad Hamdaqa": 1,
+      "Yassen Gorbounov": 1,
+      "Stanca Liana": 1,
+      "Stefan Kitzler": 1,
+      "Matthieu Nadini": 1,
+      "Bernardete Ribeiro": 1,
+      "Muhammet Demirbilek": 1,
+      "Levent CARKACIOGLU": 1,
+      "Gabriela Mihaela Muresan": 1,
+      "Ceylan Onay Sahin": 1,
+      "Cornelis Oosterlee": 1,
+      "Abdulkadir Sengur": 1,
+      "Marcin Chlebus": 1,
+      "Susana Maria Aires de Sousa": 1,
+      "Tomas Plihal": 1,
+      "Seda AKTURK": 1,
+      "Peter Schwendner": 1,
+      "Petr Hajek": 1,
+      "Daniel Traian Pele": 1
     }
   },
   "publications": [

@@ -69,7 +69,7 @@ def create_output_file(pubs, output_path, category_name):
         'statistics': {
             'by_year': dict(sorted(by_year.items(), reverse=True)),
             'by_type': dict(sorted(by_type.items(), key=lambda x: -x[1])),
-            'top_authors': dict(sorted(by_author.items(), key=lambda x: -x[1])[:50])
+            'all_authors': dict(sorted(by_author.items(), key=lambda x: -x[1]))
         },
         'publications': pubs
     }
