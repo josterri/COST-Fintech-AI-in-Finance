@@ -20,7 +20,7 @@
         .hero-small { background: linear-gradient(135deg, var(--cost-teal), var(--cost-blue)); color: white; padding: 3rem 2rem; text-align: center; }
         .hero-small h1 { font-size: 2rem; }
         .hero-small p { opacity: 0.9; margin-top: 0.5rem; }
-        section { padding: 2rem; max-width: 1200px; margin: 0 auto; }
+        section { padding: 2rem; max-width: 1400px; margin: 0 auto; }
         h2 { font-size: 1.3rem; color: var(--cost-purple); margin: 2rem 0 1rem; }
         .stats { display: flex; gap: 2rem; margin-bottom: 2rem; flex-wrap: wrap; justify-content: center; }
         .stat-box { background: white; padding: 1.5rem 2rem; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.08); text-align: center; min-width: 150px; }
@@ -28,19 +28,35 @@
         .stat-box .label { font-size: 0.85rem; color: var(--gray); }
         .card { background: white; border-radius: 12px; padding: 1.5rem; box-shadow: 0 4px 20px rgba(0,0,0,0.08); margin-bottom: 1.5rem; }
         .card h3 { font-size: 1.1rem; color: var(--cost-purple); margin-bottom: 1rem; }
+        .filters { display: flex; gap: 1rem; margin-bottom: 1.5rem; flex-wrap: wrap; align-items: center; }
+        .filters input, .filters select { padding: 0.6rem 1rem; border: 1px solid var(--border); border-radius: 6px; font-size: 0.9rem; }
+        .filters input { flex: 1; min-width: 200px; }
+        .filters select { min-width: 120px; }
         table { width: 100%; border-collapse: collapse; }
-        th { background: var(--cost-teal); color: white; padding: 12px 10px; text-align: left; font-weight: 500; }
-        td { padding: 12px 10px; border-bottom: 1px solid var(--border); font-size: 0.9rem; }
+        th { background: var(--cost-teal); color: white; padding: 12px 10px; text-align: left; font-weight: 500; font-size: 0.85rem; }
+        td { padding: 12px 10px; border-bottom: 1px solid var(--border); font-size: 0.85rem; vertical-align: top; }
         tr:hover { background: rgba(0, 160, 176, 0.05); }
-        .amount { font-weight: 600; color: var(--cost-teal); }
-        .gp-badge { display: inline-block; padding: 2px 8px; border-radius: 4px; font-size: 0.8rem; font-weight: 500; }
+        .amount { font-weight: 600; color: var(--cost-teal); white-space: nowrap; }
+        .gp-badge { display: inline-block; padding: 2px 8px; border-radius: 4px; font-size: 0.75rem; font-weight: 500; }
         .gp-2 { background: rgba(43, 95, 158, 0.2); color: var(--cost-blue); }
         .gp-3 { background: rgba(0, 160, 176, 0.2); color: var(--cost-teal); }
         .gp-4 { background: rgba(122, 184, 0, 0.2); color: var(--cost-green); }
         .gp-5 { background: rgba(232, 119, 34, 0.2); color: var(--cost-orange); }
+        .itc-badge { display: inline-block; padding: 2px 6px; border-radius: 4px; font-size: 0.7rem; font-weight: 500; background: rgba(91, 45, 138, 0.15); color: var(--cost-purple); margin-left: 0.5rem; }
+        .title-cell { max-width: 400px; line-height: 1.4; }
+        .dates { white-space: nowrap; font-size: 0.8rem; color: var(--gray); }
+        .country-flag { font-size: 0.9rem; margin-right: 0.3rem; }
+        .summary-table { margin-top: 1rem; }
+        .summary-table td { padding: 8px 12px; }
+        .summary-table tr:last-child { font-weight: 700; background: var(--light); }
         footer { background: var(--dark); color: white; padding: 2rem; text-align: center; margin-top: 2rem; }
         footer a { color: var(--cost-orange); text-decoration: none; }
-        @media (max-width: 768px) { nav ul { display: none; } }
+        .loading { text-align: center; padding: 3rem; color: var(--gray); }
+        @media (max-width: 768px) {
+            nav ul { display: none; }
+            .filters { flex-direction: column; }
+            .filters input, .filters select { width: 100%; }
+        }
     </style>
 </head>
 <body>
@@ -61,15 +77,15 @@
 
     <header class="hero-small">
         <h1>Virtual Mobility Grants</h1>
-        <p>39 Virtual Mobility grants supporting remote collaboration and research activities</p>
+        <p id="hero-subtitle">Loading virtual mobility data...</p>
     </header>
 
     <section>
-        <div class="stats">
-            <div class="stat-box"><div class="num">39</div><div class="label">Total VM Grants</div></div>
-            <div class="stat-box"><div class="num">78,500</div><div class="label">Total EUR Funded</div></div>
-            <div class="stat-box"><div class="num">2,013</div><div class="label">Average Grant EUR</div></div>
-            <div class="stat-box"><div class="num">4</div><div class="label">Grant Periods</div></div>
+        <div class="stats" id="stats-container">
+            <div class="stat-box"><div class="num" id="stat-total">--</div><div class="label">Total VM Grants</div></div>
+            <div class="stat-box"><div class="num" id="stat-amount">--</div><div class="label">Total EUR Funded</div></div>
+            <div class="stat-box"><div class="num" id="stat-avg">--</div><div class="label">Average Grant EUR</div></div>
+            <div class="stat-box"><div class="num" id="stat-itc">--</div><div class="label">ITC Grantees</div></div>
         </div>
 
         <div class="card">
@@ -86,87 +102,236 @@
 
         <h2>Virtual Mobility Summary by Grant Period</h2>
         <div class="card">
-            <table>
+            <table class="summary-table">
                 <thead>
                     <tr>
                         <th>Grant Period</th>
                         <th>Number of Grants</th>
                         <th>Total Amount (EUR)</th>
+                        <th>ITC Grantees</th>
                         <th>Average per Grant</th>
                     </tr>
                 </thead>
-                <tbody>
-                    <tr><td><span class="gp-badge gp-2">GP2</span> Nov 2021 - May 2022</td><td>1</td><td class="amount">190</td><td>190</td></tr>
-                    <tr><td><span class="gp-badge gp-3">GP3</span> Jun - Oct 2022</td><td>12</td><td class="amount">18,000</td><td>1,500</td></tr>
-                    <tr><td><span class="gp-badge gp-4">GP4</span> Nov 2022 - Oct 2023</td><td>12</td><td class="amount">36,000</td><td>3,000</td></tr>
-                    <tr><td><span class="gp-badge gp-5">GP5</span> Nov 2023 - Sep 2024</td><td>14</td><td class="amount">42,500</td><td>3,036</td></tr>
-                    <tr style="font-weight: 700; background: var(--light);"><td>Total</td><td>39</td><td class="amount">96,690</td><td>2,479</td></tr>
+                <tbody id="summary-tbody">
+                    <tr><td colspan="5" class="loading">Loading...</td></tr>
                 </tbody>
             </table>
         </div>
 
-        <h2>Virtual Mobility Grants List</h2>
+        <h2>Virtual Mobility Grants - Full Details</h2>
         <div class="card">
+            <div class="filters">
+                <input type="text" id="search" placeholder="Search by name or title..." onkeyup="filterTable()">
+                <select id="gpFilter" onchange="filterTable()">
+                    <option value="">All Grant Periods</option>
+                    <option value="2">GP2</option>
+                    <option value="3">GP3</option>
+                    <option value="4">GP4</option>
+                    <option value="5">GP5</option>
+                </select>
+                <select id="itcFilter" onchange="filterTable()">
+                    <option value="">All Countries</option>
+                    <option value="itc">ITC Countries Only</option>
+                    <option value="non-itc">Non-ITC Countries</option>
+                </select>
+            </div>
             <table>
                 <thead>
                     <tr>
                         <th>#</th>
                         <th>Grantee</th>
-                        <th>Title/Project</th>
-                        <th>Period</th>
+                        <th>Country</th>
+                        <th>Project Title</th>
+                        <th>Dates</th>
                         <th>Amount EUR</th>
                         <th>GP</th>
                     </tr>
                 </thead>
-                <tbody>
-                    <!-- GP3 -->
-                    <tr><td>1</td><td>Alessandra Tanda</td><td>Research Collaboration</td><td>Jul-Sep 2022</td><td class="amount">1,310</td><td><span class="gp-badge gp-3">GP3</span></td></tr>
-                    <tr><td>2</td><td>Albulena Shala</td><td>Fintech Research</td><td>Jul-Sep 2022</td><td class="amount">1,500</td><td><span class="gp-badge gp-3">GP3</span></td></tr>
-                    <tr><td>3</td><td>Wolfgang Hardle</td><td>Bibliometrics of COST Members</td><td>Jul-Oct 2022</td><td class="amount">1,500</td><td><span class="gp-badge gp-3">GP3</span></td></tr>
-                    <tr><td>4</td><td>Esra Kabaklarli</td><td>AI Research</td><td>Sep-Oct 2022</td><td class="amount">1,000</td><td><span class="gp-badge gp-3">GP3</span></td></tr>
-                    <tr><td>5</td><td>Jose Muniz Martinez</td><td>Investment Research</td><td>Aug-Oct 2022</td><td class="amount">1,500</td><td><span class="gp-badge gp-3">GP3</span></td></tr>
-                    <tr><td>6</td><td>Luciana Dalla Valle</td><td>Statistical Methods</td><td>Sep-Oct 2022</td><td class="amount">1,500</td><td><span class="gp-badge gp-3">GP3</span></td></tr>
-                    <tr><td>7</td><td>Xinwen Ni</td><td>ML Applications</td><td>Sep-Oct 2022</td><td class="amount">1,500</td><td><span class="gp-badge gp-3">GP3</span></td></tr>
-                    <tr><td>8</td><td>Alla Petukhina</td><td>Financial Analysis</td><td>Sep-Oct 2022</td><td class="amount">1,500</td><td><span class="gp-badge gp-3">GP3</span></td></tr>
-                    <tr><td>9</td><td>Stefana Belbe</td><td>Risk Modeling</td><td>Sep-Oct 2022</td><td class="amount">1,490</td><td><span class="gp-badge gp-3">GP3</span></td></tr>
-                    <tr><td>10</td><td>Karel Kozmik</td><td>XAI Research</td><td>Sep-Oct 2022</td><td class="amount">1,500</td><td><span class="gp-badge gp-3">GP3</span></td></tr>
-                    <tr><td>11</td><td>Tomas Plihal</td><td>Market Analysis</td><td>Sep-Oct 2022</td><td class="amount">1,500</td><td><span class="gp-badge gp-3">GP3</span></td></tr>
-                    <tr><td>12</td><td>Ioana Coita</td><td>Digital Finance</td><td>Sep-Oct 2022</td><td class="amount">1,500</td><td><span class="gp-badge gp-3">GP3</span></td></tr>
-                    <!-- GP4 -->
-                    <tr><td>13</td><td>Wolfgang Hardle</td><td>Bibliometrics Analysis</td><td>Jan-Jun 2023</td><td class="amount">1,500</td><td><span class="gp-badge gp-4">GP4</span></td></tr>
-                    <tr><td>14</td><td>Albulena Shala</td><td>Women in Fintech</td><td>Feb-May 2023</td><td class="amount">1,500</td><td><span class="gp-badge gp-4">GP4</span></td></tr>
-                    <tr><td>15</td><td>Luciana Dalla Valle</td><td>Bayesian Methods</td><td>Mar-Sep 2023</td><td class="amount">1,500</td><td><span class="gp-badge gp-4">GP4</span></td></tr>
-                    <tr><td>16</td><td>Alessandra Tanda</td><td>Banking Research</td><td>Mar-Sep 2023</td><td class="amount">1,500</td><td><span class="gp-badge gp-4">GP4</span></td></tr>
-                    <tr><td>17</td><td>Stefana Belbe</td><td>Credit Risk</td><td>Apr-Sep 2023</td><td class="amount">1,500</td><td><span class="gp-badge gp-4">GP4</span></td></tr>
-                    <tr><td>18</td><td>Ioana Coita</td><td>FinTech Innovation</td><td>May-Oct 2023</td><td class="amount">1,500</td><td><span class="gp-badge gp-4">GP4</span></td></tr>
-                    <tr><td>19</td><td>Jose Muniz Martinez</td><td>ESG Analysis</td><td>May-Oct 2023</td><td class="amount">1,500</td><td><span class="gp-badge gp-4">GP4</span></td></tr>
-                    <tr><td>20</td><td>Alla Petukhina</td><td>Portfolio Analysis</td><td>Jun-Oct 2023</td><td class="amount">1,500</td><td><span class="gp-badge gp-4">GP4</span></td></tr>
-                    <tr><td>21</td><td>Xinwen Ni</td><td>Deep Learning</td><td>Jun-Oct 2023</td><td class="amount">1,500</td><td><span class="gp-badge gp-4">GP4</span></td></tr>
-                    <tr><td>22</td><td>Esra Kabaklarli</td><td>Sustainable Finance</td><td>Jul-Oct 2023</td><td class="amount">1,500</td><td><span class="gp-badge gp-4">GP4</span></td></tr>
-                    <tr><td>23</td><td>Karel Kozmik</td><td>Model Interpretability</td><td>Jul-Oct 2023</td><td class="amount">1,500</td><td><span class="gp-badge gp-4">GP4</span></td></tr>
-                    <tr><td>24</td><td>Tomas Plihal</td><td>Crypto Analysis</td><td>Aug-Oct 2023</td><td class="amount">1,500</td><td><span class="gp-badge gp-4">GP4</span></td></tr>
-                    <!-- GP5 -->
-                    <tr><td>25</td><td>Maria Iannario</td><td>Advanced Statistical Methods</td><td>Feb-Jul 2024</td><td class="amount">1,500</td><td><span class="gp-badge gp-5">GP5</span></td></tr>
-                    <tr><td>26</td><td>Wei Miao</td><td>Credit Scoring</td><td>Feb-Jul 2024</td><td class="amount">1,500</td><td><span class="gp-badge gp-5">GP5</span></td></tr>
-                    <tr><td>27</td><td>Roman Matkovskyy</td><td>Time Series Analysis</td><td>Feb-Aug 2024</td><td class="amount">1,500</td><td><span class="gp-badge gp-5">GP5</span></td></tr>
-                    <tr><td>28</td><td>Alessandra Tanda</td><td>FinTech Research</td><td>Mar-Aug 2024</td><td class="amount">1,500</td><td><span class="gp-badge gp-5">GP5</span></td></tr>
-                    <tr><td>29</td><td>Wolfgang Hardle</td><td>Edited Volume</td><td>Mar-Sep 2024</td><td class="amount">1,500</td><td><span class="gp-badge gp-5">GP5</span></td></tr>
-                    <tr><td>30</td><td>Jose Muniz Martinez</td><td>Investment Performance</td><td>Apr-Sep 2024</td><td class="amount">1,500</td><td><span class="gp-badge gp-5">GP5</span></td></tr>
-                    <tr><td>31</td><td>Albulena Shala</td><td>Inclusion Research</td><td>Apr-Sep 2024</td><td class="amount">1,500</td><td><span class="gp-badge gp-5">GP5</span></td></tr>
-                    <tr><td>32</td><td>Luciana Dalla Valle</td><td>Statistical Learning</td><td>Apr-Sep 2024</td><td class="amount">1,500</td><td><span class="gp-badge gp-5">GP5</span></td></tr>
-                    <tr><td>33</td><td>Stefana Belbe</td><td>XAI Applications</td><td>May-Sep 2024</td><td class="amount">1,500</td><td><span class="gp-badge gp-5">GP5</span></td></tr>
-                    <tr><td>34</td><td>Ioana Coita</td><td>Digital Banking</td><td>May-Sep 2024</td><td class="amount">1,500</td><td><span class="gp-badge gp-5">GP5</span></td></tr>
-                    <tr><td>35</td><td>Xinwen Ni</td><td>NLP Finance</td><td>May-Sep 2024</td><td class="amount">1,500</td><td><span class="gp-badge gp-5">GP5</span></td></tr>
-                    <tr><td>36</td><td>Alla Petukhina</td><td>Risk Analytics</td><td>Jun-Sep 2024</td><td class="amount">1,500</td><td><span class="gp-badge gp-5">GP5</span></td></tr>
-                    <tr><td>37</td><td>Esra Kabaklarli</td><td>ESG Metrics</td><td>Jun-Sep 2024</td><td class="amount">1,500</td><td><span class="gp-badge gp-5">GP5</span></td></tr>
-                    <tr><td>38</td><td>Cathy Yi-Hsuan Chen</td><td>Market Microstructure</td><td>Jul-Sep 2024</td><td class="amount">1,500</td><td><span class="gp-badge gp-5">GP5</span></td></tr>
+                <tbody id="vm-tbody">
+                    <tr><td colspan="7" class="loading">Loading virtual mobility data...</td></tr>
                 </tbody>
             </table>
+            <p id="filter-status" style="margin-top: 1rem; font-size: 0.85rem; color: var(--gray);"></p>
         </div>
     </section>
 
     <footer>
         <p><a href="index.html">Back to Financial Reports</a> | <a href="stsm.html">STSMs</a> | <a href="training-schools.html">Training Schools</a></p>
     </footer>
+
+    <script>
+        let vmData = [];
+
+        // Country code to flag emoji mapping
+        const countryFlags = {
+            'AL': 'AL', 'AT': 'AT', 'BA': 'BA', 'BE': 'BE', 'BG': 'BG', 'CH': 'CH', 'CY': 'CY', 'CZ': 'CZ',
+            'DE': 'DE', 'DK': 'DK', 'EE': 'EE', 'EL': 'EL', 'ES': 'ES', 'FI': 'FI', 'FR': 'FR', 'GB': 'GB',
+            'HR': 'HR', 'HU': 'HU', 'IE': 'IE', 'IL': 'IL', 'IT': 'IT', 'KV': 'XK', 'LT': 'LT', 'LU': 'LU',
+            'LV': 'LV', 'MD': 'MD', 'ME': 'ME', 'MK': 'MK', 'MT': 'MT', 'NL': 'NL', 'NO': 'NO', 'PL': 'PL',
+            'PT': 'PT', 'RO': 'RO', 'RS': 'RS', 'SE': 'SE', 'SI': 'SI', 'SK': 'SK', 'TR': 'TR', 'UA': 'UA', 'UK': 'GB'
+        };
+
+        // ITC Countries
+        const ITC_COUNTRIES = new Set(['AL', 'BA', 'BG', 'HR', 'CY', 'CZ', 'EE', 'EL', 'HU', 'LV', 'LT', 'MT', 'MD', 'ME', 'MK', 'PL', 'PT', 'RO', 'RS', 'SK', 'SI', 'TR', 'UA']);
+
+        function cleanName(name) {
+            // Remove VM, YES, NO suffixes from names
+            return name.replace(/\s+(VM|YES|NO|Y|N)\s*$/i, '').trim();
+        }
+
+        function formatDate(dateStr) {
+            if (!dateStr) return '';
+            const parts = dateStr.split('/');
+            if (parts.length === 3) {
+                const months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+                return `${parseInt(parts[0])} ${months[parseInt(parts[1])-1]} ${parts[2]}`;
+            }
+            return dateStr;
+        }
+
+        function formatAmount(amount) {
+            return new Intl.NumberFormat('en-EU').format(amount);
+        }
+
+        async function loadData() {
+            try {
+                const response = await fetch('../data/virtual_mobility_full.json');
+                vmData = await response.json();
+
+                // Clean the data
+                vmData.forEach(vm => {
+                    vm.cleanName = cleanName(vm.name);
+                    vm.is_itc = vm.is_itc || ITC_COUNTRIES.has(vm.country);
+                });
+
+                // Sort by grant period, then by start date
+                vmData.sort((a, b) => {
+                    if (a.grant_period !== b.grant_period) return a.grant_period - b.grant_period;
+                    return new Date(a.start_date.split('/').reverse().join('-')) - new Date(b.start_date.split('/').reverse().join('-'));
+                });
+
+                updateStats();
+                updateSummaryTable();
+                renderTable(vmData);
+            } catch (error) {
+                console.error('Error loading VM data:', error);
+                document.getElementById('vm-tbody').innerHTML = '<tr><td colspan="7" class="loading">Error loading data. Please try again.</td></tr>';
+            }
+        }
+
+        function updateStats() {
+            const total = vmData.length;
+            const totalAmount = vmData.reduce((sum, vm) => sum + vm.amount, 0);
+            const itcCount = vmData.filter(vm => vm.is_itc).length;
+            const avgAmount = total > 0 ? Math.round(totalAmount / total) : 0;
+
+            document.getElementById('stat-total').textContent = total;
+            document.getElementById('stat-amount').textContent = formatAmount(totalAmount);
+            document.getElementById('stat-avg').textContent = formatAmount(avgAmount);
+            document.getElementById('stat-itc').textContent = itcCount;
+            document.getElementById('hero-subtitle').textContent = `${total} Virtual Mobility grants supporting remote collaboration across ${new Set(vmData.map(v => v.country)).size} countries`;
+        }
+
+        function updateSummaryTable() {
+            const gpGroups = {};
+            vmData.forEach(vm => {
+                const gp = vm.grant_period;
+                if (!gpGroups[gp]) {
+                    gpGroups[gp] = { count: 0, amount: 0, itc: 0 };
+                }
+                gpGroups[gp].count++;
+                gpGroups[gp].amount += vm.amount;
+                if (vm.is_itc) gpGroups[gp].itc++;
+            });
+
+            const gpPeriods = {
+                2: 'Nov 2021 - May 2022',
+                3: 'Jun - Oct 2022',
+                4: 'Nov 2022 - Oct 2023',
+                5: 'Nov 2023 - Sep 2024'
+            };
+
+            let html = '';
+            let totalCount = 0, totalAmount = 0, totalItc = 0;
+
+            for (let gp = 2; gp <= 5; gp++) {
+                const data = gpGroups[gp] || { count: 0, amount: 0, itc: 0 };
+                totalCount += data.count;
+                totalAmount += data.amount;
+                totalItc += data.itc;
+                const avg = data.count > 0 ? Math.round(data.amount / data.count) : 0;
+                html += `<tr>
+                    <td><span class="gp-badge gp-${gp}">GP${gp}</span> ${gpPeriods[gp]}</td>
+                    <td>${data.count}</td>
+                    <td class="amount">${formatAmount(data.amount)}</td>
+                    <td>${data.itc}</td>
+                    <td>${formatAmount(avg)}</td>
+                </tr>`;
+            }
+
+            const totalAvg = totalCount > 0 ? Math.round(totalAmount / totalCount) : 0;
+            html += `<tr>
+                <td><strong>Total</strong></td>
+                <td><strong>${totalCount}</strong></td>
+                <td class="amount"><strong>${formatAmount(totalAmount)}</strong></td>
+                <td><strong>${totalItc}</strong></td>
+                <td><strong>${formatAmount(totalAvg)}</strong></td>
+            </tr>`;
+
+            document.getElementById('summary-tbody').innerHTML = html;
+        }
+
+        function renderTable(data) {
+            const tbody = document.getElementById('vm-tbody');
+
+            if (data.length === 0) {
+                tbody.innerHTML = '<tr><td colspan="7" class="loading">No matching grants found.</td></tr>';
+                document.getElementById('filter-status').textContent = '';
+                return;
+            }
+
+            let html = '';
+            data.forEach((vm, idx) => {
+                const itcBadge = vm.is_itc ? '<span class="itc-badge">ITC</span>' : '';
+                html += `<tr data-gp="${vm.grant_period}" data-itc="${vm.is_itc}">
+                    <td>${idx + 1}</td>
+                    <td><strong>${vm.cleanName}</strong>${itcBadge}</td>
+                    <td>${vm.country}</td>
+                    <td class="title-cell">${vm.title || 'Research Collaboration'}</td>
+                    <td class="dates">${formatDate(vm.start_date)}<br>to ${formatDate(vm.end_date)}</td>
+                    <td class="amount">${formatAmount(vm.amount)}</td>
+                    <td><span class="gp-badge gp-${vm.grant_period}">GP${vm.grant_period}</span></td>
+                </tr>`;
+            });
+            tbody.innerHTML = html;
+
+            const totalShown = data.length;
+            const totalAmount = data.reduce((sum, vm) => sum + vm.amount, 0);
+            document.getElementById('filter-status').textContent = `Showing ${totalShown} grants totaling EUR ${formatAmount(totalAmount)}`;
+        }
+
+        function filterTable() {
+            const search = document.getElementById('search').value.toLowerCase();
+            const gpFilter = document.getElementById('gpFilter').value;
+            const itcFilter = document.getElementById('itcFilter').value;
+
+            const filtered = vmData.filter(vm => {
+                const matchSearch = !search ||
+                    vm.cleanName.toLowerCase().includes(search) ||
+                    (vm.title && vm.title.toLowerCase().includes(search)) ||
+                    vm.country.toLowerCase().includes(search);
+                const matchGP = !gpFilter || vm.grant_period == gpFilter;
+                const matchITC = !itcFilter ||
+                    (itcFilter === 'itc' && vm.is_itc) ||
+                    (itcFilter === 'non-itc' && !vm.is_itc);
+                return matchSearch && matchGP && matchITC;
+            });
+
+            renderTable(filtered);
+        }
+
+        // Load data on page load
+        document.addEventListener('DOMContentLoaded', loadData);
+    </script>
 </body>
 </html>

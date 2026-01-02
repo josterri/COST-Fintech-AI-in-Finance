@@ -96,6 +96,26 @@
             letter-spacing: 0.05em;
         }
 
+        .nav-pills {
+            display: flex;
+            justify-content: center;
+            gap: 0.5rem;
+            margin-top: 1.5rem;
+            flex-wrap: wrap;
+        }
+
+        .nav-pills a {
+            padding: 0.4rem 1rem;
+            border-radius: 20px;
+            font-size: 0.8rem;
+            text-decoration: none;
+            background: rgba(255,255,255,0.2);
+            color: white;
+        }
+
+        .nav-pills a:hover { background: rgba(255,255,255,0.3); }
+        .nav-pills a.active { background: white; color: var(--cost-purple); }
+
         .container {
             max-width: 1200px;
             margin: 0 auto;
@@ -306,9 +326,12 @@
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="leadership.html">Leadership</a></li>
-                <li><a href="mc-members.html">MC Members</a></li>
-                <li><a href="wg-members.html">WG Members</a></li>
+                <li><a href="mc-members.html">MC</a></li>
+                <li><a href="wg-members.html">WG</a></li>
                 <li><a href="publications.html" style="color: white; font-weight: 600;">Publications</a></li>
+                <li><a href="midterm-report.html">Mid-Term</a></li>
+                <li><a href="progress-reports.html">Progress</a></li>
+                <li><a href="final-report.html">Final</a></li>
             </ul>
         </div>
     </nav>
@@ -329,6 +352,12 @@
                 <div class="stat-number" id="totalDOIs">-</div>
                 <div class="stat-label">With DOI</div>
             </div>
+        </div>
+        <div class="nav-pills">
+            <a href="publications.html" class="active">Publications</a>
+            <a href="preprints.html">Preprints</a>
+            <a href="datasets.html">Datasets</a>
+            <a href="other-outputs.html">Other</a>
         </div>
     </header>
 
@@ -380,7 +409,7 @@
     </div>
 
     <footer>
-        <p><a href="index.html">Home</a> | <a href="mc-members.html">MC Members</a> | <a href="wg-members.html">WG Members</a></p>
+        <p><a href="publications.html">Publications</a> | <a href="preprints.html">Preprints</a> | <a href="datasets.html">Datasets</a> | <a href="other-outputs.html">Other</a></p>
         <p style="margin-top: 1rem; opacity: 0.7;">Data sourced from OpenAlex and ORCID</p>
     </footer>
 
@@ -391,7 +420,7 @@
         const itemsPerPage = 25;
 
         // Load publications
-        fetch('data/publications_apa.json')
+        fetch('data/publications_main.json')
             .then(r => r.json())
             .then(data => {
                 pubData = data;
