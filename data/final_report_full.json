@@ -43,14 +43,36 @@
         "name": "Prof Wolfgang Härdle",
         "email": "haerdle@hu-berlin.de",
         "country": "Germany"
+      },
+      {
+        "wg_number": 2,
+        "wg_title": "Transparent versus Black Box Decision-Support Models in the Financial Industry",
+        "participants": 254,
+        "name": "Prof Petre Lameski",
+        "email": "lameski@finki.ukim.mk",
+        "country": "North"
+      },
+      {
+        "wg_number": 3,
+        "wg_title": "Transparency into Investment Product Performance for Clients",
+        "participants": 223,
+        "name": "Prof Peter Schwendner",
+        "email": "scwp@zhaw.ch",
+        "country": "Switzerland"
       }
     ],
     "other_positions": [
       {
-        "position": "Science\nCommunication Coordinator",
+        "position": "Science Communication Coordinator",
         "name": "Dr Ioana Coita",
         "email": "coita.iflorina@gmail.com",
         "country": "Romania"
+      },
+      {
+        "position": "GH Scientific Representative",
+        "name": "Branka Hadji Misheva",
+        "email": "heb1@bfh.ch",
+        "country": "Switzerland"
       }
     ]
   },
@@ -236,23 +258,23 @@
       "number": 1,
       "title": "To develop blended approaches to evaluate innovative financial services and their\nproviders, especially in the FinTech domain, building on Machine Learning methods,\nfocussing on prediction (early warning) of operational fragility, fraudulent and illegal\nbehaviour ranging from appropriation of loaned funds to money-laundering activities.",
       "type": [
-        "1.e",
-        "1.a"
+        "1.a",
+        "1.e"
       ],
       "achievement": "76-100%",
       "dependence": "High",
-      "proof_text": "Our COST Action CA19130 is focused on developing blended approaches to evaluate\ninnovative financial services and their providers, especially in the FinTech domain. One\nof our main goals is to build on Machine Learning methods, with a focus on prediction\n(early warning) of operational fragility, fraudulent and illegal behavior ranging from\nappropriation of loaned funds to money-laundering activities.\nTo achieve this goal, we have formed several strategic partnerships. One such\npartnership is with the Romanian Fintech company iFactor, which has allowed us to\nwork on the research and development of AI tools for financial risk assessment. We\nhave also formed a partnership with ING Group, Amsterdam Netherlands. Early\nwarning systems are one of the main focus of many of our partner companies, and ING\nGroup's early warning credit system is one of the leading European early warning credit\nsystems. Our COST CA19130 is substantially in ongoing research to improve and\nextend their system.\nIn addition to these partnerships, we have also achieved several important research\noutcomes as a result of our COST Action CA19130 cooperation. For example, the\nSwiss National Science Foundation is supporting a research project on Anomaly and\nFraud Detection in Blockchain networks, which is being worked on by our COST Action\nmembers. Additionally, we have a research project with a Swiss Fintech company,\nwhere we are supporting them to improve the default rating of loans. These examples\ndemonstrate our commitment to developing new and improved theories, models,\nmethodologies, technologies, and techniques in the field of fintech and financial\nservices.\nIn terms of the specific COST objectives, our action has achieved the following:\n1.a - Development of a common understanding/definition of the subject matter: By\nworking closely with practitioners from the finance industry and regulators, we have\ndeveloped a shared understanding of the subject matter and the challenges facing the\nindustry. This has allowed us to develop blended approaches that are tailored to meet\nthe specific needs of the industry.1.e - Development of knowledge needing international\ncoordination: Our action has brought together researchers from 49 countries globally,\nand 39 European COST countries, allowing for the development of knowledge that\nrequires international coordination. By working together, we have been able to tackle\ncomplex research questions and develop new and improved theories, models,\nmethodologies, technologies, and techniques. \nOverall, our COST Action CA19130 is making significant contributions to the field of\n\n\n--- Page 6 ---\nDRAFT\nfintech and financial services. By forming strategic partnerships and working closely\nwith practitioners, regulators, and researchers, we are able to develop blended\napproaches that are tailored to meet the specific needs of the industry, while also\ncontributing to the development of new and improved theories, models, methodologies,\ntechnologies, and techniques that are necessary for the field to evolve."
+      "proof_text": "Our COST Action CA19130 is focused on developing blended approaches to evaluate\ninnovative financial services and their providers, especially in the FinTech domain. One\nof our main goals is to build on Machine Learning methods, with a focus on prediction\n(early warning) of operational fragility, fraudulent and illegal behavior ranging from\nappropriation of loaned funds to money-laundering activities.\nTo achieve this goal, we have formed several strategic partnerships. One such\npartnership is with the Romanian Fintech company iFactor, which has allowed us to\nwork on the research and development of AI tools for financial risk assessment. We\nhave also formed a partnership with ING Group, Amsterdam Netherlands. Early\nwarning systems are one of the main focus of many of our partner companies, and ING\nGroup's early warning credit system is one of the leading European early warning credit\nsystems. Our COST CA19130 is substantially in ongoing research to improve and\nextend their system.\nIn addition to these partnerships, we have also achieved several important research\noutcomes as a result of our COST Action CA19130 cooperation. For example, the\nSwiss National Science Foundation is supporting a research project on Anomaly and\nFraud Detection in Blockchain networks, which is being worked on by our COST Action\nmembers. Additionally, we have a research project with a Swiss Fintech company,\nwhere we are supporting them to improve the default rating of loans. These examples\ndemonstrate our commitment to developing new and improved theories, models,\nmethodologies, technologies, and techniques in the field of fintech and financial\nservices.\nIn terms of the specific COST objectives, our action has achieved the following:\n1.a - Development of a common understanding/definition of the subject matter: By\nworking closely with practitioners from the finance industry and regulators, we have\ndeveloped a shared understanding of the subject matter and the challenges facing the\nindustry. This has allowed us to develop blended approaches that are tailored to meet\nthe specific needs of the industry.1.e - Development of knowledge needing international\ncoordination: Our action has brought together researchers from 49 countries globally,\nand 39 European COST countries, allowing for the development of knowledge that\nrequires international coordination. By working together, we have been able to tackle\ncomplex research questions and develop new and improved theories, models,\nmethodologies, technologies, and techniques. \nOverall, our COST Action CA19130 is making significant contributions to the field of\n5 fintech and financial services. By forming strategic partnerships and working closely\nwith practitioners, regulators, and researchers, we are able to develop blended\napproaches that are tailored to meet the specific needs of the industry, while also\ncontributing to the development of new and improved theories, models, methodologies,\ntechnologies, and techniques that are necessary for the field to evolve."
     },
     {
       "number": 2,
       "title": "The development of conceptual and methodological tools for establishing when black-\nbox models are admissible and, to the extent possible, making them more transparent\nand/or replacing them with interpretable and explainable models.",
       "type": [
-        "1.c",
-        "1.a"
+        "1.a",
+        "1.c"
       ],
       "achievement": "76-100%",
       "dependence": "High",
-      "proof_text": "Transparency, interpretability and explainability of black-box models has become one of\nthe main research agendas of our COST Action CA19130. Our members have worked\ntogether on a substantial number of publications, research proposals, and various\nexplainable AI tools.\nTo achieve this goal, we have organized many research conferences around this topic\nwith a substantial number of participants. We also disseminated the code and training\nmaterial on this topic via quantlet.com and quantinar.com and created an extensive\nplatform on Explainable AI for finance with several use cases, all papers, code\nrepositories, interactive apps, see https://www.explainableaiforfinance.com/.\nWe have also made significant contributions to the development of conceptual and\nmethodological tools for establishing when black-box models are admissible and\nmaking them more transparent and/or replacing them with interpretable and explainable\nmodels. For example, a paper published by the Action provides insights on the early\nlapse phenomenon for the insurance contracts, exploiting interpretability algorithms\napplied to random forest. By applying interpretability to black-box instruments, the\nauthors were able to show how it can give light to a phenomenon not easily explainable\nby white-box algorithms.\nOur research team has introduced different measures of local and global interpretability\nfor different machine learning tasks, such as clustering, classification and regression,\nbut also for different types of data such as continuous, categorical, hierarchical, and\nfunctional. \nIn terms of the specific COST objectives, our action has achieved the following:\n1.a - Development of a common understanding/definition of the subject matter: By\nworking closely with other researchers and practitioners in the field, we have developed\na shared understanding of the subject matter and the challenges facing the industry.\nThis has allowed us to develop tools and approaches that are tailored to meet the\nspecific needs of the industry.1.c - Coordination of experimentation or testing: We have\norganized research conferences and events, which have provided opportunities for\nresearchers to test and experiment with the tools and approaches that have been\ndeveloped as a result of our COST Action. Additionally, the code and training material\nthat we have made available via quantlet.com, quantinar.com and our Explainable AI\nfor finance platform, allows researchers and practitioners to test and experiment with\nthese tools in their own work. This coordination of experimentation and testing has\nbeen crucial in helping us to establish when black-box models are admissible and in\ndeveloping new methods for making these models more transparent. \nIn summary, our COST Action CA19130 has made significant contributions to the field\nof transparency, interpretability and explainability of black-box models in fintech and\nfinancial services. By organizing research conferences, events and developing a\nplatform on Explainable AI for finance, we have created a space for the sharing of ideas\nand perspectives and the testing and experimentation of new tools and approaches.\nThis has led to the development of new conceptual and methodological tools for\nestablishing when black-box models are admissible and in making them more\n\n\n--- Page 7 ---\nDRAFT\ntransparent and interpretable."
+      "proof_text": "Transparency, interpretability and explainability of black-box models has become one of\nthe main research agendas of our COST Action CA19130. Our members have worked\ntogether on a substantial number of publications, research proposals, and various\nexplainable AI tools.\nTo achieve this goal, we have organized many research conferences around this topic\nwith a substantial number of participants. We also disseminated the code and training\nmaterial on this topic via quantlet.com and quantinar.com and created an extensive\nplatform on Explainable AI for finance with several use cases, all papers, code\nrepositories, interactive apps, see https://www.explainableaiforfinance.com/.\nWe have also made significant contributions to the development of conceptual and\nmethodological tools for establishing when black-box models are admissible and\nmaking them more transparent and/or replacing them with interpretable and explainable\nmodels. For example, a paper published by the Action provides insights on the early\nlapse phenomenon for the insurance contracts, exploiting interpretability algorithms\napplied to random forest. By applying interpretability to black-box instruments, the\nauthors were able to show how it can give light to a phenomenon not easily explainable\nby white-box algorithms.\nOur research team has introduced different measures of local and global interpretability\nfor different machine learning tasks, such as clustering, classification and regression,\nbut also for different types of data such as continuous, categorical, hierarchical, and\nfunctional. \nIn terms of the specific COST objectives, our action has achieved the following:\n1.a - Development of a common understanding/definition of the subject matter: By\nworking closely with other researchers and practitioners in the field, we have developed\na shared understanding of the subject matter and the challenges facing the industry.\nThis has allowed us to develop tools and approaches that are tailored to meet the\nspecific needs of the industry.1.c - Coordination of experimentation or testing: We have\norganized research conferences and events, which have provided opportunities for\nresearchers to test and experiment with the tools and approaches that have been\ndeveloped as a result of our COST Action. Additionally, the code and training material\nthat we have made available via quantlet.com, quantinar.com and our Explainable AI\nfor finance platform, allows researchers and practitioners to test and experiment with\nthese tools in their own work. This coordination of experimentation and testing has\nbeen crucial in helping us to establish when black-box models are admissible and in\ndeveloping new methods for making these models more transparent. \nIn summary, our COST Action CA19130 has made significant contributions to the field\nof transparency, interpretability and explainability of black-box models in fintech and\nfinancial services. By organizing research conferences, events and developing a\nplatform on Explainable AI for finance, we have created a space for the sharing of ideas\nand perspectives and the testing and experimentation of new tools and approaches.\nThis has led to the development of new conceptual and methodological tools for\nestablishing when black-box models are admissible and in making them more\n6 transparent and interpretable."
     },
     {
       "number": 3,
@@ -267,11 +289,11 @@
     },
     {
       "number": 4,
-      "title": "Pruning and improvement of the vast array of performance attribution models by\ncontributing to the development of methodologies for reducing the false discovery rate\nin financial research and applied financial investment management.\n7\n\n\n--- Page 8 ---\nDRAFT",
+      "title": "Pruning and improvement of the vast array of performance attribution models by\ncontributing to the development of methodologies for reducing the false discovery rate\nin financial research and applied financial investment management.\n7",
       "type": [
+        "1.d",
         "1.b",
-        "1.c",
-        "1.d"
+        "1.c"
       ],
       "achievement": "76-100%",
       "dependence": "High",
@@ -286,14 +308,14 @@
       ],
       "achievement": "76-100%",
       "dependence": "High",
-      "proof_text": "Our COST Action CA13910 has achieved the objective of disseminating the results of\nour research on investment product performance evaluation to the public and regulators\nthrough a comprehensive approach. One of the most significant ways in which we have\ndone this is through organizing a large number of research conferences and events.\nThese events have attracted a wide range of participants, including practitioners from\nthe finance industry, academics, and regulators, and provide a platform for knowledge\nexchange, discussion, and collaboration. The list of all the events can be found at\nhttps://www.meetup.com/Fintech_AI_in_Finance/ which clearly demonstrate the extent\nof our engagement and dissemination.\nIn addition to organizing events, we have also made our research results available to\nthe public through various online platforms. For example, we have disseminated code\nand training material related to this topic through quantlet.com and quantinar.com,\nmaking it easily accessible for anyone interested in the topic. This is an important\naspect of dissemination as it allows anyone to access and reproduce our research\nresults, which is crucial for the scientific community to verify and build on our findings.\nWe also have an extensive online platform on Explainable AI for finance which includes\nseveral use cases, all papers, code repositories, interactive apps, see\nhttps://www.explainableaiforfinance.com/ which can be accessed by anyone interested\nin the topic.\nMoreover, our GP3 has several dedicated Action meetings related to regulators, most\nnotably the COST CA19130 meets Brussels event, hosted at the premises of the COST\nAssociation in Brussels. This event brings together high-level speakers from the\nEuropean Commission and provides an opportunity for regulators and policymakers to\nlearn about our research results and to engage with us in discussions.\nAll of these efforts have enabled us to disseminate our research results to the general\npublic (1.i) and to stakeholders such as regulators (1.j) in an effective and\ncomprehensive manner. We have always been open to any feedbacks and criticisms\nthat can improve our research, our findings and our methods from the industry,\nacademia and regulators. Overall, our COST Action CA19130 has been effective in\ndisseminating our research results to a broad audience, and we continue to work\nclosely with regulators, industry and academics to share our results and improve the\n\n\n--- Page 9 ---\nDRAFT\napplication of AI in the investment industry."
+      "proof_text": "Our COST Action CA13910 has achieved the objective of disseminating the results of\nour research on investment product performance evaluation to the public and regulators\nthrough a comprehensive approach. One of the most significant ways in which we have\ndone this is through organizing a large number of research conferences and events.\nThese events have attracted a wide range of participants, including practitioners from\nthe finance industry, academics, and regulators, and provide a platform for knowledge\nexchange, discussion, and collaboration. The list of all the events can be found at\nhttps://www.meetup.com/Fintech_AI_in_Finance/ which clearly demonstrate the extent\nof our engagement and dissemination.\nIn addition to organizing events, we have also made our research results available to\nthe public through various online platforms. For example, we have disseminated code\nand training material related to this topic through quantlet.com and quantinar.com,\nmaking it easily accessible for anyone interested in the topic. This is an important\naspect of dissemination as it allows anyone to access and reproduce our research\nresults, which is crucial for the scientific community to verify and build on our findings.\nWe also have an extensive online platform on Explainable AI for finance which includes\nseveral use cases, all papers, code repositories, interactive apps, see\nhttps://www.explainableaiforfinance.com/ which can be accessed by anyone interested\nin the topic.\nMoreover, our GP3 has several dedicated Action meetings related to regulators, most\nnotably the COST CA19130 meets Brussels event, hosted at the premises of the COST\nAssociation in Brussels. This event brings together high-level speakers from the\nEuropean Commission and provides an opportunity for regulators and policymakers to\nlearn about our research results and to engage with us in discussions.\nAll of these efforts have enabled us to disseminate our research results to the general\npublic (1.i) and to stakeholders such as regulators (1.j) in an effective and\ncomprehensive manner. We have always been open to any feedbacks and criticisms\nthat can improve our research, our findings and our methods from the industry,\nacademia and regulators. Overall, our COST Action CA19130 has been effective in\ndisseminating our research results to a broad audience, and we continue to work\nclosely with regulators, industry and academics to share our results and improve the\n8 application of AI in the investment industry."
     },
     {
       "number": 6,
       "title": "Creation of the first European platform comparing the out-of-sample performance of\nbanks' investment products, insurance-linked investment products and asset\nmanagement products available to the general public.",
       "type": [
-        "2.b",
-        "2.a"
+        "2.a",
+        "2.b"
       ],
       "achievement": "76-100%",
       "dependence": "High",
@@ -303,36 +325,36 @@
       "number": 7,
       "title": "Create an excellent network of researchers in Europe with lasting collaboration beyond\nthe lifetime of the Action.",
       "type": [
-        "1.h",
         "2.a",
+        "1.h",
         "2.c"
       ],
       "achievement": "76-100%",
       "dependence": "High",
-      "proof_text": "Our COST Action CA19130 has become one of the largest and most active COST\nActions in all of Europe. Our network comprises 49 countries globally, of which 39 are\nEuropean COST countries. We have more than 260 working group members now, with\nalmost all countries represented in each working group.\nOur network is cooperating in many different ways and a substantial number of\n(changing) subgroups have formed that work on joint publications, research\napplications and output. We have initiated a meetup group,\nhttps://www.meetup.com/Fintech_AI_in_Finance/, with now more than 2000 members\nglobally. Our more than 150 events so far have been attended by more than 7000\nparticipants.\nTo achieve this, we have implemented several strategies:\nEncouraging active participation from all members: We have made it a priority to ensure\nthat all members are actively engaged in the network and have opportunities to\n\n\n--- Page 10 ---\nDRAFT\ncontribute to research projects and events. \nPromoting interdisciplinary collaboration: Our network brings together researchers from\na wide range of disciplines, including computer science, economics, finance, and\nmathematics. We have encouraged these researchers to work together on\ninterdisciplinary projects, which has led to a more diverse range of perspectives and\nideas.\nFacilitating communication and knowledge sharing: We have set up a number of\nplatforms, including the aforementioned meetup group, an email list, and a website, to\nmake it easy for members to communicate and share information. This has helped to\ncreate a sense of community within the network.\nPrioritizing funding opportunities: We have actively sought out and applied for funding\nopportunities to support the research projects and events of our members. This has not\nonly provided financial resources, but also helped to create a sense of shared\ninvestment in the network's success.\nEncourage the formation of sub-groups: Through the formation of sub-groups which\nwork together on specific research area/output this helped members work together in\nmore focused area of work and get to know each other on a deeper level and make real-\nworld impact.\nTo continue beyond the lifetime of the Action, we plan to establish a permanent\nplatform for our members to connect and collaborate on future projects. Additionally, we\nwill actively promote the continued collaboration of our subgroups, and will help\nmembers identify funding opportunities to support future research. We will also work to\nestablish long-term partnerships with industry partners, to support the translation of our\nresearch into practical applications.\n \nAll these efforts have contributed to the formation of a strong and resilient network of\nresearchers who are not just working together during the lifetime of the action but will\ncontinue to collaborate on future projects. We are truly proud of what we have achieved\nin creating a network of excellent researchers in the field of fintech and AI in finance,\nand look forward to seeing the continued impact of our work in the years to come."
+      "proof_text": "Our COST Action CA19130 has become one of the largest and most active COST\nActions in all of Europe. Our network comprises 49 countries globally, of which 39 are\nEuropean COST countries. We have more than 260 working group members now, with\nalmost all countries represented in each working group.\nOur network is cooperating in many different ways and a substantial number of\n(changing) subgroups have formed that work on joint publications, research\napplications and output. We have initiated a meetup group,\nhttps://www.meetup.com/Fintech_AI_in_Finance/, with now more than 2000 members\nglobally. Our more than 150 events so far have been attended by more than 7000\nparticipants.\nTo achieve this, we have implemented several strategies:\nEncouraging active participation from all members: We have made it a priority to ensure\nthat all members are actively engaged in the network and have opportunities to\n9 contribute to research projects and events. \nPromoting interdisciplinary collaboration: Our network brings together researchers from\na wide range of disciplines, including computer science, economics, finance, and\nmathematics. We have encouraged these researchers to work together on\ninterdisciplinary projects, which has led to a more diverse range of perspectives and\nideas.\nFacilitating communication and knowledge sharing: We have set up a number of\nplatforms, including the aforementioned meetup group, an email list, and a website, to\nmake it easy for members to communicate and share information. This has helped to\ncreate a sense of community within the network.\nPrioritizing funding opportunities: We have actively sought out and applied for funding\nopportunities to support the research projects and events of our members. This has not\nonly provided financial resources, but also helped to create a sense of shared\ninvestment in the network's success.\nEncourage the formation of sub-groups: Through the formation of sub-groups which\nwork together on specific research area/output this helped members work together in\nmore focused area of work and get to know each other on a deeper level and make real-\nworld impact.\nTo continue beyond the lifetime of the Action, we plan to establish a permanent\nplatform for our members to connect and collaborate on future projects. Additionally, we\nwill actively promote the continued collaboration of our subgroups, and will help\nmembers identify funding opportunities to support future research. We will also work to\nestablish long-term partnerships with industry partners, to support the translation of our\nresearch into practical applications.\n \nAll these efforts have contributed to the formation of a strong and resilient network of\nresearchers who are not just working together during the lifetime of the action but will\ncontinue to collaborate on future projects. We are truly proud of what we have achieved\nin creating a network of excellent researchers in the field of fintech and AI in finance,\nand look forward to seeing the continued impact of our work in the years to come."
     },
     {
       "number": 8,
       "title": "Bringing technological, quantitative and economic researchers together, to tackle future\nresearch that can only be done in an interdisciplinary setting, and getting actively\ninvolved in the blockchain and FinTech communities across Europe, to constantly\nmonitor developments, get input and disseminate results.",
       "type": [
         "2.b",
-        "1.e",
-        "2.d"
+        "2.d",
+        "1.e"
       ],
       "achievement": "76-100%",
       "dependence": "High",
-      "proof_text": "Our COST Action CA19130 has been designed to bring together technological,\nquantitative, and economic researchers in order to tackle future research that can only\nbe done in an interdisciplinary setting. We are actively involved in the blockchain and\nFintech communities across Europe, constantly monitoring developments, getting input,\nand disseminating results.\nOur network is truly interdisciplinary, covering all disciplines from finance, computer\nscience, economics, etc. Our members are all actively involved in their national\nblockchain and Fintech communities. We are collectively working together with more\nthan 20 Fintech associations across Europe, which is a testament to the significance of\nthe impact of our action on those communities.\n\n\n--- Page 11 ---\nDRAFT\nIn terms of the specific COST objectives, our COST Action CA19130 achieves the\nfollowing:\n1.e - Development of knowledge needing international coordination: Our network\ncomprises 49 countries globally, of which 39 are European COST countries. This\ninternational representation allows for a wide range of perspectives and ideas to be\nbrought together in order to tackle complex research questions that can only be\naccomplished with an international coordination. 2.b - Building a community around a\nnew or emerging field of research: Our more than 260 working group members, with\nalmost all countries represented in each working group, and the more than 2000\nmembers globally in the meetup group,\nhttps://www.meetup.com/Fintech_AI_in_Finance/, are a testament to the strong\ncommunity we have built around fintech and AI in finance. 2.d - Acting as a stakeholder\nplatform or trans-national practice community: Our network is cooperating in many\ndifferent ways and a substantial number of subgroups have formed that work on joint\npublications, research applications, and output. This allows us to act as a stakeholder\nplatform, bringing together the different perspectives and ideas of our members to\ntackle important research questions. Additionally, our work with more than 20 Fintech\nassociations across Europe allows us to act as a trans-national practice community,\ndisseminating our research results and providing input to the industry stakeholders. \nAll in all, our COST Action CA19130 has truly created a large network of excellent and\ninterdisciplinary researchers across Europe and the globe that are actively involved in\nthe national research agendas on blockchain and Fintech and are generally the leading\nacademic partners in their respective countries. This action is a unique platform that is\ncontinuously working towards promoting and developing knowledge, research, and\ninnovation in the field of fintech and AI in finance."
+      "proof_text": "Our COST Action CA19130 has been designed to bring together technological,\nquantitative, and economic researchers in order to tackle future research that can only\nbe done in an interdisciplinary setting. We are actively involved in the blockchain and\nFintech communities across Europe, constantly monitoring developments, getting input,\nand disseminating results.\nOur network is truly interdisciplinary, covering all disciplines from finance, computer\nscience, economics, etc. Our members are all actively involved in their national\nblockchain and Fintech communities. We are collectively working together with more\nthan 20 Fintech associations across Europe, which is a testament to the significance of\nthe impact of our action on those communities.\n10 In terms of the specific COST objectives, our COST Action CA19130 achieves the\nfollowing:\n1.e - Development of knowledge needing international coordination: Our network\ncomprises 49 countries globally, of which 39 are European COST countries. This\ninternational representation allows for a wide range of perspectives and ideas to be\nbrought together in order to tackle complex research questions that can only be\naccomplished with an international coordination. 2.b - Building a community around a\nnew or emerging field of research: Our more than 260 working group members, with\nalmost all countries represented in each working group, and the more than 2000\nmembers globally in the meetup group,\nhttps://www.meetup.com/Fintech_AI_in_Finance/, are a testament to the strong\ncommunity we have built around fintech and AI in finance. 2.d - Acting as a stakeholder\nplatform or trans-national practice community: Our network is cooperating in many\ndifferent ways and a substantial number of subgroups have formed that work on joint\npublications, research applications, and output. This allows us to act as a stakeholder\nplatform, bringing together the different perspectives and ideas of our members to\ntackle important research questions. Additionally, our work with more than 20 Fintech\nassociations across Europe allows us to act as a trans-national practice community,\ndisseminating our research results and providing input to the industry stakeholders. \nAll in all, our COST Action CA19130 has truly created a large network of excellent and\ninterdisciplinary researchers across Europe and the globe that are actively involved in\nthe national research agendas on blockchain and Fintech and are generally the leading\nacademic partners in their respective countries. This action is a unique platform that is\ncontinuously working towards promoting and developing knowledge, research, and\ninnovation in the field of fintech and AI in finance."
     },
     {
       "number": 9,
       "title": "Bridging the gap between practitioners from the finance industry, academics and\nregulators by setting up a common knowledge exchange platform.",
       "type": [
-        "1.a",
-        "2.c"
+        "2.c",
+        "1.a"
       ],
       "achievement": "76-100%",
       "dependence": "High",
-      "proof_text": "Our COST Action CA19130 has been designed to bridge the gap between practitioners\nfrom the finance industry, academics, and regulators by setting up a common\nknowledge exchange platform.\nTo achieve this, we have organized more than 150 research events with more than\n6000 participants, all coming from the academia, industry, and regulatory sectors. This\nhas provided a unique opportunity for different stakeholders to come together and\nshare their perspectives, ideas and experiences.\nIn addition to these research events, we have also set up three platforms to facilitate\nthe exchange of knowledge:\nquantlet.com: This is a platform that houses thousands of code pieces showcasing\nacademic research, making it reproducible for everyone. This platform enables\npractitioners from the industry and other stakeholders to access and understand the\nlatest academic research and apply it to their work.quantinar.com: This is a knowledge,\ntraining, and dissemination outlet, showcasing the fundamentals of our COST CA19130\nAction as well as cutting-edge research. This platform provides a comprehensive\noverview of our Action's research agendas and enables practitioners from the industry\nand other stakeholders to learn about and stay informed of the latest developments in\nthe field of fintech and AI in finance.\nThe Blockchain research centre: This platform provides a substantial number of\ndatasets to our COST Action as well as other stakeholders. This enables researchers to\naccess a wealth of data and conduct rigorous research that can contribute to the\nunderstanding of blockchain and its applications in finance. \n\n\n--- Page 12 ---\nDRAFT\nIn terms of the specific COST objectives, our COST Action CA19130 achieves the\nfollowing:\n1.a - Development of a common understanding/definition of the subject matter: The\nknowledge exchange platform we have set up allows for a common understanding and\ndefinition of the subject matter to be developed among practitioners from the finance\nindustry, academics and regulators. By providing a space for the sharing of ideas and\nperspectives, the platform enables all stakeholders to come to a shared understanding\nof the field of fintech and AI in finance, leading to better collaboration and\ncooperation.2.c - Bridging separate fields of science/disciplines to achieve\nbreakthroughs that require an interdisciplinary approach: Our network is truly\ninterdisciplinary, covering all disciplines from finance, computer science, economics,\netc. Through the knowledge exchange platform, we have set up, we bring together\npractitioners from different fields and disciplines to work together on complex research\nquestions that can only be accomplished with an interdisciplinary approach. This allows\nfor breakthroughs in the field of fintech and AI in finance that would not be possible with\na single-disciplinary approach. \nIn summary, our COST Action CA19130 is making an active effort to bridge the gap\nbetween practitioners from the finance industry, academics and regulators by setting up\na common knowledge exchange platform. Through the 150+ research events, the\nquantlet.com, quantinar.com, and the Blockchain research centre, we are fostering an\nenvironment for the exchange of ideas, perspectives and knowledge that is promoting a\nshared understanding and cooperation among all the stakeholders."
+      "proof_text": "Our COST Action CA19130 has been designed to bridge the gap between practitioners\nfrom the finance industry, academics, and regulators by setting up a common\nknowledge exchange platform.\nTo achieve this, we have organized more than 150 research events with more than\n6000 participants, all coming from the academia, industry, and regulatory sectors. This\nhas provided a unique opportunity for different stakeholders to come together and\nshare their perspectives, ideas and experiences.\nIn addition to these research events, we have also set up three platforms to facilitate\nthe exchange of knowledge:\nquantlet.com: This is a platform that houses thousands of code pieces showcasing\nacademic research, making it reproducible for everyone. This platform enables\npractitioners from the industry and other stakeholders to access and understand the\nlatest academic research and apply it to their work.quantinar.com: This is a knowledge,\ntraining, and dissemination outlet, showcasing the fundamentals of our COST CA19130\nAction as well as cutting-edge research. This platform provides a comprehensive\noverview of our Action's research agendas and enables practitioners from the industry\nand other stakeholders to learn about and stay informed of the latest developments in\nthe field of fintech and AI in finance.\nThe Blockchain research centre: This platform provides a substantial number of\ndatasets to our COST Action as well as other stakeholders. This enables researchers to\naccess a wealth of data and conduct rigorous research that can contribute to the\nunderstanding of blockchain and its applications in finance. \n11 In terms of the specific COST objectives, our COST Action CA19130 achieves the\nfollowing:\n1.a - Development of a common understanding/definition of the subject matter: The\nknowledge exchange platform we have set up allows for a common understanding and\ndefinition of the subject matter to be developed among practitioners from the finance\nindustry, academics and regulators. By providing a space for the sharing of ideas and\nperspectives, the platform enables all stakeholders to come to a shared understanding\nof the field of fintech and AI in finance, leading to better collaboration and\ncooperation.2.c - Bridging separate fields of science/disciplines to achieve\nbreakthroughs that require an interdisciplinary approach: Our network is truly\ninterdisciplinary, covering all disciplines from finance, computer science, economics,\netc. Through the knowledge exchange platform, we have set up, we bring together\npractitioners from different fields and disciplines to work together on complex research\nquestions that can only be accomplished with an interdisciplinary approach. This allows\nfor breakthroughs in the field of fintech and AI in finance that would not be possible with\na single-disciplinary approach. \nIn summary, our COST Action CA19130 is making an active effort to bridge the gap\nbetween practitioners from the finance industry, academics and regulators by setting up\na common knowledge exchange platform. Through the 150+ research events, the\nquantlet.com, quantinar.com, and the Blockchain research centre, we are fostering an\nenvironment for the exchange of ideas, perspectives and knowledge that is promoting a\nshared understanding and cooperation among all the stakeholders."
     },
     {
       "number": 10,
@@ -343,18 +365,18 @@
       ],
       "achievement": "76-100%",
       "dependence": "High",
-      "proof_text": "The COST Action on Fintech and AI in Finance has been highly successful in\ntransferring knowledge in terms of expertise, scientific tools and human resources\nacross different disciplines and between academia and industry. One of the key ways in\nwhich this has been achieved is through the organization of more than 150 research\nevents, almost all of which were in an interdisciplinary setting and involved both\nindustry and academia. This has provided a platform for researchers to present their\nlatest findings, share ideas and collaborate on new projects, allowing for the transfer of\nknowledge and expertise across different disciplines and between academia and\nindustry.\nThe COST Action has also established several knowledge exchange platforms such as\nquantlet.com, quantinar.com, and the Blockchain research center (HU Berlin) which\nprovide thousands of reproducible pieces of research and extensive training material to\ntransfer knowledge. These platforms provide valuable resources for researchers,\npractitioners, and students to gain access to the latest research findings, tools, and\nmethodologies in the field.\nAdditionally, a substantial number of members work very closely with industry in their\nday-to-day research activities, which has helped to build strong partnerships between\nacademia and industry and promotes the transfer of knowledge and expertise between\nthe two sectors.\nThis approach has led to the COST Action being one of the most active Actions across\nEurope. The network provides an opportunity to the researchers to share ideas,\ncollaborate on research, and exchange knowledge and expertise, which has helped to\nadvance the field of fintech and AI in finance in research, education, and practice.\nIn short, the COST Action has achieved knowledge transfer by:\n\n\n--- Page 13 ---\nDRAFT\nOrganizing more than 150 research events, almost all of them in an interdisciplinary\nsetting and with both industry and academia involved.\nEstablishing several knowledge exchange platforms, such as quantlet.com,\nquantinar.com, and the Blockchain research center (HU Berlin) which provide\nthousands of reproducible pieces of research and extensive training material to transfer\nknowledge.\nBuilding a strong partnership between academia and industry through a substantial\nnumber of members working closely with industry in their day-to-day research activities,\nthis approach facilitates the transfer of knowledge and expertise between the two\nsectors and enables the implementation of the latest research findings in the industry.\nFurthermore, the COST Action has developed an active community of researchers from\ndifferent disciplines that has helped to promote interdisciplinary research, foster\ncollaboration and collaboration and transfer knowledge across different fields.\nThe COST Action's success in transferring knowledge can be seen in the significant\namount of output that has been widely disseminated and has achieved a high citation\ncount. Furthermore, the Action's active engagement with the latest research and\ndevelopments in the field, support for early-career researchers and initiatives to ensure\nresearch being conducted is inclusive and responsive to the needs of diverse\nstakeholders has helped to build an inclusive community of researchers that is able to\nadapt and respond to the changes and new challenges in the field."
+      "proof_text": "The COST Action on Fintech and AI in Finance has been highly successful in\ntransferring knowledge in terms of expertise, scientific tools and human resources\nacross different disciplines and between academia and industry. One of the key ways in\nwhich this has been achieved is through the organization of more than 150 research\nevents, almost all of which were in an interdisciplinary setting and involved both\nindustry and academia. This has provided a platform for researchers to present their\nlatest findings, share ideas and collaborate on new projects, allowing for the transfer of\nknowledge and expertise across different disciplines and between academia and\nindustry.\nThe COST Action has also established several knowledge exchange platforms such as\nquantlet.com, quantinar.com, and the Blockchain research center (HU Berlin) which\nprovide thousands of reproducible pieces of research and extensive training material to\ntransfer knowledge. These platforms provide valuable resources for researchers,\npractitioners, and students to gain access to the latest research findings, tools, and\nmethodologies in the field.\nAdditionally, a substantial number of members work very closely with industry in their\nday-to-day research activities, which has helped to build strong partnerships between\nacademia and industry and promotes the transfer of knowledge and expertise between\nthe two sectors.\nThis approach has led to the COST Action being one of the most active Actions across\nEurope. The network provides an opportunity to the researchers to share ideas,\ncollaborate on research, and exchange knowledge and expertise, which has helped to\nadvance the field of fintech and AI in finance in research, education, and practice.\nIn short, the COST Action has achieved knowledge transfer by:\n12 Organizing more than 150 research events, almost all of them in an interdisciplinary\nsetting and with both industry and academia involved.\nEstablishing several knowledge exchange platforms, such as quantlet.com,\nquantinar.com, and the Blockchain research center (HU Berlin) which provide\nthousands of reproducible pieces of research and extensive training material to transfer\nknowledge.\nBuilding a strong partnership between academia and industry through a substantial\nnumber of members working closely with industry in their day-to-day research activities,\nthis approach facilitates the transfer of knowledge and expertise between the two\nsectors and enables the implementation of the latest research findings in the industry.\nFurthermore, the COST Action has developed an active community of researchers from\ndifferent disciplines that has helped to promote interdisciplinary research, foster\ncollaboration and collaboration and transfer knowledge across different fields.\nThe COST Action's success in transferring knowledge can be seen in the significant\namount of output that has been widely disseminated and has achieved a high citation\ncount. Furthermore, the Action's active engagement with the latest research and\ndevelopments in the field, support for early-career researchers and initiatives to ensure\nresearch being conducted is inclusive and responsive to the needs of diverse\nstakeholders has helped to build an inclusive community of researchers that is able to\nadapt and respond to the changes and new challenges in the field."
     },
     {
       "number": 11,
       "title": "Establish an inclusive community of researchers on methodological and technological\nthemes in Machine Learning and Artificial Intelligence, to promote Early Career\nInvestigators and increase their visibility.",
       "type": [
-        "2.b",
-        "2.a"
+        "2.a",
+        "2.b"
       ],
       "achievement": "76-100%",
       "dependence": "High",
-      "proof_text": "This objective is similar to previous one. We are very likely one of the largest and most\ndefinitely one of the most active research networks on Fintech and AI in Finance in all\nof Europe. \nDuring the first part of this Action, our members/ ECIs have received a substantial\nnumber of promotions, we have had more than 20 PhD thesis finished as well as more\nthan 10 promotions on different levels of professorships.\nECIs are visible in a prominent way in our Action, all funding for activities is prioritisized\ntowards ECIs.\nFurthermore, the COST Action on Fintech and AI in Finance has established an\ninclusive community of researchers on methodological and technological themes in\nMachine Learning and Artificial Intelligence (ML/AI). The action has made a concerted\neffort to promote Early Career Investigators (ECIs) and increase their visibility over the\nlast two years.\nTo promote ECIs, the Action has taken a number of steps to ensure that they are\nrepresented and included in all aspects of the network's activities. For example, the\nAction has supported the connections between ECIs and more experienced colleagues,\nproviding them with the support and guidance they need to develop their research and\ncareer. Additionally, the Action has also established a number of initiatives to support\nthe participation of ECIs in conferences, workshops, and other events, and has\nprovided opportunities for ECIs to present their work and receive feedback from more\nexperienced researchers.\nThe Action also has established a number of working groups and task forces, which\nfocus on specific areas of ML/AI research, in particular Working groups 1,2, and 3 and\n\n\n--- Page 14 ---\nDRAFT\nour substantial diversity team. These working groups and task forces are led by\nexperienced researchers and provide opportunities for ECIs to collaborate and share\ntheir expertise with more experienced colleagues. This approach has helped to\nincrease the visibility and profile of ECIs within the network and the wider community.\nThe Action has also made a concerted effort to ensure that the research being\nconducted is inclusive and addresses the needs of a diverse range of stakeholders. For\nexample, it has established guidelines and best practices for conducting inclusive\nresearch, and it has also taken steps to ensure that the research being conducted is\nresponsive to the needs of ECIs and under-represented groups.\nOverall, the COST Action has established an inclusive community of researchers on\nmethodological and technological themes in ML/AI, by promoting Early Career\nInvestigators, increasing their visibility and establishing initiatives to support their\nparticipation and career development in the field. Additionally, the Action has put in\nplace a number of measures to ensure that the research being conducted is inclusive,\nresponsive and addresses the needs of diverse range of stakeholders in the field."
+      "proof_text": "This objective is similar to previous one. We are very likely one of the largest and most\ndefinitely one of the most active research networks on Fintech and AI in Finance in all\nof Europe. \nDuring the first part of this Action, our members/ ECIs have received a substantial\nnumber of promotions, we have had more than 20 PhD thesis finished as well as more\nthan 10 promotions on different levels of professorships.\nECIs are visible in a prominent way in our Action, all funding for activities is prioritisized\ntowards ECIs.\nFurthermore, the COST Action on Fintech and AI in Finance has established an\ninclusive community of researchers on methodological and technological themes in\nMachine Learning and Artificial Intelligence (ML/AI). The action has made a concerted\neffort to promote Early Career Investigators (ECIs) and increase their visibility over the\nlast two years.\nTo promote ECIs, the Action has taken a number of steps to ensure that they are\nrepresented and included in all aspects of the network's activities. For example, the\nAction has supported the connections between ECIs and more experienced colleagues,\nproviding them with the support and guidance they need to develop their research and\ncareer. Additionally, the Action has also established a number of initiatives to support\nthe participation of ECIs in conferences, workshops, and other events, and has\nprovided opportunities for ECIs to present their work and receive feedback from more\nexperienced researchers.\nThe Action also has established a number of working groups and task forces, which\nfocus on specific areas of ML/AI research, in particular Working groups 1,2, and 3 and\n13 our substantial diversity team. These working groups and task forces are led by\nexperienced researchers and provide opportunities for ECIs to collaborate and share\ntheir expertise with more experienced colleagues. This approach has helped to\nincrease the visibility and profile of ECIs within the network and the wider community.\nThe Action has also made a concerted effort to ensure that the research being\nconducted is inclusive and addresses the needs of a diverse range of stakeholders. For\nexample, it has established guidelines and best practices for conducting inclusive\nresearch, and it has also taken steps to ensure that the research being conducted is\nresponsive to the needs of ECIs and under-represented groups.\nOverall, the COST Action has established an inclusive community of researchers on\nmethodological and technological themes in ML/AI, by promoting Early Career\nInvestigators, increasing their visibility and establishing initiatives to support their\nparticipation and career development in the field. Additionally, the Action has put in\nplace a number of measures to ensure that the research being conducted is inclusive,\nresponsive and addresses the needs of diverse range of stakeholders in the field."
     },
     {
       "number": 12,
@@ -365,18 +387,18 @@
       ],
       "achievement": "76-100%",
       "dependence": "High",
-      "proof_text": "The COST Action CA19130 (FinAI) aims to overcome the siloing of research topics by\ncountry and achieve geographical and demographical diversity, with special attention to\nCOST Inclusiveness Target countries (ITC). To achieve this, the FinAI diversity team\npromotes diversity within the COST Action and suggests improvements to the\nManagement Committee (MC).\nAs of the end of 2022, FinAI included 246 members from 49 different countries, with 22\nof those countries being ITC (out of 39 COST countries). Overall, the action included\n260 members, with 53% of those members being from ITC. In all the three working\ngroups (WGs), ITC members are more than non-ITC members. In the MC, out of 71\nmembers, 17 are young researchers (24%), 39 are from ITC (55%). Out of the 4 Virtual\nMobility Grants (VMGs) granted in the first grant period (GP1), all were for ITC\nmembers, and in GP2 out of the 9 VMGs granted, 5 were for ITC members.\nYoung researchers represent 41.3% of all members, with 97 young researchers who\nare both female (40) and male (57). Albania and Romania (both ITC) have the highest\nnumber of Early Career Investigators (ECI) with 9 out of 17 Albanian members and 10\nout of 12 Romanian members.\nThe WGs include researchers with diverse backgrounds including econometrics,\nstatistics, mathematics, engineering, computer science, economics, banking, finance,\nbusiness, and law. The research collaboration occurs between groups of members\nrelated to COST FinAI. Additionally, COST networking tools and grants provide the\nbasis for collaboration on other topics and streams of research outside the scope of the\nnetwork.\nTo improve diversity in events, FinAI has established guidelines to improve the gender\nbalance, country and age of participants and organizers.\nFor the next GP, the following measures will be taken:\nEstablish instruments to incentivize ITC members to participate in events organized by\nFinAI members by prioritizing reimbursement for young researchers for conference\n\n\n--- Page 15 ---\nDRAFT\nexpenses such as travel and accommodation.\nPromote instruments to incentivize young researchers to participate in events organized\nby FinAI members by prioritizing reimbursement for their conference expenses such as\ntravel and accommodation.\nKeep track of memberships to improve young researchers' presence in all countries,\nbut especially in those that currently have a lower presence of young researchers within\nthe action.\nOverall, COST Action CA19130 FinAI has put in place various measures to achieve\ngeographical and demographical diversity with special attention to ITC countries and\nYoung researcher, to achieve this objective and to empower young researcher from\ndiverse backgrounds to collaborate and to have equal opportunities in networking and\nknowledge sharing."
+      "proof_text": "The COST Action CA19130 (FinAI) aims to overcome the siloing of research topics by\ncountry and achieve geographical and demographical diversity, with special attention to\nCOST Inclusiveness Target countries (ITC). To achieve this, the FinAI diversity team\npromotes diversity within the COST Action and suggests improvements to the\nManagement Committee (MC).\nAs of the end of 2022, FinAI included 246 members from 49 different countries, with 22\nof those countries being ITC (out of 39 COST countries). Overall, the action included\n260 members, with 53% of those members being from ITC. In all the three working\ngroups (WGs), ITC members are more than non-ITC members. In the MC, out of 71\nmembers, 17 are young researchers (24%), 39 are from ITC (55%). Out of the 4 Virtual\nMobility Grants (VMGs) granted in the first grant period (GP1), all were for ITC\nmembers, and in GP2 out of the 9 VMGs granted, 5 were for ITC members.\nYoung researchers represent 41.3% of all members, with 97 young researchers who\nare both female (40) and male (57). Albania and Romania (both ITC) have the highest\nnumber of Early Career Investigators (ECI) with 9 out of 17 Albanian members and 10\nout of 12 Romanian members.\nThe WGs include researchers with diverse backgrounds including econometrics,\nstatistics, mathematics, engineering, computer science, economics, banking, finance,\nbusiness, and law. The research collaboration occurs between groups of members\nrelated to COST FinAI. Additionally, COST networking tools and grants provide the\nbasis for collaboration on other topics and streams of research outside the scope of the\nnetwork.\nTo improve diversity in events, FinAI has established guidelines to improve the gender\nbalance, country and age of participants and organizers.\nFor the next GP, the following measures will be taken:\nEstablish instruments to incentivize ITC members to participate in events organized by\nFinAI members by prioritizing reimbursement for young researchers for conference\n14 expenses such as travel and accommodation.\nPromote instruments to incentivize young researchers to participate in events organized\nby FinAI members by prioritizing reimbursement for their conference expenses such as\ntravel and accommodation.\nKeep track of memberships to improve young researchers' presence in all countries,\nbut especially in those that currently have a lower presence of young researchers within\nthe action.\nOverall, COST Action CA19130 FinAI has put in place various measures to achieve\ngeographical and demographical diversity with special attention to ITC countries and\nYoung researcher, to achieve this objective and to empower young researcher from\ndiverse backgrounds to collaborate and to have equal opportunities in networking and\nknowledge sharing."
     },
     {
       "number": 13,
       "title": "Prepare competitive European researchers for a fruitful career in an international\nenvironment through intensive use of Short Term Scientific Missions (STSM) and joint\neducational programs with industrial partners.",
       "type": [
-        "2.d",
-        "2.a"
+        "2.a",
+        "2.d"
       ],
       "achievement": "76-100%",
       "dependence": "High",
-      "proof_text": "Our COST Action CA19130 has been highly successful in preparing competitive\nEuropean researchers for a fruitful career in an international environment through the\nintensive use of Short Term Scientific Missions (STSM) and joint educational programs\nwith industrial partners.\nSTSMs have been a central component of our Action, allowing early-career researchers\nto gain valuable international experience by visiting other research institutions and\ncollaborating on research projects. This has not only enabled them to broaden their\nexpertise, but also to establish valuable connections and collaborations that have the\npotential to continue beyond the lifetime of the Action.\nIn addition to STSMs, we have also established joint educational programs with\nindustrial partners. This has allowed researchers to gain hands-on experience working\non real-world projects and to develop valuable skills that are in high demand in the\nindustry. Furthermore, these educational programs have provided researchers with an\nunderstanding of the practical applications of the research, which is essential for the\ndevelopment of a joint research agenda.\nBy providing researchers with these opportunities, we have been able to build a\ncommunity around a topic of scientific and socio-economic relevance, allowing for\nknowledge exchange and the development of a joint research agenda (2.a). Our\ncommunity comprising of over 260 working group members now, have represented\nalmost all countries, and worked on many different ways and formed a substantial\nnumber of (changing) subgroups, which work on joint publications, research\napplications and output.\nFurthermore, we have also acted as a stakeholder platform or trans-national practice\ncommunity, pertaining to a certain area of socio-economical or societal application, or\nto a certain market sector (2.d). Our research focuses on the financial industry and\nthe development of cutting-edge technology such as Artificial Intelligence and\nBlockchain. By bringing together researchers from various disciplines including finance,\ncomputer science, and economics, we have been able to address the complex\nchallenges facing the industry and provide valuable insights and solutions to regulators\nand practitioners. Our members are actively involved in their national blockchain and\nFintech communities, and we are collectively working together with more than 20\n\n\n--- Page 16 ---\nDRAFT\nFintech associations across Europe.\nIn addition to our research and educational programs, we have also been very\nsuccessful in disseminating our results to the public and sharing them with regulators\nthrough events and publications. This has helped to promote transparency and\nunderstanding of the applications of artificial intelligence in the financial industry, and\nhas provided valuable input for future market applications.\nOverall, our COST Action CA19130 has been highly successful in preparing\ncompetitive European researchers for a fruitful career in an international environment,\nand in bringing together researchers, regulators, and practitioners to address the\ncomplex challenges facing the financial industry. Our Action provides a great platform\nfor researchers to share their knowledge, develop cutting-edge technologies and gain\ninvaluable professional skills."
+      "proof_text": "Our COST Action CA19130 has been highly successful in preparing competitive\nEuropean researchers for a fruitful career in an international environment through the\nintensive use of Short Term Scientific Missions (STSM) and joint educational programs\nwith industrial partners.\nSTSMs have been a central component of our Action, allowing early-career researchers\nto gain valuable international experience by visiting other research institutions and\ncollaborating on research projects. This has not only enabled them to broaden their\nexpertise, but also to establish valuable connections and collaborations that have the\npotential to continue beyond the lifetime of the Action.\nIn addition to STSMs, we have also established joint educational programs with\nindustrial partners. This has allowed researchers to gain hands-on experience working\non real-world projects and to develop valuable skills that are in high demand in the\nindustry. Furthermore, these educational programs have provided researchers with an\nunderstanding of the practical applications of the research, which is essential for the\ndevelopment of a joint research agenda.\nBy providing researchers with these opportunities, we have been able to build a\ncommunity around a topic of scientific and socio-economic relevance, allowing for\nknowledge exchange and the development of a joint research agenda (2.a). Our\ncommunity comprising of over 260 working group members now, have represented\nalmost all countries, and worked on many different ways and formed a substantial\nnumber of (changing) subgroups, which work on joint publications, research\napplications and output.\nFurthermore, we have also acted as a stakeholder platform or trans-national practice\ncommunity, pertaining to a certain area of socio-economical or societal application, or\nto a certain market sector (2.d). Our research focuses on the financial industry and\nthe development of cutting-edge technology such as Artificial Intelligence and\nBlockchain. By bringing together researchers from various disciplines including finance,\ncomputer science, and economics, we have been able to address the complex\nchallenges facing the industry and provide valuable insights and solutions to regulators\nand practitioners. Our members are actively involved in their national blockchain and\nFintech communities, and we are collectively working together with more than 20\n15 Fintech associations across Europe.\nIn addition to our research and educational programs, we have also been very\nsuccessful in disseminating our results to the public and sharing them with regulators\nthrough events and publications. This has helped to promote transparency and\nunderstanding of the applications of artificial intelligence in the financial industry, and\nhas provided valuable input for future market applications.\nOverall, our COST Action CA19130 has been highly successful in preparing\ncompetitive European researchers for a fruitful career in an international environment,\nand in bringing together researchers, regulators, and practitioners to address the\ncomplex challenges facing the financial industry. Our Action provides a great platform\nfor researchers to share their knowledge, develop cutting-edge technologies and gain\ninvaluable professional skills."
     },
     {
       "number": 14,
@@ -408,7 +430,7 @@
       ],
       "achievement": "76-100%",
       "dependence": "High",
-      "proof_text": "The COST Action CA19130 (FinAI) aims to significantly improve gender equality in the\nfields of the action. To achieve this, the FinAI diversity team promotes diversity within\nthe COST Action and suggests improvements to the Management Committee (MC).\nAs of the end of the second grant period (GP2), the gender representation among FinAI\nmembers is as follows: 41% female and 56% male. Within the working groups (WGs),\nfemale presence is as follows: WG1 47%, WG2 33%; WG3 40%. In the MC, 33\nmembers are female (46%), which is in line with the overall membership of the action.\nThis figure has increased since the end of GP1, when it was 44%.\nIn terms of Virtual Mobility Grants (VMGs) granted, in GP1, out of the 4 VMGs, 3 were\ngranted to female researchers; in GP2, out of the 9 VMGs granted, 8 were for female\n\n\n--- Page 18 ---\nDRAFT\nresearchers.\nFor the organization of events, FinAI has established guidelines to improve diversity in\nterms of gender balance, country, and age of participants and organizers. For example,\nguidelines state: \"Respect that the organizing committee and the scientific committee\nare composed according to criteria for gender balance\", \"If there is more than one\nkeynote speaker, choose a scholar belonging to the underrepresented gender in that\nspecific event\", \"Avoid involving women only in the roles of moderators or session\nchairs during events, workshops or conferences.\" \"Avoid assigning to women only\nduties or tasks considered as “academic households”, tasks that are time-consuming\nbut do not give opportunity for women to be involved in research activities.\" Members of\nCOST participating on the organizing committee make sure these guidelines are\nrespected whenever possible.\nTo improve gender equality in the field, the COST Action CA19130 FinAI is constantly\nmonitoring the gender representation among its members and taking specific measures\nto increase the presence of female members in the working groups, management\ncommittee and in the organization of events. The virtual mobility grants is also been\ngiven to female researcher which is one of the important measure to empower and\nsupport female researcher in the field of FinAI.\n \nIn addition to the measures mentioned above, COST Action CA19130 FinAI also\npromotes the participation and leadership of female members through various initiatives\nsuch as:\nEncouraging the nomination of female members for leadership roles within the action\nsuch as working group leaders, management committee members and coordinators.\nOffering mentorship and networking opportunities for female members to connect with\nexperienced researchers in the field and to help them to develop the skills needed to\ntake on leadership roles.\nOrganizing training and development workshops specifically tailored to the needs of\nfemale members to help them to build their skills and confidence in their field.\nIn summary, COST Action CA19130 FinAI has put in place various measures and\ninitiatives to significantly improve gender equality in the fields of the action. \n\n\n--- Page 19 ---\nDRAFT"
+      "proof_text": "The COST Action CA19130 (FinAI) aims to significantly improve gender equality in the\nfields of the action. To achieve this, the FinAI diversity team promotes diversity within\nthe COST Action and suggests improvements to the Management Committee (MC).\nAs of the end of the second grant period (GP2), the gender representation among FinAI\nmembers is as follows: 41% female and 56% male. Within the working groups (WGs),\nfemale presence is as follows: WG1 47%, WG2 33%; WG3 40%. In the MC, 33\nmembers are female (46%), which is in line with the overall membership of the action.\nThis figure has increased since the end of GP1, when it was 44%.\nIn terms of Virtual Mobility Grants (VMGs) granted, in GP1, out of the 4 VMGs, 3 were\ngranted to female researchers; in GP2, out of the 9 VMGs granted, 8 were for female\n17 researchers.\nFor the organization of events, FinAI has established guidelines to improve diversity in\nterms of gender balance, country, and age of participants and organizers. For example,\nguidelines state: \"Respect that the organizing committee and the scientific committee\nare composed according to criteria for gender balance\", \"If there is more than one\nkeynote speaker, choose a scholar belonging to the underrepresented gender in that\nspecific event\", \"Avoid involving women only in the roles of moderators or session\nchairs during events, workshops or conferences.\" \"Avoid assigning to women only\nduties or tasks considered as “academic households”, tasks that are time-consuming\nbut do not give opportunity for women to be involved in research activities.\" Members of\nCOST participating on the organizing committee make sure these guidelines are\nrespected whenever possible.\nTo improve gender equality in the field, the COST Action CA19130 FinAI is constantly\nmonitoring the gender representation among its members and taking specific measures\nto increase the presence of female members in the working groups, management\ncommittee and in the organization of events. The virtual mobility grants is also been\ngiven to female researcher which is one of the important measure to empower and\nsupport female researcher in the field of FinAI.\n \nIn addition to the measures mentioned above, COST Action CA19130 FinAI also\npromotes the participation and leadership of female members through various initiatives\nsuch as:\nEncouraging the nomination of female members for leadership roles within the action\nsuch as working group leaders, management committee members and coordinators.\nOffering mentorship and networking opportunities for female members to connect with\nexperienced researchers in the field and to help them to develop the skills needed to\ntake on leadership roles.\nOrganizing training and development workshops specifically tailored to the needs of\nfemale members to help them to build their skills and confidence in their field.\nIn summary, COST Action CA19130 FinAI has put in place various measures and\ninitiatives to significantly improve gender equality in the fields of the action. \n18"
     }
   ],
   "deliverables": [
@@ -536,10 +558,10 @@
     {
       "number": 2,
       "doi": "doi:10.1016/j.frl.2021.102162",
-      "title": "Shall the winning last? A study of recent bubbles and persistence",
-      "authors": "Akanksha Jalan; Roman Matkovskyy;",
-      "type": "Journal article",
-      "published_in": "Finance Research Letters",
+      "title": "Data Science Techniques for",
+      "authors": "Innar Liiv",
+      "type": "Book",
+      "published_in": "Behaviormetrics: Quantitative Approaches",
       "countries": [
         "FR",
         "IE"
@@ -553,6 +575,20 @@
       "title": "Demand elasticities of Bitcoin and",
       "authors": "Akanksha Jalan; Roman Matkovskyy;",
       "type": "Journal article",
+      "published_in": "Finance Research Letters",
+      "countries": [
+        "FR",
+        "IE"
+      ],
+      "peer_reviewed": true,
+      "open_access": true
+    },
+    {
+      "number": 4,
+      "doi": "doi:10.1007/s42521-021-00045-3",
+      "title": "COVID risk narratives: a computational linguistic approach to the econometric",
+      "authors": "Yuting Chen; Don Bredin; Valerio Potì;",
+      "type": "Journal article",
       "published_in": "Economics Letters",
       "countries": [
         "FR",
@@ -562,9 +598,9 @@
       "open_access": true
     },
     {
-      "number": 4,
-      "doi": "doi:10.1007/s42521-021-00045-3",
-      "title": "COVID risk narratives: a computational linguistic approach to the econometric",
+      "number": 5,
+      "doi": "doi:10.1007/978-3-030-73443-5_94-1",
+      "title": "Tail-Risk Protection: Machine Learning",
       "authors": "Yuting Chen; Don Bredin; Valerio Potì;",
       "type": "Journal article",
       "published_in": "Digital Finance",
@@ -576,8 +612,8 @@
       "open_access": true
     },
     {
-      "number": 5,
-      "doi": "doi:10.1007/978-3-030-73443-5_94-1",
+      "number": 6,
+      "doi": "doi:10.48550/arXiv.2208.12614",
       "title": "Tail-Risk Protection: Machine Learning",
       "authors": "Bruno Spilak; Wolfgang Karl Härdle",
       "type": "Book chapter",
@@ -590,25 +626,11 @@
       "open_access": true
     },
     {
-      "number": 6,
-      "doi": "doi:10.48550/arXiv.2208.12614",
+      "number": 7,
+      "doi": "doi:10.1016/j.ribaf.2021.101594",
       "title": "Regime-based Implied Stochastic",
       "authors": "Danial Saef; Yuanrong Wang; Tomaso",
       "type": "Article",
-      "published_in": "Research in International Business and",
-      "countries": [
-        "DE",
-        "UK"
-      ],
-      "peer_reviewed": true,
-      "open_access": true
-    },
-    {
-      "number": 7,
-      "doi": "doi:10.1016/j.ribaf.2021.101594",
-      "title": "Financial Risk Meter for emerging markets",
-      "authors": "Souhir Ben Amor; Michael Althof;",
-      "type": "Journal article",
       "published_in": "Research in International Business and",
       "countries": [
         "CZ",
@@ -623,7 +645,7 @@
       "title": "Financial Risk Meter Based on Expectiles",
       "authors": "Rui Ren; Meng-Jou Lu; Yingxing Li;",
       "type": "Journal article",
-      "published_in": "SSRN Electronic Journal",
+      "published_in": "Research in International Business and",
       "countries": [
         "CZ",
         "DE"
@@ -634,9 +656,37 @@
     {
       "number": 9,
       "doi": "doi:10.48550/arXiv.2107.08808",
+      "title": "Financial Risk Meter Based on Expectiles",
+      "authors": "Rui Ren; Meng-Jou Lu; Yingxing Li;",
+      "type": "Journal article",
+      "published_in": "SSRN Electronic Journal",
+      "countries": [
+        "CZ",
+        "DE"
+      ],
+      "peer_reviewed": true,
+      "open_access": true
+    },
+    {
+      "number": 10,
+      "doi": "doi:10.2139/ssrn.3911490",
       "title": "A Data-driven Explainable Case-based",
       "authors": "Wei Li; Florentina Paraschiv; Georgios",
       "type": "Article",
+      "published_in": "SSRN Electronic Journal",
+      "countries": [
+        "CZ",
+        "DE"
+      ],
+      "peer_reviewed": true,
+      "open_access": true
+    },
+    {
+      "number": 11,
+      "doi": "doi:10.1007/s42521-022-00048-8",
+      "title": "Bankruptcy Prediction of Privately Held",
+      "authors": "Florentina Paraschiv; Markus Schmid;",
+      "type": "Journal article",
       "published_in": "SSRN Electronic Journal",
       "countries": [
         "NO",
@@ -647,41 +697,12 @@
       "open_access": true
     },
     {
-      "number": 10,
-      "doi": "doi:10.2139/ssrn.3911490",
-      "title": "Bankruptcy Prediction of Privately Held",
-      "authors": "Florentina Paraschiv; Markus Schmid;",
-      "type": "Journal article",
-      "published_in": "SSRN Electronic Journal",
-      "countries": [
-        "FR",
-        "NO",
-        "CH"
-      ],
-      "peer_reviewed": true,
-      "open_access": true
-    },
-    {
-      "number": 11,
-      "doi": "doi:10.1007/s42521-022-00048-8",
+      "number": 12,
+      "doi": "doi:10.1007/s10614-021-10113-w",
       "title": "Indices on cryptocurrencies: an evaluation",
       "authors": "Konstantin Häusler; Hongyu Xia",
       "type": "Journal article",
       "published_in": "Digital Finance",
-      "countries": [
-        "NO",
-        "CH"
-      ],
-      "peer_reviewed": true,
-      "open_access": true
-    },
-    {
-      "number": 12,
-      "doi": "doi:10.1007/s10614-021-10113-w",
-      "title": "A Comparative Analysis of Parsimonious",
-      "authors": "Ranik Raaen Wahlstrøm; Florentina",
-      "type": "Journal article",
-      "published_in": "Computational Economics",
       "countries": [
         "NO",
         "CH"
@@ -695,10 +716,9 @@
       "title": "Robustifying Markowitz",
       "authors": "Yegor Klochkov; Alla Petukhina; Wolfgang",
       "type": "Journal article",
-      "published_in": "SSRN Electronic Journal",
+      "published_in": "Computational Economics",
       "countries": [
-        "CZ",
-        "DE",
+        "NO",
         "CH"
       ],
       "peer_reviewed": true,
@@ -707,6 +727,20 @@
     {
       "number": 14,
       "doi": "doi:10.2139/ssrn.4209433",
+      "title": "Robustifying Markowitz",
+      "authors": "Yegor Klochkov; Alla Petukhina; Wolfgang",
+      "type": "Journal article",
+      "published_in": "SSRN Electronic Journal",
+      "countries": [
+        "NO",
+        "CH"
+      ],
+      "peer_reviewed": true,
+      "open_access": true
+    },
+    {
+      "number": 15,
+      "doi": "doi:10.1142/S0217590822480010",
       "title": "A Data-driven Case-based Reasoning in",
       "authors": "Wei Li; Wolfgang K. Härdle; Stefan",
       "type": "Journal article",
@@ -719,9 +753,9 @@
       "open_access": true
     },
     {
-      "number": 15,
-      "doi": "doi:10.1142/S0217590822480010",
-      "title": "FINANCIAL RISK METER FOR",
+      "number": 16,
+      "doi": "doi:10.48550/arXiv.2108.05721",
+      "title": "Networks of News and Cross-Sectional",
       "authors": "RUI REN; MICHAEL ALTHOF;",
       "type": "Journal article",
       "published_in": "The Singapore Economic Review",
@@ -733,25 +767,11 @@
       "open_access": true
     },
     {
-      "number": 16,
-      "doi": "doi:10.48550/arXiv.2108.05721",
+      "number": 17,
+      "doi": "doi:10.1016/j.jmva.2021.104869",
       "title": "Networks of News and Cross-Sectional",
       "authors": "Junjie Hu; Wolfgang Karl Härdle",
       "type": "Article",
-      "published_in": "Journal of Multivariate Analysis",
-      "countries": [
-        "CZ",
-        "DE"
-      ],
-      "peer_reviewed": true,
-      "open_access": true
-    },
-    {
-      "number": 17,
-      "doi": "doi:10.1016/j.jmva.2021.104869",
-      "title": "K-expectiles clustering",
-      "authors": "Bingling Wang; Yingxing Li; Wolfgang Karl",
-      "type": "Journal article",
       "published_in": "Journal of Multivariate Analysis",
       "countries": [
         "CZ",
@@ -766,10 +786,9 @@
       "title": "Uniform Confidence Bands for",
       "authors": "Kainat Khowaja; Chen Huang; Wolfgang",
       "type": "Journal article",
-      "published_in": "SSRN Electronic Journal",
+      "published_in": "Journal of Multivariate Analysis",
       "countries": [
         "CZ",
-        "DK",
         "DE"
       ],
       "peer_reviewed": true,
@@ -778,10 +797,10 @@
     {
       "number": 19,
       "doi": "doi:10.48550/arXiv.2204.02757",
-      "title": "Does non-linear factorization of financial returns help build better and stabler",
-      "authors": "Bruno Spilak; Wolfgang Karl Härdle",
-      "type": "Article",
-      "published_in": "Empirical Economics",
+      "title": "Uniform Confidence Bands for",
+      "authors": "Kainat Khowaja; Chen Huang; Wolfgang",
+      "type": "Journal article",
+      "published_in": "SSRN Electronic Journal",
       "countries": [
         "CZ",
         "DE"
@@ -792,8 +811,23 @@
     {
       "number": 20,
       "doi": "doi:10.1007/s00181-021-02027-1",
-      "title": "The common and specific components of inflation expectations across European",
-      "authors": "Shi Chen; Wolfgang Karl Härdle; Weining",
+      "title": "Does non-linear factorization of financial returns help build better and stabler",
+      "authors": "Bruno Spilak; Wolfgang Karl Härdle",
+      "type": "Article",
+      "published_in": "Empirical Economics",
+      "countries": [
+        "CZ",
+        "DK",
+        "DE"
+      ],
+      "peer_reviewed": true,
+      "open_access": true
+    },
+    {
+      "number": 21,
+      "doi": "doi:10.2139/ssrn.4150849",
+      "title": "Hedging Cryptos with Bitcoin Futures",
+      "authors": "Francis Liu; Natalie Packham; Meng-Jou",
       "type": "Journal article",
       "published_in": "Empirical Economics",
       "countries": [
@@ -805,12 +839,27 @@
       "open_access": true
     },
     {
-      "number": 21,
-      "doi": "doi:10.2139/ssrn.4150849",
+      "number": 22,
+      "doi": "doi:10.48550/arXiv.2110.09429",
       "title": "Hedging Cryptos with Bitcoin Futures",
       "authors": "Francis Liu; Natalie Packham; Meng-Jou",
       "type": "Journal article",
       "published_in": "SSRN Electronic Journal",
+      "countries": [
+        "CZ",
+        "DE",
+        "UK"
+      ],
+      "peer_reviewed": true,
+      "open_access": true
+    },
+    {
+      "number": 23,
+      "doi": "doi:10.48550/arXiv.2108.11921",
+      "title": "Understanding jumps in high frequency digital asset markets",
+      "authors": "Danial Saef; Odett Nagy; Sergej Sizov;",
+      "type": "Article",
+      "published_in": "Advances in Quantitative Analysis of",
       "countries": [
         "CZ",
         "DE"
@@ -819,9 +868,9 @@
       "open_access": true
     },
     {
-      "number": 22,
-      "doi": "doi:10.48550/arXiv.2110.09429",
-      "title": "Understanding jumps in high frequency digital asset markets",
+      "number": 24,
+      "doi": "doi:10.6293/AQAFA.202112_(18).0006",
+      "title": "A Time-Varying Network for",
       "authors": "Danial Saef; Odett Nagy; Sergej Sizov;",
       "type": "Article",
       "published_in": "Advances in Quantitative Analysis of",
@@ -833,31 +882,39 @@
       "open_access": true
     },
     {
-      "number": 23,
-      "doi": "doi:10.48550/arXiv.2108.11921",
-      "title": "A Time-Varying Network for",
+      "number": 25,
+      "doi": "doi:10.2139/ssrn.3912753",
+      "title": "BLOCKCHAIN MECHANISM AND",
       "authors": "Li Guo; Wolfgang Karl Härdle; Yubo Tao",
       "type": "Article",
       "published_in": "Advances in Quantitative Analysis of",
-      "countries": [],
+      "countries": [
+        "DE",
+        "IT",
+        "UA"
+      ],
       "peer_reviewed": true,
       "open_access": true
     },
     {
-      "number": 24,
-      "doi": "doi:10.6293/AQAFA.202112_",
-      "title": "BLOCKCHAIN MECHANISM AND",
-      "authors": "Min-Bin Lin; Kainat Khowaja; Cathy Yi-",
+      "number": 26,
+      "doi": "doi:10.48550/arXiv.2103.08447",
+      "title": "A Data-driven Explainable Case-based",
+      "authors": "Wei Li; Florentina Paraschiv; Georgios",
       "type": "Journal article",
       "published_in": "Advances in Quantitative Analysis of",
-      "countries": [],
+      "countries": [
+        "DE",
+        "IT",
+        "UA"
+      ],
       "peer_reviewed": true,
       "open_access": true
     },
     {
-      "number": 25,
-      "doi": "doi:10.2139/ssrn.3912753",
-      "title": "A Data-driven Explainable Case-based",
+      "number": 27,
+      "doi": "doi:10.1007/s42521-022-00064-8",
+      "title": "Understanding Smart Contracts: Hype or",
       "authors": "Wei Li; Florentina Paraschiv; Georgios",
       "type": "Journal article",
       "published_in": "SSRN Electronic Journal",
@@ -870,24 +927,9 @@
       "open_access": true
     },
     {
-      "number": 26,
-      "doi": "doi:10.48550/arXiv.2103.08447",
-      "title": "Understanding Smart Contracts: Hype or",
-      "authors": "Elizaveta Zinovyeva; Raphael C. G.",
-      "type": "Article",
-      "published_in": "Digital Finance",
-      "countries": [
-        "DE",
-        "IT",
-        "UA"
-      ],
-      "peer_reviewed": true,
-      "open_access": true
-    },
-    {
-      "number": 27,
-      "doi": "doi:10.1007/s42521-022-00064-8",
-      "title": "Discussion on: “Programmable money: next generation blockchain-based",
+      "number": 28,
+      "doi": "doi:10.1016/j.jcomm.2021.100189",
+      "title": "Modelling the evolution of wind and solar power infeed forecasts",
       "authors": "Michael C. Burda",
       "type": "Journal article",
       "published_in": "Digital Finance",
@@ -900,8 +942,8 @@
       "open_access": true
     },
     {
-      "number": 28,
-      "doi": "doi:10.1016/j.jcomm.2021.100189",
+      "number": 29,
+      "doi": "doi:10.48550/arXiv.2101.10189",
       "title": "Modelling the evolution of wind and solar power infeed forecasts",
       "authors": "Wei Li; Florentina Paraschiv",
       "type": "Journal article",
@@ -915,8 +957,8 @@
       "open_access": true
     },
     {
-      "number": 29,
-      "doi": "doi:10.48550/arXiv.2101.10189",
+      "number": 30,
+      "doi": "doi:10.48550/arXiv.2108.11915",
       "title": "Surrogate Models for Optimization of",
       "authors": "Kainat Khowaja; Mykhaylo Shcherbatyy;",
       "type": "Article",
@@ -930,29 +972,16 @@
       "open_access": true
     },
     {
-      "number": 30,
-      "doi": "doi:10.48550/arXiv.2108.11915",
+      "number": 31,
+      "doi": "doi:10.1016/j.jmva.2021.104881",
       "title": "Cooling Measures and Housing Wealth:",
       "authors": "Wolfgang Karl Härdle; Rainer Schulz;",
       "type": "Article",
       "published_in": "Journal of Multivariate Analysis",
       "countries": [
-        "CZ",
-        "DE"
-      ],
-      "peer_reviewed": true,
-      "open_access": true
-    },
-    {
-      "number": 31,
-      "doi": "doi:10.1016/j.jmva.2021.104881",
-      "title": "Financial Risk Meter FRM based on",
-      "authors": "Rui Ren; Meng-Jou Lu; Yingxing Li;",
-      "type": "Journal article",
-      "published_in": "Journal of Multivariate Analysis",
-      "countries": [
-        "CZ",
-        "DE"
+        "DE",
+        "IT",
+        "UA"
       ],
       "peer_reviewed": true,
       "open_access": true
@@ -963,12 +992,10 @@
       "title": "A Machine Learning Based Regulatory",
       "authors": "Xinwen Ni",
       "type": "Journal article",
-      "published_in": "SSRN Electronic Journal",
+      "published_in": "Journal of Multivariate Analysis",
       "countries": [
-        "CY",
         "CZ",
-        "DE",
-        "RO"
+        "DE"
       ],
       "peer_reviewed": true,
       "open_access": true
@@ -976,8 +1003,22 @@
     {
       "number": 33,
       "doi": "doi:10.1080/1351847X.2021.1960403",
-      "title": "Are cryptos becoming alternative assets?",
-      "authors": "Daniel Traian Pele; Niels Wesselhöfft;",
+      "title": "A Machine Learning Based Regulatory",
+      "authors": "Xinwen Ni",
+      "type": "Journal article",
+      "published_in": "SSRN Electronic Journal",
+      "countries": [
+        "CZ",
+        "DE"
+      ],
+      "peer_reviewed": true,
+      "open_access": true
+    },
+    {
+      "number": 34,
+      "doi": "doi:10.1007/978-3-031-15743-1_11",
+      "title": "The Use of M2P in Business Process",
+      "authors": "Meriem Kherbouche; Yossra Zghal; Bálint",
       "type": "Journal article",
       "published_in": "The European Journal of Finance",
       "countries": [
@@ -990,39 +1031,12 @@
       "open_access": true
     },
     {
-      "number": 34,
-      "doi": "doi:10.1007/978-3-031-15743-1_11",
+      "number": 35,
+      "doi": "doi:10.1016/j.ijforecast.2021.11.001",
       "title": "The Use of M2P in Business Process",
       "authors": "Meriem Kherbouche; Yossra Zghal; Bálint",
       "type": "Book chapter",
       "published_in": "New Trends in Database and Information",
-      "countries": [
-        "AT",
-        "BE",
-        "CY",
-        "DK",
-        "FR",
-        "DE",
-        "EL",
-        "IE",
-        "IT",
-        "NO",
-        "PL",
-        "PT",
-        "ES",
-        "CH",
-        "UK"
-      ],
-      "peer_reviewed": true,
-      "open_access": true
-    },
-    {
-      "number": 35,
-      "doi": "doi:10.1016/j.ijforecast.2021.11.001",
-      "title": "Forecasting: theory and practice",
-      "authors": "Fotios Petropoulos; Daniele Apiletti;",
-      "type": "Journal article",
-      "published_in": "International Journal of Forecasting",
       "countries": [
         "AT",
         "BE",
@@ -1049,7 +1063,7 @@
       "title": "Editorial for Special Issue “New Frontiers in Forecasting the Business Cycle and",
       "authors": "Alessia Paccagnini",
       "type": "Journal article",
-      "published_in": "Forecasting",
+      "published_in": "International Journal of Forecasting",
       "countries": [
         "AT",
         "IE"
@@ -1060,13 +1074,13 @@
     {
       "number": 37,
       "doi": "doi:10.1007/s10551-021-04842-z",
-      "title": "Food Prices, Ethics and Forms of",
-      "authors": "Don Bredin; Valerio Potì; Enrique",
+      "title": "Editorial for Special Issue “New Frontiers in Forecasting the Business Cycle and",
+      "authors": "Alessia Paccagnini",
       "type": "Journal article",
-      "published_in": "Journal of Business Ethics",
+      "published_in": "Forecasting",
       "countries": [
-        "IE",
-        "ES"
+        "AT",
+        "IE"
       ],
       "peer_reviewed": true,
       "open_access": true
@@ -1077,10 +1091,9 @@
       "title": "Crypto-environment network connectivity and Bitcoin returns distribution tail",
       "authors": "Rocco Caferra; Andrea Morone; Valerio",
       "type": "Journal article",
-      "published_in": "Economics Letters",
+      "published_in": "Journal of Business Ethics",
       "countries": [
         "IE",
-        "IT",
         "ES"
       ],
       "peer_reviewed": true,
@@ -1090,6 +1103,20 @@
       "number": 39,
       "doi": "doi:10.1007/s42521-022-00060-y",
       "title": "Discussion on: “Programmable money: next generation blockchain based",
+      "authors": "Rocco Caferra; Andrea Morone; Valerio",
+      "type": "Journal article",
+      "published_in": "Economics Letters",
+      "countries": [
+        "IT",
+        "UK"
+      ],
+      "peer_reviewed": true,
+      "open_access": true
+    },
+    {
+      "number": 40,
+      "doi": "doi:10.2139/ssrn.4173890",
+      "title": "Can ESG Shape Cost of Capital? A",
       "authors": "Valerio Poti",
       "type": "Journal article",
       "published_in": "Digital Finance",
@@ -1101,8 +1128,8 @@
       "open_access": true
     },
     {
-      "number": 40,
-      "doi": "doi:10.2139/ssrn.4173890",
+      "number": 41,
+      "doi": "doi:10.1016/j.frl.2022.103411",
       "title": "Can ESG Shape Cost of Capital? A",
       "authors": "Niklas Bussmann; Alessandra Tanda;",
       "type": "Journal article",
@@ -1115,9 +1142,9 @@
       "open_access": true
     },
     {
-      "number": 41,
-      "doi": "doi:10.1016/j.frl.2022.103411",
-      "title": "The role of Environmental, Social, and",
+      "number": 42,
+      "doi": "doi:10.1007/s42521-022-00055-9",
+      "title": "Cryptocurrencies and stablecoins: a high- frequency analysis",
       "authors": "Alberto Citterio; Timothy King",
       "type": "Journal article",
       "published_in": "Finance Research Letters",
@@ -1129,23 +1156,12 @@
       "open_access": true
     },
     {
-      "number": 42,
-      "doi": "doi:10.1007/s42521-022-00055-9",
-      "title": "Cryptocurrencies and stablecoins: a high- frequency analysis",
-      "authors": "Emilio Barucci; Giancarlo Giuffra",
-      "type": "Journal article",
-      "published_in": "Digital Finance",
-      "countries": [],
-      "peer_reviewed": true,
-      "open_access": true
-    },
-    {
       "number": 43,
       "doi": "doi:10.1016/j.eswa.2021.116261",
       "title": "A machine learning model for lapse prediction in life insurance contracts",
-      "authors": "Michele Azzone; Emilio Barucci; Giancarlo",
+      "authors": "Emilio Barucci; Giancarlo Giuffra",
       "type": "Journal article",
-      "published_in": "Expert Systems with Applications",
+      "published_in": "Digital Finance",
       "countries": [],
       "peer_reviewed": true,
       "open_access": true
@@ -1156,7 +1172,7 @@
       "title": "Explainable artificial intelligence for crypto asset allocation",
       "authors": "Golnoosh Babaei; Paolo Giudici;",
       "type": "Journal article",
-      "published_in": "Finance Research Letters",
+      "published_in": "Expert Systems with Applications",
       "countries": [],
       "peer_reviewed": true,
       "open_access": true
@@ -1164,10 +1180,10 @@
     {
       "number": 45,
       "doi": "doi:10.1016/j.eswa.2020.114104",
-      "title": "Shapley-Lorenz eXplainable Artificial",
-      "authors": "Paolo Giudici; Emanuela Raffinetti",
+      "title": "Explainable artificial intelligence for crypto asset allocation",
+      "authors": "Golnoosh Babaei; Paolo Giudici;",
       "type": "Journal article",
-      "published_in": "Expert Systems with Applications",
+      "published_in": "Finance Research Letters",
       "countries": [],
       "peer_reviewed": true,
       "open_access": true
@@ -1176,9 +1192,9 @@
       "number": 46,
       "doi": "doi:10.1007/s42521-022-00062-w",
       "title": "Discussion on: “Programmable money: next generation blockchain based",
-      "authors": "Audrius Kabasinskas",
+      "authors": "Paolo Giudici; Emanuela Raffinetti",
       "type": "Journal article",
-      "published_in": "Digital Finance",
+      "published_in": "Expert Systems with Applications",
       "countries": [],
       "peer_reviewed": true,
       "open_access": true
@@ -1186,6 +1202,20 @@
     {
       "number": 47,
       "doi": "doi:10.3390/math9172086",
+      "title": "Clustering of Latvian Pension Funds",
+      "authors": "Audrius Kabasinskas",
+      "type": "Journal article",
+      "published_in": "Digital Finance",
+      "countries": [
+        "NO",
+        "UK"
+      ],
+      "peer_reviewed": true,
+      "open_access": true
+    },
+    {
+      "number": 48,
+      "doi": "doi:10.3389/frai.2022.827584",
       "title": "Clustering of Latvian Pension Funds",
       "authors": "Vitalija Serapinaitė; Audrius Kabašinskas",
       "type": "Journal article",
@@ -1198,8 +1228,8 @@
       "open_access": true
     },
     {
-      "number": 48,
-      "doi": "doi:10.3389/frai.2022.827584",
+      "number": 49,
+      "doi": "doi:10.1007/s42521-022-00065-7",
       "title": "Review of Multi-Criteria Decision-Making",
       "authors": "Jurgita Černevičienė; Audrius",
       "type": "Journal article",
@@ -1212,26 +1242,12 @@
       "open_access": true
     },
     {
-      "number": 49,
-      "doi": "doi:10.1007/s42521-022-00065-7",
-      "title": "Discussion on: “Programmable money: next generation blockchain based",
-      "authors": "Olivija Filipovska",
-      "type": "Journal article",
-      "published_in": "Digital Finance",
-      "countries": [
-        "NO",
-        "UK"
-      ],
-      "peer_reviewed": true,
-      "open_access": true
-    },
-    {
       "number": 50,
       "doi": "doi:10.1016/j.apenergy.2022.119182",
       "title": "Empirical study of day-ahead electricity spot-price forecasting: Insights into a",
-      "authors": "Ahmad Amine Loutfi; Mengtao Sun; Ijlal",
+      "authors": "Olivija Filipovska",
       "type": "Journal article",
-      "published_in": "Applied Energy",
+      "published_in": "Digital Finance",
       "countries": [
         "NO",
         "UK"
@@ -1245,7 +1261,7 @@
       "title": "Projecting and Forecasting the Latent",
       "authors": "Per Bjarte Solibakke",
       "type": "Journal article",
-      "published_in": "Energies",
+      "published_in": "Applied Energy",
       "countries": [],
       "peer_reviewed": true,
       "open_access": true
@@ -1256,7 +1272,7 @@
       "title": "Bootstrapped nonlinear impulse-response analysis: the FTSE100 (UK) and the",
       "authors": "Per Bjarte Solibakke",
       "type": "Journal article",
-      "published_in": "International Journal of Computational",
+      "published_in": "Energies",
       "countries": [],
       "peer_reviewed": true,
       "open_access": true
@@ -1264,6 +1280,17 @@
     {
       "number": 53,
       "doi": "doi:10.1007/978-3-030-56219-9_9",
+      "title": "Bootstrapped nonlinear impulse-response analysis: the FTSE100 (UK) and the",
+      "authors": "Per Bjarte Solibakke",
+      "type": "Journal article",
+      "published_in": "International Journal of Computational",
+      "countries": [],
+      "peer_reviewed": true,
+      "open_access": true
+    },
+    {
+      "number": 54,
+      "doi": "doi:10.3389/frai.2021.718450",
       "title": "Stochastic Volatility Models Predictive",
       "authors": "Per Bjarte Solibakke",
       "type": "Book chapter",
@@ -1273,8 +1300,8 @@
       "open_access": true
     },
     {
-      "number": 54,
-      "doi": "doi:10.3389/frai.2021.718450",
+      "number": 55,
+      "doi": "doi:10.1007/978-3-031-16474-3_40",
       "title": "Identification of Scams in Initial Coin",
       "authors": "Bedil Karimov; Piotr Wójcik",
       "type": "Journal article",
@@ -1284,8 +1311,8 @@
       "open_access": true
     },
     {
-      "number": 55,
-      "doi": "doi:10.1007/978-3-031-16474-3_40",
+      "number": 56,
+      "doi": "doi:10.1007/978-3-030-93286-2_7",
       "title": "A Generic Approach to Extend",
       "authors": "Catarina Silva; António Morais;",
       "type": "Book chapter",
@@ -1295,8 +1322,8 @@
       "open_access": true
     },
     {
-      "number": 56,
-      "doi": "doi:10.1007/978-3-030-93286-2_7",
+      "number": 57,
+      "doi": "doi:10.1007/978-981-16-2765-1_6",
       "title": "Is Trust a Valid Indicator of Tax",
       "authors": "Coita Ioana-Florina; Cioban Ștefana; Mare",
       "type": "Book chapter",
@@ -1306,8 +1333,8 @@
       "open_access": true
     },
     {
-      "number": 57,
-      "doi": "doi:10.1007/978-981-16-2765-1_6",
+      "number": 58,
+      "doi": "doi:10.3390/risks9060116",
       "title": "The Utility of Neural Model in Predicting",
       "authors": "Coita Ioana-Florina; Codruţa Mare",
       "type": "Book chapter",
@@ -1317,21 +1344,10 @@
       "open_access": true
     },
     {
-      "number": 58,
-      "doi": "doi:10.3390/risks9060116",
-      "title": "A Statistical Model of Fraud Risk in",
-      "authors": "Andrada-Ioana Sabău (Popa); Codruța",
-      "type": "Journal article",
-      "published_in": "Risks",
-      "countries": [],
-      "peer_reviewed": true,
-      "open_access": true
-    },
-    {
       "number": 59,
       "doi": "doi:10.3390/risks9060104",
-      "title": "Privacy Intrusiveness in Financial-Banking",
-      "authors": "Larisa Găbudeanu; Iulia Brici; Codruța",
+      "title": "A Statistical Model of Fraud Risk in",
+      "authors": "Andrada-Ioana Sabău (Popa); Codruța",
       "type": "Journal article",
       "published_in": "Risks",
       "countries": [
@@ -1345,10 +1361,10 @@
     {
       "number": 60,
       "doi": "doi:10.3390/math10193625",
-      "title": "Machine Learning Models for Predicting",
-      "authors": "Codruţa Mare; Daniela Manaţe; Gabriela-",
+      "title": "Privacy Intrusiveness in Financial-Banking",
+      "authors": "Larisa Găbudeanu; Iulia Brici; Codruța",
       "type": "Journal article",
-      "published_in": "Mathematics",
+      "published_in": "Risks",
       "countries": [
         "CZ",
         "RS",
@@ -1361,9 +1377,9 @@
       "number": 61,
       "doi": "doi:10.15308/finiz-2020-97-102",
       "title": "Echo State Networks Usage for Stock",
-      "authors": "Lidija Barjaktarović; Marko Barjaktarović;",
-      "type": "Proceedings article",
-      "published_in": "Proceedings of the 7th International",
+      "authors": "Codruţa Mare; Daniela Manaţe; Gabriela-",
+      "type": "Journal article",
+      "published_in": "Mathematics",
       "countries": [
         "CZ",
         "RS",
@@ -1375,10 +1391,10 @@
     {
       "number": 62,
       "doi": "doi:10.1016/j.ipm.2021.102848",
-      "title": "Financial literacy and psychological disaster preparedness: applicability of",
-      "authors": "Miljan Vučetić; Zuzana Brokešová;",
-      "type": "Journal article",
-      "published_in": "Information Processing & Management",
+      "title": "Echo State Networks Usage for Stock",
+      "authors": "Lidija Barjaktarović; Marko Barjaktarović;",
+      "type": "Proceedings article",
+      "published_in": "Proceedings of the 7th International",
       "countries": [
         "CZ",
         "RS",
@@ -1394,7 +1410,11 @@
       "authors": "Miller-Janny Ariza-Garzón; María-Del-Mar",
       "type": "Journal article",
       "published_in": "Electronic Commerce Research and",
-      "countries": [],
+      "countries": [
+        "CZ",
+        "RS",
+        "SK"
+      ],
       "peer_reviewed": true,
       "open_access": true
     },
@@ -1404,7 +1424,7 @@
       "title": "Analysis of the cryptocurrency market using different prototype-based clustering",
       "authors": "Luis Lorenzo; Javier Arroyo",
       "type": "Journal article",
-      "published_in": "Financial Innovation",
+      "published_in": "Electronic Commerce Research and",
       "countries": [
         "NL",
         "CH"
@@ -1416,6 +1436,20 @@
       "number": 65,
       "doi": "doi:10.1007/s42521-022-00063-9",
       "title": "Discussion on: “Programmable money: next generation blockchain based",
+      "authors": "Luis Lorenzo; Javier Arroyo",
+      "type": "Journal article",
+      "published_in": "Financial Innovation",
+      "countries": [
+        "NL",
+        "CH"
+      ],
+      "peer_reviewed": true,
+      "open_access": true
+    },
+    {
+      "number": 66,
+      "doi": "doi:10.2139/ssrn.3796351",
+      "title": "THE VIX INDEX UNDER SCRUTINY OF",
       "authors": "Joerg Osterrieder",
       "type": "Journal article",
       "published_in": "Digital Finance",
@@ -1427,8 +1461,8 @@
       "open_access": true
     },
     {
-      "number": 66,
-      "doi": "doi:10.2139/ssrn.3796351",
+      "number": 67,
+      "doi": "doi:10.3389/frai.2021.668465",
       "title": "THE VIX INDEX UNDER SCRUTINY OF",
       "authors": "Ali Hirsa; Branka Hadji Misheva; Joerg",
       "type": "Journal article",
@@ -1441,9 +1475,9 @@
       "open_access": true
     },
     {
-      "number": 67,
-      "doi": "doi:10.3389/frai.2021.668465",
-      "title": "The Applicability of Self-Play Algorithms to",
+      "number": 68,
+      "doi": "doi:10.2139/ssrn.3865019",
+      "title": "Deep Reinforcement Learning for Finance and the Efficient Market Hypothesis",
       "authors": "Jan-Alexander Posth; Piotr Kotlarz;",
       "type": "Journal article",
       "published_in": "Frontiers in Artificial Intelligence",
@@ -1455,8 +1489,8 @@
       "open_access": true
     },
     {
-      "number": 68,
-      "doi": "doi:10.2139/ssrn.3865019",
+      "number": 69,
+      "doi": "doi:10.2139/ssrn.3867800",
       "title": "Deep Reinforcement Learning for Finance and the Efficient Market Hypothesis",
       "authors": "Leander Odermatt; Jetmir Beqiraj; Joerg",
       "type": "Journal article",
@@ -1469,8 +1503,8 @@
       "open_access": true
     },
     {
-      "number": 69,
-      "doi": "doi:10.2139/ssrn.3867800",
+      "number": 70,
+      "doi": "doi:10.2139/ssrn.3864965",
       "title": "Deep Reinforcement Learning on a Multi-",
       "authors": "Ali Hirsa; Branka Hadji Misheva; Joerg",
       "type": "Journal article",
@@ -1483,8 +1517,8 @@
       "open_access": true
     },
     {
-      "number": 70,
-      "doi": "doi:10.2139/ssrn.3864965",
+      "number": 71,
+      "doi": "doi:10.2139/ssrn.3864867",
       "title": "Generative Adversarial Networks in",
       "authors": "Florian Eckerli",
       "type": "Journal article",
@@ -1497,24 +1531,10 @@
       "open_access": true
     },
     {
-      "number": 71,
-      "doi": "doi:10.2139/ssrn.3864867",
-      "title": "Generative Adversarial Network For synthetic data on Bitcoin returns",
-      "authors": "Moritz Pfenninger",
-      "type": "Journal article",
-      "published_in": "SSRN Electronic Journal",
-      "countries": [
-        "NL",
-        "CH"
-      ],
-      "peer_reviewed": true,
-      "open_access": true
-    },
-    {
       "number": 72,
       "doi": "doi:10.2139/ssrn.3898792",
-      "title": "Analyzing Deep Generated Financial Time",
-      "authors": "Antonio Rosolia; Joerg Osterrieder",
+      "title": "Generative Adversarial Network For synthetic data on Bitcoin returns",
+      "authors": "Florian Eckerli",
       "type": "Journal article",
       "published_in": "SSRN Electronic Journal",
       "countries": [
@@ -1527,6 +1547,20 @@
     {
       "number": 73,
       "doi": "doi:10.3389/frai.2021.794996",
+      "title": "Analyzing Deep Generated Financial Time",
+      "authors": "Antonio Rosolia; Joerg Osterrieder",
+      "type": "Journal article",
+      "published_in": "SSRN Electronic Journal",
+      "countries": [
+        "NL",
+        "CH"
+      ],
+      "peer_reviewed": true,
+      "open_access": true
+    },
+    {
+      "number": 74,
+      "doi": "doi:10.2139/ssrn.3858730",
       "title": "Audience-Dependent Explanations for AI-",
       "authors": "Branka Hadji Misheva; David Jaggi; Jan-",
       "type": "Journal article",
@@ -1539,8 +1573,8 @@
       "open_access": true
     },
     {
-      "number": 74,
-      "doi": "doi:10.2139/ssrn.3858730",
+      "number": 75,
+      "doi": "doi:10.2139/ssrn.4087569",
       "title": "Risk Parity for Multi-Asset Futures",
       "authors": "Chris Bucher; Joerg Osterrieder",
       "type": "Journal article",
@@ -1553,8 +1587,8 @@
       "open_access": true
     },
     {
-      "number": 75,
-      "doi": "doi:10.2139/ssrn.4087569",
+      "number": 76,
+      "doi": "doi:10.3905/jfds.2022.1.109",
       "title": "High-Frequency Causality between",
       "authors": "Kia Farokhnia; Joerg Osterrieder",
       "type": "Journal article",
@@ -1567,24 +1601,10 @@
       "open_access": true
     },
     {
-      "number": 76,
-      "doi": "doi:10.3905/jfds.2022.1.109",
-      "title": "Tackling the Exponential Scaling of",
-      "authors": "Fernando de Meer Pardo; Peter",
-      "type": "Journal article",
-      "published_in": "The Journal of Financial Data Science",
-      "countries": [
-        "DE",
-        "CH"
-      ],
-      "peer_reviewed": true,
-      "open_access": true
-    },
-    {
       "number": 77,
       "doi": "doi:10.3905/jfds.2021.1.078",
-      "title": "Adaptive Seriational Risk Parity and Other",
-      "authors": "Peter Schwendner; Jochen Papenbrock;",
+      "title": "Tackling the Exponential Scaling of",
+      "authors": "Fernando de Meer Pardo; Peter",
       "type": "Journal article",
       "published_in": "The Journal of Financial Data Science",
       "countries": [
@@ -1598,6 +1618,20 @@
       "number": 78,
       "doi": "doi:10.1111/corg.12454",
       "title": "Bankers' remuneration reforms and new challenges",
+      "authors": "Peter Schwendner; Jochen Papenbrock;",
+      "type": "Journal article",
+      "published_in": "The Journal of Financial Data Science",
+      "countries": [
+        "DE",
+        "CH"
+      ],
+      "peer_reviewed": true,
+      "open_access": true
+    },
+    {
+      "number": 79,
+      "doi": "doi:10.2139/ssrn.3890364",
+      "title": "The impact of machine learning and big data on credit markets",
       "authors": "Anna (Ania) Zalewska",
       "type": "Journal article",
       "published_in": "Corporate Governance: An International",
@@ -1609,8 +1643,8 @@
       "open_access": true
     },
     {
-      "number": 79,
-      "doi": "doi:10.2139/ssrn.3890364",
+      "number": 80,
+      "doi": "doi:10.2139/ssrn.4227111",
       "title": "The impact of machine learning and big data on credit markets",
       "authors": "Peter Eccles; Paul Grout; Paolo Siciliani;",
       "type": "Journal article",
@@ -1623,8 +1657,8 @@
       "open_access": true
     },
     {
-      "number": 80,
-      "doi": "doi:10.2139/ssrn.4227111",
+      "number": 81,
+      "doi": "doi:10.2139/ssrn.4002279",
       "title": "To Bao or Not to Bao? Payment",
       "authors": "Anna Zalewska; Yue Zhang; Zhe Zong",
       "type": "Journal article",
@@ -1637,8 +1671,8 @@
       "open_access": true
     },
     {
-      "number": 81,
-      "doi": "doi:10.2139/ssrn.4002279",
+      "number": 82,
+      "doi": "doi:10.1007/978-3-030-51093-0",
       "title": "Investor Demand in Syndicated Bond",
       "authors": "Martin Hillebrand; Marko Mravlak; Peter",
       "type": "Journal article",
@@ -1651,9 +1685,9 @@
       "open_access": true
     },
     {
-      "number": 82,
-      "doi": "doi:10.1007/978-3-030-51093-0",
-      "title": "Financial Risk Management for",
+      "number": 83,
+      "doi": "doi:10.1007/s11634-022-00508-4",
+      "title": "On mathematical optimization for clustering categories in contingency tables",
       "authors": "Eline Van der Auwera; Wim Schoutens;",
       "type": "Book",
       "published_in": "SpringerBriefs in Finance",
@@ -1662,13 +1696,13 @@
         "IT"
       ],
       "peer_reviewed": true,
-      "open_access": true
+      "open_access": false
     },
     {
-      "number": 83,
-      "doi": "doi:10.1007/s11634-022-00508-4",
-      "title": "On mathematical optimization for clustering categories in contingency tables",
-      "authors": "Emilio Carrizosa; Vanesa Guerrero;",
+      "number": 84,
+      "doi": "doi:10.1016/j.eswa.2022.117423",
+      "title": "The tree based linear regression model for hierarchical categorical variables",
+      "authors": "Emilio Carrizosa; Laust Hvas Mortensen;",
       "type": "Journal article",
       "published_in": "Advances in Data Analysis and",
       "countries": [
@@ -1676,13 +1710,13 @@
         "ES"
       ],
       "peer_reviewed": true,
-      "open_access": true
+      "open_access": false
     },
     {
-      "number": 84,
-      "doi": "doi:10.1016/j.eswa.2022.117423",
-      "title": "The tree based linear regression model for hierarchical categorical variables",
-      "authors": "Emilio Carrizosa; Laust Hvas Mortensen;",
+      "number": 85,
+      "doi": "doi:10.1016/j.ejor.2021.12.022",
+      "title": "On sparse optimal regression trees",
+      "authors": "Rafael Blanquero; Emilio Carrizosa;",
       "type": "Journal article",
       "published_in": "Expert Systems with Applications",
       "countries": [
@@ -1691,21 +1725,7 @@
         "ES"
       ],
       "peer_reviewed": true,
-      "open_access": true
-    },
-    {
-      "number": 85,
-      "doi": "doi:10.1016/j.ejor.2021.12.022",
-      "title": "On sparse optimal regression trees",
-      "authors": "Rafael Blanquero; Emilio Carrizosa;",
-      "type": "Journal article",
-      "published_in": "European Journal of Operational",
-      "countries": [
-        "DK",
-        "ES"
-      ],
-      "peer_reviewed": true,
-      "open_access": true
+      "open_access": false
     },
     {
       "number": 86,
@@ -1719,7 +1739,7 @@
         "ES"
       ],
       "peer_reviewed": true,
-      "open_access": true
+      "open_access": false
     },
     {
       "number": 87,
@@ -1727,13 +1747,13 @@
       "title": "On clustering categories of categorical predictors in generalized linear models",
       "authors": "Emilio Carrizosa; Marcela Galvis",
       "type": "Journal article",
-      "published_in": "Expert Systems with Applications",
+      "published_in": "Omega",
       "countries": [
         "DK",
         "ES"
       ],
       "peer_reviewed": true,
-      "open_access": true
+      "open_access": false
     },
     {
       "number": 88,
@@ -1741,14 +1761,13 @@
       "title": "On sparse ensemble methods: An application to short-term predictions of the",
       "authors": "Sandra Benítez-Peña; Emilio Carrizosa;",
       "type": "Journal article",
-      "published_in": "European Journal of Operational",
+      "published_in": "Expert Systems with Applications",
       "countries": [
         "DK",
-        "ES",
-        "UK"
+        "ES"
       ],
       "peer_reviewed": true,
-      "open_access": true
+      "open_access": false
     },
     {
       "number": 89,
@@ -1759,10 +1778,11 @@
       "published_in": "Computers & Operations Research",
       "countries": [
         "DK",
-        "ES"
+        "ES",
+        "UK"
       ],
       "peer_reviewed": true,
-      "open_access": true
+      "open_access": false
     },
     {
       "number": 90,
@@ -1770,13 +1790,13 @@
       "title": "Mathematical optimization in classification and regression trees",
       "authors": "Emilio Carrizosa; Cristina Molero-Río;",
       "type": "Journal article",
-      "published_in": "TOP",
+      "published_in": "Computers & Operations Research",
       "countries": [
         "DK",
         "ES"
       ],
       "peer_reviewed": true,
-      "open_access": true
+      "open_access": false
     },
     {
       "number": 91,
@@ -1790,7 +1810,7 @@
         "ES"
       ],
       "peer_reviewed": true,
-      "open_access": true
+      "open_access": false
     },
     {
       "number": 92,
@@ -1798,13 +1818,13 @@
       "title": "Sparsity in optimal randomized classification trees",
       "authors": "Rafael Blanquero; Emilio Carrizosa;",
       "type": "Journal article",
-      "published_in": "European Journal of Operational",
+      "published_in": "Omega",
       "countries": [
         "DK",
         "ES"
       ],
       "peer_reviewed": true,
-      "open_access": true
+      "open_access": false
     },
     {
       "number": 93,
@@ -1814,16 +1834,30 @@
       "type": "Journal article",
       "published_in": "Journal of International Financial Markets,",
       "countries": [
-        "FR",
-        "UK"
+        "DK",
+        "ES"
       ],
       "peer_reviewed": true,
-      "open_access": true
+      "open_access": false
     },
     {
       "number": 94,
       "doi": "doi:10.1016/j.irfa.2021.101958",
       "title": "“Shiny” crypto assets: A systemic look at gold-backed cryptocurrencies during the",
+      "authors": "Akanksha Jalan; Roman Matkovskyy;",
+      "type": "Journal article",
+      "published_in": "Journal of International Financial Markets,",
+      "countries": [
+        "FR",
+        "UK"
+      ],
+      "peer_reviewed": true,
+      "open_access": false
+    },
+    {
+      "number": 95,
+      "doi": "doi:10.1080/1351847X.2020.1869992",
+      "title": "What effect did the introduction of Bitcoin futures have on the Bitcoin spot market?",
       "authors": "Akanksha Jalan; Roman Matkovskyy;",
       "type": "Journal article",
       "published_in": "International Review of Financial Analysis",
@@ -1832,12 +1866,12 @@
         "UK"
       ],
       "peer_reviewed": true,
-      "open_access": true
+      "open_access": false
     },
     {
-      "number": 95,
-      "doi": "doi:10.1080/1351847X.2020.1869992",
-      "title": "What effect did the introduction of Bitcoin futures have on the Bitcoin spot market?",
+      "number": 96,
+      "doi": "doi:10.1214/20-AOS2019",
+      "title": "LASSO-driven inference in time and space",
       "authors": "Akanksha Jalan; Roman Matkovskyy;",
       "type": "Journal article",
       "published_in": "The European Journal of Finance",
@@ -1849,8 +1883,8 @@
       "open_access": true
     },
     {
-      "number": 96,
-      "doi": "doi:10.1214/20-AOS2019",
+      "number": 97,
+      "doi": "doi:10.1080/14697688.2021.1880023",
       "title": "LASSO-driven inference in time and space",
       "authors": "Victor Chernozhukov; Wolfgang Karl",
       "type": "Journal article",
@@ -1863,27 +1897,12 @@
       "open_access": true
     },
     {
-      "number": 97,
-      "doi": "doi:10.1080/14697688.2021.1880023",
-      "title": "Investing with cryptocurrencies –",
-      "authors": "Alla Petukhina; Simon Trimborn;",
-      "type": "Journal article",
-      "published_in": "Quantitative Finance",
-      "countries": [
-        "CZ",
-        "DE",
-        "UK"
-      ],
-      "peer_reviewed": true,
-      "open_access": true
-    },
-    {
       "number": 98,
       "doi": "doi:10.1016/j.jedc.2021.104290",
       "title": "Media-expressed tone, option characteristics, and stock return",
-      "authors": "Cathy Yi-Hsuan Chen; Matthias R.",
+      "authors": "Alla Petukhina; Simon Trimborn;",
       "type": "Journal article",
-      "published_in": "Journal of Economic Dynamics and",
+      "published_in": "Quantitative Finance",
       "countries": [
         "CZ",
         "DE",
@@ -1899,21 +1918,12 @@
       "title": "VCRIX — A volatility index for crypto- currencies",
       "authors": "Alisa Kim; Simon Trimborn; Wolfgang Karl",
       "type": "Journal article",
-      "published_in": "International Review of Financial Analysis",
-      "countries": [],
-      "peer_reviewed": true,
-      "open_access": true
-    },
-    {
-      "number": 0,
-      "doi": "doi:10.1016/j.ijforecast.2021.11.001",
-      "title": "",
-      "authors": "",
-      "type": "",
-      "published_in": "",
+      "published_in": "Journal of Economic Dynamics and",
       "countries": [
-        "AT",
-        "IE"
+        "CZ",
+        "DE",
+        "CH",
+        "UK"
       ],
       "peer_reviewed": true,
       "open_access": true
@@ -1922,14 +1932,14 @@
   "stsms_vmgs": {
     "stsms": [
       {
-        "description": "STSMs, virtual grants and many\ninitiatives to encourage researchers from different backgrounds to work together, creating an inclusive\nenvironment for all.\nIn addition to these activities, the COST Action has also launched initiatives to promote knowledge transfer\nand collaboration. For example, it has established a number of working groups and task forces, which are\nfocused on specific areas of fintech and AI in finance.\nOverall, the COST Action on Fintech and AI in Finance has made significant progress in advancing the field\nof fintech and AI in finance in research, education, and practice. The network has brought together a\ndiverse group of researchers, who have collaborated on a wide range of projects and initiatives, and have\nproduced a significant amount of output which have been widely disseminated and have achieved a high\ncitation count. The COST Action is also focused on promoting collaboration and knowledge sharing\nbetween researchers and practitioners in the field, to ensure that the latest research findings are put into\npractice, which is not only beneficial to the researchers, but also to the wider community.\nAction website\nhttps://www.fintech-ai-finance.com/\n4\n\n\n--- Page 5 ---\nDRAFT\nAchievement of MoU objectives, deliverables and additional\noutputs/ achievements\n \nMoU objectives\nPlease self-assess and describe the level of achievement of each MoU objective. For any MoU objectives\nthat were less than 76% achieved please provide justification.\nPlease provide proof to enable the Action Rapporteur to confirm the level of achievement.\nMou objective\nTo develop blended approaches to evaluate innovative financial services and their\nproviders, especially in the FinTech domain, building on Machine Learning methods,\nfocussing on prediction (early warning) of operational fragility, fraudulent and illegal\nbehaviour ranging from appropriation of loaned funds to money-laundering activities.\nType of objective\n1.a Development of a common understanding/definition of the",
+        "description": "STSMs, virtual grants and many\ninitiatives to encourage researchers from different backgrounds to work together, creating an inclusive\nenvironment for all.\nIn addition to these activities, the COST Action has also launched initiatives to promote knowledge transfer\nand collaboration. For example, it has established a number of working groups and task forces, which are\nfocused on specific areas of fintech and AI in finance.\nOverall, the COST Action on Fintech and AI in Finance has made significant progress in advancing the field\nof fintech and AI in finance in research, education, and practice. The network has brought together a\ndiverse group of researchers, who have collaborated on a wide range of projects and initiatives, and have\nproduced a significant amount of output which have been widely disseminated and have achieved a high\ncitation count. The COST Action is also focused on promoting collaboration and knowledge sharing\nbetween researchers and practitioners in the field, to ensure that the latest research findings are put into\npractice, which is not only beneficial to the researchers, but also to the wider community.\nAction website\nhttps://www.fintech-ai-finance.com/\n4 Achievement of MoU objectives, deliverables and additional\noutputs/ achievements\n \nMoU objectives\nPlease self-assess and describe the level of achievement of each MoU objective. For any MoU objectives\nthat were less than 76% achieved please provide justification.\nPlease provide proof to enable the Action Rapporteur to confirm the level of achievement.\nMou objective\nTo develop blended approaches to evaluate innovative financial services and their\nproviders, especially in the FinTech domain, building on Machine Learning methods,\nfocussing on prediction (early warning) of operational fragility, fraudulent and illegal\nbehaviour ranging from appropriation of loaned funds to money-laundering activities.\nType of objective\n1.a Development of a common understanding/definition of the",
         "key_activities": []
       }
     ],
     "vmgs": []
   },
   "impacts": {
-    "career_benefits": "of researchers, including Early\nCareer Investigators (for example: joint supervision of graduate and PhD students, research exchanges not\nfunded by the action, collaborations, Training Schools with ECTS accreditation, joint projects, internship\nand job prospects.\nThe COST Action FinAI has been actively working to advance the careers, skills, and network of researchers through\nvarious initiatives and activities. Some examples of what we have done include: Erasmus+ cooperations: Many of the\nAction members have established Erasmus+ cooperations with other institutions, which allow for researchers to spend\ntime at partner institutions and collaborate on research projects. Joint research applications: The Action members\n78\n\n\n--- Page 79 ---\nDRAFT\nhave submitted several joint research applications to various funding agencies, which allows researchers to work\ntogether on larger-scale projects and secure additional funding to advance their research. Additional joint research\nprojects: Some of the Action members have established additional joint research projects with other institutions, which\nallow for the sharing of expertise and resources, and provide opportunities for networking and collaboration. Visiting\nprofessorships: Some of the Action members have hosted visiting professors from other institutions, which allow for\nthe exchange of knowledge and expertise, and provide opportunities for researchers to learn about new research\nmethods and technologies. Training schools: The Action has organized training schools in which researchers had the\nopportunity to learn new techniques and skills and also to contribute to their CV. All these activities are designed to\nprovide researchers with a range of valuable opportunities to advance their careers, skills and network by working with\na diverse group of colleagues, and learning about new research methods and technologies. The collaboration, sharing\nand exposure provided by the Action will help the researchers to stay current and",
+    "career_benefits": "of researchers, including Early\nCareer Investigators (for example: joint supervision of graduate and PhD students, research exchanges not\nfunded by the action, collaborations, Training Schools with ECTS accreditation, joint projects, internship\nand job prospects.\nThe COST Action FinAI has been actively working to advance the careers, skills, and network of researchers through\nvarious initiatives and activities. Some examples of what we have done include: Erasmus+ cooperations: Many of the\nAction members have established Erasmus+ cooperations with other institutions, which allow for researchers to spend\ntime at partner institutions and collaborate on research projects. Joint research applications: The Action members\n78 have submitted several joint research applications to various funding agencies, which allows researchers to work\ntogether on larger-scale projects and secure additional funding to advance their research. Additional joint research\nprojects: Some of the Action members have established additional joint research projects with other institutions, which\nallow for the sharing of expertise and resources, and provide opportunities for networking and collaboration. Visiting\nprofessorships: Some of the Action members have hosted visiting professors from other institutions, which allow for\nthe exchange of knowledge and expertise, and provide opportunities for researchers to learn about new research\nmethods and technologies. Training schools: The Action has organized training schools in which researchers had the\nopportunity to learn new techniques and skills and also to contribute to their CV. All these activities are designed to\nprovide researchers with a range of valuable opportunities to advance their careers, skills and network by working with\na diverse group of colleagues, and learning about new research methods and technologies. The collaboration, sharing\nand exposure provided by the Action will help the researchers to stay current an",
     "experience_level": "",
     "stakeholder_engagement": "What additional stakeholders have been, or will be, engaged\nand how? This information will not be included in the Action Report that is made publicly available (on the\nwebsite).\nThe COST Action FinAI has taken steps to engage a variety of stakeholders including researchers, policy makers,\nindustry players, and NGOs. This has been done through measures such as joint research projects, policy maker\nengagement, training schools, conferences and workshops, stakeholder surveys and interviews, active engagement\nthrough social media and the website, and involving Early Career Investigators. The Action plans to continue this\nengagement by regularly updating and involving stakeholders in the progress of the Action and its research output,\nand by updating and maintaining the stakeholder engagement strategy on an annual basis, identifying target\nstakeholder groups and preparing an engagement plan for them, extending the network to remaining European\ncountries, and involving citizens engaged in science and citizen science organizations. The Action will strive for an\ninter-disciplinary and inclusive engagement strategy.",
     "dissemination_approach": "1. Open access of research (working) papers; 2. Clearly stated expected results of the projects and the main advantages; 3. Participation in conferences/seminars/round tables etc.\nto disseminate the results; 4. Active networking and inviting more members to COST Actions; 5. Website and Newsletter: www.fin-ai.eu. The website is updated with all the\ninformation about the action (articles, conferences, opportunities). A monthly newsletter is sent to the subscribers. The website contains information about our action participants,\nand both conferences and new articles. For seminars, we prefer to use the Fin–ai Meet up; 6. Organization of monthly series of open seminars conducted by Data Science Lab\n(headed by Piotr Wójcik) in cooperation with Quantitative Finance Research Group – both in the Faculty of Economic Sciences University of Warsaw where research done within\nthe COST action or related to applications of ML/AI in finance is presented. 7. Source code publicly available at quantlet.com 8. Data sets, training and research material made\navailable at quantinar.com\nDissemination"

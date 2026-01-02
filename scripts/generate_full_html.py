@@ -224,11 +224,14 @@ CSS_STYLES = """
         border-radius: 8px;
         margin-top: 15px;
         border-left: 4px solid var(--cost-purple);
-        white-space: pre-wrap;
         font-size: 0.95em;
-        line-height: 1.7;
-        max-height: 500px;
+        line-height: 1.8;
+        max-height: 800px;
         overflow-y: auto;
+    }
+
+    .proof-text p {
+        margin: 0 0 1em 0;
     }
 
     /* Deliverable Table */
@@ -620,6 +623,16 @@ def generate_report_html(report_data, is_final=True):
                     <div><strong>{escape_html(wg.get('name', 'N/A'))}</strong></div>
                     <div class="leader-info">{escape_html(wg.get('email', ''))}</div>
                     <div class="leader-info">Country: {escape_html(wg.get('country', ''))} | Participants: {wg.get('participants', 'N/A')}</div>
+                </div>
+"""
+    # Add Other Leadership Positions
+    for pos in leadership.get("other_positions", []):
+        html += f"""
+                <div class="leader-card">
+                    <h4>{escape_html(pos.get('position', 'Other Position'))}</h4>
+                    <div><strong>{escape_html(pos.get('name', 'N/A'))}</strong></div>
+                    <div class="leader-info">{escape_html(pos.get('email', ''))}</div>
+                    <div class="leader-info">Country: {escape_html(pos.get('country', ''))}</div>
                 </div>
 """
     html += """

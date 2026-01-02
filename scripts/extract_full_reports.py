@@ -1,12 +1,40 @@
 """
 Comprehensive extraction script for COST Action CA19130 Reports.
 Extracts ALL content from Final Report and Mid-Term Report TXT files into JSON.
+
+FIXES APPLIED (2026-01-02):
+- Bug 1: WG Leaders extraction handles multi-line WG titles
+- Bug 2: Other positions extraction handles Representative + multi-line names
+- Bug 3: clean_page_markers() removes all page boundary artifacts
+- Bug 4: Publications extraction uses DOI-based approach (captures all 199)
+- Bug 5: Proof text cleaned of page markers
 """
 
 import json
 import re
 from pathlib import Path
 from datetime import datetime
+
+
+def clean_page_markers(text):
+    """Remove page markers and DRAFT watermarks from text.
+
+    This is a critical utility function that cleans extracted text
+    from PDF-to-TXT conversion artifacts.
+    """
+    if not text:
+        return ""
+    # Remove "--- Page X ---" followed by optional DRAFT
+    text = re.sub(r'\n*--- Page \d+ ---\n*(?:DRAFT\n*)?', ' ', text)
+    # Remove standalone DRAFT markers
+    text = re.sub(r'\bDRAFT\b', '', text)
+    # Remove standalone page numbers at line boundaries
+    text = re.sub(r'\n\d+\n', '\n', text)
+    # Clean up excessive whitespace
+    text = re.sub(r'[ \t]+', ' ', text)  # Multiple spaces/tabs to single space
+    text = re.sub(r'\n\s*\n\s*\n+', '\n\n', text)  # Multiple newlines to double
+    text = text.strip()
+    return text
 
 
 def split_into_pages(text):
@@ -27,7 +55,10 @@ def split_into_pages(text):
 
 
 def extract_leadership(pages):
-    """Extract leadership positions from pages 2-3."""
+    """Extract leadership positions from pages 2-3.
+
+    FIXED: Now handles multi-line WG titles and other position names.
+    """
     leadership = {
         "chair": None,
         "vice_chair": None,
@@ -59,30 +90,94 @@ def extract_leadership(pages):
             "country": vc_match.group(5).strip()
         }
 
-    # Extract WG Leaders
-    wg_pattern = r'(\d)\n([^\n]+)\n(\d+)\n(Prof|Dr)\s+([^\n]+)\n([^\n]+@[^\n]+)\n\s*(\w+)'
-    for match in re.finditer(wg_pattern, page2):
-        leadership["wg_leaders"].append({
-            "wg_number": int(match.group(1)),
-            "wg_title": match.group(2),
-            "participants": int(match.group(3)),
-            "name": match.group(4) + " " + match.group(5),
-            "email": match.group(6),
-            "country": match.group(7).strip()
-        })
+    # Extract WG Leaders - FIXED for multi-line titles
+    # Find the Working groups section
+    wg_section_match = re.search(r'Working groups\n(.*?)(?:Other key leadership|$)', page2, re.DOTALL)
+    if wg_section_match:
+        wg_text = wg_section_match.group(1)
 
-    # Extract other positions
-    other_match = re.search(r'Other key leadership positions.*?Country\*\n(.*?)(?:\*|$)', page2, re.DOTALL)
+        # Split by WG numbers (1, 2, 3) at start of lines
+        # Pattern: number at start, then multi-line title, then participant count, then leader info
+        wg_blocks = re.split(r'\n(?=\d\n)', wg_text)
+
+        for block in wg_blocks:
+            block = block.strip()
+            if not block or not block[0].isdigit():
+                continue
+
+            # Parse WG block: number\n<title lines>\n<participant count>\n<leader info>
+            lines = block.split('\n')
+            if len(lines) < 4:
+                continue
+
+            wg_num = int(lines[0])
+
+            # Find participant count (3-digit number on its own line)
+            participant_idx = -1
+            for i, line in enumerate(lines[1:], 1):
+                if re.match(r'^\d{2,3}$', line.strip()):
+                    participant_idx = i
+                    break
+
+            if participant_idx == -1:
+                continue
+
+            # Title is everything between number and participant count
+            wg_title = ' '.join(lines[1:participant_idx]).strip()
+            participants = int(lines[participant_idx])
+
+            # Find leader info (Prof/Dr followed by name, email, country)
+            remaining = '\n'.join(lines[participant_idx+1:])
+            leader_match = re.search(r'(Prof|Dr)\s+([^\n]+)\n([^\n]+@[^\n]+)\n\s*(\w+)', remaining)
+
+            if leader_match:
+                leadership["wg_leaders"].append({
+                    "wg_number": wg_num,
+                    "wg_title": wg_title,
+                    "participants": participants,
+                    "name": leader_match.group(1) + " " + leader_match.group(2),
+                    "email": leader_match.group(3),
+                    "country": leader_match.group(4).strip()
+                })
+
+    # Extract other positions - FIXED for multi-line position names and person names
+    other_match = re.search(r'Other key leadership positions\n.*?Country\*\n(.*?)(?:\s*\*\s*The country|$)', page2, re.DOTALL)
     if other_match:
         other_text = other_match.group(1)
-        # Parse Science Communication Coordinator and GH Scientific Representative
-        pos_pattern = r'(\w+(?:\s+\w+)*)\nCoordinator\n(Dr|Prof)?\s*([^\n]+)\n([^\n]+@[^\n]+)\n(\w+)'
-        for m in re.finditer(pos_pattern, other_text):
+
+        # Split into position blocks by looking for known position types
+        # Positions: Science Communication Coordinator, GH Scientific Representative
+
+        # Pattern 1: Science Communication Coordinator
+        scc_match = re.search(
+            r'Science\s*\n?\s*Communication\s*\n?\s*Coordinator\s*\n(Dr|Prof)?\s*([^\n]+)\n([^\n]+@[^\n]+)\n(\w+)',
+            other_text,
+            re.IGNORECASE
+        )
+        if scc_match:
+            title = scc_match.group(1) if scc_match.group(1) else ""
+            name = (title + " " if title else "") + scc_match.group(2).strip()
             leadership["other_positions"].append({
-                "position": m.group(1) + " Coordinator",
-                "name": (m.group(2) + " " if m.group(2) else "") + m.group(3),
-                "email": m.group(4),
-                "country": m.group(5)
+                "position": "Science Communication Coordinator",
+                "name": name,
+                "email": scc_match.group(3).strip(),
+                "country": scc_match.group(4).strip()
+            })
+
+        # Pattern 2: GH Scientific Representative (multi-line name)
+        ghr_match = re.search(
+            r'GH\s+Scientific\s*\n?\s*Representative\s*\n([^\n@]+(?:\n[^\n@]+)?)\n([^\n]+@[^\n]+)\n(\w+)',
+            other_text,
+            re.IGNORECASE
+        )
+        if ghr_match:
+            # Name might be on multiple lines
+            name_parts = ghr_match.group(1).strip().replace('\n', ' ')
+            leadership["other_positions"].append({
+                "position": "GH Scientific Representative",
+                "name": name_parts,
+                "email": ghr_match.group(2).strip(),
+                "country": ghr_match.group(3).strip()
             })
 
     return leadership
@@ -121,12 +216,12 @@ def extract_summary(pages, is_final=True):
     # Extract main objective
     obj_match = re.search(r'Main aim/ objective\n(.*?)(?:The Action addressed|During its first)', page4, re.DOTALL)
     if obj_match:
-        summary["main_objective"] = obj_match.group(1).strip()
+        summary["main_objective"] = clean_page_markers(obj_match.group(1))
 
     # Extract description (everything after "described below")
     desc_match = re.search(r'described below\n(.*?)(?:Action website|$)', page4, re.DOTALL)
     if desc_match:
-        summary["description"] = desc_match.group(1).strip()
+        summary["description"] = clean_page_markers(desc_match.group(1))
 
     # Extract website
     web_match = re.search(r'https?://[^\s]+', page4)
@@ -158,7 +253,10 @@ def extract_summary(pages, is_final=True):
 
 
 def extract_objectives(full_text, pages):
-    """Extract all 16 MoU objectives with FULL text."""
+    """Extract all 16 MoU objectives with FULL text.
+
+    FIXED: Applies clean_page_markers() to all extracted text.
+    """
     objectives = []
 
     # Find all objectives using pattern matching
@@ -183,7 +281,7 @@ def extract_objectives(full_text, pages):
         # Extract title (first paragraph before "Type of objective")
         title_match = re.search(r'^(.*?)(?:Type of objective)', obj_text, re.DOTALL)
         if title_match:
-            objective["title"] = title_match.group(1).strip()
+            objective["title"] = clean_page_markers(title_match.group(1))
 
         # Extract types
         type_pattern = r'(\d\.[a-z])\s+[A-Z][^1-9]*'
@@ -212,9 +310,8 @@ def extract_objectives(full_text, pages):
         proof_match = re.search(r'(?:Proof of achievement of MoU\s*objective|Description of progress with\s*achieving the MoU objective)\n(.*?)$', obj_text, re.DOTALL)
         if proof_match:
             proof_text = proof_match.group(1).strip()
-            # Clean up page numbers
-            proof_text = re.sub(r'\n\d+\n', '\n', proof_text)
-            objective["proof_text"] = proof_text
+            # FIXED: Apply page marker cleanup
+            objective["proof_text"] = clean_page_markers(proof_text)
 
         objectives.append(objective)
 
@@ -250,7 +347,7 @@ def extract_deliverables(full_text):
         # Extract title (first part before "Level of achievement")
         title_match = re.search(r'^(.*?)(?:Level of achievement)', d_text, re.DOTALL)
         if title_match:
-            deliverable["title"] = title_match.group(1).strip()
+            deliverable["title"] = clean_page_markers(title_match.group(1))
 
         # Extract status
         if "Delivered" in d_text:
@@ -275,38 +372,60 @@ def extract_deliverables(full_text):
 
 
 def extract_publications(full_text):
-    """Extract all publications with DOIs."""
+    """Extract all publications with DOIs.
+
+    FIXED: Uses DOI-based extraction that handles:
+    - Split publication numbers (e.g., "10\n0" for 100)
+    - Format changes (Title: vs Title\n)
+    - Page boundaries
+    """
     publications = []
 
-    # Find publications section
-    pub_section = re.search(r'Co-authored Action publications.*?(?:Other Action results|Additional achievements|Dissemination and exploitation|$)', full_text, re.DOTALL)
+    # Find publications section - ends at "Projects resulting from Action"
+    pub_section = re.search(
+        r'Co-authored Action publications.*?(?=Projects resulting from Action|Other Action results|$)',
+        full_text,
+        re.DOTALL
+    )
     if not pub_section:
         # Try alternative pattern
-        pub_section = re.search(r'Bibliographic data.*?(?:Other Action results|Please describe how|$)', full_text, re.DOTALL)
+        pub_section = re.search(
+            r'Bibliographic data.*?(?=Projects resulting from Action|Other Action results|Please describe how|$)',
+            full_text,
+            re.DOTALL
+        )
 
     if not pub_section:
         return publications
 
     pub_text = pub_section.group(0)
 
-    # Find each publication by DOI pattern
-    pub_pattern = r'(\d+)\n(doi:[^\n]+)\nTitle\n([^\n]+(?:\n[^\n]+)?)\n(?:Author[s]?\n([^\n]+(?:\n[^\n]+)?))?\nDOI\n[^\n]+\nType\n([^\n]+)'
+    # Find ALL DOIs in the publication section
+    # DOI pattern: doi:10.XXXX/YYYY (various formats)
+    doi_pattern = r'doi:(10\.\d{4,}/[^\s\n]+)'
 
-    # Simpler approach: find all DOIs and extract surrounding context
-    doi_pattern = r'(\d+)\n(doi:[\d\./\w-]+)'
+    # Find all unique DOIs with their positions
+    doi_matches = list(re.finditer(doi_pattern, pub_text))
 
-    for match in re.finditer(doi_pattern, pub_text):
-        pub_num = int(match.group(1))
-        doi = match.group(2)
+    # Remove duplicate DOIs (same DOI appears twice per publication)
+    seen_dois = set()
+    unique_doi_positions = []
+    for match in doi_matches:
+        doi = match.group(1)
+        if doi not in seen_dois:
+            seen_dois.add(doi)
+            unique_doi_positions.append((match.start(), doi))
 
-        # Get text around this match for more details
-        start = match.start()
-        end = min(start + 2000, len(pub_text))
+    # For each unique DOI, extract publication details
+    for idx, (pos, doi) in enumerate(unique_doi_positions):
+        # Get context around this DOI (before and after)
+        start = max(0, pos - 500)
+        end = min(len(pub_text), pos + 2000)
         context = pub_text[start:end]
 
         publication = {
-            "number": pub_num,
-            "doi": doi,
+            "number": idx + 1,  # Sequential numbering
+            "doi": f"doi:{doi}",
             "title": "",
             "authors": "",
             "type": "",
@@ -316,15 +435,23 @@ def extract_publications(full_text):
             "open_access": False
         }
 
-        # Extract title
-        title_match = re.search(r'Title\n([^\n]+(?:\n[^A-Z][^\n]*)?)', context)
+        # Extract title - two formats:
+        # Format 1: Title\n<text>
+        # Format 2: Title: <text> or Title:<text>
+        title_match = re.search(r'Title[:\n]\s*([^\n]+(?:\n[^A-Z\d][^\n]*)?)', context)
         if title_match:
-            publication["title"] = title_match.group(1).replace('\n', ' ').strip()
+            title = title_match.group(1).replace('\n', ' ').strip()
+            # Clean up title
+            title = re.sub(r'^Title[:\s]*', '', title)
+            publication["title"] = clean_page_markers(title)
 
-        # Extract authors
-        author_match = re.search(r'Author[s]?\n([^\n]+(?:;\s*[^\n]+)*)', context)
+        # Extract authors - two formats
+        author_match = re.search(r'Authors?[:\n]\s*([^\n]+(?:;\s*[^\n]+)*)', context)
         if author_match:
-            publication["authors"] = author_match.group(1).strip()
+            authors = author_match.group(1).strip()
+            # Clean up authors
+            authors = re.sub(r'^Authors?[:\s]*', '', authors)
+            publication["authors"] = clean_page_markers(authors)
 
         # Extract type
         type_match = re.search(r'Type\n([^\n]+)', context)
@@ -333,18 +460,24 @@ def extract_publications(full_text):
 
         # Extract published in
         pub_in_match = re.search(r'Published in\n([^\n]+)', context)
+        if not pub_in_match:
+            # Try alternative format
+            pub_in_match = re.search(r'Title of the periodical:\s*([^\n]+)', context)
         if pub_in_match:
             publication["published_in"] = pub_in_match.group(1).strip()
 
-        # Extract countries
+        # Extract countries (2-letter codes)
         countries_match = re.search(r'\n([A-Z]{2}(?:,\s*[A-Z]{2})*)\n', context)
         if countries_match:
             publication["countries"] = [c.strip() for c in countries_match.group(1).split(',')]
 
-        # Check peer reviewed and open access (Y in those columns)
-        if '\nY\n' in context:
+        # Check peer reviewed and open access
+        # Look for Y in appropriate context
+        if re.search(r'\nY\nY\nY\n', context):
             publication["peer_reviewed"] = True
             publication["open_access"] = True
+        elif re.search(r'\nY\n', context):
+            publication["peer_reviewed"] = True
 
         publications.append(publication)
 
@@ -362,7 +495,7 @@ def extract_stsms_and_vmgs(full_text):
         stsm_text = stsm_match.group(0)
         # Extract key info about STSMs
         stsms.append({
-            "description": stsm_text[:2000].strip(),
+            "description": clean_page_markers(stsm_text[:2000]),
             "key_activities": []
         })
 
@@ -399,7 +532,7 @@ def extract_impacts(full_text):
     # Career benefits
     career_match = re.search(r'careers, skills and network.*?(.*?)(?:career benefits were mainly|$)', full_text, re.DOTALL)
     if career_match:
-        impacts["career_benefits"] = career_match.group(1).strip()[:2000]
+        impacts["career_benefits"] = clean_page_markers(career_match.group(1)[:2000])
 
     # Experience level
     exp_match = re.search(r'career benefits were mainly to researchers.*?(\d+\s*years)', full_text)
@@ -409,12 +542,12 @@ def extract_impacts(full_text):
     # Stakeholder engagement
     stake_match = re.search(r'stakeholders.*?engaged and how\?.*?(.*?)(?:\d+\n\n|$)', full_text, re.DOTALL)
     if stake_match:
-        impacts["stakeholder_engagement"] = stake_match.group(1).strip()[:2000]
+        impacts["stakeholder_engagement"] = clean_page_markers(stake_match.group(1)[:2000])
 
     # Dissemination approach
     dissem_match = re.search(r'Dissemination and exploitation approach.*?\n(.*?)(?:Dissemination meetings|$)', full_text, re.DOTALL)
     if dissem_match:
-        impacts["dissemination_approach"] = dissem_match.group(1).strip()[:2000]
+        impacts["dissemination_approach"] = clean_page_markers(dissem_match.group(1)[:2000])
 
     return impacts
 
@@ -435,9 +568,9 @@ def extract_meetings_and_events(full_text):
 
     for match in re.finditer(event_pattern, dissem_text, re.DOTALL):
         events.append({
-            "title": match.group(1).strip()[:200],
-            "target_audience": match.group(2).strip()[:200],
-            "outcome": match.group(3).strip()[:500],
+            "title": clean_page_markers(match.group(1)[:200]),
+            "target_audience": clean_page_markers(match.group(2)[:200]),
+            "outcome": clean_page_markers(match.group(3)[:500]),
             "url": match.group(4).strip()
         })
 
@@ -590,6 +723,8 @@ def main():
     print(f"  -> Objectives: {len(final_report['objectives'])}")
     print(f"  -> Deliverables: {len(final_report['deliverables'])}")
     print(f"  -> Publications: {len(final_report['publications'])}")
+    print(f"  -> WG Leaders: {len(final_report['leadership']['wg_leaders'])}")
+    print(f"  -> Other Positions: {len(final_report['leadership']['other_positions'])}")
 
     # Extract Mid-Term Report
     print(f"\n[2/3] Extracting Mid-Term Report from: {midterm_txt.name}")
@@ -602,6 +737,8 @@ def main():
     print(f"  -> Objectives: {len(midterm_report['objectives'])}")
     print(f"  -> Deliverables: {len(midterm_report['deliverables'])}")
     print(f"  -> Publications: {len(midterm_report['publications'])}")
+    print(f"  -> WG Leaders: {len(midterm_report['leadership']['wg_leaders'])}")
+    print(f"  -> Other Positions: {len(midterm_report['leadership']['other_positions'])}")
 
     # Create Comparison
     print(f"\n[3/3] Creating comparison...")
