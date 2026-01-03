@@ -305,12 +305,14 @@
                     <tr>
                         <th class="rank" data-sort="rank">Rank</th>
                         <th data-sort="name">Author</th>
-                        <th data-sort="orcid">ORCID</th>
-                        <th data-sort="count" class="sorted-desc">Publications</th>
+                        <th data-sort="traditional" title="Articles + Book Chapters + Books + Reviews">Traditional</th>
+                        <th data-sort="article" title="Peer-reviewed articles">Articles</th>
+                        <th data-sort="dataset" title="Datasets (Zenodo, etc.)">Datasets</th>
+                        <th data-sort="count" class="sorted-desc" title="Total count including all types">Total</th>
                     </tr>
                 </thead>
                 <tbody id="authorBody">
-                    <tr><td colspan="4" class="loading">Loading...</td></tr>
+                    <tr><td colspan="6" class="loading">Loading...</td></tr>
                 </tbody>
             </table>
         </div>
@@ -324,42 +326,38 @@
     <script>
         let authorData = [];
         let filteredData = [];
-        let sortColumn = 'count';
+        let sortColumn = 'total';
         let sortAsc = false;
         let maxCount = 0;
 
         fetch('data/publications_apa.json')
             .then(r => r.json())
             .then(data => {
-                // Count publications per author
-                const counts = {};
-                const orcids = {};
+                // Use author_stats from the JSON (computed by combine_publications.py)
+                const authorStats = data.author_stats || {};
 
-                data.publications.forEach(p => {
-                    const author = p.author || 'Unknown';
-                    const orcid = p.author_orcid || '';
-                    counts[author] = (counts[author] || 0) + 1;
-                    if (orcid) orcids[author] = orcid;
-                });
-
-                // Convert to array
-                authorData = Object.entries(counts).map(([name, count]) => ({
-                    name,
-                    orcid: orcids[name] || '',
-                    count
+                // Convert to array with type breakdown
+                authorData = Object.entries(authorStats).map(([orcid, stats]) => ({
+                    name: stats.name || 'Unknown',
+                    orcid: orcid,
+                    total: stats.total || 0,
+                    traditional: stats.traditional_pubs || 0,
+                    article: (stats.by_type || {}).article || 0,
+                    dataset: (stats.by_type || {}).dataset || 0,
+                    by_type: stats.by_type || {}
                 }));
 
-                // Sort by count descending
-                authorData.sort((a, b) => b.count - a.count);
+                // Sort by total descending
+                authorData.sort((a, b) => b.total - a.total);
 
                 // Add ranks
                 authorData.forEach((a, i) => a.rank = i + 1);
 
-                maxCount = authorData[0]?.count || 1;
+                maxCount = authorData[0]?.total || 1;
                 filteredData = [...authorData];
 
                 // Update stats
-                const totalPubs = authorData.reduce((sum, a) => sum + a.count, 0);
+                const totalPubs = authorData.reduce((sum, a) => sum + a.total, 0);
                 document.getElementById('totalAuthors').textContent = authorData.length;
                 document.getElementById('totalPubs').textContent = totalPubs.toLocaleString();
                 document.getElementById('avgPubs').textContent = (totalPubs / authorData.length).toFixed(1);
@@ -368,14 +366,14 @@
             })
             .catch(err => {
                 console.error(err);
-                document.getElementById('authorBody').innerHTML = '<tr><td colspan="4" class="loading">Error loading data.</td></tr>';
+                document.getElementById('authorBody').innerHTML = '<tr><td colspan="6" class="loading">Error loading data.</td></tr>';
             });
 
         function renderTable() {
             const tbody = document.getElementById('authorBody');
 
             if (filteredData.length === 0) {
-                tbody.innerHTML = '<tr><td colspan="4" class="loading">No authors match your search.</td></tr>';
+                tbody.innerHTML = '<tr><td colspan="6" class="loading">No authors match your search.</td></tr>';
                 document.getElementById('resultsInfo').textContent = 'No results';
                 return;
             }
@@ -383,18 +381,20 @@
             document.getElementById('resultsInfo').textContent = `Showing ${filteredData.length} of ${authorData.length} authors`;
 
             tbody.innerHTML = filteredData.map(a => {
-                const barWidth = (a.count / maxCount * 100).toFixed(1);
-                const orcidLink = a.orcid ?
-                    `<a href="https://orcid.org/${a.orcid}" target="_blank" class="orcid-link">${a.orcid}</a>` :
-                    '<span style="color:#ccc">-</span>';
+                const barWidth = (a.total / maxCount * 100).toFixed(1);
+                const nameLink = a.orcid ?
+                    `<a href="https://orcid.org/${a.orcid}" target="_blank" style="color:inherit;text-decoration:none;" title="${a.orcid}">${a.name}</a>` :
+                    a.name;
 
                 return `
                     <tr>
                         <td class="rank">${a.rank}</td>
-                        <td class="author-name">${a.name}</td>
-                        <td>${orcidLink}</td>
+                        <td class="author-name">${nameLink}</td>
+                        <td style="text-align:center;color:var(--cost-green);font-weight:600;">${a.traditional || 0}</td>
+                        <td style="text-align:center;color:var(--cost-blue);">${a.article || 0}</td>
+                        <td style="text-align:center;color:var(--cost-orange);">${a.dataset || 0}</td>
                         <td class="pub-count">
-                            ${a.count}
+                            ${a.total}
                             <div class="pub-bar" style="width: ${barWidth}%"></div>
                         </td>
                     </tr>
@@ -407,7 +407,8 @@
                 sortAsc = !sortAsc;
             } else {
                 sortColumn = column;
-                sortAsc = column === 'name' || column === 'orcid';
+                // Name sorts A-Z by default, numbers sort high-to-low
+                sortAsc = column === 'name';
             }
 
             // Update header classes
@@ -418,9 +419,18 @@
                 }
             });
 
+            // Map column names to data properties
+            const colMap = {
+                'count': 'total',
+                'traditional': 'traditional',
+                'article': 'article',
+                'dataset': 'dataset'
+            };
+            const sortKey = colMap[column] || column;
+
             filteredData.sort((a, b) => {
-                let valA = a[column];
-                let valB = b[column];
+                let valA = a[sortKey];
+                let valB = b[sortKey];
 
                 if (typeof valA === 'string') {
                     valA = valA.toLowerCase();

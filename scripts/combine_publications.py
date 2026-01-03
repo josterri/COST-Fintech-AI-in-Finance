@@ -2,11 +2,53 @@
 Combine publications from OpenAlex and ORCID sources.
 Merges publications, keeping unique entries per author (as requested).
 Generates final publications.json for GitHub Pages.
+
+Features:
+- Preprint deduplication: Removes preprints that match published articles
+- Per-author type breakdown: Shows article/book-chapter/dataset counts
 """
 import json
+import sys
+import io
 from pathlib import Path
 from datetime import datetime
 from typing import Dict, List, Set
+from collections import Counter
+
+# Fix Windows console encoding
+sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8', errors='replace')
+sys.stderr = io.TextIOWrapper(sys.stderr.buffer, encoding='utf-8', errors='replace')
+
+
+def normalize_title(title: str) -> str:
+    """Normalize title for comparison."""
+    if not title:
+        return ''
+    # Lowercase, remove punctuation, normalize whitespace
+    title = title.lower().strip()
+    for char in '.,;:!?()[]{}"\'-':
+        title = title.replace(char, ' ')
+    return ' '.join(title.split())
+
+
+def title_similarity(title1: str, title2: str) -> float:
+    """Calculate similarity between two titles (0-1)."""
+    t1 = normalize_title(title1)
+    t2 = normalize_title(title2)
+    if not t1 or not t2:
+        return 0.0
+    if t1 == t2:
+        return 1.0
+    # Check if one is substring of other (common for preprints)
+    if t1 in t2 or t2 in t1:
+        return 0.95
+    # Word overlap ratio
+    words1 = set(t1.split())
+    words2 = set(t2.split())
+    if not words1 or not words2:
+        return 0.0
+    overlap = len(words1 & words2)
+    return overlap / max(len(words1), len(words2))
 
 
 def normalize_doi(doi: str) -> str:
@@ -19,6 +61,83 @@ def normalize_doi(doi: str) -> str:
         if doi.startswith(prefix):
             doi = doi[len(prefix):]
     return doi
+
+
+def deduplicate_preprints(publications: List[dict]) -> tuple:
+    """
+    Remove preprints that have matching published articles.
+    Returns (deduplicated_list, count_removed).
+    """
+    # Build index of articles by normalized title
+    articles = {}
+    for p in publications:
+        if p.get('type') == 'article':
+            title = normalize_title(p.get('title', ''))
+            if title:
+                articles[title] = p
+
+    # Check each preprint
+    removed = 0
+    deduplicated = []
+
+    for p in publications:
+        if p.get('type') == 'preprint':
+            title = normalize_title(p.get('title', ''))
+
+            # Check for exact title match
+            if title in articles:
+                removed += 1
+                continue
+
+            # Check for high similarity match
+            is_duplicate = False
+            for article_title in articles:
+                if title_similarity(title, article_title) > 0.85:
+                    removed += 1
+                    is_duplicate = True
+                    break
+
+            if is_duplicate:
+                continue
+
+        deduplicated.append(p)
+
+    return deduplicated, removed
+
+
+def compute_author_stats(publications: List[dict]) -> dict:
+    """
+    Compute per-author statistics with type breakdown.
+    Returns dict: {orcid: {name, total, by_type: {type: count}}}
+    """
+    author_stats = {}
+
+    for p in publications:
+        orcid = p.get('author_orcid', '')
+        if not orcid:
+            continue
+
+        if orcid not in author_stats:
+            author_stats[orcid] = {
+                'name': p.get('author', 'Unknown'),
+                'total': 0,
+                'by_type': Counter()
+            }
+
+        author_stats[orcid]['total'] += 1
+        pub_type = p.get('type', 'unknown')
+        author_stats[orcid]['by_type'][pub_type] += 1
+
+    # Convert Counters to dicts and add traditional_pubs count
+    for orcid, stats in author_stats.items():
+        by_type = dict(stats['by_type'])
+        stats['by_type'] = by_type
+        # Traditional publications = articles + book-chapters + books + reviews
+        stats['traditional_pubs'] = sum(
+            by_type.get(t, 0) for t in ['article', 'book-chapter', 'book', 'review']
+        )
+
+    return author_stats
 
 
 def main():
@@ -128,9 +247,15 @@ def main():
         })
         orcid_added += 1
 
-    print(f"\nCombined total: {len(combined)}")
+    print(f"\nCombined total (before dedup): {len(combined)}")
     print(f"  From OpenAlex: {openalex_count}")
     print(f"  From ORCID (unique): {orcid_added}")
+
+    # Deduplicate preprints that match published articles
+    combined, preprints_removed = deduplicate_preprints(combined)
+    print(f"\nPreprint deduplication:")
+    print(f"  Duplicate preprints removed: {preprints_removed}")
+    print(f"  Final count: {len(combined)}")
 
     # Sort by year (descending), then by citations
     combined.sort(key=lambda x: (-(x.get('year') or 0), -(x.get('cited_by') or 0)))
@@ -155,6 +280,9 @@ def main():
         if doi:
             unique_dois.add(doi)
 
+    # Compute per-author statistics with type breakdown
+    author_stats = compute_author_stats(combined)
+
     # Create output
     output = {
         'metadata': {
@@ -165,13 +293,15 @@ def main():
             'unique_dois': len(unique_dois),
             'total_authors': len(by_author),
             'from_openalex': openalex_count,
-            'from_orcid_unique': orcid_added
+            'from_orcid_unique': orcid_added,
+            'preprints_deduplicated': preprints_removed
         },
         'statistics': {
             'by_year': dict(sorted([(k, v) for k, v in by_year.items() if k], key=lambda x: -x[0] if isinstance(x[0], int) else 0)),
             'by_type': dict(sorted(by_type.items(), key=lambda x: -x[1])),
             'top_authors': dict(sorted(by_author.items(), key=lambda x: -x[1])[:50])
         },
+        'author_stats': author_stats,
         'publications': combined
     }
 
@@ -185,6 +315,7 @@ def main():
     apa_output = {
         'metadata': output['metadata'],
         'statistics': output['statistics'],
+        'author_stats': output['author_stats'],
         'publications': [
             {
                 'id': p['id'],
@@ -220,9 +351,23 @@ def main():
     for t, c in list(sorted(by_type.items(), key=lambda x: -x[1]))[:10]:
         print(f"  {t}: {c}")
 
-    print("\nTop 10 authors by publication count:")
-    for a, c in list(sorted(by_author.items(), key=lambda x: -x[1]))[:10]:
-        print(f"  {a}: {c}")
+    print("\nTop 10 authors by publication count (total / traditional):")
+    # Sort by total but show traditional breakdown
+    sorted_authors = sorted(author_stats.items(), key=lambda x: -x[1]['total'])[:10]
+    for orcid, stats in sorted_authors:
+        name = stats['name']
+        total = stats['total']
+        trad = stats['traditional_pubs']
+        print(f"  {name}: {total} total ({trad} traditional)")
+
+    print("\n" + "-" * 70)
+    print("Publication type breakdown for top authors:")
+    for orcid, stats in sorted_authors[:5]:
+        name = stats['name']
+        by_type = stats['by_type']
+        type_str = ", ".join(f"{t}: {c}" for t, c in sorted(by_type.items(), key=lambda x: -x[1]))
+        print(f"  {name}:")
+        print(f"    {type_str}")
 
     print("=" * 70)
 
