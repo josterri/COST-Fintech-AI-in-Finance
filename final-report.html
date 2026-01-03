@@ -27,30 +27,30 @@
         nav .nav-content { max-width: 1400px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center; }
         nav .logo { color: white; font-weight: 700; font-size: 1.2rem; text-decoration: none; }
         nav .logo span { color: var(--cost-orange); }
-        nav ul { display: flex; list-style: none; gap: 2rem; }
+        nav ul { display: flex; list-style: none; gap: 1rem; }
         nav a { color: rgba(255,255,255,0.9); text-decoration: none; font-size: 0.9rem; font-weight: 500; }
         nav a:hover { color: white; }
-        .hero { background: linear-gradient(135deg, var(--cost-green) 0%, var(--cost-teal) 50%, var(--cost-blue) 100%); color: white; padding: 8rem 2rem 4rem; text-align: center; }
+        .hero { background: linear-gradient(135deg, var(--cost-green) 0%, var(--cost-teal) 50%, var(--cost-blue) 100%); color: white; padding: 4.5rem 2rem 2rem; text-align: center; }
         .hero h1 { font-size: 2.5rem; font-weight: 700; margin-bottom: 0.5rem; }
         .hero .report-badge { display: inline-block; background: var(--cost-gold); color: var(--dark); padding: 0.4rem 1.2rem; border-radius: 20px; font-size: 0.9rem; font-weight: 600; margin-bottom: 1rem; }
         .hero .subtitle { font-size: 1.2rem; opacity: 0.95; max-width: 800px; margin: 0 auto 1rem; font-weight: 300; }
         .hero .period { font-size: 1rem; opacity: 0.8; }
-        .stats-banner { background: white; padding: 2rem; display: flex; justify-content: center; gap: 3rem; flex-wrap: wrap; box-shadow: 0 4px 20px rgba(0,0,0,0.08); }
+        .stats-banner { background: white; padding: 1rem; display: flex; justify-content: center; gap: 3rem; flex-wrap: wrap; box-shadow: 0 4px 20px rgba(0,0,0,0.08); }
         .stat-item { text-align: center; }
         .stat-number { font-size: 2.2rem; font-weight: 700; color: var(--cost-green); }
         .stat-label { font-size: 0.8rem; color: var(--gray); text-transform: uppercase; letter-spacing: 0.05em; }
-        section { padding: 4rem 2rem; max-width: 1200px; margin: 0 auto; }
-        section h2 { font-size: 1.8rem; color: var(--cost-purple); margin-bottom: 1.5rem; text-align: center; }
+        section { padding: 2rem 2rem; max-width: 1200px; margin: 0 auto; }
+        section h2 { font-size: 1.8rem; color: var(--cost-purple); margin-bottom: 0.75rem; text-align: center; }
         section h2::after { content: ''; display: block; width: 60px; height: 3px; background: var(--cost-orange); margin: 0.8rem auto 0; }
-        .report-cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 2rem; margin: 2rem 0; }
+        .report-cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 1rem; margin: 2rem 0; }
         .report-card { background: white; border-radius: 16px; overflow: hidden; box-shadow: 0 8px 30px rgba(0,0,0,0.12); transition: transform 0.3s, box-shadow 0.3s; }
         .report-card:hover { transform: translateY(-5px); box-shadow: 0 12px 40px rgba(0,0,0,0.18); }
-        .report-card-header { padding: 2rem; color: white; }
+        .report-card-header { padding: 1rem; color: white; }
         .report-card-header.green { background: linear-gradient(135deg, var(--cost-green), var(--cost-teal)); }
         .report-card-header.purple { background: linear-gradient(135deg, var(--cost-purple), #2d1b4e); }
         .report-card-header.blue { background: linear-gradient(135deg, var(--cost-blue), var(--cost-teal)); }
         .report-card-header.dark { background: linear-gradient(135deg, #2d1b4e, var(--cost-purple)); }
-        .report-card-header .badge { display: inline-block; background: rgba(255,255,255,0.2); padding: 0.2rem 0.8rem; border-radius: 12px; font-size: 0.75rem; margin-bottom: 0.8rem; }
+        .report-card-header .badge { display: inline-block; background: rgba(255,255,255,0.2); padding: 0.2rem 0.8rem; border-radius: 10px; font-size: 0.75rem; margin-bottom: 0.8rem; }
         .report-card-header h3 { font-size: 1.4rem; margin-bottom: 0.5rem; }
         .report-card-header p { opacity: 0.9; font-size: 0.9rem; }
         .report-card-body { padding: 1.5rem 2rem 2rem; }
@@ -62,26 +62,26 @@
         .summary-section { background: white; border-radius: 16px; padding: 2.5rem; box-shadow: 0 8px 30px rgba(0,0,0,0.1); margin: 2rem 0; }
         .summary-section h3 { color: var(--cost-purple); margin-bottom: 1rem; font-size: 1.3rem; }
         .summary-section p { color: var(--gray); font-size: 1rem; line-height: 1.8; margin-bottom: 1rem; }
-        .highlight-quote { background: linear-gradient(135deg, rgba(122,184,0,0.1), rgba(0,160,176,0.1)); border-left: 4px solid var(--cost-green); padding: 1.5rem; border-radius: 0 12px 12px 0; margin: 1.5rem 0; }
+        .highlight-quote { background: linear-gradient(135deg, rgba(122,184,0,0.1), rgba(0,160,176,0.1)); border-left: 4px solid var(--cost-green); padding: 1rem; border-radius: 0 12px 12px 0; margin: 1.5rem 0; }
         .highlight-quote p { color: var(--dark); font-style: italic; margin: 0; }
         .highlight-quote .source { font-style: normal; font-size: 0.85rem; color: var(--cost-green); margin-top: 0.5rem; font-weight: 600; }
-        .key-stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1.5rem; margin: 2rem 0; }
-        .key-stat { background: white; border-radius: 12px; padding: 1.5rem; text-align: center; box-shadow: 0 4px 15px rgba(0,0,0,0.08); border-top: 4px solid var(--cost-green); }
+        .key-stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; margin: 2rem 0; }
+        .key-stat { background: white; border-radius: 10px; padding: 1rem; text-align: center; box-shadow: 0 4px 15px rgba(0,0,0,0.08); border-top: 4px solid var(--cost-green); }
         .key-stat .value { font-size: 2.5rem; font-weight: 700; color: var(--cost-green); }
         .key-stat .label { font-size: 0.85rem; color: var(--gray); margin-top: 0.3rem; }
-        .platforms-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.5rem; margin: 2rem 0; }
-        .platform-card { background: white; border-radius: 12px; padding: 1.5rem; box-shadow: 0 4px 15px rgba(0,0,0,0.08); border-top: 3px solid var(--cost-teal); }
+        .platforms-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1rem; margin: 2rem 0; }
+        .platform-card { background: white; border-radius: 10px; padding: 1rem; box-shadow: 0 4px 15px rgba(0,0,0,0.08); border-top: 3px solid var(--cost-teal); }
         .platform-card h4 { color: var(--cost-purple); margin-bottom: 0.5rem; }
         .platform-card p { color: var(--gray); font-size: 0.9rem; margin-bottom: 1rem; }
         .platform-card a { color: var(--cost-teal); font-size: 0.85rem; text-decoration: none; font-weight: 500; }
         .platform-card a:hover { text-decoration: underline; }
-        .success-badge { display: inline-block; background: var(--success); color: white; padding: 0.3rem 0.8rem; border-radius: 12px; font-size: 0.8rem; font-weight: 600; }
+        .success-badge { display: inline-block; background: var(--success); color: white; padding: 0.3rem 0.8rem; border-radius: 10px; font-size: 0.8rem; font-weight: 600; }
         .pdf-download { display: inline-flex; align-items: center; gap: 0.5rem; background: var(--cost-purple); color: white; text-decoration: none; padding: 0.6rem 1.2rem; border-radius: 8px; font-size: 0.85rem; font-weight: 500; margin-top: 1rem; }
         .pdf-download:hover { background: #4a2470; }
-        footer { background: var(--dark); color: white; padding: 3rem 2rem; text-align: center; }
+        footer { background: var(--dark); color: white; padding: 1.5rem 2rem; text-align: center; }
         footer .footer-content { max-width: 1200px; margin: 0 auto; }
         footer a { color: var(--cost-orange); text-decoration: none; margin: 0 1rem; }
-        @media (max-width: 768px) { nav ul { display: none; } .hero h1 { font-size: 1.8rem; } .stats-banner { gap: 1.5rem; } }
+        @media (max-width: 768px) { nav ul { display: none; } .hero h1 { font-size: 1.8rem; } .stats-banner { gap: 1rem; } }
     </style>
     <link rel="stylesheet" href="css/mega-menu.css">
 </head>

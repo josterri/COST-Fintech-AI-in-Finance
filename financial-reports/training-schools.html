@@ -13,38 +13,38 @@
         nav .nav-content { max-width: 1400px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center; }
         nav .logo { color: white; font-weight: 700; }
         nav .logo span { color: var(--cost-orange); }
-        nav ul { display: flex; list-style: none; gap: 2rem; }
+        nav ul { display: flex; list-style: none; gap: 1rem; }
         nav a { color: rgba(255,255,255,0.9); text-decoration: none; font-size: 0.9rem; }
         .breadcrumb { margin-top: 60px; background: white; padding: 1rem 2rem; border-bottom: 1px solid var(--border); }
         .breadcrumb a { color: var(--cost-purple); text-decoration: none; }
-        .hero-small { background: linear-gradient(135deg, var(--cost-blue), var(--cost-purple)); color: white; padding: 3rem 2rem; text-align: center; }
+        .hero-small { background: linear-gradient(135deg, var(--cost-blue), var(--cost-purple)); color: white; padding: 1.5rem 2rem; text-align: center; }
         .hero-small h1 { font-size: 2rem; }
         .hero-small p { opacity: 0.9; margin-top: 0.5rem; }
-        section { padding: 2rem; max-width: 1200px; margin: 0 auto; }
+        section { padding: 1rem; max-width: 1200px; margin: 0 auto; }
         h2 { font-size: 1.3rem; color: var(--cost-purple); margin: 2rem 0 1rem; }
-        .stats { display: flex; gap: 2rem; margin-bottom: 2rem; flex-wrap: wrap; justify-content: center; }
-        .stat-box { background: white; padding: 1.2rem 1.8rem; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.08); text-align: center; min-width: 140px; }
+        .stats { display: flex; gap: 1rem; margin-bottom: 1rem; flex-wrap: wrap; justify-content: center; }
+        .stat-box { background: white; padding: 1.2rem 1.8rem; border-radius: 10px; box-shadow: 0 4px 20px rgba(0,0,0,0.08); text-align: center; min-width: 140px; }
         .stat-box .num { font-size: 1.8rem; font-weight: 700; color: var(--cost-blue); }
         .stat-box .label { font-size: 0.8rem; color: var(--gray); }
-        .chart-container { background: white; border-radius: 12px; padding: 1.5rem; box-shadow: 0 4px 20px rgba(0,0,0,0.08); margin: 2rem 0; }
+        .chart-container { background: white; border-radius: 10px; padding: 1rem; box-shadow: 0 4px 20px rgba(0,0,0,0.08); margin: 2rem 0; }
         .chart-container img { width: 100%; max-width: 800px; display: block; margin: 0 auto; }
-        .school-card { background: white; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.08); margin-bottom: 1.5rem; border-left: 4px solid var(--cost-blue); overflow: hidden; }
+        .school-card { background: white; border-radius: 10px; box-shadow: 0 4px 20px rgba(0,0,0,0.08); margin-bottom: 0.75rem; border-left: 4px solid var(--cost-blue); overflow: hidden; }
         .school-card.itc { border-left-color: var(--cost-orange); }
-        .school-header { padding: 1.5rem; cursor: pointer; transition: background 0.2s; }
+        .school-header { padding: 1rem; cursor: pointer; transition: background 0.2s; }
         .school-header:hover { background: rgba(0,0,0,0.02); }
         .school-card h3 { font-size: 1.1rem; color: var(--cost-purple); margin-bottom: 0.5rem; display: flex; align-items: center; gap: 0.5rem; flex-wrap: wrap; }
         .school-meta { display: flex; flex-wrap: wrap; gap: 1rem; margin-bottom: 1rem; font-size: 0.85rem; color: var(--gray); }
         .school-meta span { display: flex; align-items: center; gap: 0.3rem; }
-        .school-stats { display: flex; gap: 1.5rem; flex-wrap: wrap; }
+        .school-stats { display: flex; gap: 1rem; flex-wrap: wrap; }
         .school-stat { text-align: center; padding: 0.5rem 1rem; background: var(--light); border-radius: 8px; }
         .school-stat .value { font-size: 1.2rem; font-weight: 700; color: var(--cost-blue); }
         .school-stat .label { font-size: 0.7rem; color: var(--gray); }
-        .badge { display: inline-block; padding: 3px 10px; border-radius: 12px; font-size: 0.75rem; font-weight: 500; }
+        .badge { display: inline-block; padding: 3px 10px; border-radius: 10px; font-size: 0.75rem; font-weight: 500; }
         .badge-itc { background: var(--cost-orange); color: white; }
         .badge-gp { background: rgba(91, 45, 138, 0.15); color: var(--cost-purple); }
         .toggle-btn { background: var(--cost-teal); color: white; border: none; padding: 0.5rem 1rem; border-radius: 6px; cursor: pointer; font-size: 0.8rem; margin-top: 0.5rem; }
         .toggle-btn:hover { background: #008a99; }
-        .participants-panel { display: none; border-top: 1px solid var(--border); padding: 1rem 1.5rem; background: rgba(0,0,0,0.01); }
+        .participants-panel { display: none; border-top: 1px solid var(--border); padding: 0.5rem 0.75rem; background: rgba(0,0,0,0.01); }
         .participants-panel.open { display: block; }
         .participants-table { width: 100%; border-collapse: collapse; font-size: 0.85rem; }
         .participants-table th { background: var(--cost-blue); color: white; padding: 8px 10px; text-align: left; font-weight: 500; font-size: 0.8rem; }
@@ -54,9 +54,9 @@
         .amount { font-weight: 600; color: var(--cost-teal); }
         .summary-card { background: rgba(91, 45, 138, 0.05); border-left-color: var(--cost-purple); }
         .summary-card .school-stats { justify-content: space-around; }
-        footer { background: var(--dark); color: white; padding: 2rem; text-align: center; margin-top: 2rem; }
+        footer { background: var(--dark); color: white; padding: 1rem; text-align: center; margin-top: 0.75rem; }
         footer a { color: var(--cost-orange); text-decoration: none; }
-        .loading { text-align: center; padding: 2rem; color: var(--gray); }
+        .loading { text-align: center; padding: 1rem; color: var(--gray); }
         @media (max-width: 768px) {
             nav ul { display: none; }
             .participants-table { font-size: 0.75rem; }

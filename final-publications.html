@@ -22,7 +22,7 @@
         nav .nav-content { max-width: 1400px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center; }
         nav .logo { color: white; font-weight: 700; font-size: 1.2rem; text-decoration: none; }
         nav .logo span { color: var(--cost-orange); }
-        nav ul { display: flex; list-style: none; gap: 2rem; }
+        nav ul { display: flex; list-style: none; gap: 1rem; }
         nav a { color: rgba(255,255,255,0.9); text-decoration: none; font-size: 0.9rem; font-weight: 500; }
         nav a:hover { color: white; }
         .hero { background: linear-gradient(135deg, var(--cost-purple) 0%, var(--cost-blue) 100%); color: white; padding: 7rem 2rem 3rem; text-align: center; }
@@ -32,31 +32,31 @@
         .breadcrumb { background: white; padding: 1rem 2rem; border-bottom: 1px solid #dee2e6; }
         .breadcrumb a { color: var(--cost-purple); text-decoration: none; font-size: 0.9rem; }
         .breadcrumb span { color: var(--gray); font-size: 0.9rem; }
-        section { padding: 3rem 2rem; max-width: 1100px; margin: 0 auto; }
-        section h2 { font-size: 1.6rem; color: var(--cost-purple); margin-bottom: 1.5rem; }
+        section { padding: 1.5rem 2rem; max-width: 1100px; margin: 0 auto; }
+        section h2 { font-size: 1.6rem; color: var(--cost-purple); margin-bottom: 0.75rem; }
         section h2::after { content: ''; display: block; width: 50px; height: 3px; background: var(--cost-orange); margin-top: 0.5rem; }
-        .card { background: white; border-radius: 12px; padding: 2rem; box-shadow: 0 4px 20px rgba(0,0,0,0.08); margin-bottom: 1.5rem; }
+        .card { background: white; border-radius: 10px; padding: 1rem; box-shadow: 0 4px 20px rgba(0,0,0,0.08); margin-bottom: 0.75rem; }
         .stats-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 1rem; margin: 1.5rem 0; }
-        .stat-box { background: white; border-radius: 8px; padding: 1.5rem; text-align: center; box-shadow: 0 4px 15px rgba(0,0,0,0.08); border-top: 4px solid var(--cost-purple); }
+        .stat-box { background: white; border-radius: 8px; padding: 1rem; text-align: center; box-shadow: 0 4px 15px rgba(0,0,0,0.08); border-top: 4px solid var(--cost-purple); }
         .stat-box .value { font-size: 2rem; font-weight: 700; color: var(--cost-purple); }
         .stat-box .label { font-size: 0.85rem; color: var(--gray); margin-top: 0.3rem; }
-        .platform-card { background: white; border-radius: 12px; padding: 1.5rem; box-shadow: 0 4px 15px rgba(0,0,0,0.08); border-left: 4px solid var(--cost-teal); margin-bottom: 1rem; }
+        .platform-card { background: white; border-radius: 10px; padding: 1rem; box-shadow: 0 4px 15px rgba(0,0,0,0.08); border-left: 4px solid var(--cost-teal); margin-bottom: 1rem; }
         .platform-card h4 { color: var(--cost-purple); margin-bottom: 0.5rem; }
         .platform-card p { color: var(--gray); font-size: 0.9rem; margin-bottom: 0.5rem; }
         .platform-card a { color: var(--cost-teal); font-size: 0.85rem; text-decoration: none; }
         .platform-card a:hover { text-decoration: underline; }
-        .highlight { background: linear-gradient(135deg, rgba(91,45,138,0.08), rgba(43,95,158,0.08)); border-radius: 12px; padding: 2rem; margin: 2rem 0; }
+        .highlight { background: linear-gradient(135deg, rgba(91,45,138,0.08), rgba(43,95,158,0.08)); border-radius: 10px; padding: 1rem; margin: 2rem 0; }
         .highlight h3 { color: var(--cost-purple); margin-bottom: 1rem; }
         .highlight p { color: var(--gray); line-height: 1.8; }
-        .pub-categories { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1.5rem; margin: 2rem 0; }
-        .category-card { background: white; border-radius: 12px; padding: 1.5rem; box-shadow: 0 4px 15px rgba(0,0,0,0.08); }
+        .pub-categories { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1rem; margin: 2rem 0; }
+        .category-card { background: white; border-radius: 10px; padding: 1rem; box-shadow: 0 4px 15px rgba(0,0,0,0.08); }
         .category-card h4 { color: var(--cost-purple); margin-bottom: 0.8rem; display: flex; align-items: center; gap: 0.5rem; }
         .category-card ul { list-style: none; }
         .category-card li { color: var(--gray); font-size: 0.9rem; padding: 0.4rem 0; border-bottom: 1px solid #eee; }
         .category-card li:last-child { border-bottom: none; }
         .btn-link { display: inline-block; background: var(--cost-purple); color: white; text-decoration: none; padding: 0.8rem 1.5rem; border-radius: 8px; font-weight: 500; font-size: 0.9rem; margin-top: 1rem; }
         .btn-link:hover { background: #4a2470; }
-        footer { background: var(--dark); color: white; padding: 2rem; text-align: center; }
+        footer { background: var(--dark); color: white; padding: 1rem; text-align: center; }
         footer a { color: var(--cost-orange); text-decoration: none; }
         @media (max-width: 768px) { nav ul { display: none; } .hero h1 { font-size: 1.6rem; } }
     </style>
@@ -295,7 +295,7 @@
 
     <section>
         <h2>Research Platforms</h2>
-        <p style="color: var(--gray); margin-bottom: 1.5rem;">The Action established several platforms to host research outputs and facilitate knowledge sharing:</p>
+        <p style="color: var(--gray); margin-bottom: 0.75rem;">The Action established several platforms to host research outputs and facilitate knowledge sharing:</p>
         <div id="platformsList">
             <!-- Loaded from JSON -->
         </div>
@@ -321,7 +321,7 @@
         <h2>Access Publications</h2>
         <div class="card" style="text-align: center;">
             <h3 style="color: var(--cost-purple); margin-bottom: 1rem;">Complete Publication Database</h3>
-            <p style="color: var(--gray); margin-bottom: 1.5rem;">View the complete list of publications from all Action members with detailed bibliographic information.</p>
+            <p style="color: var(--gray); margin-bottom: 0.75rem;">View the complete list of publications from all Action members with detailed bibliographic information.</p>
             <a href="publications.html" class="btn-link">View Full Publications List</a>
         </div>
     </section>

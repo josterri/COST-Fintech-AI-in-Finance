@@ -364,8 +364,8 @@
 .legacy-footer {
   background: var(--cost-dark);
   color: white;
-  padding: 3rem 2rem 1.5rem;
-  margin-top: 4rem;
+  padding: 1.5rem 2rem 1rem;
+  margin-top: 1.5rem;
 }
 
 .legacy-footer-content {
@@ -375,7 +375,7 @@
 
 .legacy-footer-title {
   text-align: center;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 }
 
 .legacy-footer-title h3 {
@@ -391,8 +391,8 @@
 .legacy-footer-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 2rem;
-  margin-bottom: 2rem;
+  gap: 1.5rem;
+  margin-bottom: 1rem;
 }
 
 .legacy-footer-col h4 {
@@ -401,7 +401,7 @@
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.5px;
-  margin: 0 0 1rem 0;
+  margin: 0 0 0.5rem 0;
 }
 
 .legacy-footer-col a {
@@ -419,7 +419,7 @@
 
 .legacy-footer-bottom {
   border-top: 1px solid #334155;
-  padding-top: 1.5rem;
+  padding-top: 0.75rem;
   text-align: center;
   color: #64748b;
   font-size: 0.85rem;

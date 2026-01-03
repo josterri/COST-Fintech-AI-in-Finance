@@ -26,7 +26,7 @@
         nav .nav-content { max-width: 1400px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center; }
         nav .logo { color: white; font-weight: 700; font-size: 1.2rem; }
         nav .logo span { color: var(--cost-orange); }
-        nav ul { display: flex; list-style: none; gap: 2rem; }
+        nav ul { display: flex; list-style: none; gap: 1rem; }
         nav a { color: rgba(255,255,255,0.9); text-decoration: none; font-size: 0.9rem; font-weight: 500; }
         nav a:hover { color: white; }
         .hero { background: linear-gradient(135deg, var(--cost-purple) 0%, var(--cost-blue) 100%); color: white; padding: 7rem 2rem 3rem; text-align: center; }
@@ -36,10 +36,10 @@
         .breadcrumb { background: white; padding: 1rem 2rem; border-bottom: 1px solid var(--border); }
         .breadcrumb a { color: var(--cost-purple); text-decoration: none; }
         .breadcrumb span { color: var(--gray); }
-        section { padding: 3rem 2rem; max-width: 1200px; margin: 0 auto; }
-        section h2 { font-size: 1.6rem; color: var(--cost-purple); margin-bottom: 1.5rem; border-bottom: 2px solid var(--cost-orange); padding-bottom: 0.5rem; }
+        section { padding: 1.5rem 2rem; max-width: 1200px; margin: 0 auto; }
+        section h2 { font-size: 1.6rem; color: var(--cost-purple); margin-bottom: 0.75rem; border-bottom: 2px solid var(--cost-orange); padding-bottom: 0.5rem; }
         section h3 { font-size: 1.2rem; color: var(--dark); margin: 1.5rem 0 1rem; }
-        .card { background: white; border-radius: 12px; padding: 1.5rem; box-shadow: 0 4px 15px rgba(0,0,0,0.08); margin-bottom: 1.5rem; }
+        .card { background: white; border-radius: 10px; padding: 1rem; box-shadow: 0 4px 15px rgba(0,0,0,0.08); margin-bottom: 0.75rem; }
         .card h4 { color: var(--cost-purple); margin-bottom: 0.5rem; font-size: 1rem; }
         .card p { color: var(--gray); font-size: 0.9rem; line-height: 1.7; }
         .progress-bar { height: 8px; background: var(--border); border-radius: 4px; margin: 0.5rem 0; overflow: hidden; }
@@ -47,20 +47,20 @@
         .progress-bar .fill.high { background: var(--success); }
         .progress-bar .fill.medium { background: var(--warning); }
         .progress-bar .fill.low { background: var(--cost-teal); }
-        .objective-grid { display: grid; gap: 1.5rem; }
-        .objective-item { background: white; border-radius: 12px; padding: 1.5rem; box-shadow: 0 4px 15px rgba(0,0,0,0.08); border-left: 4px solid var(--cost-purple); }
+        .objective-grid { display: grid; gap: 1rem; }
+        .objective-item { background: white; border-radius: 10px; padding: 1rem; box-shadow: 0 4px 15px rgba(0,0,0,0.08); border-left: 4px solid var(--cost-purple); }
         .objective-item h4 { font-size: 0.95rem; color: var(--dark); margin-bottom: 0.5rem; }
         .objective-item .progress-label { font-size: 0.8rem; color: var(--cost-purple); font-weight: 600; margin-bottom: 0.3rem; }
         .objective-item .description { font-size: 0.85rem; color: var(--gray); line-height: 1.6; margin-top: 1rem; }
         .stats-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 1rem; margin: 1.5rem 0; }
-        .stat-box { background: linear-gradient(135deg, var(--cost-purple), var(--cost-blue)); color: white; padding: 1.5rem; border-radius: 12px; text-align: center; }
+        .stat-box { background: linear-gradient(135deg, var(--cost-purple), var(--cost-blue)); color: white; padding: 1rem; border-radius: 10px; text-align: center; }
         .stat-box .number { font-size: 2rem; font-weight: 700; }
         .stat-box .label { font-size: 0.8rem; opacity: 0.9; }
         .deliverable-table { width: 100%; border-collapse: collapse; margin: 1rem 0; }
         .deliverable-table th { background: var(--cost-purple); color: white; padding: 0.8rem; text-align: left; font-size: 0.85rem; }
         .deliverable-table td { padding: 0.8rem; border-bottom: 1px solid var(--border); font-size: 0.85rem; }
         .deliverable-table tr:hover { background: rgba(91,45,138,0.03); }
-        .status-badge { display: inline-block; padding: 0.2rem 0.6rem; border-radius: 12px; font-size: 0.75rem; font-weight: 600; }
+        .status-badge { display: inline-block; padding: 0.2rem 0.6rem; border-radius: 10px; font-size: 0.75rem; font-weight: 600; }
         .status-badge.delivered { background: rgba(40,167,69,0.15); color: var(--success); }
         .status-badge.expected { background: rgba(232,119,34,0.15); color: var(--cost-orange); }
         .publication-list { max-height: 600px; overflow-y: auto; }
@@ -73,11 +73,11 @@
         .country-tags { display: flex; gap: 0.3rem; margin-top: 0.3rem; flex-wrap: wrap; }
         .country-tag { background: rgba(91,45,138,0.1); color: var(--cost-purple); padding: 0.1rem 0.4rem; border-radius: 8px; font-size: 0.65rem; }
         .platform-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1rem; }
-        .platform-card { background: white; border-radius: 12px; padding: 1.2rem; box-shadow: 0 4px 15px rgba(0,0,0,0.08); border-top: 3px solid var(--cost-teal); }
+        .platform-card { background: white; border-radius: 10px; padding: 1.2rem; box-shadow: 0 4px 15px rgba(0,0,0,0.08); border-top: 3px solid var(--cost-teal); }
         .platform-card h4 { color: var(--dark); margin-bottom: 0.3rem; font-size: 0.95rem; }
         .platform-card p { color: var(--gray); font-size: 0.8rem; margin-bottom: 0.5rem; }
         .platform-card a { color: var(--cost-blue); font-size: 0.8rem; text-decoration: none; }
-        footer { background: var(--dark); color: white; padding: 2rem; text-align: center; }
+        footer { background: var(--dark); color: white; padding: 1rem; text-align: center; }
         footer a { color: var(--cost-orange); text-decoration: none; margin: 0 1rem; }
         @media (max-width: 768px) { nav ul { display: none; } .hero h1 { font-size: 1.6rem; } }
     </style>
