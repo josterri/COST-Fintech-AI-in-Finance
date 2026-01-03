@@ -1,11 +1,11 @@
 {
   "metadata": {
     "source": "ORCID",
-    "date_fetched": "2026-01-02T19:53:33.882071",
+    "date_fetched": "2026-01-03T08:18:59.820180",
     "date_range": "2020-2025",
-    "total_authors": 266,
-    "total_publications": 4184,
-    "authors_with_publications": 221
+    "total_authors": 295,
+    "total_publications": 4506,
+    "authors_with_publications": 246
   },
   "publications": [
     {
@@ -35,6 +35,90 @@
       "year": 2025,
       "cost_author": "Ivan Chorbev",
       "cost_author_orcid": "0000-0002-9648-4438"
+    },
+    {
+      "apa": "IVANOVIC, M. (2025). eXING-IoT conceptual framework for explainability integration in next generation-IoT. *Connection Science*. https://doi.org/10.1080/09540091.2025.2507180",
+      "doi": "https://doi.org/10.1080/09540091.2025.2507180",
+      "year": 2025,
+      "cost_author": "MIRJANA IVANOVIC",
+      "cost_author_orcid": "0000-0003-1946-0384"
+    },
+    {
+      "apa": "IVANOVIC, M. (2025). Aligning the Operationalization of Digital Competences with Perceived AI Literacy: The Case of HE Students in IT Engineering and Teacher Education. *Education Sciences*. https://doi.org/10.3390/educsci15121582",
+      "doi": "https://doi.org/10.3390/educsci15121582",
+      "year": 2025,
+      "cost_author": "MIRJANA IVANOVIC",
+      "cost_author_orcid": "0000-0003-1946-0384"
+    },
+    {
+      "apa": "IVANOVIC, M. (2025). ECaps-GTR: optimizing spatiotemporal EEG emotion recognition via the augmented capsule-gated transformer. *The Computer Journal*. https://doi.org/10.1093/comjnl/bxaf119",
+      "doi": "https://doi.org/10.1093/comjnl/bxaf119",
+      "year": 2025,
+      "cost_author": "MIRJANA IVANOVIC",
+      "cost_author_orcid": "0000-0003-1946-0384"
+    },
+    {
+      "apa": "IVANOVIC, M. (2025). Federated Attention Autoencoders with a Stochastic Aggregation Scheme for Anomaly Detection. *Zenodo*. https://doi.org/10.5281/zenodo.17803932",
+      "doi": "https://doi.org/10.5281/zenodo.17803932",
+      "year": 2025,
+      "cost_author": "MIRJANA IVANOVIC",
+      "cost_author_orcid": "0000-0003-1946-0384"
+    },
+    {
+      "apa": "IVANOVIC, M. (2025). Community Detection Methods Based on Exploiting Attributes and Interactions on Social Networks: A Survey and Future Directions. *Vietnam Journal of Computer Science*. https://doi.org/10.1142/S2196888824300011",
+      "doi": "https://doi.org/10.1142/S2196888824300011",
+      "year": 2025,
+      "cost_author": "MIRJANA IVANOVIC",
+      "cost_author_orcid": "0000-0003-1946-0384"
+    },
+    {
+      "apa": "IVANOVIC, M. (2025). Cross-Domain Generalization for LiDAR-Based 3D Object Detection in Infrastructure and Vehicle Environments. *Sensors*. https://doi.org/10.3390/s25030767",
+      "doi": "https://doi.org/10.3390/s25030767",
+      "year": 2025,
+      "cost_author": "MIRJANA IVANOVIC",
+      "cost_author_orcid": "0000-0003-1946-0384"
+    },
+    {
+      "apa": "IVANOVIC, M. (2025). Editorial. *Computer Science and Information Systems*. https://doi.org/10.2298/CSIS250300iI",
+      "doi": "https://doi.org/10.2298/CSIS250300iI",
+      "year": 2025,
+      "cost_author": "MIRJANA IVANOVIC",
+      "cost_author_orcid": "0000-0003-1946-0384"
+    },
+    {
+      "apa": "IVANOVIC, M. (2025). Editorial. *Computer Science and Information Systems*. https://doi.org/10.2298/CSIS250400iI",
+      "doi": "https://doi.org/10.2298/CSIS250400iI",
+      "year": 2025,
+      "cost_author": "MIRJANA IVANOVIC",
+      "cost_author_orcid": "0000-0003-1946-0384"
+    },
+    {
+      "apa": "IVANOVIC, M. (2025). FAP: A time series analysis and mining framework for scientific and practical applications. *Computer Science and Information Systems*. https://doi.org/10.2298/CSIS240910029G",
+      "doi": "https://doi.org/10.2298/CSIS240910029G",
+      "year": 2025,
+      "cost_author": "MIRJANA IVANOVIC",
+      "cost_author_orcid": "0000-0003-1946-0384"
+    },
+    {
+      "apa": "IVANOVIC, M. (2025). Guest editorial: Emergences in computing and information technologies: Towards a sustainable wellbeing environment. *Computer Science and Information Systems*. https://doi.org/10.2298/CSIS250400iiiC",
+      "doi": "https://doi.org/10.2298/CSIS250400iiiC",
+      "year": 2025,
+      "cost_author": "MIRJANA IVANOVIC",
+      "cost_author_orcid": "0000-0003-1946-0384"
+    },
+    {
+      "apa": "IVANOVIC, M. (2025). Image semantic segmentation based on multi-layer feature information fusion and dual convolutional attention mechanism. *Computer Science and Information Systems*. https://doi.org/10.2298/CSIS240713051T",
+      "doi": "https://doi.org/10.2298/CSIS240713051T",
+      "year": 2025,
+      "cost_author": "MIRJANA IVANOVIC",
+      "cost_author_orcid": "0000-0003-1946-0384"
+    },
+    {
+      "apa": "IVANOVIC, M. (2025). Multimodal deep learning-based feature fusion for object detection in remote sensing images. *Computer Science and Information Systems*. https://doi.org/10.2298/CSIS241110011Y",
+      "doi": "https://doi.org/10.2298/CSIS241110011Y",
+      "year": 2025,
+      "cost_author": "MIRJANA IVANOVIC",
+      "cost_author_orcid": "0000-0003-1946-0384"
     },
     {
       "apa": "Ribeiro, B. (2025). Bayesian Optimization with 1D-CSNN. *Zenodo*. https://doi.org/10.5281/zenodo.12628434",
@@ -114,6 +198,13 @@
       "cost_author_orcid": "0000-0003-0451-0529"
     },
     {
+      "apa": "Gregoriades, A. (2025). Improving Crowdfunding Decisions Using Explainable Artificial Intelligence. *Sustainability*. https://doi.org/10.3390/su17041361",
+      "doi": "https://doi.org/10.3390/su17041361",
+      "year": 2025,
+      "cost_author": "Andreas Gregoriades",
+      "cost_author_orcid": "0000-0002-7422-1514"
+    },
+    {
       "apa": "Rupeika-Apoga, R. (2025). Editorial—The Future of Money: Central Bank Digital Currencies, Cryptocurrencies and Stablecoins. *Journal of Risk and Financial Management*. https://doi.org/10.3390/jrfm18090469",
       "doi": "https://doi.org/10.3390/jrfm18090469",
       "year": 2025,
@@ -133,6 +224,20 @@
       "year": 2025,
       "cost_author": "Ramona Rupeika-Apoga",
       "cost_author_orcid": "0000-0002-3941-0723"
+    },
+    {
+      "apa": "Emiris, I. (2025). metagRoot: A comprehensive database of protein families associated with plant root microbiomes. https://doi.org/10.1101/2025.05.22.653656",
+      "doi": "https://doi.org/10.1101/2025.05.22.653656",
+      "year": 2025,
+      "cost_author": "Ioannis Emiris",
+      "cost_author_orcid": "0000-0002-2339-5303"
+    },
+    {
+      "apa": "Emiris, I. (2025). FALE: Fairness-Aware ALE Plots for Auditing Bias in Subgroups. https://doi.org/10.1007/978-3-031-74627-7_37",
+      "doi": "https://doi.org/10.1007/978-3-031-74627-7_37",
+      "year": 2025,
+      "cost_author": "Ioannis Emiris",
+      "cost_author_orcid": "0000-0002-2339-5303"
     },
     {
       "apa": "Truică, C. (2025). Multiword Discourse Markers Across Languages: A Linguistic and Computational Perspective. *International Journal of Applied Linguistics*. https://doi.org/10.1111/ijal.12755",
@@ -730,6 +835,20 @@
       "cost_author_orcid": "0000-0001-8029-3584"
     },
     {
+      "apa": "Jerić, S. V. (2025). Mrežna analiza prometa dionica: uvid u strukturalne obrasce unutar indeksa CROBEX. *Zbornik Ekonomskog fakulteta u Zagrebu*. https://doi.org/10.22598/zefzg.2025.2.47",
+      "doi": "https://doi.org/10.22598/zefzg.2025.2.47",
+      "year": 2025,
+      "cost_author": "Silvija Vlah Jerić",
+      "cost_author_orcid": "0000-0003-4738-6337"
+    },
+    {
+      "apa": "Jerić, S. V. (2025). Effects of specific versus ad valorem excise taxes: empirical evidence on cigarette pricing in the EU. *Empirica*. https://doi.org/10.1007/s10663-024-09637-9",
+      "doi": "https://doi.org/10.1007/s10663-024-09637-9",
+      "year": 2025,
+      "cost_author": "Silvija Vlah Jerić",
+      "cost_author_orcid": "0000-0003-4738-6337"
+    },
+    {
       "apa": "Schwendner, P. (2025). The Stock and Option Market Response to Negative ESG News. *The International Journal of Accounting*. https://doi.org/10.1142/S109440602440002X",
       "doi": "https://doi.org/10.1142/S109440602440002X",
       "year": 2025,
@@ -798,6 +917,34 @@
       "year": 2025,
       "cost_author": "Piotr Wójcik",
       "cost_author_orcid": "0000-0003-1853-8784"
+    },
+    {
+      "apa": "Paccagnini, A. (2025). Female Macroeconomics Leadership: Navigating Economic Uncertainties.",
+      "doi": null,
+      "year": 2025,
+      "cost_author": "Alessia Paccagnini",
+      "cost_author_orcid": "0000-0002-2421-7242"
+    },
+    {
+      "apa": "Paccagnini, A. (2025). The effects of adopting the anti-smog resolution on air quality – the case study from Krakow. *Economics and Environment*. https://doi.org/10.34659/eis.2025.93.2.931",
+      "doi": "https://doi.org/10.34659/eis.2025.93.2.931",
+      "year": 2025,
+      "cost_author": "Alessia Paccagnini",
+      "cost_author_orcid": "0000-0002-2421-7242"
+    },
+    {
+      "apa": "Paccagnini, A. (2025). Editorial Boards of Finance Journals: The Gender Gap and Social Networks. *Journal of Business Ethics*. https://doi.org/10.1007/s10551-024-05830-9",
+      "doi": "https://doi.org/10.1007/s10551-024-05830-9",
+      "year": 2025,
+      "cost_author": "Alessia Paccagnini",
+      "cost_author_orcid": "0000-0002-2421-7242"
+    },
+    {
+      "apa": "Paccagnini, A. (2025). Editorial: Applications of AI and machine learning in finance and economics. *Frontiers in Artificial Intelligence*. https://doi.org/10.3389/frai.2025.1715929",
+      "doi": "https://doi.org/10.3389/frai.2025.1715929",
+      "year": 2025,
+      "cost_author": "Alessia Paccagnini",
+      "cost_author_orcid": "0000-0002-2421-7242"
     },
     {
       "apa": "Vazquez, C. (2025). Stochastic modelling of viral infection spread via a Partial Integro-Differential Equation. *Infectious Disease Modelling*. https://doi.org/10.1016/j.idm.2025.07.005",
@@ -952,6 +1099,27 @@
       "year": 2025,
       "cost_author": "Jan-Alexander Posth",
       "cost_author_orcid": "0000-0002-5898-0676"
+    },
+    {
+      "apa": "Härdle, W. (2025). Modeling SSE 50 ETF Returns and Option Pricing: Evidence from a Score-Driven GARCH-Jump Approach. *Mathematics*. https://doi.org/10.3390/math13203332",
+      "doi": "https://doi.org/10.3390/math13203332",
+      "year": 2025,
+      "cost_author": "Wolfgang Härdle",
+      "cost_author_orcid": "0000-0001-5600-3014"
+    },
+    {
+      "apa": "Härdle, W. (2025). A machine learning based regulatory risk index for cryptocurrencies. *Computational Statistics*. https://doi.org/10.1007/s00180-025-01629-y",
+      "doi": "https://doi.org/10.1007/s00180-025-01629-y",
+      "year": 2025,
+      "cost_author": "Wolfgang Härdle",
+      "cost_author_orcid": "0000-0001-5600-3014"
+    },
+    {
+      "apa": "Trimborn, S. (2025). Domain-Informed Negative Sampling Strategies for Dynamic Graph Embedding in Meme Stock-Related Social Networks. https://doi.org/10.1145/3696410.3714650",
+      "doi": "https://doi.org/10.1145/3696410.3714650",
+      "year": 2025,
+      "cost_author": "Simon Trimborn",
+      "cost_author_orcid": "0000-0003-3745-4164"
     },
     {
       "apa": "Djordjevic, J. (2025). Corrigendum to \"Dynamical analysis of a stochastic delayed epidemic model with Lévy jumps and regime switching\" [Journal of the Franklin Institute 360 (2023) 1252–1283]. *Journal of the Franklin Institute*. https://doi.org/10.1016/j.jfranklin.2025.107582",
@@ -1423,6 +1591,20 @@
       "cost_author_orcid": "0000-0002-2126-2339"
     },
     {
+      "apa": "Poljašević, J. (2025). FISCAL (IN)STABILITY IN THE COUNTRIES OF THE WESTERN BALKANS. *НОВИ ЕКОНОМИСТ*. https://doi.org/10.69781/NOEK202538173",
+      "doi": "https://doi.org/10.69781/NOEK202538173",
+      "year": 2025,
+      "cost_author": "Jelena Poljašević",
+      "cost_author_orcid": "0000-0002-6891-4875"
+    },
+    {
+      "apa": "Poljašević, J. (2025). UKLJUČIVANJE ZAINTERESOVANIH STRANA U ODREĐIVANJE ZNAČAJNIH TEMA U IZVJEŠTAJ O ODRŽIVOSTI. https://doi.org/10.46793/RZ25.039P",
+      "doi": "https://doi.org/10.46793/RZ25.039P",
+      "year": 2025,
+      "cost_author": "Jelena Poljašević",
+      "cost_author_orcid": "0000-0002-6891-4875"
+    },
+    {
       "apa": "Skaftadóttir, H. K. (2025). The Color of Change: Character Types and Employee Perception of RPA. *Journal of Emerging Technologies in Accounting*. https://doi.org/10.2308/JETA-2025-007",
       "doi": "https://doi.org/10.2308/JETA-2025-007",
       "year": 2025,
@@ -1808,6 +1990,27 @@
       "cost_author_orcid": "0000-0001-5095-5356"
     },
     {
+      "apa": "Fengler, M. (2025). Unveiling themes in 10-K disclosures: A new topic modeling perspective. *International Review of Financial Analysis*. https://doi.org/10.1016/j.irfa.2025.104121",
+      "doi": "https://doi.org/10.1016/j.irfa.2025.104121",
+      "year": 2025,
+      "cost_author": "Matthias Fengler",
+      "cost_author_orcid": "0000-0002-9862-9258"
+    },
+    {
+      "apa": "Fengler, M. (2025). Structural Volatility Impulse Response Analysis. *Journal of Financial Econometrics*. https://doi.org/10.1093/jjfinec/nbae036",
+      "doi": "https://doi.org/10.1093/jjfinec/nbae036",
+      "year": 2025,
+      "cost_author": "Matthias Fengler",
+      "cost_author_orcid": "0000-0002-9862-9258"
+    },
+    {
+      "apa": "Fengler, M. (2025). Locally Adaptive Modeling of Unconditional Heteroskedasticity. *The New England Journal of Statistics in Data Science*. https://doi.org/10.51387/25-nejsds91",
+      "doi": "https://doi.org/10.51387/25-nejsds91",
+      "year": 2025,
+      "cost_author": "Matthias Fengler",
+      "cost_author_orcid": "0000-0002-9862-9258"
+    },
+    {
       "apa": "Tanda, A. (2025). Can Soft Information Survive Organizational Distance? Evidence from SMB Lending. *European Accounting Review*. https://doi.org/10.1080/09638180.2024.2447356",
       "doi": "https://doi.org/10.1080/09638180.2024.2447356",
       "year": 2025,
@@ -2179,6 +2382,20 @@
       "cost_author_orcid": "0000-0002-3651-9934"
     },
     {
+      "apa": "Anderloni, L. (2025). Peer-to-peer lending: Exploring borrowers’ motivations and expectations. *Journal of Small Business Management*. https://doi.org/10.1080/00472778.2024.2431232",
+      "doi": "https://doi.org/10.1080/00472778.2024.2431232",
+      "year": 2025,
+      "cost_author": "Luisa Anderloni",
+      "cost_author_orcid": "0000-0003-3159-5943"
+    },
+    {
+      "apa": "Anderloni, L. (2025). Innovative startups and their traditional peers: Further evidence using performance and survival analysis. *Review of Financial Economics*. https://doi.org/10.1002/rfe.70004",
+      "doi": "https://doi.org/10.1002/rfe.70004",
+      "year": 2025,
+      "cost_author": "Luisa Anderloni",
+      "cost_author_orcid": "0000-0003-3159-5943"
+    },
+    {
       "apa": "Sejdini, I. (2025). Navigating the Digital Economy. https://doi.org/10.4018/979-8-3693-5623-4.ch011",
       "doi": "https://doi.org/10.4018/979-8-3693-5623-4.ch011",
       "year": 2025,
@@ -2396,6 +2613,13 @@
       "cost_author_orcid": "0000-0002-5541-4257"
     },
     {
+      "apa": "Mihus, I. (2025). Operational Intellectual Property Governance for EU Game Developers: A Reputation-Oriented, Evidence-Based Model for Cross-Border Enforcement. *Public Administration and Law Review*. https://doi.org/10.36690/2674-5216-2025-4-20-28",
+      "doi": "https://doi.org/10.36690/2674-5216-2025-4-20-28",
+      "year": 2025,
+      "cost_author": "Iryna Mihus",
+      "cost_author_orcid": "0000-0001-6939-9097"
+    },
+    {
       "apa": "Mihus, I. (2025). Risk-Based Digital Supervision and Anti-Fraud Governance: Policy Instruments, Compliance, and Administrative Burden Reduction. https://doi.org/10.36690/PUBADM-79-101",
       "doi": "https://doi.org/10.36690/PUBADM-79-101",
       "year": 2025,
@@ -2478,6 +2702,27 @@
       "year": 2025,
       "cost_author": "Sorin Anagnoste",
       "cost_author_orcid": "0000-0002-8261-5601"
+    },
+    {
+      "apa": "Giordano, S. (2025). Markov switching stereotype logit models for longitudinal ordinal data affected by unobserved heterogeneity in responding behavior. *AStA Advances in Statistical Analysis*. https://doi.org/10.1007/s10182-024-00500-7",
+      "doi": "https://doi.org/10.1007/s10182-024-00500-7",
+      "year": 2025,
+      "cost_author": "Sabrina Giordano",
+      "cost_author_orcid": "0000-0002-3635-9440"
+    },
+    {
+      "apa": "Imeraj, J. (2025). The Impact of Working Capital Management and Credit Management Policies on the Financial Performance of Kosovo Banks. *Ekonomika*. https://doi.org/10.15388/Ekon.2025.104.3.8",
+      "doi": "https://doi.org/10.15388/Ekon.2025.104.3.8",
+      "year": 2025,
+      "cost_author": "Juliana Imeraj",
+      "cost_author_orcid": "0009-0006-5284-1460"
+    },
+    {
+      "apa": "Imeraj, J. (2025). Exploring the impact and risks of fintech adoption on income inequality: A global cross-sectional study. *Risk Governance and Control: Financial Markets and Institutions*. https://doi.org/10.22495/rgcv15i2p8",
+      "doi": "https://doi.org/10.22495/rgcv15i2p8",
+      "year": 2025,
+      "cost_author": "Juliana Imeraj",
+      "cost_author_orcid": "0009-0006-5284-1460"
     },
     {
       "apa": "Wu, H. (2025). Imbalanced ESG investing?. *Journal of Corporate Finance*. https://doi.org/10.1016/j.jcorpfin.2025.102810",
@@ -3159,6 +3404,27 @@
       "cost_author_orcid": "0000-0002-3575-3470"
     },
     {
+      "apa": "Birlan, I. (2025). Artificial Intelligence in ESG and Sustainable Finance: A Bibliometric Analysis of Research Trends. *International Conference on Business Excellence*. https://doi.org/10.2478/picbe-2025-0117",
+      "doi": "https://doi.org/10.2478/picbe-2025-0117",
+      "year": 2025,
+      "cost_author": "Ioana Birlan",
+      "cost_author_orcid": "0009-0007-7097-3341"
+    },
+    {
+      "apa": "Birlan, I. (2025). Mapping AI Adoption across Europe: A Cluster Analysis of National Responsibility. *International Conference on Business Excellence*. https://doi.org/10.2478/picbe-2025-0119",
+      "doi": "https://doi.org/10.2478/picbe-2025-0119",
+      "year": 2025,
+      "cost_author": "Ioana Birlan",
+      "cost_author_orcid": "0009-0007-7097-3341"
+    },
+    {
+      "apa": "Birlan, I. (2025). Modeling Regional ESG Performance in the European Union: A Partial Least Squares Approach to Sustainable Economic Systems. *Mathematics*. https://doi.org/10.3390/math13152337",
+      "doi": "https://doi.org/10.3390/math13152337",
+      "year": 2025,
+      "cost_author": "Ioana Birlan",
+      "cost_author_orcid": "0009-0007-7097-3341"
+    },
+    {
       "apa": "Onder, A. O. (2025). Spatial Effects of Electricity Consumption on Air Pollution in Türkiye at Provincial Level. *International Econometric Review*. https://doi.org/10.33818/ier.1539970",
       "doi": "https://doi.org/10.33818/ier.1539970",
       "year": 2025,
@@ -3327,6 +3593,13 @@
       "cost_author_orcid": "0000-0003-3384-3795"
     },
     {
+      "apa": "Bouafia, K. (2025). Internet of Things and Blockchain Adoption in Food Supply Chain: A Survey. *IoT*. https://doi.org/10.3390/iot6030051",
+      "doi": "https://doi.org/10.3390/iot6030051",
+      "year": 2025,
+      "cost_author": "Khawla Bouafia",
+      "cost_author_orcid": "0000-0001-7653-2730"
+    },
+    {
       "apa": "Roy, J. K. (2025). Evaluating AI-driven credit scoring models versus traditional statistical techniques. *Discover Artificial Intelligence*. https://doi.org/10.1007/s44163-025-00772-1",
       "doi": "https://doi.org/10.1007/s44163-025-00772-1",
       "year": 2025,
@@ -3402,6 +3675,34 @@
       "year": 2025,
       "cost_author": "Hazar Altinbas",
       "cost_author_orcid": "0000-0001-8160-0611"
+    },
+    {
+      "apa": "Deran, A. (2025). Internal auditors’ views on the importance of sustainability reporting in public sector organizations, reporting process and auditing. *EDPACS*. https://doi.org/10.1080/07366981.2025.2500200",
+      "doi": "https://doi.org/10.1080/07366981.2025.2500200",
+      "year": 2025,
+      "cost_author": "Ali Deran",
+      "cost_author_orcid": "0000-0001-5377-6740"
+    },
+    {
+      "apa": "Deran, A. (2025). THE IMPORTANCE OF LOGISTICS COSTS IN E-COMMERCE BUSINESSES. *Mersin University Journal of Maritime Faculty*. https://doi.org/10.47512/meujmaf.1699397",
+      "doi": "https://doi.org/10.47512/meujmaf.1699397",
+      "year": 2025,
+      "cost_author": "Ali Deran",
+      "cost_author_orcid": "0000-0001-5377-6740"
+    },
+    {
+      "apa": "Deran, A. (2025). Sahiplik Yapısı ve Denetim Kalitesinin Karbon Emisyon Açıklamalarına Etkisinde İnovasyonun Rolü: Türkiye’den Kanıtlar. *Akademik Araştırmalar ve Çalışmalar Dergisi (AKAD)*. https://doi.org/10.20990/kilisiibfakademik.1662107",
+      "doi": "https://doi.org/10.20990/kilisiibfakademik.1662107",
+      "year": 2025,
+      "cost_author": "Ali Deran",
+      "cost_author_orcid": "0000-0001-5377-6740"
+    },
+    {
+      "apa": "Deran, A. (2025). THE IMPACT OF BOARD STRUCTURE ON COST OF DEBT: A RESEARCH ON BIST MANUFACTURING SECTOR COMPANIES. *Trakya Üniversitesi Sosyal Bilimler Dergisi*. https://doi.org/10.26468/trakyasobed.1515405",
+      "doi": "https://doi.org/10.26468/trakyasobed.1515405",
+      "year": 2025,
+      "cost_author": "Ali Deran",
+      "cost_author_orcid": "0000-0001-5377-6740"
     },
     {
       "apa": "Linardakis, M. (2025). Construction and Validation of a Measurement Scale for Preschoolers’ Attitudes Towards Companion Animals (SPACA). *International Journal of Early Childhood*. https://doi.org/10.1007/s13158-025-00456-y",
@@ -3789,6 +4090,216 @@
       "cost_author_orcid": "0000-0002-1421-4670"
     },
     {
+      "apa": "Thomaidis, N. S. (2024). Exploring Energy Poverty in Urban and Rural Contexts in the Era of Climate Change: A Comparative Analysis of European Countries and Israel. *Energies*. https://doi.org/10.3390/en17122939",
+      "doi": "https://doi.org/10.3390/en17122939",
+      "year": 2024,
+      "cost_author": "Nikolaos S. Thomaidis",
+      "cost_author_orcid": "0000-0002-6796-6171"
+    },
+    {
+      "apa": "Thomaidis, N. S. (2024). Managing the Intermittency of Wind Energy Generation in Greece. *Energies*. https://doi.org/10.3390/en17040866",
+      "doi": "https://doi.org/10.3390/en17040866",
+      "year": 2024,
+      "cost_author": "Nikolaos S. Thomaidis",
+      "cost_author_orcid": "0000-0002-6796-6171"
+    },
+    {
+      "apa": "IVANOVIC, M. (2024). Explainable data mining model for hyperinsulinemia diagnostics. *Connection Science*. https://doi.org/10.1080/09540091.2024.2325496",
+      "doi": "https://doi.org/10.1080/09540091.2024.2325496",
+      "year": 2024,
+      "cost_author": "MIRJANA IVANOVIC",
+      "cost_author_orcid": "0000-0003-1946-0384"
+    },
+    {
+      "apa": "IVANOVIC, M. (2024). Interpretable software estimation with graph neural networks and orthogonal array tunning method. *Information Processing & Management*. https://doi.org/10.1016/j.ipm.2024.103778",
+      "doi": "https://doi.org/10.1016/j.ipm.2024.103778",
+      "year": 2024,
+      "cost_author": "MIRJANA IVANOVIC",
+      "cost_author_orcid": "0000-0003-1946-0384"
+    },
+    {
+      "apa": "IVANOVIC, M. (2024). Towards optimal learning: Investigating the impact of different model updating strategies in federated learning. *Expert Systems with Applications*. https://doi.org/10.1016/j.eswa.2024.123553",
+      "doi": "https://doi.org/10.1016/j.eswa.2024.123553",
+      "year": 2024,
+      "cost_author": "MIRJANA IVANOVIC",
+      "cost_author_orcid": "0000-0003-1946-0384"
+    },
+    {
+      "apa": "IVANOVIC, M. (2024). Special Issue on Advances in Database Engineered Applications. *Computers*. https://doi.org/10.3390/computers13030077",
+      "doi": "https://doi.org/10.3390/computers13030077",
+      "year": 2024,
+      "cost_author": "MIRJANA IVANOVIC",
+      "cost_author_orcid": "0000-0003-1946-0384"
+    },
+    {
+      "apa": "IVANOVIC, M. (2024). EFFECTS OF DIGITAL GAME-BASED LEARNING IN STEM EDUCATION ON STUDENTS’ MOTIVATION: A SYSTEMATIC LITERATURE REVIEW. *Journal of Baltic Science Education*. https://doi.org/10.33225/jbse/24.23.20",
+      "doi": "https://doi.org/10.33225/jbse/24.23.20",
+      "year": 2024,
+      "cost_author": "MIRJANA IVANOVIC",
+      "cost_author_orcid": "0000-0003-1946-0384"
+    },
+    {
+      "apa": "IVANOVIC, M. (2024). AI Software Project Management Tools. https://doi.org/10.1007/978-3-031-76572-8_7",
+      "doi": "https://doi.org/10.1007/978-3-031-76572-8_7",
+      "year": 2024,
+      "cost_author": "MIRJANA IVANOVIC",
+      "cost_author_orcid": "0000-0003-1946-0384"
+    },
+    {
+      "apa": "IVANOVIC, M. (2024). AI in Project Resource Management. https://doi.org/10.1007/978-3-031-76572-8_6",
+      "doi": "https://doi.org/10.1007/978-3-031-76572-8_6",
+      "year": 2024,
+      "cost_author": "MIRJANA IVANOVIC",
+      "cost_author_orcid": "0000-0003-1946-0384"
+    },
+    {
+      "apa": "IVANOVIC, M. (2024). AI in Risk Management. https://doi.org/10.1007/978-3-031-76572-8_5",
+      "doi": "https://doi.org/10.1007/978-3-031-76572-8_5",
+      "year": 2024,
+      "cost_author": "MIRJANA IVANOVIC",
+      "cost_author_orcid": "0000-0003-1946-0384"
+    },
+    {
+      "apa": "IVANOVIC, M. (2024). AI in Software Effort Estimation. https://doi.org/10.1007/978-3-031-76572-8_4",
+      "doi": "https://doi.org/10.1007/978-3-031-76572-8_4",
+      "year": 2024,
+      "cost_author": "MIRJANA IVANOVIC",
+      "cost_author_orcid": "0000-0003-1946-0384"
+    },
+    {
+      "apa": "IVANOVIC, M. (2024). Challenges for the application of artificial intelligence and ethical issues. https://doi.org/10.5937/VI24119I",
+      "doi": "https://doi.org/10.5937/VI24119I",
+      "year": 2024,
+      "cost_author": "MIRJANA IVANOVIC",
+      "cost_author_orcid": "0000-0003-1946-0384"
+    },
+    {
+      "apa": "IVANOVIC, M. (2024). Editorial. *Computer Science and Information Systems*. https://doi.org/10.2298/CSIS240300iI",
+      "doi": "https://doi.org/10.2298/CSIS240300iI",
+      "year": 2024,
+      "cost_author": "MIRJANA IVANOVIC",
+      "cost_author_orcid": "0000-0003-1946-0384"
+    },
+    {
+      "apa": "IVANOVIC, M. (2024). Editorial. *Computer Science and Information Systems*. https://doi.org/10.2298/CSIS240100iI",
+      "doi": "https://doi.org/10.2298/CSIS240100iI",
+      "year": 2024,
+      "cost_author": "MIRJANA IVANOVIC",
+      "cost_author_orcid": "0000-0003-1946-0384"
+    },
+    {
+      "apa": "IVANOVIC, M. (2024). Editorial. *Computer Science and Information Systems*. https://doi.org/10.2298/CSIS240400iI",
+      "doi": "https://doi.org/10.2298/CSIS240400iI",
+      "year": 2024,
+      "cost_author": "MIRJANA IVANOVIC",
+      "cost_author_orcid": "0000-0003-1946-0384"
+    },
+    {
+      "apa": "IVANOVIC, M. (2024). Final Thoughts: AI’s Contribution to Project Success. https://doi.org/10.1007/978-3-031-76572-8_8",
+      "doi": "https://doi.org/10.1007/978-3-031-76572-8_8",
+      "year": 2024,
+      "cost_author": "MIRJANA IVANOVIC",
+      "cost_author_orcid": "0000-0003-1946-0384"
+    },
+    {
+      "apa": "IVANOVIC, M. (2024). Guest editorial: Deep learning techniques in intelligent internet of things and 5G communication networks. *Computer Science and Information Systems*. https://doi.org/10.2298/CSIS240200iC",
+      "doi": "https://doi.org/10.2298/CSIS240200iC",
+      "year": 2024,
+      "cost_author": "MIRJANA IVANOVIC",
+      "cost_author_orcid": "0000-0003-1946-0384"
+    },
+    {
+      "apa": "IVANOVIC, M. (2024). Guest editorial: Innovations in intelligent systems and applications. *Computer Science and Information Systems*. https://doi.org/10.2298/CSIS240100viiI",
+      "doi": "https://doi.org/10.2298/CSIS240100viiI",
+      "year": 2024,
+      "cost_author": "MIRJANA IVANOVIC",
+      "cost_author_orcid": "0000-0003-1946-0384"
+    },
+    {
+      "apa": "IVANOVIC, M. (2024). Guest editorial: Recent advances in AI methods for image processing: Theory, algorithms, and applications. *Computer Science and Information Systems*. https://doi.org/10.2298/CSIS240400vY",
+      "doi": "https://doi.org/10.2298/CSIS240400vY",
+      "year": 2024,
+      "cost_author": "MIRJANA IVANOVIC",
+      "cost_author_orcid": "0000-0003-1946-0384"
+    },
+    {
+      "apa": "IVANOVIC, M. (2024). Medical Engineering, Health Informatics and Medical Imaging (ME&HI) Profession and Curriculum. https://doi.org/10.1007/978-3-031-49062-0_84",
+      "doi": "https://doi.org/10.1007/978-3-031-49062-0_84",
+      "year": 2024,
+      "cost_author": "MIRJANA IVANOVIC",
+      "cost_author_orcid": "0000-0003-1946-0384"
+    },
+    {
+      "apa": "IVANOVIC, M. (2024). News recommendation model based on encoder graph neural network and bat optimization in online social multimedia art education. *Computer Science and Information Systems*. https://doi.org/10.2298/CSIS231225025Y",
+      "doi": "https://doi.org/10.2298/CSIS231225025Y",
+      "year": 2024,
+      "cost_author": "MIRJANA IVANOVIC",
+      "cost_author_orcid": "0000-0003-1946-0384"
+    },
+    {
+      "apa": "IVANOVIC, M. (2024). Optimizing Effort and Cost Estimation: Model Implementation Using Artificial Neural Networks and Taguchi’s Orthogonal Vector Plans. https://doi.org/10.1007/978-3-031-76572-8_9",
+      "doi": "https://doi.org/10.1007/978-3-031-76572-8_9",
+      "year": 2024,
+      "cost_author": "MIRJANA IVANOVIC",
+      "cost_author_orcid": "0000-0003-1946-0384"
+    },
+    {
+      "apa": "IVANOVIC, M. (2024). Recent Advances in Artificial Intelligence in Cost Estimation in Project Management. https://doi.org/10.1007/978-3-031-76572-8",
+      "doi": "https://doi.org/10.1007/978-3-031-76572-8",
+      "year": 2024,
+      "cost_author": "MIRJANA IVANOVIC",
+      "cost_author_orcid": "0000-0003-1946-0384"
+    },
+    {
+      "apa": "IVANOVIC, M. (2024). Setting the Stage: AI in Software Project Management. https://doi.org/10.1007/978-3-031-76572-8_1",
+      "doi": "https://doi.org/10.1007/978-3-031-76572-8_1",
+      "year": 2024,
+      "cost_author": "MIRJANA IVANOVIC",
+      "cost_author_orcid": "0000-0003-1946-0384"
+    },
+    {
+      "apa": "IVANOVIC, M. (2024). The impact of intelligent tutoring systems and artificial intelligence on students' motivation and achievement in STEM education: A systematic review. *Journal of Educational Studies in Mathematics and Computer Science*. https://doi.org/10.5937/JESMAC2402005I",
+      "doi": "https://doi.org/10.5937/JESMAC2402005I",
+      "year": 2024,
+      "cost_author": "MIRJANA IVANOVIC",
+      "cost_author_orcid": "0000-0003-1946-0384"
+    },
+    {
+      "apa": "IVANOVIC, M. (2024). Top AI Techniques for Every Phase of Software Project Management. https://doi.org/10.1007/978-3-031-76572-8_2",
+      "doi": "https://doi.org/10.1007/978-3-031-76572-8_2",
+      "year": 2024,
+      "cost_author": "MIRJANA IVANOVIC",
+      "cost_author_orcid": "0000-0003-1946-0384"
+    },
+    {
+      "apa": "IVANOVIC, M. (2024). Use of AI Methods in Software Project Scheduling. https://doi.org/10.1007/978-3-031-76572-8_3",
+      "doi": "https://doi.org/10.1007/978-3-031-76572-8_3",
+      "year": 2024,
+      "cost_author": "MIRJANA IVANOVIC",
+      "cost_author_orcid": "0000-0003-1946-0384"
+    },
+    {
+      "apa": "KELLER, Y. (2024). Learning single and multi-scene camera pose regression with transformer encoders. *Computer Vision and Image Understanding*. https://doi.org/10.1016/j.cviu.2024.103982",
+      "doi": "https://doi.org/10.1016/j.cviu.2024.103982",
+      "year": 2024,
+      "cost_author": "Yosi KELLER",
+      "cost_author_orcid": "0000-0002-2876-2790"
+    },
+    {
+      "apa": "KELLER, Y. (2024). Attention-based multimodal image matching. *Computer Vision and Image Understanding*. https://doi.org/10.1016/j.cviu.2024.103949",
+      "doi": "https://doi.org/10.1016/j.cviu.2024.103949",
+      "year": 2024,
+      "cost_author": "Yosi KELLER",
+      "cost_author_orcid": "0000-0002-2876-2790"
+    },
+    {
+      "apa": "KELLER, Y. (2024). Deep Convolutional Tables: Deep Learning Without Convolutions. *IEEE Transactions on Neural Networks and Learning Systems*. https://doi.org/10.1109/TNNLS.2023.3270402",
+      "doi": "https://doi.org/10.1109/TNNLS.2023.3270402",
+      "year": 2024,
+      "cost_author": "Yosi KELLER",
+      "cost_author_orcid": "0000-0002-2876-2790"
+    },
+    {
       "apa": "Ribeiro, B. (2024). DylanPerdigao/Bayesian-Optimization-1D-CSNN. *Zenodo*. https://doi.org/10.5281/zenodo.12628435",
       "doi": "https://doi.org/10.5281/zenodo.12628435",
       "year": 2024,
@@ -3887,6 +4398,20 @@
       "cost_author_orcid": "0000-0003-0451-0529"
     },
     {
+      "apa": "Gregoriades, A. (2024). Using Task Support Requirements during Socio-Technical Systems Design. *Systems*. https://doi.org/10.3390/systems12090348",
+      "doi": "https://doi.org/10.3390/systems12090348",
+      "year": 2024,
+      "cost_author": "Andreas Gregoriades",
+      "cost_author_orcid": "0000-0002-7422-1514"
+    },
+    {
+      "apa": "Gregoriades, A. (2024). UsingTask Support Requirements During Socio-Technical Systems Design. https://doi.org/10.20944/preprints202407.1009.v1",
+      "doi": "https://doi.org/10.20944/preprints202407.1009.v1",
+      "year": 2024,
+      "cost_author": "Andreas Gregoriades",
+      "cost_author_orcid": "0000-0002-7422-1514"
+    },
+    {
       "apa": "Rupeika-Apoga, R. (2024). Does service quality matter in FinTech payment services? An integrated SERVQUAL and TAM approach. *International Journal of Information Management Data Insights*. https://doi.org/10.1016/j.jjimei.2024.100252",
       "doi": "https://doi.org/10.1016/j.jjimei.2024.100252",
       "year": 2024,
@@ -3906,6 +4431,20 @@
       "year": 2024,
       "cost_author": "Ramona Rupeika-Apoga",
       "cost_author_orcid": "0000-0002-3941-0723"
+    },
+    {
+      "apa": "Emiris, I. (2024). Mixed Subdivisions Suitable for the Greedy Canny–Emiris Formula. *Mathematics in Computer Science*. https://doi.org/10.1007/s11786-024-00577-y",
+      "doi": "https://doi.org/10.1007/s11786-024-00577-y",
+      "year": 2024,
+      "cost_author": "Ioannis Emiris",
+      "cost_author_orcid": "0000-0002-2339-5303"
+    },
+    {
+      "apa": "Emiris, I. (2024). Trajectory Mining and Routing: A Cross-Sectoral Approach. *Journal of Marine Science and Engineering*. https://doi.org/10.3390/jmse12010157",
+      "doi": "https://doi.org/10.3390/jmse12010157",
+      "year": 2024,
+      "cost_author": "Ioannis Emiris",
+      "cost_author_orcid": "0000-0002-2339-5303"
     },
     {
       "apa": "Papajorgji, P. (2024). Stimulating the Post-COVID-19 Economic Recovery Scenarios to Evaluate Students' Understanding. *International Journal of Sociotechnology and Knowledge Development*. https://doi.org/10.4018/IJSKD.343633",
@@ -4643,6 +5182,13 @@
       "cost_author_orcid": "0000-0001-7448-9206"
     },
     {
+      "apa": "Jerić, S. V. (2024). Analysis of the European Commission's forecasts of GDP growth and inflation for Croatia. *Zbornik Ekonomskog fakulteta u Zagrebu*. https://doi.org/10.22598/zefzg.2024.2.1",
+      "doi": "https://doi.org/10.22598/zefzg.2024.2.1",
+      "year": 2024,
+      "cost_author": "Silvija Vlah Jerić",
+      "cost_author_orcid": "0000-0003-4738-6337"
+    },
+    {
       "apa": "Schwendner, P. (2024). A discussion paper for possible approaches to building a statistically valid backtesting framework. https://doi.org/10.2139/ssrn.4893677",
       "doi": "https://doi.org/10.2139/ssrn.4893677",
       "year": 2024,
@@ -4732,6 +5278,41 @@
       "year": 2024,
       "cost_author": "Piotr Wójcik",
       "cost_author_orcid": "0000-0003-1853-8784"
+    },
+    {
+      "apa": "Paccagnini, A. (2024). Moderating Uncertainty with Sentiment: The Case of the Federal Reserve Chair Communication. *Academy of Management Proceedings*. https://doi.org/10.5465/amproc.2024.14009abstract",
+      "doi": "https://doi.org/10.5465/amproc.2024.14009abstract",
+      "year": 2024,
+      "cost_author": "Alessia Paccagnini",
+      "cost_author_orcid": "0000-0002-2421-7242"
+    },
+    {
+      "apa": "Paccagnini, A. (2024). To Each Their Own: How a Tailored Pandemic Response Approach Could Alleviate Ethical Dilemmas.",
+      "doi": null,
+      "year": 2024,
+      "cost_author": "Alessia Paccagnini",
+      "cost_author_orcid": "0000-0002-2421-7242"
+    },
+    {
+      "apa": "Paccagnini, A. (2024). To Each Their Own: How a Tailored Pandemic Response Approach Could Alleviate Ethical Dilemmas.",
+      "doi": null,
+      "year": 2024,
+      "cost_author": "Alessia Paccagnini",
+      "cost_author_orcid": "0000-0002-2421-7242"
+    },
+    {
+      "apa": "Paccagnini, A. (2024). Informativeness of the federal reserve chair communication’s sentiment on the monetary policy uncertainty. *Annals of Operations Research*. https://doi.org/10.1007/s10479-024-06414-6",
+      "doi": "https://doi.org/10.1007/s10479-024-06414-6",
+      "year": 2024,
+      "cost_author": "Alessia Paccagnini",
+      "cost_author_orcid": "0000-0002-2421-7242"
+    },
+    {
+      "apa": "Paccagnini, A. (2024). How top management team social status impacts innovation. *R&amp;D Management*. https://doi.org/10.1111/radm.12647",
+      "doi": "https://doi.org/10.1111/radm.12647",
+      "year": 2024,
+      "cost_author": "Alessia Paccagnini",
+      "cost_author_orcid": "0000-0002-2421-7242"
     },
     {
       "apa": "Vazquez, C. (2024). Assessing the value and risk of renewable PPAs. *Energy Economics*. https://doi.org/10.1016/j.eneco.2024.107861",
@@ -4944,6 +5525,20 @@
       "cost_author_orcid": "0000-0002-5898-0676"
     },
     {
+      "apa": "Härdle, W. (2024). A Time-Varying Network for Cryptocurrencies. *Journal of Business & Economic Statistics*. https://doi.org/10.1080/07350015.2022.2146695",
+      "doi": "https://doi.org/10.1080/07350015.2022.2146695",
+      "year": 2024,
+      "cost_author": "Wolfgang Härdle",
+      "cost_author_orcid": "0000-0001-5600-3014"
+    },
+    {
+      "apa": "Trimborn, S. (2024). Influencer detection meets network autoregression — Influential regions in the bitcoin blockchain. *Journal of Empirical Finance*. https://doi.org/10.1016/j.jempfin.2024.101529",
+      "doi": "https://doi.org/10.1016/j.jempfin.2024.101529",
+      "year": 2024,
+      "cost_author": "Simon Trimborn",
+      "cost_author_orcid": "0000-0003-3745-4164"
+    },
+    {
       "apa": "Djordjevic, J. (2024). Stochastic optimal control of pre-exposure prophylaxis for HIV infection for a jump model. *Journal of Mathematical Biology*. https://doi.org/10.1007/s00285-024-02151-3",
       "doi": "https://doi.org/10.1007/s00285-024-02151-3",
       "year": 2024,
@@ -5103,6 +5698,13 @@
       "year": 2024,
       "cost_author": "Friedemann Polzin",
       "cost_author_orcid": "0000-0002-9768-8694"
+    },
+    {
+      "apa": "Wenzlaff, K. (2024). Into the Unknown –Monitoring how European Digital Finance platforms adapt to the new European Crowdfunding Service Provider Regime (ECSP-R).. *SSRN Electronic Journal*. https://doi.org/10.2139/ssrn.4740433",
+      "doi": "https://doi.org/10.2139/ssrn.4740433",
+      "year": 2024,
+      "cost_author": "Karsten Wenzlaff",
+      "cost_author_orcid": "0000-0002-3670-9703"
     },
     {
       "apa": "Hajek, P. (2024). Enhancing cardiovascular risk assessment with advanced data balancing and domain knowledge-driven explainability. *Expert Systems with Applications*. https://doi.org/10.1016/j.eswa.2024.124886",
@@ -5903,6 +6505,13 @@
       "cost_author_orcid": "0000-0001-5095-5356"
     },
     {
+      "apa": "Fengler, M. (2024). Applied Multivariate Statistical Analysis. *Springer International Publishing*. https://doi.org/10.1007/978-3-031-63833-6",
+      "doi": "https://doi.org/10.1007/978-3-031-63833-6",
+      "year": 2024,
+      "cost_author": "Matthias Fengler",
+      "cost_author_orcid": "0000-0002-9862-9258"
+    },
+    {
       "apa": "Tanda, A. (2024). What do we know about ESG and risk? A systematic and bibliometric review. *Corporate Social Responsibility and Environmental Management*. https://doi.org/10.1002/csr.2624",
       "doi": "https://doi.org/10.1002/csr.2624",
       "year": 2024,
@@ -6258,6 +6867,48 @@
       "year": 2024,
       "cost_author": "Karolina Bolesta",
       "cost_author_orcid": "0000-0002-9668-5782"
+    },
+    {
+      "apa": "Lagioia, G. (2024). A Combined Economic-Environmental Assessment of an Innovative Chemical Formulation for Waterproofing Applications in the Leather Manufacturing Industry. https://doi.org/10.1007/978-3-031-55206-9_24",
+      "doi": "https://doi.org/10.1007/978-3-031-55206-9_24",
+      "year": 2024,
+      "cost_author": "Giovanni Lagioia",
+      "cost_author_orcid": "0000-0002-7044-602X"
+    },
+    {
+      "apa": "Lagioia, G. (2024). A Framework for Carbon Footprint Assessment in the Tourism Sector. https://doi.org/10.1007/978-3-031-28292-8_59",
+      "doi": "https://doi.org/10.1007/978-3-031-28292-8_59",
+      "year": 2024,
+      "cost_author": "Giovanni Lagioia",
+      "cost_author_orcid": "0000-0002-7044-602X"
+    },
+    {
+      "apa": "Lagioia, G. (2024). Application of the MFA Methodology for the Analysis of Paper and Cardboard Waste in Italy and a Focus on Waste Management in Apulia. https://doi.org/10.1007/978-3-031-55206-9_12",
+      "doi": "https://doi.org/10.1007/978-3-031-55206-9_12",
+      "year": 2024,
+      "cost_author": "Giovanni Lagioia",
+      "cost_author_orcid": "0000-0002-7044-602X"
+    },
+    {
+      "apa": "Lagioia, G. (2024). Circular Economy Perspectives in the Italian Hotel Industry. https://doi.org/10.1007/978-3-031-28292-8_61",
+      "doi": "https://doi.org/10.1007/978-3-031-28292-8_61",
+      "year": 2024,
+      "cost_author": "Giovanni Lagioia",
+      "cost_author_orcid": "0000-0002-7044-602X"
+    },
+    {
+      "apa": "Lagioia, G. (2024). Production and Consumption Trends in the European Textile Sector and Main Sustainability Challenges. https://doi.org/10.1007/978-3-031-55206-9_21",
+      "doi": "https://doi.org/10.1007/978-3-031-55206-9_21",
+      "year": 2024,
+      "cost_author": "Giovanni Lagioia",
+      "cost_author_orcid": "0000-0002-7044-602X"
+    },
+    {
+      "apa": "Lagioia, G. (2024). The importance of waste management: Some observations on Albania. *Economicus*. https://doi.org/10.58944/rtvy1996",
+      "doi": "https://doi.org/10.58944/rtvy1996",
+      "year": 2024,
+      "cost_author": "Giovanni Lagioia",
+      "cost_author_orcid": "0000-0002-7044-602X"
     },
     {
       "apa": "Marques, B. (2024). Heterogeneity of business models and banking sector resilience. *Journal of Banking Regulation*. https://doi.org/10.1057/s41261-023-00227-6",
@@ -6853,6 +7504,13 @@
       "year": 2024,
       "cost_author": "Lorenzo Schoenleber",
       "cost_author_orcid": "0000-0001-5426-435X"
+    },
+    {
+      "apa": "Giordano, S. (2024). Hidden Markov models for longitudinal rating data with dynamic response styles. *Statistical Methods & Applications*. https://doi.org/10.1007/s10260-023-00717-x",
+      "doi": "https://doi.org/10.1007/s10260-023-00717-x",
+      "year": 2024,
+      "cost_author": "Sabrina Giordano",
+      "cost_author_orcid": "0000-0002-3635-9440"
     },
     {
       "apa": "Wu, H. (2024). Geopolitical risk and corporate cash holdings in China: Precautionary motive and agency problem perspectives. *International Review of Financial Analysis*. https://doi.org/10.1016/j.irfa.2024.103235",
@@ -7541,6 +8199,20 @@
       "cost_author_orcid": "0000-0002-3575-3470"
     },
     {
+      "apa": "Birlan, I. (2024). Economic Policies for Sustainable Healthcare: A Comparative Analysis of Telemedicine in Europe. *Sustainability Development through Green Economics*. https://doi.org/10.1108/s1569-375920240000114012",
+      "doi": "https://doi.org/10.1108/s1569-375920240000114012",
+      "year": 2024,
+      "cost_author": "Ioana Birlan",
+      "cost_author_orcid": "0009-0007-7097-3341"
+    },
+    {
+      "apa": "Birlan, I. (2024). Informality and Inclusion: Assessing the effects of the Shadow Economy and informal labour in Europe. *Management & Marketing*. https://doi.org/10.2478/mmcks-2024-0014",
+      "doi": "https://doi.org/10.2478/mmcks-2024-0014",
+      "year": 2024,
+      "cost_author": "Ioana Birlan",
+      "cost_author_orcid": "0009-0007-7097-3341"
+    },
+    {
       "apa": "Onder, A. O. (2024). Spatial effects of renewable and fossil energy consumption on the ecological footprint for the EU Countries. *Environmental Science and Pollution Research*. https://doi.org/10.1007/s11356-024-34803-8",
       "doi": "https://doi.org/10.1007/s11356-024-34803-8",
       "year": 2024,
@@ -7891,6 +8563,20 @@
       "cost_author_orcid": "0000-0003-3384-3795"
     },
     {
+      "apa": "Eyiah-Donkor, E. (2024). Forecasting the price of oil: A cautionary note. *Journal of Commodity Markets*. https://doi.org/10.1016/j.jcomm.2023.100378",
+      "doi": "https://doi.org/10.1016/j.jcomm.2023.100378",
+      "year": 2024,
+      "cost_author": "Emmanuel Eyiah-Donkor",
+      "cost_author_orcid": "0000-0003-1323-1716"
+    },
+    {
+      "apa": "Bouafia, K. (2024). Blockchain Technologies for Transparency in FinTech. https://doi.org/10.1007/978-981-97-3289-0_46",
+      "doi": "https://doi.org/10.1007/978-981-97-3289-0_46",
+      "year": 2024,
+      "cost_author": "Khawla Bouafia",
+      "cost_author_orcid": "0000-0001-7653-2730"
+    },
+    {
       "apa": "Roy, J. K. (2024). Machine Learning and Artificial Intelligence Method for FinTech Credit Scoring and Risk Management. *International Journal of Business Analytics*. https://doi.org/10.4018/IJBAN.347504",
       "doi": "https://doi.org/10.4018/IJBAN.347504",
       "year": 2024,
@@ -7931,6 +8617,34 @@
       "year": 2024,
       "cost_author": "Dajana Ercegovac",
       "cost_author_orcid": "0000-0002-6526-0773"
+    },
+    {
+      "apa": "Deran, A. (2024). Kırsal Mahalle Uygulamasının Su ve Kanalizasyon İdarelerinin Hizmet Sunumuna Etkisi ve Analizi: Mersin Örneği. *Kent Akademisi*. https://doi.org/10.35674/kent.1497629",
+      "doi": "https://doi.org/10.35674/kent.1497629",
+      "year": 2024,
+      "cost_author": "Ali Deran",
+      "cost_author_orcid": "0000-0001-5377-6740"
+    },
+    {
+      "apa": "Deran, A. (2024). A Research on the Impact of Carbon Emissions on Financial Performance of Companies in the Borsa Istanbul Sustainability Index. *Alanya Akademik Bakış*. https://doi.org/10.29023/alanyaakademik.1436992",
+      "doi": "https://doi.org/10.29023/alanyaakademik.1436992",
+      "year": 2024,
+      "cost_author": "Ali Deran",
+      "cost_author_orcid": "0000-0001-5377-6740"
+    },
+    {
+      "apa": "Deran, A. (2024). The Impact of Carbon Emissions on Corporate Cost of Debt (COD): A Research on Borsa İstanbul (BIST) Sustainability Index. *Sosyoekonomi*. https://doi.org/10.17233/sosyoekonomi.2024.02.02",
+      "doi": "https://doi.org/10.17233/sosyoekonomi.2024.02.02",
+      "year": 2024,
+      "cost_author": "Ali Deran",
+      "cost_author_orcid": "0000-0001-5377-6740"
+    },
+    {
+      "apa": "Deran, A. (2024). Borsa İstanbul İmalat Sektöründe Yer Alan Firmaların Borçlanma Maliyetlerinin Finansal Performansa Etkisi Üzerine Araştırma. *Muhasebe ve Vergi Uygulamaları Dergisi*. https://doi.org/10.29067/muvu.1395436",
+      "doi": "https://doi.org/10.29067/muvu.1395436",
+      "year": 2024,
+      "cost_author": "Ali Deran",
+      "cost_author_orcid": "0000-0001-5377-6740"
     },
     {
       "apa": "Linardakis, M. (2024). Ανάπτυξη Εργαστηρίων Δεξιοτήτων Δημοτικού βασισμένα στις ΤΠΕ και αξιολόγησή τους μέσω των στάσεων των εκπαιδευτικών. *Θέματα Επιστημών Αγωγής*. https://doi.org/10.12681/thea.35212",
@@ -8206,6 +8920,118 @@
       "cost_author_orcid": "0000-0002-9648-4438"
     },
     {
+      "apa": "IVANOVIC, M. (2023). Quality medical data management within an open AI architecture – cancer patients case. *Connection Science*. https://doi.org/10.1080/09540091.2023.2194581",
+      "doi": "https://doi.org/10.1080/09540091.2023.2194581",
+      "year": 2023,
+      "cost_author": "MIRJANA IVANOVIC",
+      "cost_author_orcid": "0000-0003-1946-0384"
+    },
+    {
+      "apa": "IVANOVIC, M. (2023). Applications of Artificial Intelligence Methods in Medicine. https://doi.org/10.1109/ICIT58056.2023.10226107",
+      "doi": "https://doi.org/10.1109/ICIT58056.2023.10226107",
+      "year": 2023,
+      "cost_author": "MIRJANA IVANOVIC",
+      "cost_author_orcid": "0000-0003-1946-0384"
+    },
+    {
+      "apa": "IVANOVIC, M. (2023). Editorial. *Computer Science and Information Systems*. https://doi.org/10.2298/CSIS230300iI",
+      "doi": "https://doi.org/10.2298/CSIS230300iI",
+      "year": 2023,
+      "cost_author": "MIRJANA IVANOVIC",
+      "cost_author_orcid": "0000-0003-1946-0384"
+    },
+    {
+      "apa": "IVANOVIC, M. (2023). Editorial. *Computer Science and Information Systems*. https://doi.org/10.2298/CSIS230400iI",
+      "doi": "https://doi.org/10.2298/CSIS230400iI",
+      "year": 2023,
+      "cost_author": "MIRJANA IVANOVIC",
+      "cost_author_orcid": "0000-0003-1946-0384"
+    },
+    {
+      "apa": "IVANOVIC, M. (2023). Editorial. *Computer Science and Information Systems*. https://doi.org/10.2298/CSIS230100iI",
+      "doi": "https://doi.org/10.2298/CSIS230100iI",
+      "year": 2023,
+      "cost_author": "MIRJANA IVANOVIC",
+      "cost_author_orcid": "0000-0003-1946-0384"
+    },
+    {
+      "apa": "IVANOVIC, M. (2023). Federated Learning - Opportunities and Application Challenges. https://doi.org/10.1007/978-3-031-41774-0_38",
+      "doi": "https://doi.org/10.1007/978-3-031-41774-0_38",
+      "year": 2023,
+      "cost_author": "MIRJANA IVANOVIC",
+      "cost_author_orcid": "0000-0003-1946-0384"
+    },
+    {
+      "apa": "IVANOVIC, M. (2023). Guest editorial: Machine learning-based decision support systems in IoT systems. *Computer Science and Information Systems*. https://doi.org/10.2298/CSIS230200iC",
+      "doi": "https://doi.org/10.2298/CSIS230200iC",
+      "year": 2023,
+      "cost_author": "MIRJANA IVANOVIC",
+      "cost_author_orcid": "0000-0003-1946-0384"
+    },
+    {
+      "apa": "IVANOVIC, M. (2023). Guest editorial: Management of digital ecosystems - recent trends, and open issues. *Computer Science and Information Systems*. https://doi.org/10.2298/CSIS230400iiiI",
+      "doi": "https://doi.org/10.2298/CSIS230400iiiI",
+      "year": 2023,
+      "cost_author": "MIRJANA IVANOVIC",
+      "cost_author_orcid": "0000-0003-1946-0384"
+    },
+    {
+      "apa": "IVANOVIC, M. (2023). Guest editorial: Soft/edge computing for imaging and remote sensing applications. *Computer Science and Information Systems*. https://doi.org/10.2298/CSIS230400viiL",
+      "doi": "https://doi.org/10.2298/CSIS230400viiL",
+      "year": 2023,
+      "cost_author": "MIRJANA IVANOVIC",
+      "cost_author_orcid": "0000-0003-1946-0384"
+    },
+    {
+      "apa": "IVANOVIC, M. (2023). How Artificial Intelligent Approaches Support Medical Decisions and Patients’ Wellbeing. https://doi.org/10.1007/978-3-031-17601-2_18",
+      "doi": "https://doi.org/10.1007/978-3-031-17601-2_18",
+      "year": 2023,
+      "cost_author": "MIRJANA IVANOVIC",
+      "cost_author_orcid": "0000-0003-1946-0384"
+    },
+    {
+      "apa": "IVANOVIC, M. (2023). M2F2-RCNN: Multi-functional faster RCNN based on multi-scale feature fusion for region search in remote sensing images. *Computer Science and Information Systems*. https://doi.org/10.2298/CSIS230315054Y",
+      "doi": "https://doi.org/10.2298/CSIS230315054Y",
+      "year": 2023,
+      "cost_author": "MIRJANA IVANOVIC",
+      "cost_author_orcid": "0000-0003-1946-0384"
+    },
+    {
+      "apa": "IVANOVIC, M. (2023). The application of machine learning techniques in prediction of quality of life features for cancer patients. *Computer Science and Information Systems*. https://doi.org/10.2298/CSIS220227061S",
+      "doi": "https://doi.org/10.2298/CSIS220227061S",
+      "year": 2023,
+      "cost_author": "MIRJANA IVANOVIC",
+      "cost_author_orcid": "0000-0003-1946-0384"
+    },
+    {
+      "apa": "KELLER, Y. (2023). Coarse-to-Fine Multi-Scene Pose Regression With Transformers. *IEEE Transactions on Pattern Analysis and Machine Intelligence*. https://doi.org/10.1109/TPAMI.2023.3310929",
+      "doi": "https://doi.org/10.1109/TPAMI.2023.3310929",
+      "year": 2023,
+      "cost_author": "Yosi KELLER",
+      "cost_author_orcid": "0000-0002-2876-2790"
+    },
+    {
+      "apa": "KELLER, Y. (2023). Generating Factually Consistent Sport Highlights Narrations. https://doi.org/10.1145/3606038.3616157",
+      "doi": "https://doi.org/10.1145/3606038.3616157",
+      "year": 2023,
+      "cost_author": "Yosi KELLER",
+      "cost_author_orcid": "0000-0002-2876-2790"
+    },
+    {
+      "apa": "KELLER, Y. (2023). FSGANv2: Improved Subject Agnostic Face Swapping and Reenactment. *IEEE Transactions on Pattern Analysis and Machine Intelligence*. https://doi.org/10.1109/TPAMI.2022.3155571",
+      "doi": "https://doi.org/10.1109/TPAMI.2022.3155571",
+      "year": 2023,
+      "cost_author": "Yosi KELLER",
+      "cost_author_orcid": "0000-0002-2876-2790"
+    },
+    {
+      "apa": "KELLER, Y. (2023). Hierarchical Attention-Based Age Estimation and Bias Analysis. *IEEE Transactions on Pattern Analysis and Machine Intelligence*. https://doi.org/10.1109/TPAMI.2023.3319472",
+      "doi": "https://doi.org/10.1109/TPAMI.2023.3319472",
+      "year": 2023,
+      "cost_author": "Yosi KELLER",
+      "cost_author_orcid": "0000-0002-2876-2790"
+    },
+    {
       "apa": "Ribeiro, B. (2023). Few-shot learning with transformers via graph embeddings for molecular property prediction. *Expert Systems with Applications*. https://doi.org/10.1016/j.eswa.2023.120005",
       "doi": "https://doi.org/10.1016/j.eswa.2023.120005",
       "year": 2023,
@@ -8290,6 +9116,20 @@
       "cost_author_orcid": "0000-0003-0451-0529"
     },
     {
+      "apa": "Gregoriades, A. (2023). Explaining tourist revisit intention using natural language processing and classification techniques. *Journal of Big Data*. https://doi.org/10.1186/s40537-023-00740-5",
+      "doi": "https://doi.org/10.1186/s40537-023-00740-5",
+      "year": 2023,
+      "cost_author": "Andreas Gregoriades",
+      "cost_author_orcid": "0000-0002-7422-1514"
+    },
+    {
+      "apa": "Gregoriades, A. (2023). Leveraging Natural Language Processing in Persuasive Marketing. https://doi.org/10.1007/978-981-99-5834-4_16",
+      "doi": "https://doi.org/10.1007/978-981-99-5834-4_16",
+      "year": 2023,
+      "cost_author": "Andreas Gregoriades",
+      "cost_author_orcid": "0000-0002-7422-1514"
+    },
+    {
       "apa": "Trček, D. (2023). Trust Management Methodology and Agents Simulations Framework for Conflict Research. *Advanced Theory and Simulations*. https://doi.org/10.1002/adts.202200705",
       "doi": "https://doi.org/10.1002/adts.202200705",
       "year": 2023,
@@ -8351,6 +9191,55 @@
       "year": 2023,
       "cost_author": "Ramona Rupeika-Apoga",
       "cost_author_orcid": "0000-0002-3941-0723"
+    },
+    {
+      "apa": "Emiris, I. (2023). A Practical Algorithm for Volume Estimation based on Billiard Trajectories and Simulated Annealing. *ACM Journal of Experimental Algorithmics*. https://doi.org/10.1145/3584182",
+      "doi": "https://doi.org/10.1145/3584182",
+      "year": 2023,
+      "cost_author": "Ioannis Emiris",
+      "cost_author_orcid": "0000-0002-2339-5303"
+    },
+    {
+      "apa": "Emiris, I. (2023). Identifying and profiling structural similarities between Spike of SARS-CoV-2 and other viral or host proteins with Machaon. *Communications Biology*. https://doi.org/10.1038/s42003-023-05076-7",
+      "doi": "https://doi.org/10.1038/s42003-023-05076-7",
+      "year": 2023,
+      "cost_author": "Ioannis Emiris",
+      "cost_author_orcid": "0000-0002-2339-5303"
+    },
+    {
+      "apa": "Emiris, I. (2023). Fairness Aware Counterfactuals for Subgroups.",
+      "doi": null,
+      "year": 2023,
+      "cost_author": "Ioannis Emiris",
+      "cost_author_orcid": "0000-0002-2339-5303"
+    },
+    {
+      "apa": "Emiris, I. (2023). PartNeRF: Generating Part-Aware Editable 3D Shapes without 3D Supervision. https://doi.org/10.1109/CVPR52729.2023.00434",
+      "doi": "https://doi.org/10.1109/CVPR52729.2023.00434",
+      "year": 2023,
+      "cost_author": "Ioannis Emiris",
+      "cost_author_orcid": "0000-0002-2339-5303"
+    },
+    {
+      "apa": "Emiris, I. (2023). An asymptotic upper bound for graph embeddings. *Discrete Applied Mathematics*. https://doi.org/10.1016/j.dam.2022.12.010",
+      "doi": "https://doi.org/10.1016/j.dam.2022.12.010",
+      "year": 2023,
+      "cost_author": "Ioannis Emiris",
+      "cost_author_orcid": "0000-0002-2339-5303"
+    },
+    {
+      "apa": "Emiris, I. (2023). Practical volume approximation of high-dimensional convex bodies, applied to modeling portfolio dependencies and financial crises. *Computational Geometry*. https://doi.org/10.1016/j.comgeo.2022.101916",
+      "doi": "https://doi.org/10.1016/j.comgeo.2022.101916",
+      "year": 2023,
+      "cost_author": "Ioannis Emiris",
+      "cost_author_orcid": "0000-0002-2339-5303"
+    },
+    {
+      "apa": "Emiris, I. (2023). Geometric algorithms for sampling the flux space of metabolic networks. *Journal of Computational Geometry*. https://doi.org/10.20382/jocg.v14i1a8",
+      "doi": "https://doi.org/10.20382/jocg.v14i1a8",
+      "year": 2023,
+      "cost_author": "Ioannis Emiris",
+      "cost_author_orcid": "0000-0002-2339-5303"
     },
     {
       "apa": "Papajorgji, P. (2023). The ‘Average Person’ Thinking About Radicalization: A Mind Genomics Cartography. *Journal of Police and Criminal Psychology*. https://doi.org/10.1007/s11896-022-09518-6",
@@ -9536,6 +10425,13 @@
       "cost_author_orcid": "0000-0001-8029-3584"
     },
     {
+      "apa": "Jerić, S. V. (2023). Time interval choices in forecasting stock market indices of CEE and SEE countries. *Post-Communist Economies*. https://doi.org/10.1080/14631377.2023.2188768",
+      "doi": "https://doi.org/10.1080/14631377.2023.2188768",
+      "year": 2023,
+      "cost_author": "Silvija Vlah Jerić",
+      "cost_author_orcid": "0000-0003-4738-6337"
+    },
+    {
       "apa": "Schwendner, P. (2023). Editorial: Artificial Intelligence in Finance and Industry: volume II—highlights from the 7th European conference. *Frontiers in Artificial Intelligence*. https://doi.org/10.3389/frai.2023.1267377",
       "doi": "https://doi.org/10.3389/frai.2023.1267377",
       "year": 2023,
@@ -9569,6 +10465,27 @@
       "year": 2023,
       "cost_author": "Veni Arakelian",
       "cost_author_orcid": "0000-0001-5261-6948"
+    },
+    {
+      "apa": "Paccagnini, A. (2023). Gender Bias in Entrepreneurship: What is the Role of the Founders’ Entrepreneurial Background?. *Journal of Business Ethics*. https://doi.org/10.1007/s10551-022-05275-y",
+      "doi": "https://doi.org/10.1007/s10551-022-05275-y",
+      "year": 2023,
+      "cost_author": "Alessia Paccagnini",
+      "cost_author_orcid": "0000-0002-2421-7242"
+    },
+    {
+      "apa": "Paccagnini, A. (2023). Testing the predictive accuracy of COVID-19 forecasts. *International Journal of Forecasting*. https://doi.org/10.1016/j.ijforecast.2022.01.005",
+      "doi": "https://doi.org/10.1016/j.ijforecast.2022.01.005",
+      "year": 2023,
+      "cost_author": "Alessia Paccagnini",
+      "cost_author_orcid": "0000-0002-2421-7242"
+    },
+    {
+      "apa": "Paccagnini, A. (2023). Teaching Courses Online: Practical Implications from an International University Teachers’ Survey. https://doi.org/10.1007/978-3-031-17841-2",
+      "doi": "https://doi.org/10.1007/978-3-031-17841-2",
+      "year": 2023,
+      "cost_author": "Alessia Paccagnini",
+      "cost_author_orcid": "0000-0002-2421-7242"
     },
     {
       "apa": "Vazquez, C. (2023). XVA in a multi-currency setting with stochastic foreign exchange rates. *Mathematics and Computers in Simulation*. https://doi.org/10.1016/j.matcom.2022.12.014",
@@ -9746,6 +10663,48 @@
       "cost_author_orcid": "0000-0002-5898-0676"
     },
     {
+      "apa": "Härdle, W. (2023). Sampling Importance Resampling Algorithm with Nonignorable Missing Response Variable Based on Smoothed Quantile Regression. *Mathematics*. https://doi.org/10.3390/math11244906",
+      "doi": "https://doi.org/10.3390/math11244906",
+      "year": 2023,
+      "cost_author": "Wolfgang Härdle",
+      "cost_author_orcid": "0000-0001-5600-3014"
+    },
+    {
+      "apa": "Härdle, W. (2023). Are cryptos becoming alternative assets?. *The European Journal of Finance*. https://doi.org/10.1080/1351847X.2021.1960403",
+      "doi": "https://doi.org/10.1080/1351847X.2021.1960403",
+      "year": 2023,
+      "cost_author": "Wolfgang Härdle",
+      "cost_author_orcid": "0000-0001-5600-3014"
+    },
+    {
+      "apa": "Härdle, W. (2023). Hedging cryptos with Bitcoin futures. *Quantitative Finance*. https://doi.org/10.1080/14697688.2023.2187316",
+      "doi": "https://doi.org/10.1080/14697688.2023.2187316",
+      "year": 2023,
+      "cost_author": "Wolfgang Härdle",
+      "cost_author_orcid": "0000-0001-5600-3014"
+    },
+    {
+      "apa": "Härdle, W. (2023). Pricing Kernels and Risk Premia implied in Bitcoin Options. *Risks*. https://doi.org/10.3390/risks11050085",
+      "doi": "https://doi.org/10.3390/risks11050085",
+      "year": 2023,
+      "cost_author": "Wolfgang Härdle",
+      "cost_author_orcid": "0000-0001-5600-3014"
+    },
+    {
+      "apa": "Härdle, W. (2023). Weighted Competing Risks Quantile Regression Models and Variable Selection. *Mathematics*. https://doi.org/10.3390/math11061295",
+      "doi": "https://doi.org/10.3390/math11061295",
+      "year": 2023,
+      "cost_author": "Wolfgang Härdle",
+      "cost_author_orcid": "0000-0001-5600-3014"
+    },
+    {
+      "apa": "Härdle, W. (2023). Surrogate Models for Optimization of Dynamical Systems. https://doi.org/10.1007/978-3-031-30114-8_16",
+      "doi": "https://doi.org/10.1007/978-3-031-30114-8_16",
+      "year": 2023,
+      "cost_author": "Wolfgang Härdle",
+      "cost_author_orcid": "0000-0001-5600-3014"
+    },
+    {
       "apa": "Djordjevic, J. (2023). Non-linear stochastic model for dopamine cycle. *Chaos, Solitons &amp; Fractals*. https://doi.org/10.1016/j.chaos.2023.114220",
       "doi": "https://doi.org/10.1016/j.chaos.2023.114220",
       "year": 2023,
@@ -9821,6 +10780,20 @@
       "year": 2023,
       "cost_author": "Sabine Dörry",
       "cost_author_orcid": "0000-0002-3599-8371"
+    },
+    {
+      "apa": "Wenzlaff, K. (2023). Crowdfunding for Science and Teaching in Higher Education: Status Quo and Research Agenda. https://doi.org/10.1007/978-3-031-30069-1_2",
+      "doi": "https://doi.org/10.1007/978-3-031-30069-1_2",
+      "year": 2023,
+      "cost_author": "Karsten Wenzlaff",
+      "cost_author_orcid": "0000-0002-3670-9703"
+    },
+    {
+      "apa": "Wenzlaff, K. (2023). Experiences in Educating Students and Professionals About Crowdfunding. https://doi.org/10.1007/978-3-031-30069-1_5",
+      "doi": "https://doi.org/10.1007/978-3-031-30069-1_5",
+      "year": 2023,
+      "cost_author": "Karsten Wenzlaff",
+      "cost_author_orcid": "0000-0002-3670-9703"
     },
     {
       "apa": "Hajek, P. (2023). Fake review detection in e-Commerce platforms using aspect-based sentiment analysis. *Journal of Business Research*. https://doi.org/10.1016/j.jbusres.2023.114143",
@@ -10845,6 +11818,20 @@
       "cost_author_orcid": "0000-0001-5095-5356"
     },
     {
+      "apa": "Fengler, M. (2023). Monitoring consumption Switzerland: data, background, and use cases. *Swiss Journal of Economics and Statistics*. https://doi.org/10.1186/s41937-023-00108-9",
+      "doi": "https://doi.org/10.1186/s41937-023-00108-9",
+      "year": 2023,
+      "cost_author": "Matthias Fengler",
+      "cost_author_orcid": "0000-0002-9862-9258"
+    },
+    {
+      "apa": "Fengler, M. (2023). Monitoring Consumption Switzerland: Data, Background, and Use Cases.",
+      "doi": null,
+      "year": 2023,
+      "cost_author": "Matthias Fengler",
+      "cost_author_orcid": "0000-0002-9862-9258"
+    },
+    {
       "apa": "Matkovskyy, R. (2023). Systemic risks in the cryptocurrency market: Evidence from the FTX collapse. *Finance Research Letters*. https://doi.org/10.1016/j.frl.2023.103670",
       "doi": "https://doi.org/10.1016/j.frl.2023.103670",
       "year": 2023,
@@ -11167,6 +12154,27 @@
       "cost_author_orcid": "0000-0002-2646-9937"
     },
     {
+      "apa": "Mináriková, E. (2023). Evaluation of hesitance in surveys related to education during and after COVID-19 pandemic. *Proceedings of the 15th International Conference on Strategic Management and its Support by Information Systems, SMSIS 2023*.",
+      "doi": null,
+      "year": 2023,
+      "cost_author": "Erika Mináriková",
+      "cost_author_orcid": "0000-0002-4230-2109"
+    },
+    {
+      "apa": "Mináriková, E. (2023). On an Edge Detector Based on Ordinal Sums of Conjunctive and Disjunctive Aggregation Functions. *Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)*. https://doi.org/10.1007/978-3-031-39965-7_23",
+      "doi": "https://doi.org/10.1007/978-3-031-39965-7_23",
+      "year": 2023,
+      "cost_author": "Erika Mináriková",
+      "cost_author_orcid": "0000-0002-4230-2109"
+    },
+    {
+      "apa": "Mináriková, E. (2023). The synergy of Linear Regression, Fuzzy Functional Dependencies and Linguistic Summaries: A Case of Heat Islands in Bratislava. *2023 29th International Conference on Information, Communication and Automation Technologies, ICAT 2023 - Proceedings*. https://doi.org/10.1109/ICAT57854.2023.10171293",
+      "doi": "https://doi.org/10.1109/ICAT57854.2023.10171293",
+      "year": 2023,
+      "cost_author": "Erika Mináriková",
+      "cost_author_orcid": "0000-0002-4230-2109"
+    },
+    {
       "apa": "Bolesta, K. (2023). Looking for a Major in Computing? Technical Knowledge versus Broader Social Values in Computing Majors. *UDIT Norsk konferanse for utdanning og didaktikk i IT-fagene*.",
       "doi": null,
       "year": 2023,
@@ -11221,6 +12229,20 @@
       "year": 2023,
       "cost_author": "Karolina Bolesta",
       "cost_author_orcid": "0000-0002-9668-5782"
+    },
+    {
+      "apa": "Lagioia, G. (2023). Water scarcity in agriculture: An overview of causes, impacts and approaches for reducing the risks. *Heliyon*. https://doi.org/10.1016/j.heliyon.2023.e18507",
+      "doi": "https://doi.org/10.1016/j.heliyon.2023.e18507",
+      "year": 2023,
+      "cost_author": "Giovanni Lagioia",
+      "cost_author_orcid": "0000-0002-7044-602X"
+    },
+    {
+      "apa": "Lagioia, G. (2023). Blue and green hydrogen energy to meet European Union decarbonisation objectives. An overview of perspectives and the current state of affairs. *International Journal of Hydrogen Energy*. https://doi.org/10.1016/j.ijhydene.2022.10.044",
+      "doi": "https://doi.org/10.1016/j.ijhydene.2022.10.044",
+      "year": 2023,
+      "cost_author": "Giovanni Lagioia",
+      "cost_author_orcid": "0000-0002-7044-602X"
     },
     {
       "apa": "AKTURK, S. (2023). Supplier Selection and Management. * Smart and Sustainable Operations and Supply Chain Management in Industry 4.0*.",
@@ -11615,6 +12637,41 @@
       "cost_author_orcid": "0000-0003-3684-6692"
     },
     {
+      "apa": "Tsoutsa, P. (2023). Skilling Up for Tomorrow's Cities: The Workforce of Smart Cities. https://doi.org/10.32388/I2L0CB.3",
+      "doi": "https://doi.org/10.32388/I2L0CB.3",
+      "year": 2023,
+      "cost_author": "Paraskevi Tsoutsa",
+      "cost_author_orcid": "0000-0003-0019-1145"
+    },
+    {
+      "apa": "Tsoutsa, P. (2023). Skilling Up for Tomorrow's Cities: The Workforce of Smart Cities. https://doi.org/10.32388/I2L0CB.2",
+      "doi": "https://doi.org/10.32388/I2L0CB.2",
+      "year": 2023,
+      "cost_author": "Paraskevi Tsoutsa",
+      "cost_author_orcid": "0000-0003-0019-1145"
+    },
+    {
+      "apa": "Tsoutsa, P. (2023). Skilling Up for Tomorrow's Cities: The Workforce of Smart Cities. https://doi.org/10.32388/I2L0CB",
+      "doi": "https://doi.org/10.32388/I2L0CB",
+      "year": 2023,
+      "cost_author": "Paraskevi Tsoutsa",
+      "cost_author_orcid": "0000-0003-0019-1145"
+    },
+    {
+      "apa": "Tsoutsa, P. (2023). How Metaverse is Affecting Smart Cities Economy. https://doi.org/10.1145/3635059.3635099",
+      "doi": "https://doi.org/10.1145/3635059.3635099",
+      "year": 2023,
+      "cost_author": "Paraskevi Tsoutsa",
+      "cost_author_orcid": "0000-0003-0019-1145"
+    },
+    {
+      "apa": "Tsoutsa, P. (2023). How Do Citizens Want to Participate in Smart City Programs? Some Answers from Greece. *Sustainable, Innovative and Intelligent Societies and Cities*.",
+      "doi": null,
+      "year": 2023,
+      "cost_author": "Paraskevi Tsoutsa",
+      "cost_author_orcid": "0000-0003-0019-1145"
+    },
+    {
       "apa": "Belbe, S. (2023). Modelling taxpayers’ behaviour based on prediction of trust using sentiment analysis. *Finance Research Letters*. https://doi.org/10.1016/j.frl.2023.104549",
       "doi": "https://doi.org/10.1016/j.frl.2023.104549",
       "year": 2023,
@@ -11746,6 +12803,13 @@
       "year": 2023,
       "cost_author": "Sorin Anagnoste",
       "cost_author_orcid": "0000-0002-8261-5601"
+    },
+    {
+      "apa": "Imeraj, J. (2023). Albania and Kosovo with Development Potential, but Limited Support from the Banking Sector. *International Journal of Sustainable Development and Planning*. https://doi.org/10.18280/ijsdp.180507",
+      "doi": "https://doi.org/10.18280/ijsdp.180507",
+      "year": 2023,
+      "cost_author": "Juliana Imeraj",
+      "cost_author_orcid": "0009-0006-5284-1460"
     },
     {
       "apa": "Muluk, N. B. (2023). Maxillary sinus volume and adenoid tissue size in children: computed tomographic evaluation. *Romanian Journal of Rhinology*. https://doi.org/10.2478/rjr-2023-0024",
@@ -13113,6 +14177,13 @@
       "cost_author_orcid": "0000-0001-8160-0611"
     },
     {
+      "apa": "Deran, A. (2023). Factors Affecting Online Accounting Education in Terms of The Technology Acceptance Model and Social Capital Theory: The Case of Türkiye. *Muhasebe ve Vergi Uygulamaları Dergisi*. https://doi.org/10.29067/muvu.1221387",
+      "doi": "https://doi.org/10.29067/muvu.1221387",
+      "year": 2023,
+      "cost_author": "Ali Deran",
+      "cost_author_orcid": "0000-0001-5377-6740"
+    },
+    {
       "apa": "Linardakis, M. (2023). On Teachers’ Perceptions of Development of Expertise from the Experience of Distance Teaching and Learning During the COVID-19 Pandemic. *European Journal of Education and Pedagogy*. https://doi.org/10.24018/ejedu.2023.4.5.749",
       "doi": "https://doi.org/10.24018/ejedu.2023.4.5.749",
       "year": 2023,
@@ -13365,6 +14436,139 @@
       "cost_author_orcid": "0000-0002-9648-4438"
     },
     {
+      "apa": "Thomaidis, N. S. (2022). Designing Efficient Renewable Energy Portfolios for Optimal Coverage of European Power Demand under Transmission Constraints. *Energies*. https://doi.org/10.3390/en15249375",
+      "doi": "https://doi.org/10.3390/en15249375",
+      "year": 2022,
+      "cost_author": "Nikolaos S. Thomaidis",
+      "cost_author_orcid": "0000-0002-6796-6171"
+    },
+    {
+      "apa": "IVANOVIC, M. (2022). COSMIC FP method in software development estimation using artificial neural networks based on orthogonal arrays. *Connection Science*. https://doi.org/10.1080/09540091.2021.1981824",
+      "doi": "https://doi.org/10.1080/09540091.2021.1981824",
+      "year": 2022,
+      "cost_author": "MIRJANA IVANOVIC",
+      "cost_author_orcid": "0000-0003-1946-0384"
+    },
+    {
+      "apa": "IVANOVIC, M. (2022). Generalized Zero-Shot Learning for Image Classification—Comparing Performance of Popular Approaches. *Information*. https://doi.org/10.3390/info13120561",
+      "doi": "https://doi.org/10.3390/info13120561",
+      "year": 2022,
+      "cost_author": "MIRJANA IVANOVIC",
+      "cost_author_orcid": "0000-0003-1946-0384"
+    },
+    {
+      "apa": "IVANOVIC, M. (2022). Spatial SIRD model with different risk groups – multiagent approach for modelling an epidemic. *Journal of Information and Telecommunication*. https://doi.org/10.1080/24751839.2022.2065765",
+      "doi": "https://doi.org/10.1080/24751839.2022.2065765",
+      "year": 2022,
+      "cost_author": "MIRJANA IVANOVIC",
+      "cost_author_orcid": "0000-0003-1946-0384"
+    },
+    {
+      "apa": "IVANOVIC, M. (2022). Artificial intelligence supporting cancer patients across Europe—The ASCAPE project. *PLOS ONE*. https://doi.org/10.1371/journal.pone.0265127",
+      "doi": "https://doi.org/10.1371/journal.pone.0265127",
+      "year": 2022,
+      "cost_author": "MIRJANA IVANOVIC",
+      "cost_author_orcid": "0000-0003-1946-0384"
+    },
+    {
+      "apa": "IVANOVIC, M. (2022). Students’ Perceptions of ILS as a Learning-Style-Identification Tool in E-Learning Environments. *Sustainability*. https://doi.org/10.3390/su14084426",
+      "doi": "https://doi.org/10.3390/su14084426",
+      "year": 2022,
+      "cost_author": "MIRJANA IVANOVIC",
+      "cost_author_orcid": "0000-0003-1946-0384"
+    },
+    {
+      "apa": "IVANOVIC, M. (2022). Special issue: Innovations in Intelligent Systems and Applications. *Journal of Information and Telecommunication*. https://doi.org/10.1080/24751839.2021.1989242",
+      "doi": "https://doi.org/10.1080/24751839.2021.1989242",
+      "year": 2022,
+      "cost_author": "MIRJANA IVANOVIC",
+      "cost_author_orcid": "0000-0003-1946-0384"
+    },
+    {
+      "apa": "IVANOVIC, M. (2022). AI Approaches in Processing and Using Data in Personalized Medicine. https://doi.org/10.1007/978-3-031-15740-0_2",
+      "doi": "https://doi.org/10.1007/978-3-031-15740-0_2",
+      "year": 2022,
+      "cost_author": "MIRJANA IVANOVIC",
+      "cost_author_orcid": "0000-0003-1946-0384"
+    },
+    {
+      "apa": "IVANOVIC, M. (2022). Cascaded Anomaly Detection with Coarse Sampling in Distributed Systems. https://doi.org/10.1007/978-3-030-96600-3_13",
+      "doi": "https://doi.org/10.1007/978-3-030-96600-3_13",
+      "year": 2022,
+      "cost_author": "MIRJANA IVANOVIC",
+      "cost_author_orcid": "0000-0003-1946-0384"
+    },
+    {
+      "apa": "IVANOVIC, M. (2022). Current Trends in AI-Based Educational Processes—An Overview. https://doi.org/10.1007/978-3-031-04662-9_1",
+      "doi": "https://doi.org/10.1007/978-3-031-04662-9_1",
+      "year": 2022,
+      "cost_author": "MIRJANA IVANOVIC",
+      "cost_author_orcid": "0000-0003-1946-0384"
+    },
+    {
+      "apa": "IVANOVIC, M. (2022). Editorial. *Computer Science and Information Systems*. https://doi.org/10.2298/CSIS220300iI",
+      "doi": "https://doi.org/10.2298/CSIS220300iI",
+      "year": 2022,
+      "cost_author": "MIRJANA IVANOVIC",
+      "cost_author_orcid": "0000-0003-1946-0384"
+    },
+    {
+      "apa": "IVANOVIC, M. (2022). Experiments with Solving Mountain Car Problem Using State Discretization and Q-Learning. https://doi.org/10.1007/978-3-031-21743-2_12",
+      "doi": "https://doi.org/10.1007/978-3-031-21743-2_12",
+      "year": 2022,
+      "cost_author": "MIRJANA IVANOVIC",
+      "cost_author_orcid": "0000-0003-1946-0384"
+    },
+    {
+      "apa": "IVANOVIC, M. (2022). Guest editorial - interactive and innovative technologies for smart education. *Computer Science and Information Systems*. https://doi.org/10.2298/CSIS220300viiA",
+      "doi": "https://doi.org/10.2298/CSIS220300viiA",
+      "year": 2022,
+      "cost_author": "MIRJANA IVANOVIC",
+      "cost_author_orcid": "0000-0003-1946-0384"
+    },
+    {
+      "apa": "IVANOVIC, M. (2022). Guest editorial - real-time image processing with deep neural networks and optimization algorithms. *Computer Science and Information Systems*. https://doi.org/10.2298/CSIS220300iiiY",
+      "doi": "https://doi.org/10.2298/CSIS220300iiiY",
+      "year": 2022,
+      "cost_author": "MIRJANA IVANOVIC",
+      "cost_author_orcid": "0000-0003-1946-0384"
+    },
+    {
+      "apa": "KELLER, Y. (2022). Learning to Embed Semantic Similarity for Joint Image-Text Retrieval. *IEEE Transactions on Pattern Analysis and Machine Intelligence*. https://doi.org/10.1109/TPAMI.2021.3132163",
+      "doi": "https://doi.org/10.1109/TPAMI.2021.3132163",
+      "year": 2022,
+      "cost_author": "Yosi KELLER",
+      "cost_author_orcid": "0000-0002-2876-2790"
+    },
+    {
+      "apa": "KELLER, Y. (2022). DeepFake Detection Based on Discrepancies Between Faces and Their Context. *IEEE Transactions on Pattern Analysis and Machine Intelligence*. https://doi.org/10.1109/TPAMI.2021.3093446",
+      "doi": "https://doi.org/10.1109/TPAMI.2021.3093446",
+      "year": 2022,
+      "cost_author": "Yosi KELLER",
+      "cost_author_orcid": "0000-0002-2876-2790"
+    },
+    {
+      "apa": "KELLER, Y. (2022). Joint Detection and Matching of Feature Points in Multimodal Images. *IEEE Transactions on Pattern Analysis and Machine Intelligence*. https://doi.org/10.1109/TPAMI.2021.3092289",
+      "doi": "https://doi.org/10.1109/TPAMI.2021.3092289",
+      "year": 2022,
+      "cost_author": "Yosi KELLER",
+      "cost_author_orcid": "0000-0002-2876-2790"
+    },
+    {
+      "apa": "KELLER, Y. (2022). Decomposition of Individual SNP Patterns from Mixed DNA Samples. *Forensic Sciences*. https://doi.org/10.3390/forensicsci2030034",
+      "doi": "https://doi.org/10.3390/forensicsci2030034",
+      "year": 2022,
+      "cost_author": "Yosi KELLER",
+      "cost_author_orcid": "0000-0002-2876-2790"
+    },
+    {
+      "apa": "KELLER, Y. (2022). Camera Pose Auto-encoders for Improving Pose Regression. https://doi.org/10.1007/978-3-031-20080-9_9",
+      "doi": "https://doi.org/10.1007/978-3-031-20080-9_9",
+      "year": 2022,
+      "cost_author": "Yosi KELLER",
+      "cost_author_orcid": "0000-0002-2876-2790"
+    },
+    {
       "apa": "Ribeiro, B. (2022). Machine Learning for Predicting Fracture Strain in Sheet Metal Forming. *Metals*. https://doi.org/10.3390/met12111799",
       "doi": "https://doi.org/10.3390/met12111799",
       "year": 2022,
@@ -13519,6 +14723,13 @@
       "cost_author_orcid": "0000-0003-0451-0529"
     },
     {
+      "apa": "Gregoriades, A. (2022). Personality-Informed Restaurant Recommendation. *Lecture Notes in Networks and Systems*. https://doi.org/10.1007/978-3-031-04826-5_2",
+      "doi": "https://doi.org/10.1007/978-3-031-04826-5_2",
+      "year": 2022,
+      "cost_author": "Andreas Gregoriades",
+      "cost_author_orcid": "0000-0002-7422-1514"
+    },
+    {
       "apa": "Trček, D. (2022). HeriLedger—A New Generation of Blockchains for Cultural Heritage Preservation. *Sensors*. https://doi.org/10.3390/s22228913",
       "doi": "https://doi.org/10.3390/s22228913",
       "year": 2022,
@@ -13608,6 +14819,48 @@
       "year": 2022,
       "cost_author": "Ramona Rupeika-Apoga",
       "cost_author_orcid": "0000-0002-3941-0723"
+    },
+    {
+      "apa": "Emiris, I. (2022). New Upper Bounds for the Number of Embeddings of Minimally Rigid Graphs. *Discrete & Computational Geometry*. https://doi.org/10.1007/s00454-022-00370-3",
+      "doi": "https://doi.org/10.1007/s00454-022-00370-3",
+      "year": 2022,
+      "cost_author": "Ioannis Emiris",
+      "cost_author_orcid": "0000-0002-2339-5303"
+    },
+    {
+      "apa": "Emiris, I. (2022). Investigating the Bioactive Conformation of Angiotensin II Using Markov State Modeling Revisited with Web-Scale Clustering. *Journal of Chemical Theory and Computation*. https://doi.org/10.1021/acs.jctc.1c00881",
+      "doi": "https://doi.org/10.1021/acs.jctc.1c00881",
+      "year": 2022,
+      "cost_author": "Ioannis Emiris",
+      "cost_author_orcid": "0000-0002-2339-5303"
+    },
+    {
+      "apa": "Emiris, I. (2022). Efficient sampling in spectrahedra and volume approximation. *Linear Algebra and its Applications*. https://doi.org/10.1016/j.laa.2022.04.002",
+      "doi": "https://doi.org/10.1016/j.laa.2022.04.002",
+      "year": 2022,
+      "cost_author": "Ioannis Emiris",
+      "cost_author_orcid": "0000-0002-2339-5303"
+    },
+    {
+      "apa": "Emiris, I. (2022). Mixed subdivisions suitable for the greedy Canny-Emiris formula. https://doi.org/10.1145/3476446.3536180",
+      "doi": "https://doi.org/10.1145/3476446.3536180",
+      "year": 2022,
+      "cost_author": "Ioannis Emiris",
+      "cost_author_orcid": "0000-0002-2339-5303"
+    },
+    {
+      "apa": "Emiris, I. (2022). Bounding the Number of Roots of Multi-Homogeneous Systems. https://doi.org/10.1145/3476446.3536189",
+      "doi": "https://doi.org/10.1145/3476446.3536189",
+      "year": 2022,
+      "cost_author": "Ioannis Emiris",
+      "cost_author_orcid": "0000-0002-2339-5303"
+    },
+    {
+      "apa": "Emiris, I. (2022). Near-neighbor preserving dimension reduction via coverings for doubling subsets of ℓ1. *Theoretical Computer Science*. https://doi.org/10.1016/j.tcs.2022.11.031",
+      "doi": "https://doi.org/10.1016/j.tcs.2022.11.031",
+      "year": 2022,
+      "cost_author": "Ioannis Emiris",
+      "cost_author_orcid": "0000-0002-2339-5303"
     },
     {
       "apa": "Papajorgji, P. (2022). Applying Mind Genomics to Social Sciences. https://doi.org/10.4018/978-1-7998-8409-5",
@@ -14828,6 +16081,41 @@
       "cost_author_orcid": "0000-0003-1853-8784"
     },
     {
+      "apa": "Paccagnini, A. (2022). Common factors and the dynamics of cereal prices. A forecasting perspective. *Journal of Commodity Markets*. https://doi.org/10.1016/j.jcomm.2021.100240",
+      "doi": "https://doi.org/10.1016/j.jcomm.2021.100240",
+      "year": 2022,
+      "cost_author": "Alessia Paccagnini",
+      "cost_author_orcid": "0000-0002-2421-7242"
+    },
+    {
+      "apa": "Paccagnini, A. (2022). Identifying high-frequency shocks with Bayesian mixed-frequency VARs.",
+      "doi": null,
+      "year": 2022,
+      "cost_author": "Alessia Paccagnini",
+      "cost_author_orcid": "0000-0002-2421-7242"
+    },
+    {
+      "apa": "Paccagnini, A. (2022). SI women in Fintech and AI. *Digital Finance*. https://doi.org/10.1007/s42521-022-00070-w",
+      "doi": "https://doi.org/10.1007/s42521-022-00070-w",
+      "year": 2022,
+      "cost_author": "Alessia Paccagnini",
+      "cost_author_orcid": "0000-0002-2421-7242"
+    },
+    {
+      "apa": "Paccagnini, A. (2022). Gender Bias in Entrepreneurship: The Role of the Founders’ Entrepreneurial Background. *Academy of Management Proceedings*. https://doi.org/10.5465/ambpp.2022.13244abstract",
+      "doi": "https://doi.org/10.5465/ambpp.2022.13244abstract",
+      "year": 2022,
+      "cost_author": "Alessia Paccagnini",
+      "cost_author_orcid": "0000-0002-2421-7242"
+    },
+    {
+      "apa": "Paccagnini, A. (2022). Forecasting: theory and practice. *International Journal of Forecasting*. https://doi.org/10.1016/j.ijforecast.2021.11.001",
+      "doi": "https://doi.org/10.1016/j.ijforecast.2021.11.001",
+      "year": 2022,
+      "cost_author": "Alessia Paccagnini",
+      "cost_author_orcid": "0000-0002-2421-7242"
+    },
+    {
       "apa": "Vazquez, C. (2022). The stochastic θ-SEIHRD model: Adding randomness to the COVID-19 spread. *Communications in Nonlinear Science and Numerical Simulation*. https://doi.org/10.1016/j.cnsns.2022.106731",
       "doi": "https://doi.org/10.1016/j.cnsns.2022.106731",
       "year": 2022,
@@ -15115,6 +16403,34 @@
       "cost_author_orcid": "0000-0002-9768-8694"
     },
     {
+      "apa": "Wenzlaff, K. (2022). Smarter than Humans? Validating how OpenAI’s ChatGPT Model Explains Crowdfunding, Alternative Finance and Community Finance. *SSRN Electronic Journal*. https://doi.org/10.2139/ssrn.4302443",
+      "doi": "https://doi.org/10.2139/ssrn.4302443",
+      "year": 2022,
+      "cost_author": "Karsten Wenzlaff",
+      "cost_author_orcid": "0000-0002-3670-9703"
+    },
+    {
+      "apa": "Wenzlaff, K. (2022). On the merits of the Key Investment Information Sheet in the ECSPR (Arts 23-24 and Annex I). *Regulation on European Crowdfunding Service Providers for Business*.",
+      "doi": null,
+      "year": 2022,
+      "cost_author": "Karsten Wenzlaff",
+      "cost_author_orcid": "0000-0002-3670-9703"
+    },
+    {
+      "apa": "Wenzlaff, K. (2022). The crowdfunding regulation in Germany-on the path to self-isolation?. *Regulation on European Crowdfunding Service Providers for Business*.",
+      "doi": null,
+      "year": 2022,
+      "cost_author": "Karsten Wenzlaff",
+      "cost_author_orcid": "0000-0002-3670-9703"
+    },
+    {
+      "apa": "Wenzlaff, K. (2022). Tied Agents within the ECSPR Regime. *Nordic Journal of Commercial Law*.",
+      "doi": null,
+      "year": 2022,
+      "cost_author": "Karsten Wenzlaff",
+      "cost_author_orcid": "0000-0002-3670-9703"
+    },
+    {
       "apa": "Hajek, P. (2022). Neural intuitionistic fuzzy system with justified granularity. *Neural Computing and Applications*. https://doi.org/10.1007/s00521-022-07504-x",
       "doi": "https://doi.org/10.1007/s00521-022-07504-x",
       "year": 2022,
@@ -15372,6 +16688,13 @@
       "year": 2022,
       "cost_author": "Esra Kabaklarli",
       "cost_author_orcid": "0000-0001-7205-8584"
+    },
+    {
+      "apa": "Poljašević, J. (2022). Portfolio Optimization with Investment in Cryptocurrencies. https://doi.org/10.1007/978-3-030-85799-8_4",
+      "doi": "https://doi.org/10.1007/978-3-030-85799-8_4",
+      "year": 2022,
+      "cost_author": "Jelena Poljašević",
+      "cost_author_orcid": "0000-0002-6891-4875"
     },
     {
       "apa": "Laidroo, L. (2022). Capturing the ‘true’ information content of supervisory announcements in Europe. *The European Journal of Finance*. https://doi.org/10.1080/1351847X.2022.2029523",
@@ -16102,6 +17425,13 @@
       "cost_author_orcid": "0000-0001-5095-5356"
     },
     {
+      "apa": "Fengler, M. (2022). Media-expressed tone, option characteristics, and stock return predictability. *Journal of Economic Dynamics and Control*. https://doi.org/10.1016/j.jedc.2021.104290",
+      "doi": "https://doi.org/10.1016/j.jedc.2021.104290",
+      "year": 2022,
+      "cost_author": "Matthias Fengler",
+      "cost_author_orcid": "0000-0002-9862-9258"
+    },
+    {
       "apa": "Matkovskyy, R. (2022). Demand elasticities of Bitcoin and Ethereum. *Economics Letters*. https://doi.org/10.1016/j.econlet.2022.110877",
       "doi": "https://doi.org/10.1016/j.econlet.2022.110877",
       "year": 2022,
@@ -16452,6 +17782,27 @@
       "cost_author_orcid": "0000-0003-2973-9098"
     },
     {
+      "apa": "Mináriková, E. (2022). Actionable Explainable AI (AxAI): A Practical Example with Aggregation Functions for Adaptive Classification and Textual Explanations for Interpretable Machine Learning. *Machine Learning and Knowledge Extraction*. https://doi.org/10.3390/make4040047",
+      "doi": "https://doi.org/10.3390/make4040047",
+      "year": 2022,
+      "cost_author": "Erika Mináriková",
+      "cost_author_orcid": "0000-0002-4230-2109"
+    },
+    {
+      "apa": "Mináriková, E. (2022). Aggregation Functions in Flexible Classification by Ordinal Sums. *Communications in Computer and Information Science*. https://doi.org/10.1007/978-3-031-08971-8_31",
+      "doi": "https://doi.org/10.1007/978-3-031-08971-8_31",
+      "year": 2022,
+      "cost_author": "Erika Mináriková",
+      "cost_author_orcid": "0000-0002-4230-2109"
+    },
+    {
+      "apa": "Mináriková, E. (2022). Estimating linguistic summaries on the unit interval data. *IEEE International Conference on Fuzzy Systems*. https://doi.org/10.1109/FUZZ-IEEE55066.2022.9882792",
+      "doi": "https://doi.org/10.1109/FUZZ-IEEE55066.2022.9882792",
+      "year": 2022,
+      "cost_author": "Erika Mináriková",
+      "cost_author_orcid": "0000-0002-4230-2109"
+    },
+    {
       "apa": "Bolesta, K. (2022). Zasiłki i świadczenia przedemerytalne. Przedwczesna dezaktywizacja zawodowa?. *Praca i Zabezpieczenie Społeczne*. https://doi.org/10.33226/0032-6186.2022.7.4",
       "doi": "https://doi.org/10.33226/0032-6186.2022.7.4",
       "year": 2022,
@@ -16471,6 +17822,20 @@
       "year": 2022,
       "cost_author": "Karolina Bolesta",
       "cost_author_orcid": "0000-0002-9668-5782"
+    },
+    {
+      "apa": "Lagioia, G. (2022). A meso-level water use assessment in the Mediterranean agriculture. Multiple applications of water footprint for some traditional crops. *Journal of Cleaner Production*. https://doi.org/10.1016/j.jclepro.2021.129886",
+      "doi": "https://doi.org/10.1016/j.jclepro.2021.129886",
+      "year": 2022,
+      "cost_author": "Giovanni Lagioia",
+      "cost_author_orcid": "0000-0002-7044-602X"
+    },
+    {
+      "apa": "Lagioia, G. (2022). CHARACTERIZATION OF SILK-COTTON AND WOOL-COTTON BLENDS PATTERN BOOKS BY FIBER OPTICS REFLECTANCE SPECTROSCOPY. THE BOOMING MARKET OF FIRST SYNTHETIC TEXTILE DYES IN EARLY 20<sup>th</sup> CENTURY. *Microchemical Journal*. https://doi.org/10.1016/j.microc.2022.107178",
+      "doi": "https://doi.org/10.1016/j.microc.2022.107178",
+      "year": 2022,
+      "cost_author": "Giovanni Lagioia",
+      "cost_author_orcid": "0000-0002-7044-602X"
     },
     {
       "apa": "AKTURK, S. (2022). Taguchi Loss Function in Intuitionistic Fuzzy Sets along with Personal Perceptions for the Sustainable Supplier Selection Problem. *Sustainability*. https://doi.org/10.3390/su14106178",
@@ -16968,6 +18333,27 @@
       "year": 2022,
       "cost_author": "Gamze Ozturk Danisman",
       "cost_author_orcid": "0000-0003-3684-6692"
+    },
+    {
+      "apa": "Tsoutsa, P. (2022). Using TOSCA language to model personalized educational content: Introducing eduTOSCA. https://doi.org/10.1145/3575879.3576017",
+      "doi": "https://doi.org/10.1145/3575879.3576017",
+      "year": 2022,
+      "cost_author": "Paraskevi Tsoutsa",
+      "cost_author_orcid": "0000-0003-0019-1145"
+    },
+    {
+      "apa": "Tsoutsa, P. (2022). Preparing for smart cities’ future competences: Trends arising through keyword and review analysis. *Building on Smart Cities Skills and Competences: Human factors affecting smart cities development*.",
+      "doi": null,
+      "year": 2022,
+      "cost_author": "Paraskevi Tsoutsa",
+      "cost_author_orcid": "0000-0003-0019-1145"
+    },
+    {
+      "apa": "Tsoutsa, P. (2022). Accounting Student Perceptions From Internship That Trigger Adaptations in Training After the Pandemic. https://doi.org/10.4018/978-1-7998-8856-7.ch002",
+      "doi": "https://doi.org/10.4018/978-1-7998-8856-7.ch002",
+      "year": 2022,
+      "cost_author": "Paraskevi Tsoutsa",
+      "cost_author_orcid": "0000-0003-0019-1145"
     },
     {
       "apa": "Belbe, S. (2022). Spatial clustering behaviour of Covid-19 conditioned by the development level: Case study for the administrative units in Romania. *Spatial Statistics*. https://doi.org/10.1016/j.spasta.2021.100558",
@@ -17845,6 +19231,27 @@
       "cost_author_orcid": "0000-0002-3575-3470"
     },
     {
+      "apa": "Suter, C. (2022). The Rolling 50s (and More): Cars and Life Satisfaction Among Seniors Across Europe. *Applied Research in Quality of Life*. https://doi.org/10.1007/s11482-020-09887-2",
+      "doi": "https://doi.org/10.1007/s11482-020-09887-2",
+      "year": 2022,
+      "cost_author": "Christian Suter",
+      "cost_author_orcid": "0000-0003-1477-3488"
+    },
+    {
+      "apa": "Suter, C. (2022). Personal Household Debt to GDP, Ratio Of. *Encyclopedia of Quality of Life and Well-Being Research*. https://doi.org/10.1007/978-3-319-69909-7_2418-2",
+      "doi": "https://doi.org/10.1007/978-3-319-69909-7_2418-2",
+      "year": 2022,
+      "cost_author": "Christian Suter",
+      "cost_author_orcid": "0000-0003-1477-3488"
+    },
+    {
+      "apa": "Suter, C. (2022). Ардчиллын тэмцэл сорилтын жилүүдэд: Монгол ба Дэлхийн улс орнууд туршлагажиж эхэлсэн нь. https://doi.org/10.54520/i18070912",
+      "doi": "https://doi.org/10.54520/i18070912",
+      "year": 2022,
+      "cost_author": "Christian Suter",
+      "cost_author_orcid": "0000-0003-1477-3488"
+    },
+    {
       "apa": "Onder, A. O. (2022). The Time-Varying Impact of External Shocks on the Consumer Price Components: Evidence from an Emerging Market. *Journal of Quantitative Economics*. https://doi.org/10.1007/s40953-022-00317-8",
       "doi": "https://doi.org/10.1007/s40953-022-00317-8",
       "year": 2022,
@@ -18426,6 +19833,20 @@
       "cost_author_orcid": "0000-0003-3384-3795"
     },
     {
+      "apa": "Eyiah-Donkor, E. (2022). Commodity futures return predictability and intertemporal asset pricing. *Journal of Commodity Markets*. https://doi.org/10.1016/j.jcomm.2022.100289",
+      "doi": "https://doi.org/10.1016/j.jcomm.2022.100289",
+      "year": 2022,
+      "cost_author": "Emmanuel Eyiah-Donkor",
+      "cost_author_orcid": "0000-0003-1323-1716"
+    },
+    {
+      "apa": "Eyiah-Donkor, E. (2022). The illusion of oil return predictability: The choice of data matters!. *Journal of Banking & Finance*. https://doi.org/10.1016/j.jbankfin.2021.106331",
+      "doi": "https://doi.org/10.1016/j.jbankfin.2021.106331",
+      "year": 2022,
+      "cost_author": "Emmanuel Eyiah-Donkor",
+      "cost_author_orcid": "0000-0003-1323-1716"
+    },
+    {
       "apa": "Roy, J. K. (2022). Evaluating the Return Volatility of  Cryptocurrency Market: An Econometrics  Modelling Method. *Acta Polytechnica Hungarica*.",
       "doi": null,
       "year": 2022,
@@ -18501,6 +19922,20 @@
       "year": 2022,
       "cost_author": "Hazar Altinbas",
       "cost_author_orcid": "0000-0001-8160-0611"
+    },
+    {
+      "apa": "Deran, A. (2022). Türkiye’deki Devlet Üniversitelerinin Lisans Programlarında Yer Alan Denetim Dersi Müfredatının İncelenmesi. *Selçuk Üniversitesi Sosyal Bilimler Meslek Yüksekokulu Dergisi*. https://doi.org/10.29249/selcuksbmyd.1141041",
+      "doi": "https://doi.org/10.29249/selcuksbmyd.1141041",
+      "year": 2022,
+      "cost_author": "Ali Deran",
+      "cost_author_orcid": "0000-0001-5377-6740"
+    },
+    {
+      "apa": "Deran, A. (2022). Nesnelerin İnterneti Teknolojisinin Muhasebe ve Denetim Sürecine Etkisi ve Muhtemel Riskler (The Effects of The Internet of Things Technology on Accounting and Auditing Process and Estimated Risks). *Journal of Business Research - Turk*. https://doi.org/10.20491/isarder.2022.1456",
+      "doi": "https://doi.org/10.20491/isarder.2022.1456",
+      "year": 2022,
+      "cost_author": "Ali Deran",
+      "cost_author_orcid": "0000-0001-5377-6740"
     },
     {
       "apa": "Linardakis, M. (2022). Comparing the Attitudes of Greek Kindergarten Teachers Against Primary School Teachers Towards ICT. *Research Anthology on Early Childhood Development and School Transition in the Digital Era*. https://doi.org/10.4018/978-1-6684-7468-6.ch012",
@@ -18839,6 +20274,97 @@
       "cost_author_orcid": "0000-0002-9648-4438"
     },
     {
+      "apa": "Thomaidis, N. S. (2021). Fundamental Responsiveness in European Electricity Prices. *Energies*. https://doi.org/10.3390/en14227623",
+      "doi": "https://doi.org/10.3390/en14227623",
+      "year": 2021,
+      "cost_author": "Nikolaos S. Thomaidis",
+      "cost_author_orcid": "0000-0002-6796-6171"
+    },
+    {
+      "apa": "Thomaidis, N. S. (2021). Cooling Degree Models and Future Energy Demand in the Residential Sector. A Seven-Country Case Study. *Sustainability*. https://doi.org/10.3390/su13052987",
+      "doi": "https://doi.org/10.3390/su13052987",
+      "year": 2021,
+      "cost_author": "Nikolaos S. Thomaidis",
+      "cost_author_orcid": "0000-0002-6796-6171"
+    },
+    {
+      "apa": "IVANOVIC, M. (2021). Role of Artificial Intelligence in Medical Predictions, Interventions and Quality of Life. https://doi.org/10.1109/ICSAI53574.2021.9664199",
+      "doi": "https://doi.org/10.1109/ICSAI53574.2021.9664199",
+      "year": 2021,
+      "cost_author": "MIRJANA IVANOVIC",
+      "cost_author_orcid": "0000-0003-1946-0384"
+    },
+    {
+      "apa": "IVANOVIC, M. (2021). A Novel UCP Model Based on Artificial Neural Networks and Orthogonal Arrays. *Applied Sciences*. https://doi.org/10.3390/app11198799",
+      "doi": "https://doi.org/10.3390/app11198799",
+      "year": 2021,
+      "cost_author": "MIRJANA IVANOVIC",
+      "cost_author_orcid": "0000-0003-1946-0384"
+    },
+    {
+      "apa": "IVANOVIC, M. (2021). Improved Effort and Cost Estimation Model Using Artificial Neural Networks and Taguchi Method with Different Activation Functions. *Entropy*. https://doi.org/10.3390/e23070854",
+      "doi": "https://doi.org/10.3390/e23070854",
+      "year": 2021,
+      "cost_author": "MIRJANA IVANOVIC",
+      "cost_author_orcid": "0000-0003-1946-0384"
+    },
+    {
+      "apa": "IVANOVIC, M. (2021). E-learning Personalization Systems and Sustainable Education. *Sustainability*. https://doi.org/10.3390/su13126713",
+      "doi": "https://doi.org/10.3390/su13126713",
+      "year": 2021,
+      "cost_author": "MIRJANA IVANOVIC",
+      "cost_author_orcid": "0000-0003-1946-0384"
+    },
+    {
+      "apa": "IVANOVIC, M. (2021). A New Approach to Software Effort Estimation Using Different Artificial Neural Network Architectures and Taguchi Orthogonal Arrays. *IEEE Access*. https://doi.org/10.1109/ACCESS.2021.3057807",
+      "doi": "https://doi.org/10.1109/ACCESS.2021.3057807",
+      "year": 2021,
+      "cost_author": "MIRJANA IVANOVIC",
+      "cost_author_orcid": "0000-0003-1946-0384"
+    },
+    {
+      "apa": "IVANOVIC, M. (2021). Convergence rate of Artificial Neural Networks for estimation in software development projects. *Information and Software Technology*. https://doi.org/10.1016/j.infsof.2021.106627",
+      "doi": "https://doi.org/10.1016/j.infsof.2021.106627",
+      "year": 2021,
+      "cost_author": "MIRJANA IVANOVIC",
+      "cost_author_orcid": "0000-0003-1946-0384"
+    },
+    {
+      "apa": "IVANOVIC, M. (2021). Editorial. *Computer Science and Information Systems*. https://doi.org/10.2298/CSIS210300iI",
+      "doi": "https://doi.org/10.2298/CSIS210300iI",
+      "year": 2021,
+      "cost_author": "MIRJANA IVANOVIC",
+      "cost_author_orcid": "0000-0003-1946-0384"
+    },
+    {
+      "apa": "IVANOVIC, M. (2021). Enhancing learning opportunities for CS: Experiences from two learning systems. *Advances in Intelligent Systems and Computing*. https://doi.org/10.1007/978-3-030-52287-2_19",
+      "doi": "https://doi.org/10.1007/978-3-030-52287-2_19",
+      "year": 2021,
+      "cost_author": "MIRJANA IVANOVIC",
+      "cost_author_orcid": "0000-0003-1946-0384"
+    },
+    {
+      "apa": "IVANOVIC, M. (2021). Explainable Recommendations in a Personalized Programming Practice System. https://doi.org/10.1007/978-3-030-78292-4_6",
+      "doi": "https://doi.org/10.1007/978-3-030-78292-4_6",
+      "year": 2021,
+      "cost_author": "MIRJANA IVANOVIC",
+      "cost_author_orcid": "0000-0003-1946-0384"
+    },
+    {
+      "apa": "IVANOVIC, M. (2021). Multi-agent Spatial SIR-Based Modeling and Simulation of Infection Spread Management. *Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)*. https://doi.org/10.1007/978-3-030-77967-2_37",
+      "doi": "https://doi.org/10.1007/978-3-030-77967-2_37",
+      "year": 2021,
+      "cost_author": "MIRJANA IVANOVIC",
+      "cost_author_orcid": "0000-0003-1946-0384"
+    },
+    {
+      "apa": "IVANOVIC, M. (2021). Sentiment prediction based on analysis of customers assessments in food serving businesses. *Connection Science*. https://doi.org/10.1080/09540091.2020.1870436",
+      "doi": "https://doi.org/10.1080/09540091.2020.1870436",
+      "year": 2021,
+      "cost_author": "MIRJANA IVANOVIC",
+      "cost_author_orcid": "0000-0003-1946-0384"
+    },
+    {
       "apa": "Ribeiro, B. (2021). Drug-Target Interaction Prediction: End-to-End Deep Learning Approach. *IEEE/ACM Transactions on Computational Biology and Bioinformatics*. https://doi.org/10.1109/TCBB.2020.2977335",
       "doi": "https://doi.org/10.1109/TCBB.2020.2977335",
       "year": 2021,
@@ -18958,6 +20484,20 @@
       "cost_author_orcid": "0000-0003-0451-0529"
     },
     {
+      "apa": "Gregoriades, A. (2021). Evaluating the Effect of Weather on Tourist Revisit Intention using Natural Language Processing and Classification Techniques. *Conference Proceedings - IEEE International Conference on Systems, Man and Cybernetics*. https://doi.org/10.1109/SMC52423.2021.9658820",
+      "doi": "https://doi.org/10.1109/SMC52423.2021.9658820",
+      "year": 2021,
+      "cost_author": "Andreas Gregoriades",
+      "cost_author_orcid": "0000-0002-7422-1514"
+    },
+    {
+      "apa": "Gregoriades, A. (2021). Supporting digital content marketing and messaging through topic modelling and decision trees. *Expert Systems with Applications*. https://doi.org/10.1016/j.eswa.2021.115546",
+      "doi": "https://doi.org/10.1016/j.eswa.2021.115546",
+      "year": 2021,
+      "cost_author": "Andreas Gregoriades",
+      "cost_author_orcid": "0000-0002-7422-1514"
+    },
+    {
       "apa": "Trček, D. (2021). Cruxes for visual domain sonification in digital arts. *Digital Creativity*. https://doi.org/10.1080/14626268.2021.2002913",
       "doi": "https://doi.org/10.1080/14626268.2021.2002913",
       "year": 2021,
@@ -19026,6 +20566,48 @@
       "year": 2021,
       "cost_author": "Ramona Rupeika-Apoga",
       "cost_author_orcid": "0000-0002-3941-0723"
+    },
+    {
+      "apa": "Emiris, I. (2021). Modeling of Crisis Periods in Stock Markets. https://doi.org/10.1007/978-3-030-92121-7_5",
+      "doi": "https://doi.org/10.1007/978-3-030-92121-7_5",
+      "year": 2021,
+      "cost_author": "Ioannis Emiris",
+      "cost_author_orcid": "0000-0002-2339-5303"
+    },
+    {
+      "apa": "Emiris, I. (2021). Modeling asset allocations and a new portfolio performance score. *Digital Finance*. https://doi.org/10.1007/s42521-021-00040-8",
+      "doi": "https://doi.org/10.1007/s42521-021-00040-8",
+      "year": 2021,
+      "cost_author": "Ioannis Emiris",
+      "cost_author_orcid": "0000-0002-2339-5303"
+    },
+    {
+      "apa": "Emiris, I. (2021). Spatio-Temporal Deep Learning for day-ahead wind speed forecasting relying on WRF predictions. *Energy Systems*. https://doi.org/10.1007/s12667-021-00480-6",
+      "doi": "https://doi.org/10.1007/s12667-021-00480-6",
+      "year": 2021,
+      "cost_author": "Ioannis Emiris",
+      "cost_author_orcid": "0000-0002-2339-5303"
+    },
+    {
+      "apa": "Emiris, I. (2021). The m-Bézout Bound and Distance Geometry. https://doi.org/10.1007/978-3-030-85165-1_2",
+      "doi": "https://doi.org/10.1007/978-3-030-85165-1_2",
+      "year": 2021,
+      "cost_author": "Ioannis Emiris",
+      "cost_author_orcid": "0000-0002-2339-5303"
+    },
+    {
+      "apa": "Emiris, I. (2021). Autonomous and optimized ship routing. https://doi.org/10.5957/SOME-2021-017",
+      "doi": "https://doi.org/10.5957/SOME-2021-017",
+      "year": 2021,
+      "cost_author": "Ioannis Emiris",
+      "cost_author_orcid": "0000-0002-2339-5303"
+    },
+    {
+      "apa": "Emiris, I. (2021). Multilinear Polynomial Systems: Root Isolation and Bit Complexity. *Journal of Symbolic Computation*. https://doi.org/10.1016/j.jsc.2020.06.005",
+      "doi": "https://doi.org/10.1016/j.jsc.2020.06.005",
+      "year": 2021,
+      "cost_author": "Ioannis Emiris",
+      "cost_author_orcid": "0000-0002-2339-5303"
     },
     {
       "apa": "Papajorgji, P. (2021). Trust and Expectation Measured With Proejctive Iconics. https://doi.org/10.15405/epsbs.2021.12.04.21",
@@ -20435,6 +22017,20 @@
       "cost_author_orcid": "0000-0001-8029-3584"
     },
     {
+      "apa": "Jerić, S. V. (2021). Comparing classification algorithms for prediction on CROBEX data. *Croatian Review of Economic, Business and Social Statistics*. https://doi.org/10.2478/crebss-2020-0007",
+      "doi": "https://doi.org/10.2478/crebss-2020-0007",
+      "year": 2021,
+      "cost_author": "Silvija Vlah Jerić",
+      "cost_author_orcid": "0000-0003-4738-6337"
+    },
+    {
+      "apa": "Jerić, S. V. (2021). Evaluation of Alternative Approaches in Classification Algorithms for Prediction of Stock Market Index. *Recent Applications of Financial Risk Modelling and Portfolio Management*. https://doi.org/10.4018/978-1-7998-5083-0.ch010",
+      "doi": "https://doi.org/10.4018/978-1-7998-5083-0.ch010",
+      "year": 2021,
+      "cost_author": "Silvija Vlah Jerić",
+      "cost_author_orcid": "0000-0003-4738-6337"
+    },
+    {
       "apa": "Schwendner, P. (2021). Adaptive Seriational Risk Parity and Other Extensions for Heuristic Portfolio Construction Using Machine Learning and Graph Theory. *The Journal of Financial Data Science*. https://doi.org/10.3905/jfds.2021.1.078",
       "doi": "https://doi.org/10.3905/jfds.2021.1.078",
       "year": 2021,
@@ -20517,6 +22113,34 @@
       "year": 2021,
       "cost_author": "Piotr Wójcik",
       "cost_author_orcid": "0000-0003-1853-8784"
+    },
+    {
+      "apa": "Paccagnini, A. (2021). Common factors and the dynamics of industrial metal prices. A forecasting perspective. *Resources Policy*. https://doi.org/10.1016/j.resourpol.2021.102319",
+      "doi": "https://doi.org/10.1016/j.resourpol.2021.102319",
+      "year": 2021,
+      "cost_author": "Alessia Paccagnini",
+      "cost_author_orcid": "0000-0002-2421-7242"
+    },
+    {
+      "apa": "Paccagnini, A. (2021). Editorial for Special Issue “New Frontiers in Forecasting the Business Cycle and Financial Markets”. *Forecasting*. https://doi.org/10.3390/forecast3030030",
+      "doi": "https://doi.org/10.3390/forecast3030030",
+      "year": 2021,
+      "cost_author": "Alessia Paccagnini",
+      "cost_author_orcid": "0000-0002-2421-7242"
+    },
+    {
+      "apa": "Paccagnini, A. (2021). Testing the predictive accuracy of COVID-19 forecasts.",
+      "doi": null,
+      "year": 2021,
+      "cost_author": "Alessia Paccagnini",
+      "cost_author_orcid": "0000-0002-2421-7242"
+    },
+    {
+      "apa": "Paccagnini, A. (2021). Teaching Quantitative Courses Online: An International Survey.",
+      "doi": null,
+      "year": 2021,
+      "cost_author": "Alessia Paccagnini",
+      "cost_author_orcid": "0000-0002-2421-7242"
     },
     {
       "apa": "Vazquez, C. (2021). PDE models for the pricing of a defaultable coupon-bearing bond under an extended JDCEV model. *Communications in Nonlinear Science and Numerical Simulation*. https://doi.org/10.1016/j.cnsns.2021.105914",
@@ -20664,6 +22288,34 @@
       "year": 2021,
       "cost_author": "Jan-Alexander Posth",
       "cost_author_orcid": "0000-0002-5898-0676"
+    },
+    {
+      "apa": "Trimborn, S. (2021). Investing with cryptocurrencies – evaluating their potential for portfolio allocation strategies. *Quantitative Finance*. https://doi.org/10.1080/14697688.2021.1880023",
+      "doi": "https://doi.org/10.1080/14697688.2021.1880023",
+      "year": 2021,
+      "cost_author": "Simon Trimborn",
+      "cost_author_orcid": "0000-0003-3745-4164"
+    },
+    {
+      "apa": "Trimborn, S. (2021). VCRIX — A volatility index for crypto-currencies. *International Review of Financial Analysis*. https://doi.org/10.1016/j.irfa.2021.101915",
+      "doi": "https://doi.org/10.1016/j.irfa.2021.101915",
+      "year": 2021,
+      "cost_author": "Simon Trimborn",
+      "cost_author_orcid": "0000-0003-3745-4164"
+    },
+    {
+      "apa": "Trimborn, S. (2021). gofCopula. *R Journal*. https://doi.org/10.32614/rj-2021-060",
+      "doi": "https://doi.org/10.32614/rj-2021-060",
+      "year": 2021,
+      "cost_author": "Simon Trimborn",
+      "cost_author_orcid": "0000-0003-3745-4164"
+    },
+    {
+      "apa": "Trimborn, S. (2021). gofCopula: Goodness-of-Fit Tests for Copulae. *The R Journal*.",
+      "doi": null,
+      "year": 2021,
+      "cost_author": "Simon Trimborn",
+      "cost_author_orcid": "0000-0003-3745-4164"
     },
     {
       "apa": "Djordjevic, J. (2021). Recent Developments in the Solution of Nonlinear Differential Equations. *IntechOpen*. https://doi.org/10.5772/intechopen.92489",
@@ -20839,6 +22491,34 @@
       "year": 2021,
       "cost_author": "Friedemann Polzin",
       "cost_author_orcid": "0000-0002-9768-8694"
+    },
+    {
+      "apa": "Wenzlaff, K. (2021). Assessing the Maturity of Crowdfunding and Alternative Finance Markets. https://doi.org/10.1007/978-3-030-77841-5_4",
+      "doi": "https://doi.org/10.1007/978-3-030-77841-5_4",
+      "year": 2021,
+      "cost_author": "Karsten Wenzlaff",
+      "cost_author_orcid": "0000-0002-3670-9703"
+    },
+    {
+      "apa": "Wenzlaff, K. (2021). Current State of Crowdfunding in Europe 2021.",
+      "doi": null,
+      "year": 2021,
+      "cost_author": "Karsten Wenzlaff",
+      "cost_author_orcid": "0000-0002-3670-9703"
+    },
+    {
+      "apa": "Wenzlaff, K. (2021). From Passive Observer to Confident Leader: Taxonomies for Public-Private Collaboration in Regional and Local Civic Crowdfunding. https://doi.org/10.1007/978-3-030-77841-5_5",
+      "doi": "https://doi.org/10.1007/978-3-030-77841-5_5",
+      "year": 2021,
+      "cost_author": "Karsten Wenzlaff",
+      "cost_author_orcid": "0000-0002-3670-9703"
+    },
+    {
+      "apa": "Wenzlaff, K. (2021). Unlocking the crowdfunding potential for the European Structural and Investment Funds.",
+      "doi": null,
+      "year": 2021,
+      "cost_author": "Karsten Wenzlaff",
+      "cost_author_orcid": "0000-0002-3670-9703"
     },
     {
       "apa": "Hajek, P. (2021). Configuration Paths to Efficient National Innovation Ecosystems. *Technological Forecasting and Social Change*. https://doi.org/10.1016/j.techfore.2021.120787",
@@ -21259,6 +22939,20 @@
       "year": 2021,
       "cost_author": "Arman Hassanniakalager",
       "cost_author_orcid": "0000-0003-1411-2188"
+    },
+    {
+      "apa": "Solenički, M. (2021). Euroskepticizam mladih u Hrvatskoj. *Elektronički zbornik radova Veleučilišta u Šibeniku*. https://doi.org/10.51650/ezrvs.15.3-4.7",
+      "doi": "https://doi.org/10.51650/ezrvs.15.3-4.7",
+      "year": 2021,
+      "cost_author": "Martina Solenički",
+      "cost_author_orcid": "0000-0001-6380-1700"
+    },
+    {
+      "apa": "Solenički, M. (2021). Linking Individual Demographics to Antecedents of Mobile Banking Usage: Evidence from Developing Countries in Southeast Europe. *Global Business Review*. https://doi.org/10.1177/09721509211008686",
+      "doi": "https://doi.org/10.1177/09721509211008686",
+      "year": 2021,
+      "cost_author": "Martina Solenički",
+      "cost_author_orcid": "0000-0001-6380-1700"
     },
     {
       "apa": "Alemanni, B. (2021). Unleveraged Portfolios and Pure Allocation Return. *Journal of Risk and Financial Management*. https://doi.org/10.3390/jrfm14110550",
@@ -22171,6 +23865,13 @@
       "cost_author_orcid": "0000-0003-2973-9098"
     },
     {
+      "apa": "Mináriková, E. (2021). Classification by ordinal sums of conjunctive and disjunctive functions for explainable AI and interpretable machine learning solutions. *Knowledge-Based Systems*. https://doi.org/10.1016/j.knosys.2021.106916",
+      "doi": "https://doi.org/10.1016/j.knosys.2021.106916",
+      "year": 2021,
+      "cost_author": "Erika Mináriková",
+      "cost_author_orcid": "0000-0002-4230-2109"
+    },
+    {
       "apa": "Bolesta, K. (2021). Bezpieczeństwo danych i systemów informatycznych. *Rozważania ekonomiczne studentów SGH*.",
       "doi": null,
       "year": 2021,
@@ -22183,6 +23884,76 @@
       "year": 2021,
       "cost_author": "Karolina Bolesta",
       "cost_author_orcid": "0000-0002-9668-5782"
+    },
+    {
+      "apa": "Lagioia, G. (2021). Modelling Digital Circular Economy framework in the Agricultural Sector. An Application in Southern Italy. https://doi.org/10.3390/engproc2021009015",
+      "doi": "https://doi.org/10.3390/engproc2021009015",
+      "year": 2021,
+      "cost_author": "Giovanni Lagioia",
+      "cost_author_orcid": "0000-0002-7044-602X"
+    },
+    {
+      "apa": "Lagioia, G. (2021). Environmental performance scenarios in the production of hollow glass containers for food packaging: an LCA approach. *International Journal of Life Cycle Assessment*. https://doi.org/10.1007/s11367-020-01797-7",
+      "doi": "https://doi.org/10.1007/s11367-020-01797-7",
+      "year": 2021,
+      "cost_author": "Giovanni Lagioia",
+      "cost_author_orcid": "0000-0002-7044-602X"
+    },
+    {
+      "apa": "Lagioia, G. (2021). Four types of eco-innovation for Baltic firms. *Economic Research-Ekonomska Istrazivanja*. https://doi.org/10.1080/1331677X.2021.1889393",
+      "doi": "https://doi.org/10.1080/1331677X.2021.1889393",
+      "year": 2021,
+      "cost_author": "Giovanni Lagioia",
+      "cost_author_orcid": "0000-0002-7044-602X"
+    },
+    {
+      "apa": "Lagioia, G. (2021). Global warming potential of food waste through the life cycle assessment: An analytical review. *Environmental Impact Assessment Review*. https://doi.org/10.1016/j.eiar.2021.106677",
+      "doi": "https://doi.org/10.1016/j.eiar.2021.106677",
+      "year": 2021,
+      "cost_author": "Giovanni Lagioia",
+      "cost_author_orcid": "0000-0002-7044-602X"
+    },
+    {
+      "apa": "Lagioia, G. (2021). Has the COVID-19 pandemic changed food waste perception and behavior? Evidence from Italian consumers. *Socio-Economic Planning Sciences*. https://doi.org/10.1016/j.seps.2021.101095",
+      "doi": "https://doi.org/10.1016/j.seps.2021.101095",
+      "year": 2021,
+      "cost_author": "Giovanni Lagioia",
+      "cost_author_orcid": "0000-0002-7044-602X"
+    },
+    {
+      "apa": "Lagioia, G. (2021). How to manage and minimize food waste in the hotel industry: an exploratory research. *International Journal of Culture, Tourism, and Hospitality Research*. https://doi.org/10.1108/IJCTHR-01-2021-0019",
+      "doi": "https://doi.org/10.1108/IJCTHR-01-2021-0019",
+      "year": 2021,
+      "cost_author": "Giovanni Lagioia",
+      "cost_author_orcid": "0000-0002-7044-602X"
+    },
+    {
+      "apa": "Lagioia, G. (2021). How to measure food loss and waste? A material flow analysis application. *British Food Journal*. https://doi.org/10.1108/BFJ-03-2020-0241",
+      "doi": "https://doi.org/10.1108/BFJ-03-2020-0241",
+      "year": 2021,
+      "cost_author": "Giovanni Lagioia",
+      "cost_author_orcid": "0000-0002-7044-602X"
+    },
+    {
+      "apa": "Lagioia, G. (2021). Sustainable options for paints through a life cycle assessment method. *Journal of Cleaner Production*. https://doi.org/10.1016/j.jclepro.2021.126464",
+      "doi": "https://doi.org/10.1016/j.jclepro.2021.126464",
+      "year": 2021,
+      "cost_author": "Giovanni Lagioia",
+      "cost_author_orcid": "0000-0002-7044-602X"
+    },
+    {
+      "apa": "Lagioia, G. (2021). The Environmental Performance of Glass and PET Mineral Water Bottles in Italy. *Environmental Footprints and Eco-Design of Products and Processes*. https://doi.org/10.1007/978-981-16-4609-6_1",
+      "doi": "https://doi.org/10.1007/978-981-16-4609-6_1",
+      "year": 2021,
+      "cost_author": "Giovanni Lagioia",
+      "cost_author_orcid": "0000-0002-7044-602X"
+    },
+    {
+      "apa": "Lagioia, G. (2021). The Sustainability Management in the Cruise Tourism – An Application. https://doi.org/10.31410/tmt.2021-2022.171",
+      "doi": "https://doi.org/10.31410/tmt.2021-2022.171",
+      "year": 2021,
+      "cost_author": "Giovanni Lagioia",
+      "cost_author_orcid": "0000-0002-7044-602X"
     },
     {
       "apa": "AKTURK, S. (2021). FİZYOTERAPİSTLERİN KAS-İSKELET SİSTEM RAHATSIZLIKLARI İLE ERGONOMİ FARKINDALIKLARI. *Ergonomi*. https://doi.org/10.33439/ergonomi.978679",
@@ -22773,6 +24544,27 @@
       "cost_author_orcid": "0000-0003-3684-6692"
     },
     {
+      "apa": "Tsoutsa, P. (2021). Towards an Ontology for Smart City Competences. *25th Pan-Hellenic Conference on Informatics*. https://doi.org/10.1145/3503823.3503871",
+      "doi": "https://doi.org/10.1145/3503823.3503871",
+      "year": 2021,
+      "cost_author": "Paraskevi Tsoutsa",
+      "cost_author_orcid": "0000-0003-0019-1145"
+    },
+    {
+      "apa": "Tsoutsa, P. (2021). Nexus Services in Smart City Ecosystems. *Journal of the Knowledge Economy*. https://doi.org/10.1007/s13132-020-00635-3",
+      "doi": "https://doi.org/10.1007/s13132-020-00635-3",
+      "year": 2021,
+      "cost_author": "Paraskevi Tsoutsa",
+      "cost_author_orcid": "0000-0003-0019-1145"
+    },
+    {
+      "apa": "Tsoutsa, P. (2021). A Framework for developing Teamwork Enabled Services in Smart City Domains. *2021 The 4th International Conference on Computers in Management and Business*. https://doi.org/10.1145/3450588.3450595",
+      "doi": "https://doi.org/10.1145/3450588.3450595",
+      "year": 2021,
+      "cost_author": "Paraskevi Tsoutsa",
+      "cost_author_orcid": "0000-0003-0019-1145"
+    },
+    {
       "apa": "Belbe, S. (2021). Cross-Domain Sentiment Analysis of the Natural Romanian Language. *Lecture Notes in Business Information Processing*. https://doi.org/10.1007/978-3-030-92909-1_11",
       "doi": "https://doi.org/10.1007/978-3-030-92909-1_11",
       "year": 2021,
@@ -22890,6 +24682,13 @@
       "year": 2021,
       "cost_author": "Sorin Anagnoste",
       "cost_author_orcid": "0000-0002-8261-5601"
+    },
+    {
+      "apa": "Giordano, S. (2021). A Rating Scale Mixture Model to Account for the Tendency to Middle and Extreme Categories. *Journal of Educational and Behavioral Statistics*. https://doi.org/10.3102/1076998621992554",
+      "doi": "https://doi.org/10.3102/1076998621992554",
+      "year": 2021,
+      "cost_author": "Sabrina Giordano",
+      "cost_author_orcid": "0000-0002-3635-9440"
     },
     {
       "apa": "Plihal, T. (2021). Scheduled macroeconomic news announcements and Forex volatility forecasting. *Journal of Forecasting*. https://doi.org/10.1002/for.2773",
@@ -23760,6 +25559,48 @@
       "cost_author_orcid": "0000-0002-3575-3470"
     },
     {
+      "apa": "Suter, C. (2021). Early retirement as a privilege for the rich? A comparative analysis of Germany and Switzerland. *Advances in Life Course Research*. https://doi.org/10.1016/j.alcr.2020.100392",
+      "doi": "https://doi.org/10.1016/j.alcr.2020.100392",
+      "year": 2021,
+      "cost_author": "Christian Suter",
+      "cost_author_orcid": "0000-0003-1477-3488"
+    },
+    {
+      "apa": "Suter, C. (2021). Cross-National Comparison of Age and Period Effects on Levels of Subjective Well-Being in Australia and Switzerland During Volatile Economic Times (2001–2016). *Social Indicators Research*. https://doi.org/10.1007/s11205-020-02567-6",
+      "doi": "https://doi.org/10.1007/s11205-020-02567-6",
+      "year": 2021,
+      "cost_author": "Christian Suter",
+      "cost_author_orcid": "0000-0003-1477-3488"
+    },
+    {
+      "apa": "Suter, C. (2021). Debt. *Encyclopedia of Quality of Life and Well-Being Research*. https://doi.org/10.1007/978-3-319-69909-7_677-2",
+      "doi": "https://doi.org/10.1007/978-3-319-69909-7_677-2",
+      "year": 2021,
+      "cost_author": "Christian Suter",
+      "cost_author_orcid": "0000-0003-1477-3488"
+    },
+    {
+      "apa": "Suter, C. (2021). Democratic Struggles in Challenging Times: Insights from Mongolia and Around the World. https://doi.org/10.54520/i18070911",
+      "doi": "https://doi.org/10.54520/i18070911",
+      "year": 2021,
+      "cost_author": "Christian Suter",
+      "cost_author_orcid": "0000-0003-1477-3488"
+    },
+    {
+      "apa": "Suter, C. (2021). Federal Debt to GDP, Ratio of. *Encyclopedia of Quality of Life and Well-Being Research*. https://doi.org/10.1007/978-3-319-69909-7_2417-2",
+      "doi": "https://doi.org/10.1007/978-3-319-69909-7_2417-2",
+      "year": 2021,
+      "cost_author": "Christian Suter",
+      "cost_author_orcid": "0000-0003-1477-3488"
+    },
+    {
+      "apa": "Suter, C. (2021). Social Inequalities. *Encyclopedia of Quality of Life and Well-Being Research*. https://doi.org/10.1007/978-3-319-69909-7_2766-2",
+      "doi": "https://doi.org/10.1007/978-3-319-69909-7_2766-2",
+      "year": 2021,
+      "cost_author": "Christian Suter",
+      "cost_author_orcid": "0000-0003-1477-3488"
+    },
+    {
       "apa": "Onder, A. O. (2021). Determinants of financial stress in emerging market economies: Are spatial effects important?. *International Journal of Finance &amp; Economics*. https://doi.org/10.1002/ijfe.2035",
       "doi": "https://doi.org/10.1002/ijfe.2035",
       "year": 2021,
@@ -24222,6 +26063,20 @@
       "cost_author_orcid": "0000-0001-8160-0611"
     },
     {
+      "apa": "Deran, A. (2021). Blok zinciri teknolojisinin ödeme sistemleri, muhasebe bilgi sistemi ve denetim sürecine etkisi; kripto varlıkların finansal tablolarda raporlanması. *Erciyes Akademi*. https://doi.org/10.48070/erciyesakademi.957594",
+      "doi": "https://doi.org/10.48070/erciyesakademi.957594",
+      "year": 2021,
+      "cost_author": "Ali Deran",
+      "cost_author_orcid": "0000-0001-5377-6740"
+    },
+    {
+      "apa": "Deran, A. (2021). COMPARISON OF VALUATION MEASURES IN TERMS OF TURKEY ACCOUNTING/FINANCIAL REPORTING STANDARDS (TMS/TFRS), FINANCIAL REPORTING STANDARD FOR LARGE AND MEDIUM-SIZED ENTITIES (BOBI FRS) AND THE TAX PROCEDURE LAW (VUK): A STUDY ONTO THE ASSET STRUCTURE OF FINANCIAL POSITION STATEMENT. *Muhasebe ve Vergi Uygulamaları Dergisi*. https://doi.org/10.29067/muvu.799203",
+      "doi": "https://doi.org/10.29067/muvu.799203",
+      "year": 2021,
+      "cost_author": "Ali Deran",
+      "cost_author_orcid": "0000-0001-5377-6740"
+    },
+    {
       "apa": "Linardakis, M. (2021). Effects of the pandemic Covid-19 on perceptions and attitudes of adults towards pets. *Psychology*. https://doi.org/10.12681/psy_hps.29338",
       "doi": "https://doi.org/10.12681/psy_hps.29338",
       "year": 2021,
@@ -24516,6 +26371,160 @@
       "cost_author_orcid": "0000-0002-9648-4438"
     },
     {
+      "apa": "IVANOVIC, M. (2020). Agent-based Internet of Things: State-of-the-art and research challenges. *Future Generation Computer Systems*. https://doi.org/10.1016/j.future.2019.09.016",
+      "doi": "https://doi.org/10.1016/j.future.2019.09.016",
+      "year": 2020,
+      "cost_author": "MIRJANA IVANOVIC",
+      "cost_author_orcid": "0000-0003-1946-0384"
+    },
+    {
+      "apa": "IVANOVIC, M. (2020). An Effective Approach to Outlier Detection Based on Centrality and Centre-Proximity. *Informatica (Netherlands)*. https://doi.org/10.15388/20-INFOR413",
+      "doi": "https://doi.org/10.15388/20-INFOR413",
+      "year": 2020,
+      "cost_author": "MIRJANA IVANOVIC",
+      "cost_author_orcid": "0000-0003-1946-0384"
+    },
+    {
+      "apa": "IVANOVIC, M. (2020). An MQTT-based Resource Management Framework for Edge Computing Systems. *INISTA 2020 - 2020 International Conference on INnovations in Intelligent SysTems and Applications, Proceedings*. https://doi.org/10.1109/INISTA49547.2020.9194690",
+      "doi": "https://doi.org/10.1109/INISTA49547.2020.9194690",
+      "year": 2020,
+      "cost_author": "MIRJANA IVANOVIC",
+      "cost_author_orcid": "0000-0003-1946-0384"
+    },
+    {
+      "apa": "IVANOVIC, M. (2020). Block structured scheduling using constraint logic programming. *AI Communications*. https://doi.org/10.3233/AIC-200650",
+      "doi": "https://doi.org/10.3233/AIC-200650",
+      "year": 2020,
+      "cost_author": "MIRJANA IVANOVIC",
+      "cost_author_orcid": "0000-0003-1946-0384"
+    },
+    {
+      "apa": "IVANOVIC, M. (2020). CAAVI-RICS Model for Analyzing the Security of Fog Computing Systems. *Studies in Computational Intelligence*. https://doi.org/10.1007/978-3-030-32258-8_3",
+      "doi": "https://doi.org/10.1007/978-3-030-32258-8_3",
+      "year": 2020,
+      "cost_author": "MIRJANA IVANOVIC",
+      "cost_author_orcid": "0000-0003-1946-0384"
+    },
+    {
+      "apa": "IVANOVIC, M. (2020). CAAVI-RICS model for observing the security of distributed IoT and edge computing systems. *Simulation Modelling Practice and Theory*. https://doi.org/10.1016/j.simpat.2020.102125",
+      "doi": "https://doi.org/10.1016/j.simpat.2020.102125",
+      "year": 2020,
+      "cost_author": "MIRJANA IVANOVIC",
+      "cost_author_orcid": "0000-0003-1946-0384"
+    },
+    {
+      "apa": "IVANOVIC, M. (2020). Editorial. *Computer Science and Information Systems*. https://doi.org/10.2298/CSIS210100iI",
+      "doi": "https://doi.org/10.2298/CSIS210100iI",
+      "year": 2020,
+      "cost_author": "MIRJANA IVANOVIC",
+      "cost_author_orcid": "0000-0003-1946-0384"
+    },
+    {
+      "apa": "IVANOVIC, M. (2020). Editorial. *Computer Science and Information Systems*. https://doi.org/10.2298/CSIS200200iI",
+      "doi": "https://doi.org/10.2298/CSIS200200iI",
+      "year": 2020,
+      "cost_author": "MIRJANA IVANOVIC",
+      "cost_author_orcid": "0000-0003-1946-0384"
+    },
+    {
+      "apa": "IVANOVIC, M. (2020). Editorial. *Computer Science and Information Systems*. https://doi.org/10.2298/CSIS200100iI",
+      "doi": "https://doi.org/10.2298/CSIS200100iI",
+      "year": 2020,
+      "cost_author": "MIRJANA IVANOVIC",
+      "cost_author_orcid": "0000-0003-1946-0384"
+    },
+    {
+      "apa": "IVANOVIC, M. (2020). Exploring the Space of Block Structured Scheduling Processes Using Constraint Logic Programming. *Studies in Computational Intelligence*. https://doi.org/10.1007/978-3-030-32258-8_17",
+      "doi": "https://doi.org/10.1007/978-3-030-32258-8_17",
+      "year": 2020,
+      "cost_author": "MIRJANA IVANOVIC",
+      "cost_author_orcid": "0000-0003-1946-0384"
+    },
+    {
+      "apa": "IVANOVIC, M. (2020). Graph-based metadata modeling in indoor positioning systems. *Simulation Modelling Practice and Theory*. https://doi.org/10.1016/j.simpat.2020.102140",
+      "doi": "https://doi.org/10.1016/j.simpat.2020.102140",
+      "year": 2020,
+      "cost_author": "MIRJANA IVANOVIC",
+      "cost_author_orcid": "0000-0003-1946-0384"
+    },
+    {
+      "apa": "IVANOVIC, M. (2020). Guest editorial advances in databases and information systems. *Computer Science and Information Systems*. https://doi.org/10.2298/CSIS200300vG",
+      "doi": "https://doi.org/10.2298/CSIS200300vG",
+      "year": 2020,
+      "cost_author": "MIRJANA IVANOVIC",
+      "cost_author_orcid": "0000-0003-1946-0384"
+    },
+    {
+      "apa": "IVANOVIC, M. (2020). Improving Alzheimer’s disease classification by performing data fusion with vascular dementia and stroke data. *Journal of Experimental and Theoretical Artificial Intelligence*. https://doi.org/10.1080/0952813X.2020.1818290",
+      "doi": "https://doi.org/10.1080/0952813X.2020.1818290",
+      "year": 2020,
+      "cost_author": "MIRJANA IVANOVIC",
+      "cost_author_orcid": "0000-0003-1946-0384"
+    },
+    {
+      "apa": "IVANOVIC, M. (2020). Influence of Artificial Intelligence on Personalized Medical Predictions, Interventions and Quality of Life Issues. *2020 24th International Conference on System Theory, Control and Computing, ICSTCC 2020 - Proceedings*. https://doi.org/10.1109/ICSTCC50638.2020.9259674",
+      "doi": "https://doi.org/10.1109/ICSTCC50638.2020.9259674",
+      "year": 2020,
+      "cost_author": "MIRJANA IVANOVIC",
+      "cost_author_orcid": "0000-0003-1946-0384"
+    },
+    {
+      "apa": "IVANOVIC, M. (2020). Multi-Agent Simulation of Core Spatial SIR Models for Epidemics Spread in a Population. *2020 5th IEEE International Conference on Recent Advances and Innovations in Engineering, ICRAIE 2020 - Proceeding*. https://doi.org/10.1109/ICRAIE51050.2020.9358293",
+      "doi": "https://doi.org/10.1109/ICRAIE51050.2020.9358293",
+      "year": 2020,
+      "cost_author": "MIRJANA IVANOVIC",
+      "cost_author_orcid": "0000-0003-1946-0384"
+    },
+    {
+      "apa": "IVANOVIC, M. (2020). On the Role of Python in Programming-Related Courses for Computer Science and Engineering Academic Education. *Advances in Intelligent Systems and Computing*. https://doi.org/10.1007/978-3-030-45697-9_19",
+      "doi": "https://doi.org/10.1007/978-3-030-45697-9_19",
+      "year": 2020,
+      "cost_author": "MIRJANA IVANOVIC",
+      "cost_author_orcid": "0000-0003-1946-0384"
+    },
+    {
+      "apa": "IVANOVIC, M. (2020). Preface. *Studies in Computational Intelligence*.",
+      "doi": null,
+      "year": 2020,
+      "cost_author": "MIRJANA IVANOVIC",
+      "cost_author_orcid": "0000-0003-1946-0384"
+    },
+    {
+      "apa": "IVANOVIC, M. (2020). Preface. *INISTA 2020 - 2020 International Conference on INnovations in Intelligent SysTems and Applications, Proceedings*. https://doi.org/10.1109/INISTA49547.2020.9194685",
+      "doi": "https://doi.org/10.1109/INISTA49547.2020.9194685",
+      "year": 2020,
+      "cost_author": "MIRJANA IVANOVIC",
+      "cost_author_orcid": "0000-0003-1946-0384"
+    },
+    {
+      "apa": "IVANOVIC, M. (2020). Role of interactive presentation platform ASQ in delivering web design course. *Smart Learning Environments*. https://doi.org/10.1186/s40561-020-00123-w",
+      "doi": "https://doi.org/10.1186/s40561-020-00123-w",
+      "year": 2020,
+      "cost_author": "MIRJANA IVANOVIC",
+      "cost_author_orcid": "0000-0003-1946-0384"
+    },
+    {
+      "apa": "IVANOVIC, M. (2020). Students’ preferences in selection of computer science and informatics studies a comprehensive empirical case study. *Computer Science and Information Systems*. https://doi.org/10.2298/CSIS200901054S",
+      "doi": "https://doi.org/10.2298/CSIS200901054S",
+      "year": 2020,
+      "cost_author": "MIRJANA IVANOVIC",
+      "cost_author_orcid": "0000-0003-1946-0384"
+    },
+    {
+      "apa": "IVANOVIC, M. (2020). Time-Series Classification with Constrained DTW Distance and Inverse-Square Weighted k-NN. *INISTA 2020 - 2020 International Conference on INnovations in Intelligent SysTems and Applications, Proceedings*. https://doi.org/10.1109/INISTA49547.2020.9194639",
+      "doi": "https://doi.org/10.1109/INISTA49547.2020.9194639",
+      "year": 2020,
+      "cost_author": "MIRJANA IVANOVIC",
+      "cost_author_orcid": "0000-0003-1946-0384"
+    },
+    {
+      "apa": "IVANOVIC, M. (2020). Weighted kNN and constrained elastic distances for time-series classification. *Expert Systems with Applications*. https://doi.org/10.1016/j.eswa.2020.113829",
+      "doi": "https://doi.org/10.1016/j.eswa.2020.113829",
+      "year": 2020,
+      "cost_author": "MIRJANA IVANOVIC",
+      "cost_author_orcid": "0000-0003-1946-0384"
+    },
+    {
       "apa": "Ribeiro, B. (2020). Diversity Oriented Deep Reinforcement Learning for Targeted Molecule Generation. https://doi.org/10.21203/rs.3.rs-110570/v1",
       "doi": "https://doi.org/10.21203/rs.3.rs-110570/v1",
       "year": 2020,
@@ -24670,6 +26679,34 @@
       "cost_author_orcid": "0000-0003-0451-0529"
     },
     {
+      "apa": "Gregoriades, A. (2020). Electronic Word of Mouth Analysis for New Product Positioning Evaluation. *Electronic Commerce Research and Applications*. https://doi.org/10.1016/j.elerap.2020.100986",
+      "doi": "https://doi.org/10.1016/j.elerap.2020.100986",
+      "year": 2020,
+      "cost_author": "Andreas Gregoriades",
+      "cost_author_orcid": "0000-0002-7422-1514"
+    },
+    {
+      "apa": "Gregoriades, A. (2020). A Holistic Approach to Requirements Elicitation for Mobile Tourist Recommendation Systems. *Lecture Notes in Networks and Systems*. https://doi.org/10.1007/978-3-030-12388-8_58",
+      "doi": "https://doi.org/10.1007/978-3-030-12388-8_58",
+      "year": 2020,
+      "cost_author": "Andreas Gregoriades",
+      "cost_author_orcid": "0000-0002-7422-1514"
+    },
+    {
+      "apa": "Gregoriades, A. (2020). Combination of Topic Modelling and Decision Tree Classification for Tourist Destination Marketing. *Lecture Notes in Business Information Processing*. https://doi.org/10.1007/978-3-030-49165-9_9",
+      "doi": "https://doi.org/10.1007/978-3-030-49165-9_9",
+      "year": 2020,
+      "cost_author": "Andreas Gregoriades",
+      "cost_author_orcid": "0000-0002-7422-1514"
+    },
+    {
+      "apa": "Gregoriades, A. (2020). Naturalistic analysis of tourist pedestrians’ spatial cognition. *Advances in Tourism, Technology and Smart Systems*. https://doi.org/10.1007/978-981-15-2024-2_1",
+      "doi": "https://doi.org/10.1007/978-981-15-2024-2_1",
+      "year": 2020,
+      "cost_author": "Andreas Gregoriades",
+      "cost_author_orcid": "0000-0002-7422-1514"
+    },
+    {
       "apa": "Liiv, I. (2020). A Secure Data Infrastructure for Personal Manufacturing Based on a Novel Key-Less, Byte-Less Encryption Method. *IEEE Access*. https://doi.org/10.1109/ACCESS.2019.2946730",
       "doi": "https://doi.org/10.1109/ACCESS.2019.2946730",
       "year": 2020,
@@ -24738,6 +26775,41 @@
       "year": 2020,
       "cost_author": "Ramona Rupeika-Apoga",
       "cost_author_orcid": "0000-0002-3941-0723"
+    },
+    {
+      "apa": "Emiris, I. (2020). Efficient Sampling from Feasible Sets of SDPs and Volume Approximation.",
+      "doi": null,
+      "year": 2020,
+      "cost_author": "Ioannis Emiris",
+      "cost_author_orcid": "0000-0002-2339-5303"
+    },
+    {
+      "apa": "Emiris, I. (2020). Products of Euclidean Metrics, Applied to Proximity Problems among Curves. *ACM Transactions on Spatial Algorithms and Systems*. https://doi.org/10.1145/3397518",
+      "doi": "https://doi.org/10.1145/3397518",
+      "year": 2020,
+      "cost_author": "Ioannis Emiris",
+      "cost_author_orcid": "0000-0002-2339-5303"
+    },
+    {
+      "apa": "Emiris, I. (2020). On the multihomogeneous Bézout bound on the number of embeddings of minimally rigid graphs. *Applicable Algebra in Engineering, Communication and Computing*.",
+      "doi": null,
+      "year": 2020,
+      "cost_author": "Ioannis Emiris",
+      "cost_author_orcid": "0000-0002-2339-5303"
+    },
+    {
+      "apa": "Emiris, I. (2020). Practical Volume Estimation of Zonotopes by a New Annealing Schedule for Cooling Convex Bodies. https://doi.org/10.1007/978-3-030-52200-1_21",
+      "doi": "https://doi.org/10.1007/978-3-030-52200-1_21",
+      "year": 2020,
+      "cost_author": "Ioannis Emiris",
+      "cost_author_orcid": "0000-0002-2339-5303"
+    },
+    {
+      "apa": "Emiris, I. (2020). Separation bounds for polynomial systems. *Journal of Symbolic Computation*. https://doi.org/10.1016/j.jsc.2019.07.001",
+      "doi": "https://doi.org/10.1016/j.jsc.2019.07.001",
+      "year": 2020,
+      "cost_author": "Ioannis Emiris",
+      "cost_author_orcid": "0000-0002-2339-5303"
     },
     {
       "apa": "Papajorgji, P. (2020). Perceptions regarding Distance Learning in Higher Education, Smoothing the Transition. *Contemporary Educational Technology*. https://doi.org/10.30935/cedtech/9274",
@@ -25958,6 +28030,13 @@
       "cost_author_orcid": "0000-0001-8029-3584"
     },
     {
+      "apa": "Jerić, S. V. (2020). Analysis of forecasts of GDP growth and inflation for the Croatian economy. *Economic Research-Ekonomska Istrazivanja*. https://doi.org/10.1080/1331677X.2019.1632727",
+      "doi": "https://doi.org/10.1080/1331677X.2019.1632727",
+      "year": 2020,
+      "cost_author": "Silvija Vlah Jerić",
+      "cost_author_orcid": "0000-0003-4738-6337"
+    },
+    {
       "apa": "Schwendner, P. (2020). Contribution of Greek financial assistance programmes to reduce spillover risks. *Lessons from Financial Assistance to Greece.*. https://doi.org/doi:10.2852/04790",
       "doi": "https://doi.org/doi:10.2852/04790",
       "year": 2020,
@@ -26026,6 +28105,34 @@
       "year": 2020,
       "cost_author": "Piotr Wójcik",
       "cost_author_orcid": "0000-0003-1853-8784"
+    },
+    {
+      "apa": "Paccagnini, A. (2020). Back to Drawing Board: An Investigation of the Gender Effect on the Entrepreneurial Stigma of Failure.",
+      "doi": null,
+      "year": 2020,
+      "cost_author": "Alessia Paccagnini",
+      "cost_author_orcid": "0000-0002-2421-7242"
+    },
+    {
+      "apa": "Paccagnini, A. (2020). The asymmetric effects of uncertainty shocks.",
+      "doi": null,
+      "year": 2020,
+      "cost_author": "Alessia Paccagnini",
+      "cost_author_orcid": "0000-0002-2421-7242"
+    },
+    {
+      "apa": "Paccagnini, A. (2020). Common factors and the dynamics of cereal prices. A forecasting perspective.",
+      "doi": null,
+      "year": 2020,
+      "cost_author": "Alessia Paccagnini",
+      "cost_author_orcid": "0000-0002-2421-7242"
+    },
+    {
+      "apa": "Paccagnini, A. (2020). Does the credit supply shock have asymmetric effects on macroeconomic variables?. *Economics Letters*. https://doi.org/10.1016/j.econlet.2020.108958",
+      "doi": "https://doi.org/10.1016/j.econlet.2020.108958",
+      "year": 2020,
+      "cost_author": "Alessia Paccagnini",
+      "cost_author_orcid": "0000-0002-2421-7242"
     },
     {
       "apa": "Vazquez, C. (2020). Numerical upscaling of the free boundary dam problem in multiscale high-contrast media. *Journal of Computational and Applied Mathematics*. https://doi.org/10.1016/j.cam.2019.112437",
@@ -26182,6 +28289,76 @@
       "cost_author_orcid": "0000-0002-5898-0676"
     },
     {
+      "apa": "Härdle, W. (2020). Forex exchange rate forecasting using deep recurrent neural networks. *Digital finance*. https://doi.org/10.1007/s42521-020-00019-x",
+      "doi": "https://doi.org/10.1007/s42521-020-00019-x",
+      "year": 2020,
+      "cost_author": "Wolfgang Härdle",
+      "cost_author_orcid": "0000-0001-5600-3014"
+    },
+    {
+      "apa": "Härdle, W. (2020). Forex exchange rate forecasting using deep recurrent neural networks. *OpenAlex*. https://doi.org/10.60692/rr3c9-zq302",
+      "doi": "https://doi.org/10.60692/rr3c9-zq302",
+      "year": 2020,
+      "cost_author": "Wolfgang Härdle",
+      "cost_author_orcid": "0000-0001-5600-3014"
+    },
+    {
+      "apa": "Härdle, W. (2020). Forex exchange rate forecasting using deep recurrent neural networks. *OpenAlex*. https://doi.org/10.60692/keryg-7he06",
+      "doi": "https://doi.org/10.60692/keryg-7he06",
+      "year": 2020,
+      "cost_author": "Wolfgang Härdle",
+      "cost_author_orcid": "0000-0001-5600-3014"
+    },
+    {
+      "apa": "Härdle, W. (2020). A note on the impact of news on us household inflation expectations. *Macroeconomic Dynamics*. https://doi.org/10.1017/S1365100518000482",
+      "doi": "https://doi.org/10.1017/S1365100518000482",
+      "year": 2020,
+      "cost_author": "Wolfgang Härdle",
+      "cost_author_orcid": "0000-0001-5600-3014"
+    },
+    {
+      "apa": "Härdle, W. (2020). Corrigendum to “Principal component analysis in an asymmetric norm” [J. Multivariate Anal. 171 (2019) 1–21] (Journal of Multivariate Analysis (2019) 171 (1–21), (S0047259X17303962), (10.1016/j.jmva.2018.10.004)). *Journal of Multivariate Analysis*. https://doi.org/10.1016/j.jmva.2019.104564",
+      "doi": "https://doi.org/10.1016/j.jmva.2019.104564",
+      "year": 2020,
+      "cost_author": "Wolfgang Härdle",
+      "cost_author_orcid": "0000-0001-5600-3014"
+    },
+    {
+      "apa": "Härdle, W. (2020). Estimation and determinants of Chinese banks’ total factor efficiency: a new vision based on unbalanced development of Chinese banks and their overall risk. *Computational Statistics*. https://doi.org/10.1007/s00180-019-00951-6",
+      "doi": "https://doi.org/10.1007/s00180-019-00951-6",
+      "year": 2020,
+      "cost_author": "Wolfgang Härdle",
+      "cost_author_orcid": "0000-0001-5600-3014"
+    },
+    {
+      "apa": "Härdle, W. (2020). Hedging strategies under jump-induced market incompleteness. https://doi.org/10.18452/21310",
+      "doi": "https://doi.org/10.18452/21310",
+      "year": 2020,
+      "cost_author": "Wolfgang Härdle",
+      "cost_author_orcid": "0000-0001-5600-3014"
+    },
+    {
+      "apa": "Härdle, W. (2020). Risk-Constrained Kelly Portfolios Under Alpha-Stable Laws. *Computational Economics*. https://doi.org/10.1007/s10614-019-09913-y",
+      "doi": "https://doi.org/10.1007/s10614-019-09913-y",
+      "year": 2020,
+      "cost_author": "Wolfgang Härdle",
+      "cost_author_orcid": "0000-0001-5600-3014"
+    },
+    {
+      "apa": "Härdle, W. (2020). Service data analytics and business intelligence 2017. *Computational Statistics*. https://doi.org/10.1007/s00180-020-00968-2",
+      "doi": "https://doi.org/10.1007/s00180-020-00968-2",
+      "year": 2020,
+      "cost_author": "Wolfgang Härdle",
+      "cost_author_orcid": "0000-0001-5600-3014"
+    },
+    {
+      "apa": "Trimborn, S. (2020). Lead Behaviour in Bitcoin Markets. *Risks*. https://doi.org/10.3390/risks8010004",
+      "doi": "https://doi.org/10.3390/risks8010004",
+      "year": 2020,
+      "cost_author": "Simon Trimborn",
+      "cost_author_orcid": "0000-0003-3745-4164"
+    },
+    {
       "apa": "Djordjevic, J. (2020). Case study: univariate time series analysis and forecasting of pharmaceutical products’ sales data at small scale. *ICIST 2020 Proceedings,*.",
       "doi": null,
       "year": 2020,
@@ -26264,6 +28441,34 @@
       "year": 2020,
       "cost_author": "Friedemann Polzin",
       "cost_author_orcid": "0000-0002-9768-8694"
+    },
+    {
+      "apa": "Wenzlaff, K. (2020). Civic Crowdfunding in Germany—An Overview of the Developing Landscape in Germany. *CrowdAsset*. https://doi.org/10.1142/9789811207822_0015",
+      "doi": "https://doi.org/10.1142/9789811207822_0015",
+      "year": 2020,
+      "cost_author": "Karsten Wenzlaff",
+      "cost_author_orcid": "0000-0002-3670-9703"
+    },
+    {
+      "apa": "Wenzlaff, K. (2020). The joint production of confidence – self-regulation in European crowdfunding markets. *Baltic Journal of Management*. https://doi.org/10.1108/bjm-04-2019-0119",
+      "doi": "https://doi.org/10.1108/bjm-04-2019-0119",
+      "year": 2020,
+      "cost_author": "Karsten Wenzlaff",
+      "cost_author_orcid": "0000-0002-3670-9703"
+    },
+    {
+      "apa": "Wenzlaff, K. (2020). Social Media und Tod – Wie das Internet \t\t\t\t\tden Tod verändert. *Leidfaden*. https://doi.org/10.13109/leid.2020.9.1.66",
+      "doi": "https://doi.org/10.13109/leid.2020.9.1.66",
+      "year": 2020,
+      "cost_author": "Karsten Wenzlaff",
+      "cost_author_orcid": "0000-0002-3670-9703"
+    },
+    {
+      "apa": "Wenzlaff, K. (2020). Crowdfunding in Europe: Between Fragmentation and Harmonization. *Advances in Crowdfunding: Research and Practice*. https://doi.org/10.1007/978-3-030-46309-0_16",
+      "doi": "https://doi.org/10.1007/978-3-030-46309-0_16",
+      "year": 2020,
+      "cost_author": "Karsten Wenzlaff",
+      "cost_author_orcid": "0000-0002-3670-9703"
     },
     {
       "apa": "Hajek, P. (2020). Fake consumer review detection using deep neural networks integrating word embeddings and emotion mining. *Neural Computing and Applications*. https://doi.org/10.1007/s00521-020-04757-2",
@@ -26845,6 +29050,20 @@
       "year": 2020,
       "cost_author": "Barbara Będowska-Sójka",
       "cost_author_orcid": "0000-0001-5193-8304"
+    },
+    {
+      "apa": "Hernaus, A. I. (2020). Rethinking the role of credit unions in the European social economy. *32nd Eurasia Business and Economics Society (EBES) Conference Proceedings*.",
+      "doi": null,
+      "year": 2020,
+      "cost_author": "Ana Ivanisevic Hernaus",
+      "cost_author_orcid": "0000-0003-0370-5543"
+    },
+    {
+      "apa": "Hernaus, A. I. (2020). Setting the ground for green bond research: Insights from a bibliometric analysis. *The 2020 IAI Book of Proceedings, Education and Social Sciences Conference/Business and Economics Conference *.",
+      "doi": null,
+      "year": 2020,
+      "cost_author": "Ana Ivanisevic Hernaus",
+      "cost_author_orcid": "0000-0003-0370-5543"
     },
     {
       "apa": "ELMESIRY, A. (2020). Privacy Preserving Threat Hunting in Smart Home Environments. *Communications in Computer and Information Science*. https://doi.org/10.1007/978-981-15-2693-0_8",
@@ -27505,6 +29724,13 @@
       "cost_author_orcid": "0000-0002-9668-5782"
     },
     {
+      "apa": "Lagioia, G. (2020). Managing sustainable practices in cruise tourism: the assessment of carbon footprint and waste of water and beverage packaging. *Tourism Management*. https://doi.org/10.1016/j.tourman.2019.104016",
+      "doi": "https://doi.org/10.1016/j.tourman.2019.104016",
+      "year": 2020,
+      "cost_author": "Giovanni Lagioia",
+      "cost_author_orcid": "0000-0002-7044-602X"
+    },
+    {
       "apa": "AKTURK, S. (2020). Fuzzy controlled humanoid robots: A literature review. *Robotics and Autonomous Systems*. https://doi.org/10.1016/j.robot.2020.103643",
       "doi": "https://doi.org/10.1016/j.robot.2020.103643",
       "year": 2020,
@@ -27855,6 +30081,13 @@
       "cost_author_orcid": "0000-0003-3684-6692"
     },
     {
+      "apa": "Tsoutsa, P. (2020). Towards an Ontology for Teamwork Enabled Services. *Proceedings of the 2020 4th International Conference on Algorithms, Computing and Systems*. https://doi.org/10.1145/3423390.3423395",
+      "doi": "https://doi.org/10.1145/3423390.3423395",
+      "year": 2020,
+      "cost_author": "Paraskevi Tsoutsa",
+      "cost_author_orcid": "0000-0003-0019-1145"
+    },
+    {
       "apa": "Belbe, S. (2020). Studmap 3.0 – An interoperable web-based platform for geospatial data offers in academic life. *Advances in Intelligent Systems and Computing*. https://doi.org/10.1007/978-3-030-25629-6_81",
       "doi": "https://doi.org/10.1007/978-3-030-25629-6_81",
       "year": 2020,
@@ -28042,6 +30275,13 @@
       "year": 2020,
       "cost_author": "Sorin Anagnoste",
       "cost_author_orcid": "0000-0002-8261-5601"
+    },
+    {
+      "apa": "Giordano, S. (2020). Modeling different behaviors in disclosing risk perception. *Biometrical Journal*. https://doi.org/10.1002/bimj.201900006",
+      "doi": "https://doi.org/10.1002/bimj.201900006",
+      "year": 2020,
+      "cost_author": "Sabrina Giordano",
+      "cost_author_orcid": "0000-0002-3635-9440"
     },
     {
       "apa": "Plihal, T. (2020). FX market volatility modelling: Can we use low-frequency data?. *Finance Research Letters*. https://doi.org/10.1016/j.frl.2020.101776",
@@ -29057,6 +31297,20 @@
       "year": 2020,
       "cost_author": "Hazar Altinbas",
       "cost_author_orcid": "0000-0001-8160-0611"
+    },
+    {
+      "apa": "Deran, A. (2020). Büyükşehir Belediyeleri İle Bağlı İdarelerde İç Denetimin Etkinliği: Mersin Örneği. *Selçuk Üniversitesi Sosyal Bilimler Meslek Yüksekokulu Dergisi*. https://doi.org/10.29249/selcuksbmyd.824891",
+      "doi": "https://doi.org/10.29249/selcuksbmyd.824891",
+      "year": 2020,
+      "cost_author": "Ali Deran",
+      "cost_author_orcid": "0000-0001-5377-6740"
+    },
+    {
+      "apa": "Deran, A. (2020). Is PMI a Leading Indicator: Case of Turkey. *Sosyoekonomi*. https://doi.org/10.17233/sosyoekonomi.2020.03.03",
+      "doi": "https://doi.org/10.17233/sosyoekonomi.2020.03.03",
+      "year": 2020,
+      "cost_author": "Ali Deran",
+      "cost_author_orcid": "0000-0001-5377-6740"
     },
     {
       "apa": "Linardakis, M. (2020). Ανάλυση αποκρίσεων ηλεκτρονικής εξέτασης μέσω στατιστικών υποδειγμάτων της θεωρίας απόκρισης ερωτήματος (IRT). *Αστρολάβος*.",

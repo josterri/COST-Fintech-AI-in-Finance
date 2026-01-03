@@ -4,12 +4,28 @@
     "name": "Ivan Chorbev"
   },
   {
+    "orcid": "0000-0002-6796-6171",
+    "name": "Nikolaos S. Thomaidis"
+  },
+  {
+    "orcid": "0000-0003-1946-0384",
+    "name": "MIRJANA IVANOVIC"
+  },
+  {
+    "orcid": "0000-0002-2876-2790",
+    "name": "Yosi KELLER"
+  },
+  {
     "orcid": "0000-0002-9770-7672",
     "name": "Bernardete Ribeiro"
   },
   {
     "orcid": "0000-0003-0451-0529",
     "name": "German Rodrigo"
+  },
+  {
+    "orcid": "0000-0002-7422-1514",
+    "name": "Andreas Gregoriades"
   },
   {
     "orcid": "0000-0003-0727-1324",
@@ -26,6 +42,10 @@
   {
     "orcid": "0000-0002-5336-1796",
     "name": "Petre Lameski"
+  },
+  {
+    "orcid": "0000-0002-2339-5303",
+    "name": "Ioannis Emiris"
   },
   {
     "orcid": "0000-0002-3833-5215",
@@ -136,8 +156,16 @@
     "name": "Felipe Ferri de C. Paes"
   },
   {
+    "orcid": "0000-0002-4103-7868",
+    "name": "Paola Vicard"
+  },
+  {
     "orcid": "0000-0001-7448-9206",
     "name": "Muhammet Demirbilek"
+  },
+  {
+    "orcid": "0000-0003-4738-6337",
+    "name": "Silvija Vlah Jerić"
   },
   {
     "orcid": "0000-0001-9366-3564",
@@ -158,6 +186,10 @@
   {
     "orcid": "0000-0003-1853-8784",
     "name": "Piotr Wójcik"
+  },
+  {
+    "orcid": "0000-0002-2421-7242",
+    "name": "Alessia Paccagnini"
   },
   {
     "orcid": "0000-0001-6591-2252",
@@ -204,6 +236,14 @@
     "name": "Jan-Alexander Posth"
   },
   {
+    "orcid": "0000-0001-5600-3014",
+    "name": "Wolfgang Härdle"
+  },
+  {
+    "orcid": "0000-0003-3745-4164",
+    "name": "Simon Trimborn"
+  },
+  {
     "orcid": "0000-0001-6204-1789",
     "name": "Jasmina Djordjevic"
   },
@@ -224,6 +264,10 @@
     "name": "Friedemann Polzin"
   },
   {
+    "orcid": "0000-0002-3670-9703",
+    "name": "Karsten Wenzlaff"
+  },
+  {
     "orcid": "0000-0001-5579-1215",
     "name": "Petr Hajek"
   },
@@ -238,6 +282,10 @@
   {
     "orcid": "0000-0002-7907-6037",
     "name": "M Sirajul Islam"
+  },
+  {
+    "orcid": "0000-0001-7153-4892",
+    "name": "Eda Orhun"
   },
   {
     "orcid": "0000-0002-1049-1742",
@@ -308,6 +356,10 @@
     "name": "Esra Kabaklarli"
   },
   {
+    "orcid": "0000-0002-6891-4875",
+    "name": "Jelena Poljašević"
+  },
+  {
     "orcid": "0000-0002-4860-890X",
     "name": "Laivi Laidroo"
   },
@@ -326,6 +378,10 @@
   {
     "orcid": "0000-0003-1411-2188",
     "name": "Arman Hassanniakalager"
+  },
+  {
+    "orcid": "0000-0001-6380-1700",
+    "name": "Martina Solenički"
   },
   {
     "orcid": "0000-0003-1448-5152",
@@ -380,6 +436,10 @@
     "name": "Barbara Będowska-Sójka"
   },
   {
+    "orcid": "0000-0003-0370-5543",
+    "name": "Ana Ivanisevic Hernaus"
+  },
+  {
     "orcid": "0000-0003-1077-4790",
     "name": "Ahmed ELMESIRY"
   },
@@ -422,6 +482,10 @@
   {
     "orcid": "0000-0002-8127-9466",
     "name": "Marcus Wunsch"
+  },
+  {
+    "orcid": "0000-0002-9862-9258",
+    "name": "Matthias Fengler"
   },
   {
     "orcid": "0000-0003-2757-9940",
@@ -520,8 +584,16 @@
     "name": "David Bevan"
   },
   {
+    "orcid": "0000-0002-4230-2109",
+    "name": "Erika Mináriková"
+  },
+  {
     "orcid": "0000-0002-9668-5782",
     "name": "Karolina Bolesta"
+  },
+  {
+    "orcid": "0000-0002-7044-602X",
+    "name": "Giovanni Lagioia"
   },
   {
     "orcid": "0000-0001-9045-0694",
@@ -570,6 +642,10 @@
   {
     "orcid": "0000-0002-3651-9934",
     "name": "Huei-Wen Teng"
+  },
+  {
+    "orcid": "0000-0003-3159-5943",
+    "name": "Luisa Anderloni"
   },
   {
     "orcid": "0000-0001-5492-3570",
@@ -684,6 +760,10 @@
     "name": "Lennart John Baals"
   },
   {
+    "orcid": "0000-0003-0019-1145",
+    "name": "Paraskevi Tsoutsa"
+  },
+  {
     "orcid": "0000-0003-4838-4659",
     "name": "Fiona Metani"
   },
@@ -718,6 +798,14 @@
   {
     "orcid": "0000-0002-8261-5601",
     "name": "Sorin Anagnoste"
+  },
+  {
+    "orcid": "0000-0002-3635-9440",
+    "name": "Sabrina Giordano"
+  },
+  {
+    "orcid": "0009-0006-5284-1460",
+    "name": "Juliana Imeraj"
   },
   {
     "orcid": "0000-0002-2578-488X",
@@ -924,8 +1012,24 @@
     "name": "Ogochukwu Monye"
   },
   {
+    "orcid": "0000-0002-3695-2105",
+    "name": "Mesut Karakaş"
+  },
+  {
     "orcid": "0000-0002-3575-3470",
     "name": "Baris C. CANTURK"
+  },
+  {
+    "orcid": "0009-0007-7097-3341",
+    "name": "Ioana Birlan"
+  },
+  {
+    "orcid": "0009-0000-3660-4410",
+    "name": "Vlad Bolovăneanu"
+  },
+  {
+    "orcid": "0000-0003-1477-3488",
+    "name": "Christian Suter"
   },
   {
     "orcid": "0000-0002-8903-8931",
@@ -952,8 +1056,16 @@
     "name": "Paweł Sakowski"
   },
   {
+    "orcid": "0000-0003-1323-1716",
+    "name": "Emmanuel Eyiah-Donkor"
+  },
+  {
     "orcid": "0000-0002-5413-9660",
     "name": "Wouter van Heeswijk"
+  },
+  {
+    "orcid": "0000-0001-7653-2730",
+    "name": "Khawla Bouafia"
   },
   {
     "orcid": "0000-0002-9881-5915",
@@ -986,6 +1098,10 @@
   {
     "orcid": "0000-0001-8160-0611",
     "name": "Hazar Altinbas"
+  },
+  {
+    "orcid": "0000-0001-5377-6740",
+    "name": "Ali Deran"
   },
   {
     "orcid": "0000-0001-5237-2015",
