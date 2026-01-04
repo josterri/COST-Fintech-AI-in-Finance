@@ -177,6 +177,97 @@ def deduplicate_preprints(publications: List[dict]) -> tuple:
     return deduplicated, removed
 
 
+def deduplicate_by_title(publications: List[dict]) -> tuple:
+    """
+    Remove duplicate publications that have different DOIs but same/similar title.
+    This catches cases where the same paper appears as SSRN preprint, ArXiv, and published version.
+
+    Returns (deduplicated_list, count_removed).
+
+    Priority for keeping: article > review > journal-article > book-chapter >
+                          conference-paper > preprint > working-paper > dataset > other
+    """
+    from collections import defaultdict
+
+    TYPE_PRIORITY = {
+        'article': 1, 'review': 2, 'journal-article': 3,
+        'book-chapter': 4, 'book': 5, 'edited-book': 6,
+        'conference-paper': 7, 'conference-proceedings': 8,
+        'preprint': 10, 'working-paper': 11,
+        'dataset': 12, 'software': 13,
+        'other': 99
+    }
+
+    # Group publications by author ORCID
+    by_author = defaultdict(list)
+    for p in publications:
+        orcid = p.get('author_orcid', '')
+        if orcid:
+            by_author[orcid].append(p)
+        else:
+            # Keep publications without ORCID as-is
+            by_author['_no_orcid_'].append(p)
+
+    deduplicated = []
+    removed = 0
+
+    for orcid, author_pubs in by_author.items():
+        if orcid == '_no_orcid_':
+            # Don't deduplicate publications without ORCID
+            deduplicated.extend(author_pubs)
+            continue
+
+        # Build title groups using normalized titles
+        title_groups = defaultdict(list)
+        for p in author_pubs:
+            norm_title = normalize_title(p.get('title', ''))
+            if norm_title and len(norm_title) > 10:  # Skip very short titles
+                title_groups[norm_title].append(p)
+            else:
+                # Keep publications with no/short title as-is
+                deduplicated.append(p)
+
+        # Also merge groups with high similarity (85%+)
+        # This catches minor title variations
+        merged_groups = {}
+        used_titles = set()
+
+        sorted_titles = sorted(title_groups.keys())
+        for title in sorted_titles:
+            if title in used_titles:
+                continue
+
+            # Find similar titles
+            similar = [title]
+            for other_title in sorted_titles:
+                if other_title != title and other_title not in used_titles:
+                    if title_similarity(title, other_title) > 0.85:
+                        similar.append(other_title)
+
+            # Merge all similar titles into one group
+            merged_pubs = []
+            for t in similar:
+                merged_pubs.extend(title_groups[t])
+                used_titles.add(t)
+
+            merged_groups[title] = merged_pubs
+
+        # Keep best version of each unique work
+        for title, pubs in merged_groups.items():
+            if len(pubs) == 1:
+                deduplicated.append(pubs[0])
+            else:
+                # Sort by type priority (lower = better), then by citation count (higher = better)
+                pubs.sort(key=lambda x: (
+                    TYPE_PRIORITY.get(x.get('type', '').lower(), 99),
+                    -(x.get('cited_by', 0) or 0)
+                ))
+                deduplicated.append(pubs[0])
+                removed += len(pubs) - 1
+
+    return deduplicated, removed
+
+
 def compute_author_stats(publications: List[dict]) -> dict:
     """
     Compute per-author statistics with type breakdown, grouped categories,
@@ -387,6 +478,12 @@ def main():
     combined, preprints_removed = deduplicate_preprints(combined)
     print(f"\nPreprint deduplication:")
     print(f"  Duplicate preprints removed: {preprints_removed}")
+    print(f"  Count after preprint dedup: {len(combined)}")
+
+    # Deduplicate by title (catches same paper with different DOIs: SSRN, ArXiv, published)
+    combined, title_dups_removed = deduplicate_by_title(combined)
+    print(f"\nTitle-based deduplication:")
+    print(f"  Same-title duplicates removed: {title_dups_removed}")
     print(f"  Final count: {len(combined)}")
 
     # Sort by year (descending), then by citations
@@ -426,7 +523,8 @@ def main():
             'total_authors': len(by_author),
             'from_openalex': openalex_count,
             'from_orcid_unique': orcid_added,
-            'preprints_deduplicated': preprints_removed
+            'preprints_deduplicated': preprints_removed,
+            'title_duplicates_removed': title_dups_removed
         },
         'statistics': {
             'by_year': dict(sorted([(k, v) for k, v in by_year.items() if k], key=lambda x: -x[0] if isinstance(x[0], int) else 0)),
