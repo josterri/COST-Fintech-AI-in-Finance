@@ -1,0 +1,91 @@
+name: Update Publications Data
+
+on:
+  # Run weekly on Sunday at 2:00 AM UTC
+  schedule:
+    - cron: '0 2 * * 0'
+
+  # Allow manual trigger from GitHub UI
+  workflow_dispatch:
+    inputs:
+      skip_fetch:
+        description: 'Skip API fetching (only run combine/cleanup)'
+        required: false
+        default: 'false'
+        type: boolean
+
+jobs:
+  update-publications:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install pandas openpyxl
+
+      - name: Extract and validate ORCIDs
+        if: ${{ github.event.inputs.skip_fetch != 'true' }}
+        run: python scripts/extract_and_validate_orcids.py
+
+      - name: Fetch OpenAlex publications
+        if: ${{ github.event.inputs.skip_fetch != 'true' }}
+        run: python scripts/fetch_openalex_publications.py
+        timeout-minutes: 30
+
+      - name: Fetch ORCID publications
+        if: ${{ github.event.inputs.skip_fetch != 'true' }}
+        run: python scripts/fetch_orcid_publications.py
+        timeout-minutes: 20
+
+      - name: Combine publications
+        run: python scripts/combine_publications.py
+
+      - name: Remove terminated members
+        run: python scripts/remove_terminated_members.py
+
+      - name: Check for changes
+        id: changes
+        run: |
+          git diff --quiet data/ || echo "changes=true" >> $GITHUB_OUTPUT
+
+      - name: Commit and push changes
+        if: steps.changes.outputs.changes == 'true'
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add data/
+          git commit -m "Update publications data [automated]
+
+          - Fetched latest from OpenAlex and ORCID APIs
+          - Applied deduplication and filtering
+          - Updated author statistics
+
+          Run triggered: ${{ github.event_name }}"
+          git push
+
+      - name: Summary
+        run: |
+          echo "## Publication Update Summary" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          if [ -f data/publications_apa.json ]; then
+            TOTAL=$(python -c "import json; print(json.load(open('data/publications_apa.json'))['metadata']['total_publications'])")
+            AUTHORS=$(python -c "import json; print(json.load(open('data/publications_apa.json'))['metadata']['total_authors'])")
+            echo "- **Total Publications:** $TOTAL" >> $GITHUB_STEP_SUMMARY
+            echo "- **Total Authors:** $AUTHORS" >> $GITHUB_STEP_SUMMARY
+          fi
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "Run completed at: $(date -u)" >> $GITHUB_STEP_SUMMARY

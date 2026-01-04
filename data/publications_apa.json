@@ -6,9 +6,9 @@
       "ORCID"
     ],
     "date_range": "2020-2025",
-    "total_publications": 8750,
+    "total_publications": 8700,
     "unique_dois": 7352,
-    "total_authors": 278,
+    "total_authors": 289,
     "from_openalex": 9769,
     "from_orcid_unique": 959,
     "preprints_deduplicated": 556,
@@ -16,45 +16,45 @@
   },
   "statistics": {
     "by_year": {
-      "2025": 1523,
-      "2024": 1510,
-      "2023": 1639,
-      "2022": 1375,
-      "2021": 1369,
-      "2020": 1334
+      "2025": 1521,
+      "2024": 1501,
+      "2023": 1630,
+      "2022": 1366,
+      "2021": 1358,
+      "2020": 1324
     },
     "by_type": {
-      "article": 5830,
-      "book-chapter": 1142,
+      "article": 5797,
+      "book-chapter": 1133,
       "preprint": 567,
-      "journal-article": 273,
+      "journal-article": 271,
       "dataset": 235,
       "review": 189,
       "book": 175,
       "conference-paper": 85,
-      "other": 64,
+      "other": 62,
       "editorial": 49,
       "paratext": 39,
-      "report": 22,
+      "report": 21,
       "peer-review": 11,
-      "conference-abstract": 9,
       "dissertation": 9,
+      "conference-abstract": 8,
       "edited-book": 7,
       "journal-issue": 6,
-      "working-paper": 5,
       "online-resource": 5,
       "letter": 4,
+      "working-paper": 4,
       "conference-poster": 4,
       "erratum": 4,
       "software": 2,
       "data-set": 2,
       "conference-presentation": 2,
-      "magazine-article": 2,
       "encyclopedia-entry": 2,
       "standards-and-policy": 2,
       "conference-proceedings": 1,
       "license": 1,
       "conference-output": 1,
+      "magazine-article": 1,
       "dissertation-thesis": 1
     },
     "top_authors": {
@@ -20019,24 +20019,6 @@
       "type": "article"
     },
     {
-      "id": 1644,
-      "apa": "Barbosa, S. (2025). *Why is there a non-WhatsApp exodus in the Global South(s)?*. Edward Elgar Publishing. https://doi.org/10.4337/9781803921150.00045",
-      "doi": "https://doi.org/10.4337/9781803921150.00045",
-      "year": 2025,
-      "author": "Sérgio Barbosa",
-      "author_orcid": "0000-0003-3862-6132",
-      "type": "book-chapter"
-    },
-    {
-      "id": 1645,
-      "apa": "Ozkok, F. O. (2025). Image-Based Air Pollution Classification Using Deep Learning Techniques. *The Eurasia Proceedings of Science Technology Engineering and Mathematics*, *35*, 302-313. https://doi.org/10.55549/epstem.1806639",
-      "doi": "https://doi.org/10.55549/epstem.1806639",
-      "year": 2025,
-      "author": "Fatma Ozge Ozkok",
-      "author_orcid": "0000-0002-1421-4670",
-      "type": "article"
-    },
-    {
       "id": 9845,
       "apa": "Sahin, C. O. (2025). Regional Fintech Report for Türkiye, Romania, and Bulgaria. *Transparency in FinTech*. https://doi.org/10.1007/978-3-032-03523-3_8",
       "doi": "https://doi.org/10.1007/978-3-032-03523-3_8",
@@ -21682,15 +21664,6 @@
       "author": "KIRAN SOOD",
       "author_orcid": "0000-0001-6177-5318",
       "type": "book-chapter"
-    },
-    {
-      "id": 1820,
-      "apa": "Herrada-Hidalgo, N., Santos, M., & Barbosa, S. (2024). Affordances-driven ethics for research on mobile instant messaging: Notes from the Global South. *Mobile Media & Communication*, *12*(3), 475-498. https://doi.org/10.1177/20501579241247994",
-      "doi": "https://doi.org/10.1177/20501579241247994",
-      "year": 2024,
-      "author": "Sérgio Barbosa",
-      "author_orcid": "0000-0003-3862-6132",
-      "type": "article"
     },
     {
       "id": 1819,
@@ -25203,24 +25176,6 @@
       "type": "article"
     },
     {
-      "id": 2247,
-      "apa": "Barbosa, S. (2024). *Enabling Digital Literacy Pedagogical Sessions (#DLPS): The Case of Portugal*. https://doi.org/10.1007/978-3-031-60049-4_17",
-      "doi": "https://doi.org/10.1007/978-3-031-60049-4_17",
-      "year": 2024,
-      "author": "Sérgio Barbosa",
-      "author_orcid": "0000-0003-3862-6132",
-      "type": "book-chapter"
-    },
-    {
-      "id": 2248,
-      "apa": "Aslan, S. & Ozkok, F. O. (2024). Best Individual Guided Immune Plasma Algorithm on Solving Path Planning Problem of Unmanned Combat Aerial Vehicles. *Unmanned Systems*, *13*(03), 765-787. https://doi.org/10.1142/s2301385025500475",
-      "doi": "https://doi.org/10.1142/s2301385025500475",
-      "year": 2024,
-      "author": "Fatma Ozge Ozkok",
-      "author_orcid": "0000-0002-1421-4670",
-      "type": "article"
-    },
-    {
       "id": 2131,
       "apa": "Achim, M. V., Pisoni, G., Mare, C., Moloney, M., Korba, S., Molnár, B., Będowska-Sójka, B., & Coita, I. F. (2024). FinTech, Regulation, and Cybercrime: Opportunities Arising From New Technologies. *SSRN Electronic Journal*. https://doi.org/10.2139/ssrn.4620106",
       "doi": "https://doi.org/10.2139/ssrn.4620106",
@@ -26946,24 +26901,6 @@
       "year": 2024,
       "author": "Ogochukwu Monye",
       "author_orcid": "0000-0002-4548-7081",
-      "type": "article"
-    },
-    {
-      "id": 2473,
-      "apa": "Lleshaj, L. & Agaj, S. (2024). Carbon Emission Metrics in South-eastern Europe: Empirical Analysis of Trade and Economic Indicator Effects. *Environment and Ecology Research*, *12*(2), 131-139. https://doi.org/10.13189/eer.2024.120204",
-      "doi": "https://doi.org/10.13189/eer.2024.120204",
-      "year": 2024,
-      "author": "Llesh LLESHAJ",
-      "author_orcid": "0000-0002-7871-9176",
-      "type": "article"
-    },
-    {
-      "id": 2474,
-      "apa": "Kotorri, A., Lleshaj, L., & Çika, N. (2024). Empirical Analysis of Circular Economy in EU Countries for Environment Protection in Context of Resources Material and Waste Management. *Environment and Ecology Research*, *12*(4), 345-358. https://doi.org/10.13189/eer.2024.120402",
-      "doi": "https://doi.org/10.13189/eer.2024.120402",
-      "year": 2024,
-      "author": "Llesh LLESHAJ",
-      "author_orcid": "0000-0002-7871-9176",
       "type": "article"
     },
     {
@@ -33519,24 +33456,6 @@
       "type": "article"
     },
     {
-      "id": 3350,
-      "apa": "Lleshaj, L. & Lika, B. (2024). Customer Perceptions of Awareness and Security of E-banking Usage. *International Scientific Conference ERAZ.  Knowledge Based Sustainable Development*, 417-425. https://doi.org/10.31410/eraz.2024.417",
-      "doi": "https://doi.org/10.31410/eraz.2024.417",
-      "year": 2024,
-      "author": "Llesh LLESHAJ",
-      "author_orcid": "0000-0002-7871-9176",
-      "type": "article"
-    },
-    {
-      "id": 3349,
-      "apa": "Lleshaj, L. & Korbi, A. (2024). *Self-assessment of professional technical competence by postgraduate students in finance and accounting, case of Albania*. Atlantis Press. https://doi.org/10.2991/978-94-6463-380-1_34",
-      "doi": "https://doi.org/10.2991/978-94-6463-380-1_34",
-      "year": 2024,
-      "author": "Llesh LLESHAJ",
-      "author_orcid": "0000-0002-7871-9176",
-      "type": "book-chapter"
-    },
-    {
       "id": 2829,
       "apa": "Ferretti, P. & Miglietta, F. (2024). *Minibonds: A European perspective*. Elsevier BV. https://doi.org/10.1016/b978-0-44-313776-1.00247-6",
       "doi": "https://doi.org/10.1016/b978-0-44-313776-1.00247-6",
@@ -33625,24 +33544,6 @@
       "author": "Hazar Altinbas",
       "author_orcid": "0000-0001-8160-0611",
       "type": "article"
-    },
-    {
-      "id": 9960,
-      "apa": "Luna, F. (2024). DESAFIOS AO DESENVOLVIMENTO SUSTENTÁVEL- Uma análise do ODS 1 em Itabuna, Bahia, Brasil. *Revista de Políticas Públicas da UFPE*.",
-      "doi": null,
-      "year": 2024,
-      "author": "Ferlanda Luna",
-      "author_orcid": "0000-0002-7094-0749",
-      "type": "journal-article"
-    },
-    {
-      "id": 3351,
-      "apa": "Luna, F. & Maxhelaku, A. (2024). *Digital Constitutionalism and the Data Economy*. https://doi.org/10.1007/978-3-031-60049-4_6",
-      "doi": "https://doi.org/10.1007/978-3-031-60049-4_6",
-      "year": 2024,
-      "author": "Ferlanda Luna",
-      "author_orcid": "0000-0002-7094-0749",
-      "type": "book-chapter"
     },
     {
       "id": 9910,
@@ -38784,15 +38685,6 @@
       "type": "article"
     },
     {
-      "id": 3929,
-      "apa": "KEKLİK, G. & Özcan, B. D. (2023). Genetik Algoritmaların İşleyişi ve Genetik Algoritma Uygulamalarında Kullanılan Operatörler. *Osmaniye Korkut Ata Üniversitesi Fen Bilimleri Enstitüsü Dergisi*, *6*(1), 1052-1066. https://doi.org/10.47495/okufbed.1161413",
-      "doi": "https://doi.org/10.47495/okufbed.1161413",
-      "year": 2023,
-      "author": "Gülşah KEKLİK",
-      "author_orcid": "0000-0002-1775-2773",
-      "type": "article"
-    },
-    {
       "id": 4026,
       "apa": "Kilinçer, İ. F., Tuncer, T., Ertam, F., & Şengür, A. (2023). An automated internet of behavior detection method based on feature selection and multiple pooling using network data. *Multimedia Tools and Applications*, *82*(19), 29547-29565. https://doi.org/10.1007/s11042-023-14810-6",
       "doi": "https://doi.org/10.1007/s11042-023-14810-6",
@@ -41034,15 +40926,6 @@
       "type": "article"
     },
     {
-      "id": 4209,
-      "apa": "Konomi, I. & Zani, B. (2023). Forecasting Inflation using the ARIMA Approach (Case of Albania). *WSEAS TRANSACTIONS ON BUSINESS AND ECONOMICS*, *20*, 1252-1259. https://doi.org/10.37394/23207.2023.20.111",
-      "doi": "https://doi.org/10.37394/23207.2023.20.111",
-      "year": 2023,
-      "author": "Blisard Zani",
-      "author_orcid": "0000-0001-8774-267X",
-      "type": "article"
-    },
-    {
       "id": 4372,
       "apa": "Li, W., Sun, Q., Chen, Y., & Chou, M. C. (2023). An eXplainable Multi-Stage Stochastic Optimisation for Bunker Procurement Planning. *SSRN Electronic Journal*. https://doi.org/10.2139/ssrn.4544710",
       "doi": "https://doi.org/10.2139/ssrn.4544710",
@@ -42654,15 +42537,6 @@
       "type": "article"
     },
     {
-      "id": 4462,
-      "apa": "Ozkok, F. O. & Çelik, M. (2023). *Classification of High Resolution Melting Curves Using Recurrence Quantification Analysis and Data Mining Algorithms*. https://doi.org/10.1007/978-3-031-09753-9_49",
-      "doi": "https://doi.org/10.1007/978-3-031-09753-9_49",
-      "year": 2023,
-      "author": "Fatma Ozge Ozkok",
-      "author_orcid": "0000-0002-1421-4670",
-      "type": "book-chapter"
-    },
-    {
       "id": 4354,
       "apa": "Iona, A., Calef, A., & Georgiou, I. (2023). Credit Market Freedom and Corporate Decisions. *Mathematics*, *11*(7), 1670. https://doi.org/10.3390/math11071670",
       "doi": "https://doi.org/10.3390/math11071670",
@@ -42795,15 +42669,6 @@
       "year": 2023,
       "author": "Laivi Laidroo",
       "author_orcid": "0000-0002-4860-890X",
-      "type": "article"
-    },
-    {
-      "id": 4461,
-      "apa": "Zani, B. & Konomi, I. (2023). Nominal and Real Shocks in the EURALL Exchange Rate. (A SVAR Guide). *WSEAS TRANSACTIONS ON BUSINESS AND ECONOMICS*, *20*, 1928-1936. https://doi.org/10.37394/23207.2023.20.168",
-      "doi": "https://doi.org/10.37394/23207.2023.20.168",
-      "year": 2023,
-      "author": "Blisard Zani",
-      "author_orcid": "0000-0001-8774-267X",
       "type": "article"
     },
     {
@@ -48207,15 +48072,6 @@
       "type": "article"
     },
     {
-      "id": 10096,
-      "apa": "Barbosa, S. (2023). WhatsAppers and Local Participation in Brazil. *IWM post*.",
-      "doi": null,
-      "year": 2023,
-      "author": "Sérgio Barbosa",
-      "author_orcid": "0000-0003-3862-6132",
-      "type": "magazine-article"
-    },
-    {
       "id": 5098,
       "apa": "Lorenzo, L. (2023). Datasets. *Arabixiv (OSF Preprints)*.",
       "doi": null,
@@ -48360,24 +48216,6 @@
       "type": "book"
     },
     {
-      "id": 5430,
-      "apa": "Luci, E., Lleshaj, L., & Zani, B. (2023). Crowdfunding – a youth perception approach in Albania. *International Journal of Applied Economics Finance and Accounting*, *17*(1), 109-116. https://doi.org/10.33094/ijaefa.v17i1.1087",
-      "doi": "https://doi.org/10.33094/ijaefa.v17i1.1087",
-      "year": 2023,
-      "author": "Llesh LLESHAJ",
-      "author_orcid": "0000-0002-7871-9176",
-      "type": "article"
-    },
-    {
-      "id": 5429,
-      "apa": "Lleshaj, L. & Lleshaj, V. (2023). MILITARY EXPENDITURE EVALUATION: EMPIRICAL EVIDENCE FROM ALBANIA. *Zenodo (CERN European Organization for Nuclear Research)*. https://doi.org/10.5281/zenodo.7865193",
-      "doi": "https://doi.org/10.5281/zenodo.7865193",
-      "year": 2023,
-      "author": "Llesh LLESHAJ",
-      "author_orcid": "0000-0002-7871-9176",
-      "type": "article"
-    },
-    {
       "id": 5362,
       "apa": "Pešović, M. & Stojadinović, T. (2023). Between graphical zonotope and graph-associahedron. *TURKISH JOURNAL OF MATHEMATICS*, *47*(5), 1362-1373. https://doi.org/10.55730/1300-0098.3434",
       "doi": "https://doi.org/10.55730/1300-0098.3434",
@@ -48421,24 +48259,6 @@
       "author": "Meriem Kherbouche",
       "author_orcid": "0000-0002-4592-1765",
       "type": "dissertation"
-    },
-    {
-      "id": 10097,
-      "apa": "KEKLİK, G. (2023). UNDERSTANDING EVOLUTIONARY RELATIONSHIPS AND ANALYSIS METHODS THROUGH MEGA SOFTWARE. *JIHSCI*. https://doi.org/10.5281/ZENODO.10446714",
-      "doi": "https://doi.org/10.5281/ZENODO.10446714",
-      "year": 2023,
-      "author": "Gülşah KEKLİK",
-      "author_orcid": "0000-0002-1775-2773",
-      "type": "journal-article"
-    },
-    {
-      "id": 5431,
-      "apa": "Luci, E., Lleshaj, L., & Zani, B. (2023). Crowdfunding – a youth perception approach in Albania. *International Journal of Applied Economics Finance and Accounting*, *17*(1), 109-116. https://doi.org/10.33094/ijaefa.v17i1.1087",
-      "doi": "https://doi.org/10.33094/ijaefa.v17i1.1087",
-      "year": 2023,
-      "author": "Blisard Zani",
-      "author_orcid": "0000-0001-8774-267X",
-      "type": "article"
     },
     {
       "id": 5185,
@@ -49311,15 +49131,6 @@
       "year": 2022,
       "author": "Ramona Rupeika-Apoga",
       "author_orcid": "0000-0002-3941-0723",
-      "type": "article"
-    },
-    {
-      "id": 5523,
-      "apa": "Aksu, H., Çetin, M., Aksoy, H., Yaldız, S. G., Yildirim, I., & KEKLİK, G. (2022). Spatial and temporal characterization of standard duration-maximum precipitation over Black Sea Region in Turkey. *Natural Hazards*, *111*(3), 2379-2405. https://doi.org/10.1007/s11069-021-05141-6",
-      "doi": "https://doi.org/10.1007/s11069-021-05141-6",
-      "year": 2022,
-      "author": "Gülşah KEKLİK",
-      "author_orcid": "0000-0002-1775-2773",
       "type": "article"
     },
     {
@@ -53958,15 +53769,6 @@
       "type": "article"
     },
     {
-      "id": 6067,
-      "apa": "LLESHAJ, A., Koçi, D., & Lleshaj, L. (2022). The Impact of Tax Control on Tax Revenues: An Aggregate Metric Analysis of the Case of Albania. *International Journal of Applied Economics Finance and Accounting*, *14*(1), 34-41. https://doi.org/10.33094/ijaefa.v14i1.637",
-      "doi": "https://doi.org/10.33094/ijaefa.v14i1.637",
-      "year": 2022,
-      "author": "Llesh LLESHAJ",
-      "author_orcid": "0000-0002-7871-9176",
-      "type": "article"
-    },
-    {
       "id": 6056,
       "apa": "Liu, D., Farajalla, G. P., & Boulenger, A. (2022). BRec the Bank: Context-aware Self-attentive Encoder for Banking Products Recommendation. *2022 International Joint Conference on Neural Networks (IJCNN)*, 1-8. https://doi.org/10.1109/ijcnn55064.2022.9892130",
       "doi": "https://doi.org/10.1109/ijcnn55064.2022.9892130",
@@ -56736,15 +56538,6 @@
       "year": 2022,
       "author": "Hazar Altinbas",
       "author_orcid": "0000-0001-8160-0611",
-      "type": "article"
-    },
-    {
-      "id": 6447,
-      "apa": "KEKLİK, G. & Şahin, M. (2022). Multidimensional Scaling Analysis and an Application. *Black Sea Journal of Engineering and Science*, *5*(2), 71-78. https://doi.org/10.34248/bsengineering.1077162",
-      "doi": "https://doi.org/10.34248/bsengineering.1077162",
-      "year": 2022,
-      "author": "Gülşah KEKLİK",
-      "author_orcid": "0000-0002-1775-2773",
       "type": "article"
     },
     {
@@ -60744,66 +60537,12 @@
       "type": "book-chapter"
     },
     {
-      "id": 6948,
-      "apa": "Mata, C. C. I. d. B. d., Fernandes, D. S. O., Leal, É. A., Luna, F., Neto, G. C. d. S., & Gomes, A. d. S. (2022). Compliance na Administração Pública e Contratações Emergenciais na pandemia: análise do litoral sul da Bahia. *Research Society and Development*, *11*(6), e39111629374. https://doi.org/10.33448/rsd-v11i6.29374",
-      "doi": "https://doi.org/10.33448/rsd-v11i6.29374",
-      "year": 2022,
-      "author": "Ferlanda Luna",
-      "author_orcid": "0000-0002-7094-0749",
-      "type": "article"
-    },
-    {
-      "id": 10253,
-      "apa": "Luna, F. (2022). Democracia, Capitalismo e Desigualdades: um olhar da economia política sobre habitação e direito à cidade. *VIII Simpósio Internacional Desigualdades, Direitos e Políticas Públicas:   Novos ativismos e protagonistas na reinvenção da solidariedade social*.",
-      "doi": null,
-      "year": 2022,
-      "author": "Ferlanda Luna",
-      "author_orcid": "0000-0002-7094-0749",
-      "type": "conference-abstract"
-    },
-    {
-      "id": 10256,
-      "apa": "Luna, F. (2022). (In)Efetividade da positivação da água potável como direito fundamental na Constituição Federal. *Constituição, Democracia e Direitos Fundamentais: Reflexões Interdisciplinares e Emergentes*.",
-      "doi": null,
-      "year": 2022,
-      "author": "Ferlanda Luna",
-      "author_orcid": "0000-0002-7094-0749",
-      "type": "book-chapter"
-    },
-    {
-      "id": 10254,
-      "apa": "Luna, F. (2022). Políticas Públicas - a necessidade de um estudo interdisciplinar.",
-      "doi": null,
-      "year": 2022,
-      "author": "Ferlanda Luna",
-      "author_orcid": "0000-0002-7094-0749",
-      "type": "other"
-    },
-    {
-      "id": 10255,
-      "apa": "Luna, F. (2022). Urbanização e Crescimento das Desigualdades.",
-      "doi": null,
-      "year": 2022,
-      "author": "Ferlanda Luna",
-      "author_orcid": "0000-0002-7094-0749",
-      "type": "other"
-    },
-    {
       "id": 6781,
       "apa": "Pisoni, G., Paccagnini, A., Tarantola, C., Tanda, A., Shala, A., & Kherbouche, M. (2022). SI women in Fintech and AI. *Digital Finance*, *4*(4), 263-264. https://doi.org/10.1007/s42521-022-00070-w",
       "doi": "https://doi.org/10.1007/s42521-022-00070-w",
       "year": 2022,
       "author": "Meriem Kherbouche",
       "author_orcid": "0000-0002-4592-1765",
-      "type": "article"
-    },
-    {
-      "id": 6949,
-      "apa": "KEKLİK, G. & Özcan, B. D. (2022). Multidisipliner Bir Bilim Dalı Olarak Biyoinformatiğe Genel Bir Bakış. *Osmaniye Korkut Ata Üniversitesi Fen Bilimleri Enstitüsü Dergisi*, *5*(2), 1082-1091. https://doi.org/10.47495/okufbed.1093687",
-      "doi": "https://doi.org/10.47495/okufbed.1093687",
-      "year": 2022,
-      "author": "Gülşah KEKLİK",
-      "author_orcid": "0000-0002-1775-2773",
       "type": "article"
     },
     {
@@ -62688,15 +62427,6 @@
       "type": "article"
     },
     {
-      "id": 7157,
-      "apa": "Ozkok, F. O. & Çelik, M. (2021). A hybrid CNN-LSTM model for high resolution melting curve classification. *Biomedical Signal Processing and Control*, *71*, 103168. https://doi.org/10.1016/j.bspc.2021.103168",
-      "doi": "https://doi.org/10.1016/j.bspc.2021.103168",
-      "year": 2021,
-      "author": "Fatma Ozge Ozkok",
-      "author_orcid": "0000-0002-1421-4670",
-      "type": "article"
-    },
-    {
       "id": 7161,
       "apa": "Athari, S. A., Kondoz, M., & Kırıkkaleli, D. (2021). Dependency between sovereign credit ratings and economic risk: Insight from Balkan countries. *Journal of Economics and Business*, *116*, 105984. https://doi.org/10.1016/j.jeconbus.2021.105984",
       "doi": "https://doi.org/10.1016/j.jeconbus.2021.105984",
@@ -63684,15 +63414,6 @@
       "year": 2021,
       "author": "Emmanuel Eyiah-Donkor",
       "author_orcid": "0000-0003-1323-1716",
-      "type": "article"
-    },
-    {
-      "id": 7271,
-      "apa": "Ozkok, F. O. & Çelik, M. (2021). Convolutional neural network analysis of recurrence plots for high resolution melting classification. *Computer Methods and Programs in Biomedicine*, *207*, 106139. https://doi.org/10.1016/j.cmpb.2021.106139",
-      "doi": "https://doi.org/10.1016/j.cmpb.2021.106139",
-      "year": 2021,
-      "author": "Fatma Ozge Ozkok",
-      "author_orcid": "0000-0002-1421-4670",
       "type": "article"
     },
     {
@@ -66117,15 +65838,6 @@
       "type": "article"
     },
     {
-      "id": 7557,
-      "apa": "Ozkok, F. O. & Çelik, M. (2021). A Hybrid Validity Index to Determine K Parameter Value of k-Means Algorithm for Time Series Clustering. *International Journal of Information Technology & Decision Making*, *20*(06), 1615-1636. https://doi.org/10.1142/s0219622021500449",
-      "doi": "https://doi.org/10.1142/s0219622021500449",
-      "year": 2021,
-      "author": "Fatma Ozge Ozkok",
-      "author_orcid": "0000-0002-1421-4670",
-      "type": "article"
-    },
-    {
       "id": 7526,
       "apa": "Antal, M., Cristea, A., Pădurean, V., Cioara, T., Anghel, I., Antal, C., Salomie, I., & Sainthérant, N. (2021). Heating Homes with Servers: Workload Scheduling for Heat Reuse in Distributed Data Centers. *Sensors*, *21*(8), 2879. https://doi.org/10.3390/s21082879",
       "doi": "https://doi.org/10.3390/s21082879",
@@ -68547,15 +68259,6 @@
       "type": "article"
     },
     {
-      "id": 7878,
-      "apa": "Lleshaj, L. & Kripa, D. (2021). The Effect of Financial Leasing Threshold in the Financial Development and Economic Growth: Evidence from Albania. *International Journal of Economics and Business Administration*, *IX*(Issue 2), 165-177. https://doi.org/10.35808/ijeba/695",
-      "doi": "https://doi.org/10.35808/ijeba/695",
-      "year": 2021,
-      "author": "Llesh LLESHAJ",
-      "author_orcid": "0000-0002-7871-9176",
-      "type": "article"
-    },
-    {
       "id": 7800,
       "apa": "Dell’Atti, S., Fanelli, V., & Miglietta, F. (2021). *Norwegian Pension Fund’s Portfolio: What Happens to the Companies Divested for Environmental Concerns?*. Springer International Publishing. https://doi.org/10.1007/978-3-030-65133-6_8",
       "doi": "https://doi.org/10.1007/978-3-030-65133-6_8",
@@ -69597,15 +69300,6 @@
       "year": 2021,
       "author": "Per B Solibakke",
       "author_orcid": "0000-0002-0019-8518",
-      "type": "article"
-    },
-    {
-      "id": 8036,
-      "apa": "Lleshaj, L. & Kripa, D. (2021). Modeling Euribor Rates Volatility: Application of the GARCH Model. *Universal Journal of Accounting and Finance*, *9*(6), 1332-1341. https://doi.org/10.13189/ujaf.2021.090612",
-      "doi": "https://doi.org/10.13189/ujaf.2021.090612",
-      "year": 2021,
-      "author": "Llesh LLESHAJ",
-      "author_orcid": "0000-0002-7871-9176",
       "type": "article"
     },
     {
@@ -72804,15 +72498,6 @@
       "type": "article"
     },
     {
-      "id": 10443,
-      "apa": "Barbosa, S. (2021). WhatsAppers for Social Good: Local Community Response to Covid-19 in Brazil.",
-      "doi": null,
-      "year": 2021,
-      "author": "Sérgio Barbosa",
-      "author_orcid": "0000-0003-3862-6132",
-      "type": "report"
-    },
-    {
       "id": 8334,
       "apa": "Seddiki, S., Tidjani, C., & Zergoune, M. (2021). International Transmission of Financial Crises: How Much Contagion is Responsible? - Evidence from MENA Countries -..",
       "doi": null,
@@ -72957,42 +72642,6 @@
       "type": "journal-article"
     },
     {
-      "id": 10442,
-      "apa": "LLESHAJ, L. (2021). 7th ERAZ Conference Proceedings (part of ERAZ conference collection). *International Scientific Conference ERAZ - Knowledge Based Sustainable Development*. https://doi.org/10.31410/eraz.2021",
-      "doi": "https://doi.org/10.31410/eraz.2021",
-      "year": 2021,
-      "author": "Llesh LLESHAJ",
-      "author_orcid": "0000-0002-7871-9176",
-      "type": "working-paper"
-    },
-    {
-      "id": 10441,
-      "apa": "LLESHAJ, L. (2021). Analysis of non-performing loans of non-bank financial institutions in Albania. *Business Threats and Opportunities in the Western Balkans*.",
-      "doi": null,
-      "year": 2021,
-      "author": "Llesh LLESHAJ",
-      "author_orcid": "0000-0002-7871-9176",
-      "type": "book-chapter"
-    },
-    {
-      "id": 8459,
-      "apa": "Lleshaj, L. & Balili, L. (2021). Economic Growth Model and Foreign Direct Investment: Evidence from Albania. *European Journal of Marketing and Economics*, *4*(1), 45-58. https://doi.org/10.26417/360udr94x",
-      "doi": "https://doi.org/10.26417/360udr94x",
-      "year": 2021,
-      "author": "Llesh LLESHAJ",
-      "author_orcid": "0000-0002-7871-9176",
-      "type": "article"
-    },
-    {
-      "id": 8460,
-      "apa": "Lleshaj, L. (2021). Volatility Estimation of Euribor and Equilibrium Forecasting. *International Scientific Conference ERAZ.  Knowledge Based Sustainable Development*, 171-177. https://doi.org/10.31410/eraz.2021.171",
-      "doi": "https://doi.org/10.31410/eraz.2021.171",
-      "year": 2021,
-      "author": "Llesh LLESHAJ",
-      "author_orcid": "0000-0002-7871-9176",
-      "type": "article"
-    },
-    {
       "id": 10346,
       "apa": "Hassanniakalager, A. (2021). Dysfunctional financial markets are making inequality worse all the time – here’s what to do about it.",
       "doi": null,
@@ -73089,15 +72738,6 @@
       "year": 2021,
       "author": "Laivi Laidroo",
       "author_orcid": "0000-0002-4860-890X",
-      "type": "article"
-    },
-    {
-      "id": 8461,
-      "apa": "Korbi, A. & Zani, B. (2021). Foreign Direct Investment (FDI) or Remittances? Which Contributes the Most to the Albanian Economy?. *International Scientific Conference ERAZ.  Knowledge Based Sustainable Development*, 47-55. https://doi.org/10.31410/eraz.s.p.2021.47",
-      "doi": "https://doi.org/10.31410/eraz.s.p.2021.47",
-      "year": 2021,
-      "author": "Blisard Zani",
-      "author_orcid": "0000-0001-8774-267X",
       "type": "article"
     },
     {
@@ -74070,15 +73710,6 @@
       "year": 2020,
       "author": "Aviv Gibali",
       "author_orcid": "0000-0002-2150-553X",
-      "type": "article"
-    },
-    {
-      "id": 8563,
-      "apa": "Milan, S. & Barbosa, S. (2020). Enter the WhatsApper: Reinventing digital activism at the time of chat apps. *First Monday*. https://doi.org/10.5210/fm.v25i12.10414",
-      "doi": "https://doi.org/10.5210/fm.v25i12.10414",
-      "year": 2020,
-      "author": "Sérgio Barbosa",
-      "author_orcid": "0000-0003-3862-6132",
       "type": "article"
     },
     {
@@ -77574,15 +77205,6 @@
       "type": "article"
     },
     {
-      "id": 8975,
-      "apa": "Mata, C. C. I. d. B. d., Leal, É. A., Luna, F., Gomes, A. d. S., & Pires, M. d. M. (2020). Evolução dos aglomerados urbanos na América Latina: uma análise do direito à cidade. *Revista de Direito da Cidade*, *12*(2). https://doi.org/10.12957/rdc.2020.50061",
-      "doi": "https://doi.org/10.12957/rdc.2020.50061",
-      "year": 2020,
-      "author": "Ferlanda Luna",
-      "author_orcid": "0000-0002-7094-0749",
-      "type": "article"
-    },
-    {
       "id": 8967,
       "apa": "Türk, S. & Sahin, G. (2020). Corrigendum to “Multi-criteria decision-making in the location selection for a solar PV power plant using AHP” [Measurement 129 (2018) 218–226]. *Measurement*. https://doi.org/10.1016/j.measurement.2019.107384",
       "doi": "https://doi.org/10.1016/j.measurement.2019.107384",
@@ -77976,15 +77598,6 @@
       "year": 2020,
       "author": "Ivan Nikolic",
       "author_orcid": "0000-0002-1897-9152",
-      "type": "article"
-    },
-    {
-      "id": 9023,
-      "apa": "Lleshaj, L. & Korbi, A. (2020). Portfolio Selection and VaR Estimation: Evidence from Western Balkan Countries. *Universal Journal of Accounting and Finance*, *8*(4), 92-102. https://doi.org/10.13189/ujaf.2020.080402",
-      "doi": "https://doi.org/10.13189/ujaf.2020.080402",
-      "year": 2020,
-      "author": "Llesh LLESHAJ",
-      "author_orcid": "0000-0002-7871-9176",
       "type": "article"
     },
     {
@@ -79149,15 +78762,6 @@
       "type": "book-chapter"
     },
     {
-      "id": 9170,
-      "apa": "Korbi, A. & Lleshaj, L. (2020). Finance Leasing and ARMA Forecasting: Evidence from Albania. *European Journal of Business Management and Research*, *5*(6). https://doi.org/10.24018/ejbmr.2020.5.6.663",
-      "doi": "https://doi.org/10.24018/ejbmr.2020.5.6.663",
-      "year": 2020,
-      "author": "Llesh LLESHAJ",
-      "author_orcid": "0000-0002-7871-9176",
-      "type": "article"
-    },
-    {
       "id": 9154,
       "apa": "Lobán, L., Sarto, J. L., & Vicente, L. (2020). Eurozone regulation bias in the active share measure. *International Review of Financial Analysis*, *72*, 101564. https://doi.org/10.1016/j.irfa.2020.101564",
       "doi": "https://doi.org/10.1016/j.irfa.2020.101564",
@@ -79839,15 +79443,6 @@
       "year": 2020,
       "author": "Mehmet Fidan",
       "author_orcid": "0000-0003-2883-9863",
-      "type": "article"
-    },
-    {
-      "id": 9255,
-      "apa": "Barbosa, S. (2020). COMUNIX WhatsAppers: The Community School in Portugal and Spain. *Political Studies Review*, *19*(2), 171-178. https://doi.org/10.1177/1478929920951076",
-      "doi": "https://doi.org/10.1177/1478929920951076",
-      "year": 2020,
-      "author": "Sérgio Barbosa",
-      "author_orcid": "0000-0003-3862-6132",
       "type": "article"
     },
     {
@@ -80991,15 +80586,6 @@
       "year": 2020,
       "author": "Ivan Nikolic",
       "author_orcid": "0000-0002-1897-9152",
-      "type": "article"
-    },
-    {
-      "id": 9399,
-      "apa": "Marku, E., Lleshaj, L., & Lleshaj, A. (2020). VECM Analysis to House Price Index. Case of Tirana. *European Journal of Marketing and Economics*, *3*(1), 19. https://doi.org/10.26417/ejme.v3i1.p19-30",
-      "doi": "https://doi.org/10.26417/ejme.v3i1.p19-30",
-      "year": 2020,
-      "author": "Llesh LLESHAJ",
-      "author_orcid": "0000-0002-7871-9176",
       "type": "article"
     },
     {
@@ -84855,24 +84441,6 @@
       "type": "article"
     },
     {
-      "id": 10726,
-      "apa": "Barbosa, S. (2020). The Dark Side of Brazilian WhatsAppers. *Algoritarismos*.",
-      "doi": null,
-      "year": 2020,
-      "author": "Sérgio Barbosa",
-      "author_orcid": "0000-0003-3862-6132",
-      "type": "book-chapter"
-    },
-    {
-      "id": 9768,
-      "apa": "Barbosa, S. & Back, C. (2020). The Dark Side of Brazilian “WhatsAppers”. *Dialnet (Universidad de la Rioja)*, 458-467.",
-      "doi": null,
-      "year": 2020,
-      "author": "Sérgio Barbosa",
-      "author_orcid": "0000-0003-3862-6132",
-      "type": "article"
-    },
-    {
       "id": 10612,
       "apa": "TIDJANI, C. (2020). Innovation dans les entreprises de l’industrie de l’électronique en Algérie : Nature de l’environnement et stratégie d’acteur..",
       "doi": null,
@@ -85006,24 +84574,6 @@
       "author": "Arman Hassanniakalager",
       "author_orcid": "0000-0003-1411-2188",
       "type": "article"
-    },
-    {
-      "id": 9769,
-      "apa": "Leal, É. A., Mata, C. C. I. d. B. d., Luna, F., & Pinheiro, L. I. F. (2020). Cooperativas de trabalho: sustentabilidade, identidade jurídica e direito de contratar com a administração pública. *Revista de Gestão e Organizações Cooperativas*, *7*(14), 185-202. https://doi.org/10.5902/2359043241206",
-      "doi": "https://doi.org/10.5902/2359043241206",
-      "year": 2020,
-      "author": "Ferlanda Luna",
-      "author_orcid": "0000-0002-7094-0749",
-      "type": "article"
-    },
-    {
-      "id": 10728,
-      "apa": "Luna, F. (2020). Saneamento Básico como Desenvolvimento Sociourbano: uma análise dos marcos regulatórios no Brasil. *Diálogos Transdisciplinares em Direitos Humanos - Violência, Sociedade e Desenvolvimento*.",
-      "doi": null,
-      "year": 2020,
-      "author": "Ferlanda Luna",
-      "author_orcid": "0000-0002-7094-0749",
-      "type": "book-chapter"
     },
     {
       "id": 9495,
