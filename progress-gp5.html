@@ -13,7 +13,7 @@
         nav .nav-content { max-width: 1400px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center; }
         nav .logo { color: white; font-weight: 700; font-size: 1.2rem; text-decoration: none; }
         nav .logo span { color: var(--cost-orange); }
-        nav ul { display: flex; list-style: none; gap: 2rem; }
+        nav ul { display: flex; list-style: none; gap: 1rem; }
         nav a { color: rgba(255,255,255,0.9); text-decoration: none; font-size: 0.9rem; font-weight: 500; }
         .hero { background: linear-gradient(135deg, var(--cost-green), var(--cost-teal)); color: white; padding: 7rem 2rem 3rem; text-align: center; }
         .hero .badge { display: inline-block; background: var(--cost-gold); color: var(--dark); padding: 0.3rem 1rem; border-radius: 15px; font-size: 0.85rem; margin-bottom: 1rem; font-weight: 600; }
@@ -22,10 +22,10 @@
         .hero .institution { opacity: 0.8; font-size: 0.95rem; }
         .breadcrumb { background: white; padding: 1rem 2rem; border-bottom: 1px solid #dee2e6; }
         .breadcrumb a { color: var(--cost-purple); text-decoration: none; font-size: 0.9rem; }
-        section { padding: 3rem 2rem; max-width: 1000px; margin: 0 auto; }
+        section { padding: 1.5rem 2rem; max-width: 1000px; margin: 0 auto; }
         section h2 { font-size: 1.5rem; color: var(--cost-purple); margin-bottom: 1rem; }
         section h2::after { content: ''; display: block; width: 40px; height: 3px; background: var(--cost-orange); margin-top: 0.5rem; }
-        .card { background: white; border-radius: 12px; padding: 1.5rem; box-shadow: 0 4px 20px rgba(0,0,0,0.08); margin-bottom: 1.5rem; }
+        .card { background: white; border-radius: 10px; padding: 1rem; box-shadow: 0 4px 20px rgba(0,0,0,0.08); margin-bottom: 0.75rem; }
         .stats-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); gap: 1rem; margin: 1rem 0; }
         .stat-box { background: var(--light); border-radius: 8px; padding: 1rem; text-align: center; }
         .stat-box .value { font-size: 1.5rem; font-weight: 700; color: var(--cost-green); }
@@ -42,27 +42,169 @@
         .doc-item .info h4 { color: var(--dark); font-size: 0.95rem; margin-bottom: 0.2rem; }
         .doc-item .info p { color: var(--gray); font-size: 0.8rem; }
         .doc-item a { color: var(--cost-teal); text-decoration: none; font-size: 0.85rem; font-weight: 500; }
-        .nav-buttons { display: flex; justify-content: space-between; margin-top: 2rem; padding-top: 2rem; border-top: 1px solid #eee; }
+        .nav-buttons { display: flex; justify-content: space-between; margin-top: 0.75rem; padding-top: 2rem; border-top: 1px solid #eee; }
         .nav-btn { display: inline-flex; align-items: center; gap: 0.5rem; color: var(--cost-purple); text-decoration: none; font-weight: 500; font-size: 0.9rem; }
-        .completion-note { background: linear-gradient(135deg, rgba(122,184,0,0.15), rgba(0,160,176,0.15)); border: 2px solid var(--cost-green); padding: 1.5rem; border-radius: 12px; margin: 1rem 0; text-align: center; }
+        .completion-note { background: linear-gradient(135deg, rgba(122,184,0,0.15), rgba(0,160,176,0.15)); border: 2px solid var(--cost-green); padding: 1rem; border-radius: 10px; margin: 1rem 0; text-align: center; }
         .completion-note h3 { color: var(--cost-green); margin-bottom: 0.5rem; }
         .completion-note p { color: var(--dark); font-size: 0.95rem; }
-        footer { background: var(--dark); color: white; padding: 2rem; text-align: center; }
+        footer { background: var(--dark); color: white; padding: 1rem; text-align: center; }
         footer a { color: var(--cost-orange); text-decoration: none; }
         @media (max-width: 768px) { nav ul { display: none; } .hero h1 { font-size: 1.6rem; } }
     </style>
+    <link rel="stylesheet" href="css/mega-menu.css">
 </head>
 <body>
-    <nav>
-        <div class="nav-content">
-            <a href="index.html" class="logo">COST <span>CA19130</span></a>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="progress-reports.html">Progress Reports</a></li>
-                <li><a href="final-report.html">Final Report</a></li>
+        <!-- COST CA19130 Legacy Archive - Mega Menu Navigation -->
+    <nav class="mega-nav">
+        <div class="mega-nav-content">
+            <a href="index.html" class="mega-nav-logo">
+                COST <span>CA19130</span>
+                <span class="completed-badge">2020-2024</span>
+            </a>
+            <ul class="mega-nav-menu">
+                <li><a href="index.html" data-category="home">HOME</a></li>
+                <li>
+                    <a href="#" data-category="impact">IMPACT <span class="arrow">&#9660;</span></a>
+                    <div class="mega-dropdown mega-dropdown-single">
+                        <a href="final-achievements.html">Final Achievements</a>
+                        <a href="final-report.html">Objectives Met (16/16)</a>
+                        <a href="work-budget-plans/deliverables.html">Deliverables Completed (15/15)</a>
+                        <a href="final-impacts.html">Scientific Impact</a>
+                        <a href="final-publications.html">Legacy & Continuation</a>
+                        <a href="comparison-enhanced.html">Report Comparison</a>
+                    </div>
+                </li>
+                <li>
+                    <a href="#" data-category="network">NETWORK <span class="arrow">&#9660;</span></a>
+                    <div class="mega-dropdown mega-dropdown-single">
+                        <a href="members.html">All Members (426)</a>
+                        <a href="leadership.html">Leadership Team</a>
+                        <a href="mc-members.html">Management Committee (70)</a>
+                        <a href="wg-members.html">Working Groups</a>
+                        <a href="country-contributions.html">Countries (48)</a>
+                        <a href="author-stats.html">Author Statistics</a>
+                    </div>
+                </li>
+                <li>
+                    <a href="#" data-category="research">RESEARCH <span class="arrow">&#9660;</span></a>
+                    <div class="mega-dropdown mega-dropdown-single">
+                        <a href="publications.html">Publications</a>
+                        <a href="preprints.html">Preprints</a>
+                        <a href="datasets.html">Datasets</a>
+                        <a href="other-outputs.html">Other Outputs</a>
+                        <a href="documents.html">Documents</a>
+                    </div>
+                </li>
+                <li>
+                    <a href="#" data-category="activities">ACTIVITIES <span class="arrow">&#9660;</span></a>
+                    <div class="mega-dropdown mega-dropdown-multi">
+                        <div class="mega-dropdown-column">
+                            <h4>Meetings</h4>
+                            <a href="financial-reports/meetings.html">All Meetings</a>
+                            <a href="progress-reports.html">By Grant Period</a>
+                            <a href="financial-reports/participants.html">Participants</a>
+                        </div>
+                        <div class="mega-dropdown-column">
+                            <h4>Mobility</h4>
+                            <a href="financial-reports/stsm.html">STSMs</a>
+                            <a href="financial-reports/virtual-mobility.html">Virtual Mobility</a>
+                            <a href="financial-reports/countries.html">ITC Grants</a>
+                        </div>
+                        <div class="mega-dropdown-column">
+                            <h4>Training</h4>
+                            <a href="financial-reports/training-schools.html">Training Schools</a>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <a href="#" data-category="archive">ARCHIVE <span class="arrow">&#9660;</span></a>
+                    <div class="mega-dropdown mega-dropdown-multi wide">
+                        <div class="mega-dropdown-column">
+                            <h4>Reports</h4>
+                            <a href="final-action-chair-report-full.html">Final Report (Full)</a>
+                            <a href="midterm-action-chair-report-full.html">Mid-Term Report (Full)</a>
+                            <a href="progress-reports.html">Progress Reports</a>
+                            <a href="midterm-rapporteur-review.html">Rapporteur Review</a>
+                        </div>
+                        <div class="mega-dropdown-column">
+                            <h4>Finances</h4>
+                            <a href="financial-reports/overview.html">Financial Overview</a>
+                            <a href="work-budget-plans/index.html">Budget Plans</a>
+                            <a href="financial-reports/ffr1.html">FFR 1-5</a>
+                        </div>
+                        <div class="mega-dropdown-column">
+                            <h4>Tools</h4>
+                            <a href="report-editor.html">Report Editor</a>
+                            <a href="comparison-enhanced.html">Report Comparison</a>
+                        </div>
+                    </div>
+                </li>
             </ul>
+            <button class="mega-nav-hamburger" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
         </div>
     </nav>
+
+    <!-- Mobile Menu -->
+    <div class="mega-mobile-menu">
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li>
+                <button>IMPACT <span class="toggle-icon">+</span></button>
+                <div class="mega-mobile-submenu">
+                    <a href="final-achievements.html">Final Achievements</a>
+                    <a href="final-report.html">Objectives Met (16/16)</a>
+                    <a href="work-budget-plans/deliverables.html">Deliverables Completed</a>
+                    <a href="final-impacts.html">Scientific Impact</a>
+                    <a href="final-publications.html">Legacy & Continuation</a>
+                    <a href="comparison-enhanced.html">Report Comparison</a>
+                </div>
+            </li>
+            <li>
+                <button>NETWORK <span class="toggle-icon">+</span></button>
+                <div class="mega-mobile-submenu">
+                    <a href="members.html">All Members (426)</a>
+                    <a href="leadership.html">Leadership Team</a>
+                    <a href="mc-members.html">Management Committee</a>
+                    <a href="wg-members.html">Working Groups</a>
+                    <a href="country-contributions.html">Countries (48)</a>
+                    <a href="author-stats.html">Author Statistics</a>
+                </div>
+            </li>
+            <li>
+                <button>RESEARCH <span class="toggle-icon">+</span></button>
+                <div class="mega-mobile-submenu">
+                    <a href="publications.html">Publications</a>
+                    <a href="preprints.html">Preprints</a>
+                    <a href="datasets.html">Datasets</a>
+                    <a href="other-outputs.html">Other Outputs</a>
+                    <a href="documents.html">Documents</a>
+                </div>
+            </li>
+            <li>
+                <button>ACTIVITIES <span class="toggle-icon">+</span></button>
+                <div class="mega-mobile-submenu">
+                    <a href="financial-reports/meetings.html">All Meetings</a>
+                    <a href="financial-reports/stsm.html">STSMs</a>
+                    <a href="financial-reports/virtual-mobility.html">Virtual Mobility</a>
+                    <a href="financial-reports/training-schools.html">Training Schools</a>
+                </div>
+            </li>
+            <li>
+                <button>ARCHIVE <span class="toggle-icon">+</span></button>
+                <div class="mega-mobile-submenu">
+                    <a href="final-action-chair-report-full.html">Final Report</a>
+                    <a href="midterm-action-chair-report-full.html">Mid-Term Report</a>
+                    <a href="progress-reports.html">Progress Reports</a>
+                    <a href="financial-reports/overview.html">Financial Overview</a>
+                    <a href="report-editor.html">Report Editor</a>
+                </div>
+            </li>
+        </ul>
+    </div>
 
     <header class="hero">
         <div class="badge">Action Complete</div>
@@ -147,9 +289,46 @@
         </div>
     </section>
 
-    <footer>
-        <p><strong>COST Action CA19130</strong></p>
-        <p style="margin-top: 0.5rem;"><a href="progress-reports.html">Back to Progress Reports</a></p>
+        <!-- Legacy Footer -->
+    <footer class="legacy-footer">
+        <div class="legacy-footer-content">
+            <div class="legacy-footer-title">
+                <h3>COST Action CA19130 - Fintech and Artificial Intelligence in Finance</h3>
+                <p class="completed">October 2020 - October 2024 (Completed)</p>
+            </div>
+            <div class="legacy-footer-grid">
+                <div class="legacy-footer-col">
+                    <h4>Impact</h4>
+                    <a href="final-achievements.html">Achievements</a>
+                    <a href="final-report.html">16/16 Objectives</a>
+                    <a href="work-budget-plans/deliverables.html">15/15 Deliverables</a>
+                </div>
+                <div class="legacy-footer-col">
+                    <h4>Network</h4>
+                    <a href="members.html">426 Members</a>
+                    <a href="country-contributions.html">48 Countries</a>
+                    <a href="leadership.html">Leadership</a>
+                </div>
+                <div class="legacy-footer-col">
+                    <h4>Archive</h4>
+                    <a href="final-action-chair-report-full.html">Final Report</a>
+                    <a href="midterm-action-chair-report-full.html">Mid-Term Report</a>
+                    <a href="financial-reports/overview.html">Financial Reports</a>
+                </div>
+            </div>
+            <div class="legacy-footer-grid" style="margin-bottom: 0;">
+                <div class="legacy-footer-col">
+                    <h4>Connect</h4>
+                    <a href="https://www.cost.eu/actions/CA19130/" target="_blank" rel="noopener">COST Official Page</a>
+                    <a href="https://fin-ai.eu" target="_blank" rel="noopener">fin-ai.eu</a>
+                    <a href="https://github.com/Digital-AI-Finance" target="_blank" rel="noopener">GitHub</a>
+                </div>
+            </div>
+            <div class="legacy-footer-bottom">
+                <p>Data sourced from <a href="https://openalex.org" target="_blank" rel="noopener">OpenAlex</a> and <a href="https://orcid.org" target="_blank" rel="noopener">ORCID</a> | Archive maintained since 2024</p>
+            </div>
+        </div>
     </footer>
+    <script src="js/mobile-menu.js"></script>
 </body>
 </html>

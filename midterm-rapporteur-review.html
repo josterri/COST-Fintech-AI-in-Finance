@@ -27,7 +27,7 @@
         nav .nav-content { max-width: 1400px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center; }
         nav .logo { color: white; font-weight: 700; font-size: 1.2rem; }
         nav .logo span { color: var(--cost-orange); }
-        nav ul { display: flex; list-style: none; gap: 2rem; }
+        nav ul { display: flex; list-style: none; gap: 1rem; }
         nav a { color: rgba(255,255,255,0.9); text-decoration: none; font-size: 0.9rem; font-weight: 500; }
         nav a:hover { color: white; }
         .hero { background: linear-gradient(135deg, #2d1b4e 0%, var(--cost-purple) 100%); color: white; padding: 7rem 2rem 3rem; text-align: center; }
@@ -37,21 +37,21 @@
         .breadcrumb { background: white; padding: 1rem 2rem; border-bottom: 1px solid var(--border); }
         .breadcrumb a { color: var(--cost-purple); text-decoration: none; }
         .breadcrumb span { color: var(--gray); }
-        section { padding: 3rem 2rem; max-width: 1200px; margin: 0 auto; }
-        section h2 { font-size: 1.6rem; color: var(--cost-purple); margin-bottom: 1.5rem; border-bottom: 2px solid var(--cost-purple); padding-bottom: 0.5rem; }
+        section { padding: 1.5rem 2rem; max-width: 1200px; margin: 0 auto; }
+        section h2 { font-size: 1.6rem; color: var(--cost-purple); margin-bottom: 0.75rem; border-bottom: 2px solid var(--cost-purple); padding-bottom: 0.5rem; }
         section h3 { font-size: 1.2rem; color: var(--dark); margin: 1.5rem 0 1rem; }
-        .card { background: white; border-radius: 12px; padding: 1.5rem; box-shadow: 0 4px 15px rgba(0,0,0,0.08); margin-bottom: 1.5rem; }
+        .card { background: white; border-radius: 10px; padding: 1rem; box-shadow: 0 4px 15px rgba(0,0,0,0.08); margin-bottom: 0.75rem; }
         .card h4 { color: var(--cost-purple); margin-bottom: 0.5rem; font-size: 1rem; }
         .card p { color: var(--gray); font-size: 0.9rem; line-height: 1.7; }
-        .highlight-box { background: linear-gradient(135deg, rgba(91,45,138,0.08), rgba(43,95,158,0.08)); border-left: 4px solid var(--cost-purple); padding: 1.5rem; border-radius: 0 12px 12px 0; margin: 1.5rem 0; }
+        .highlight-box { background: linear-gradient(135deg, rgba(91,45,138,0.08), rgba(43,95,158,0.08)); border-left: 4px solid var(--cost-purple); padding: 1rem; border-radius: 0 12px 12px 0; margin: 1.5rem 0; }
         .highlight-box h4 { color: var(--cost-purple); margin-bottom: 0.5rem; }
         .highlight-box p { color: var(--dark); font-size: 0.9rem; }
         .stats-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 1rem; margin: 1.5rem 0; }
-        .stat-box { background: linear-gradient(135deg, var(--cost-purple), #2d1b4e); color: white; padding: 1.5rem; border-radius: 12px; text-align: center; }
+        .stat-box { background: linear-gradient(135deg, var(--cost-purple), #2d1b4e); color: white; padding: 1rem; border-radius: 10px; text-align: center; }
         .stat-box .number { font-size: 2rem; font-weight: 700; }
         .stat-box .label { font-size: 0.8rem; opacity: 0.9; }
         .rating-grid { display: grid; gap: 1rem; }
-        .rating-card { background: white; border-radius: 12px; padding: 1.2rem; box-shadow: 0 4px 15px rgba(0,0,0,0.08); display: flex; justify-content: space-between; align-items: center; }
+        .rating-card { background: white; border-radius: 10px; padding: 1.2rem; box-shadow: 0 4px 15px rgba(0,0,0,0.08); display: flex; justify-content: space-between; align-items: center; }
         .rating-card h5 { color: var(--dark); font-size: 0.9rem; flex: 1; }
         .rating-badge { padding: 0.3rem 0.8rem; border-radius: 15px; font-size: 0.75rem; font-weight: 600; }
         .rating-badge.excellent { background: rgba(40,167,69,0.15); color: var(--success); }
@@ -66,14 +66,14 @@
         .status-confirmed::before { content: ""; width: 8px; height: 8px; background: var(--success); border-radius: 50%; }
         .status-not-confirmed { display: inline-flex; align-items: center; gap: 0.3rem; color: var(--cost-orange); font-weight: 600; font-size: 0.8rem; }
         .status-not-confirmed::before { content: ""; width: 8px; height: 8px; background: var(--cost-orange); border-radius: 50%; }
-        .deliverable-assessment { background: white; border-radius: 12px; margin-bottom: 1rem; box-shadow: 0 4px 15px rgba(0,0,0,0.08); overflow: hidden; }
+        .deliverable-assessment { background: white; border-radius: 10px; margin-bottom: 1rem; box-shadow: 0 4px 15px rgba(0,0,0,0.08); overflow: hidden; }
         .deliverable-header { background: var(--cost-blue); color: white; padding: 1rem; display: flex; justify-content: space-between; align-items: center; }
         .deliverable-header h5 { font-size: 0.9rem; flex: 1; }
         .deliverable-header .due { font-size: 0.75rem; opacity: 0.8; }
         .deliverable-body { padding: 1rem; }
         .deliverable-body .status { font-size: 0.8rem; color: var(--gray); margin-bottom: 0.5rem; }
         .deliverable-body .comment { font-size: 0.85rem; color: var(--dark); background: rgba(43,95,158,0.05); padding: 0.8rem; border-radius: 8px; border-left: 3px solid var(--cost-blue); }
-        .impact-assessment { background: white; border-radius: 12px; padding: 1.5rem; box-shadow: 0 4px 15px rgba(0,0,0,0.08); margin-bottom: 1.5rem; }
+        .impact-assessment { background: white; border-radius: 10px; padding: 1rem; box-shadow: 0 4px 15px rgba(0,0,0,0.08); margin-bottom: 0.75rem; }
         .impact-assessment h4 { color: var(--cost-purple); font-size: 1rem; margin-bottom: 0.5rem; }
         .impact-assessment .description { color: var(--gray); font-size: 0.85rem; margin-bottom: 1rem; }
         .impact-assessment .rapporteur-comment { background: rgba(91,45,138,0.05); padding: 1rem; border-radius: 8px; border-left: 3px solid var(--cost-purple); }
@@ -82,33 +82,172 @@
         .impact-tags { display: flex; gap: 0.3rem; margin: 0.5rem 0; flex-wrap: wrap; }
         .impact-tag { background: rgba(0,160,176,0.15); color: var(--cost-teal); padding: 0.2rem 0.5rem; border-radius: 8px; font-size: 0.7rem; }
         .impact-tag.achieved { background: rgba(40,167,69,0.15); color: var(--success); }
-        .summary-box { background: white; border-radius: 12px; padding: 1.5rem; box-shadow: 0 4px 15px rgba(0,0,0,0.08); margin-bottom: 1.5rem; border-top: 4px solid var(--cost-green); }
+        .summary-box { background: white; border-radius: 10px; padding: 1rem; box-shadow: 0 4px 15px rgba(0,0,0,0.08); margin-bottom: 0.75rem; border-top: 4px solid var(--cost-green); }
         .summary-box h4 { color: var(--cost-green); margin-bottom: 0.5rem; }
         .summary-box p { color: var(--gray); font-size: 0.9rem; }
         .assessment-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1rem; }
-        .assessment-card { background: white; border-radius: 12px; padding: 1.2rem; box-shadow: 0 4px 15px rgba(0,0,0,0.08); text-align: center; }
+        .assessment-card { background: white; border-radius: 10px; padding: 1.2rem; box-shadow: 0 4px 15px rgba(0,0,0,0.08); text-align: center; }
         .assessment-card .category { font-size: 0.8rem; color: var(--gray); margin-bottom: 0.5rem; }
         .assessment-card .level { font-size: 1.1rem; font-weight: 600; color: var(--cost-purple); }
-        .chart-container { background: white; border-radius: 12px; padding: 1.5rem; box-shadow: 0 4px 15px rgba(0,0,0,0.08); margin: 1rem 0; }
-        footer { background: var(--dark); color: white; padding: 2rem; text-align: center; }
+        .chart-container { background: white; border-radius: 10px; padding: 1rem; box-shadow: 0 4px 15px rgba(0,0,0,0.08); margin: 1rem 0; }
+        footer { background: var(--dark); color: white; padding: 1rem; text-align: center; }
         footer a { color: var(--cost-orange); text-decoration: none; margin: 0 1rem; }
         @media (max-width: 768px) { nav ul { display: none; } .hero h1 { font-size: 1.6rem; } .objective-table { font-size: 0.75rem; } }
     </style>
+    <link rel="stylesheet" href="css/mega-menu.css">
 </head>
 <body>
-    <nav>
-        <div class="nav-content">
-            <div class="logo">COST <span>CA19130</span></div>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="leadership.html">Leadership</a></li>
-                <li><a href="publications.html">Publications</a></li>
-                <li><a href="midterm-report.html">Mid-Term</a></li>
-                <li><a href="progress-reports.html">Progress</a></li>
-                <li><a href="final-report.html">Final</a></li>
+        <!-- COST CA19130 Legacy Archive - Mega Menu Navigation -->
+    <nav class="mega-nav">
+        <div class="mega-nav-content">
+            <a href="index.html" class="mega-nav-logo">
+                COST <span>CA19130</span>
+                <span class="completed-badge">2020-2024</span>
+            </a>
+            <ul class="mega-nav-menu">
+                <li><a href="index.html" data-category="home">HOME</a></li>
+                <li>
+                    <a href="#" data-category="impact">IMPACT <span class="arrow">&#9660;</span></a>
+                    <div class="mega-dropdown mega-dropdown-single">
+                        <a href="final-achievements.html">Final Achievements</a>
+                        <a href="final-report.html">Objectives Met (16/16)</a>
+                        <a href="work-budget-plans/deliverables.html">Deliverables Completed (15/15)</a>
+                        <a href="final-impacts.html">Scientific Impact</a>
+                        <a href="final-publications.html">Legacy & Continuation</a>
+                        <a href="comparison-enhanced.html">Report Comparison</a>
+                    </div>
+                </li>
+                <li>
+                    <a href="#" data-category="network">NETWORK <span class="arrow">&#9660;</span></a>
+                    <div class="mega-dropdown mega-dropdown-single">
+                        <a href="members.html">All Members (426)</a>
+                        <a href="leadership.html">Leadership Team</a>
+                        <a href="mc-members.html">Management Committee (70)</a>
+                        <a href="wg-members.html">Working Groups</a>
+                        <a href="country-contributions.html">Countries (48)</a>
+                        <a href="author-stats.html">Author Statistics</a>
+                    </div>
+                </li>
+                <li>
+                    <a href="#" data-category="research">RESEARCH <span class="arrow">&#9660;</span></a>
+                    <div class="mega-dropdown mega-dropdown-single">
+                        <a href="publications.html">Publications</a>
+                        <a href="preprints.html">Preprints</a>
+                        <a href="datasets.html">Datasets</a>
+                        <a href="other-outputs.html">Other Outputs</a>
+                        <a href="documents.html">Documents</a>
+                    </div>
+                </li>
+                <li>
+                    <a href="#" data-category="activities">ACTIVITIES <span class="arrow">&#9660;</span></a>
+                    <div class="mega-dropdown mega-dropdown-multi">
+                        <div class="mega-dropdown-column">
+                            <h4>Meetings</h4>
+                            <a href="financial-reports/meetings.html">All Meetings</a>
+                            <a href="progress-reports.html">By Grant Period</a>
+                            <a href="financial-reports/participants.html">Participants</a>
+                        </div>
+                        <div class="mega-dropdown-column">
+                            <h4>Mobility</h4>
+                            <a href="financial-reports/stsm.html">STSMs</a>
+                            <a href="financial-reports/virtual-mobility.html">Virtual Mobility</a>
+                            <a href="financial-reports/countries.html">ITC Grants</a>
+                        </div>
+                        <div class="mega-dropdown-column">
+                            <h4>Training</h4>
+                            <a href="financial-reports/training-schools.html">Training Schools</a>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <a href="#" data-category="archive">ARCHIVE <span class="arrow">&#9660;</span></a>
+                    <div class="mega-dropdown mega-dropdown-multi wide">
+                        <div class="mega-dropdown-column">
+                            <h4>Reports</h4>
+                            <a href="final-action-chair-report-full.html">Final Report (Full)</a>
+                            <a href="midterm-action-chair-report-full.html">Mid-Term Report (Full)</a>
+                            <a href="progress-reports.html">Progress Reports</a>
+                            <a href="midterm-rapporteur-review.html">Rapporteur Review</a>
+                        </div>
+                        <div class="mega-dropdown-column">
+                            <h4>Finances</h4>
+                            <a href="financial-reports/overview.html">Financial Overview</a>
+                            <a href="work-budget-plans/index.html">Budget Plans</a>
+                            <a href="financial-reports/ffr1.html">FFR 1-5</a>
+                        </div>
+                        <div class="mega-dropdown-column">
+                            <h4>Tools</h4>
+                            <a href="report-editor.html">Report Editor</a>
+                            <a href="comparison-enhanced.html">Report Comparison</a>
+                        </div>
+                    </div>
+                </li>
             </ul>
+            <button class="mega-nav-hamburger" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
         </div>
     </nav>
+
+    <!-- Mobile Menu -->
+    <div class="mega-mobile-menu">
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li>
+                <button>IMPACT <span class="toggle-icon">+</span></button>
+                <div class="mega-mobile-submenu">
+                    <a href="final-achievements.html">Final Achievements</a>
+                    <a href="final-report.html">Objectives Met (16/16)</a>
+                    <a href="work-budget-plans/deliverables.html">Deliverables Completed</a>
+                    <a href="final-impacts.html">Scientific Impact</a>
+                    <a href="final-publications.html">Legacy & Continuation</a>
+                    <a href="comparison-enhanced.html">Report Comparison</a>
+                </div>
+            </li>
+            <li>
+                <button>NETWORK <span class="toggle-icon">+</span></button>
+                <div class="mega-mobile-submenu">
+                    <a href="members.html">All Members (426)</a>
+                    <a href="leadership.html">Leadership Team</a>
+                    <a href="mc-members.html">Management Committee</a>
+                    <a href="wg-members.html">Working Groups</a>
+                    <a href="country-contributions.html">Countries (48)</a>
+                    <a href="author-stats.html">Author Statistics</a>
+                </div>
+            </li>
+            <li>
+                <button>RESEARCH <span class="toggle-icon">+</span></button>
+                <div class="mega-mobile-submenu">
+                    <a href="publications.html">Publications</a>
+                    <a href="preprints.html">Preprints</a>
+                    <a href="datasets.html">Datasets</a>
+                    <a href="other-outputs.html">Other Outputs</a>
+                    <a href="documents.html">Documents</a>
+                </div>
+            </li>
+            <li>
+                <button>ACTIVITIES <span class="toggle-icon">+</span></button>
+                <div class="mega-mobile-submenu">
+                    <a href="financial-reports/meetings.html">All Meetings</a>
+                    <a href="financial-reports/stsm.html">STSMs</a>
+                    <a href="financial-reports/virtual-mobility.html">Virtual Mobility</a>
+                    <a href="financial-reports/training-schools.html">Training Schools</a>
+                </div>
+            </li>
+            <li>
+                <button>ARCHIVE <span class="toggle-icon">+</span></button>
+                <div class="mega-mobile-submenu">
+                    <a href="final-action-chair-report-full.html">Final Report</a>
+                    <a href="midterm-action-chair-report-full.html">Mid-Term Report</a>
+                    <a href="progress-reports.html">Progress Reports</a>
+                    <a href="financial-reports/overview.html">Financial Overview</a>
+                    <a href="report-editor.html">Report Editor</a>
+                </div>
+            </li>
+        </ul>
+    </div>
 
     <header class="hero">
         <div class="badge">External Assessment</div>
@@ -778,15 +917,45 @@
         </div>
     </section>
 
-    <footer>
-        <p>COST Action CA19130 - Fintech and Artificial Intelligence in Finance</p>
-        <div>
-            <a href="https://fin-ai.eu" target="_blank">fin-ai.eu</a>
-            <a href="https://www.cost.eu/actions/CA19130/" target="_blank">COST Website</a>
-            <a href="index.html">Main Report</a>
+        <!-- Legacy Footer -->
+    <footer class="legacy-footer">
+        <div class="legacy-footer-content">
+            <div class="legacy-footer-title">
+                <h3>COST Action CA19130 - Fintech and Artificial Intelligence in Finance</h3>
+                <p class="completed">October 2020 - October 2024 (Completed)</p>
+            </div>
+            <div class="legacy-footer-grid">
+                <div class="legacy-footer-col">
+                    <h4>Impact</h4>
+                    <a href="final-achievements.html">Achievements</a>
+                    <a href="final-report.html">16/16 Objectives</a>
+                    <a href="work-budget-plans/deliverables.html">15/15 Deliverables</a>
+                </div>
+                <div class="legacy-footer-col">
+                    <h4>Network</h4>
+                    <a href="members.html">426 Members</a>
+                    <a href="country-contributions.html">48 Countries</a>
+                    <a href="leadership.html">Leadership</a>
+                </div>
+                <div class="legacy-footer-col">
+                    <h4>Archive</h4>
+                    <a href="final-action-chair-report-full.html">Final Report</a>
+                    <a href="midterm-action-chair-report-full.html">Mid-Term Report</a>
+                    <a href="financial-reports/overview.html">Financial Reports</a>
+                </div>
+            </div>
+            <div class="legacy-footer-grid" style="margin-bottom: 0;">
+                <div class="legacy-footer-col">
+                    <h4>Connect</h4>
+                    <a href="https://www.cost.eu/actions/CA19130/" target="_blank" rel="noopener">COST Official Page</a>
+                    <a href="https://fin-ai.eu" target="_blank" rel="noopener">fin-ai.eu</a>
+                    <a href="https://github.com/Digital-AI-Finance" target="_blank" rel="noopener">GitHub</a>
+                </div>
+            </div>
+            <div class="legacy-footer-bottom">
+                <p>Data sourced from <a href="https://openalex.org" target="_blank" rel="noopener">OpenAlex</a> and <a href="https://orcid.org" target="_blank" rel="noopener">ORCID</a> | Archive maintained since 2024</p>
+            </div>
         </div>
-        <p style="margin-top: 1rem; opacity: 0.9; font-size: 0.85rem;"><strong>Rapporteur:</strong> Prof. Georgios Samakovitis, University of Greenwich, United Kingdom</p>
-        <p style="margin-top: 0.5rem; opacity: 0.7; font-size: 0.8rem;">Second Progress Report submitted: 2024-03-07 | Progress at 24 Months (14/09/2020 - 14/09/2022)</p>
     </footer>
 
     <script>
@@ -826,5 +995,6 @@
             }
         });
     </script>
+    <script src="js/mobile-menu.js"></script>
 </body>
 </html>

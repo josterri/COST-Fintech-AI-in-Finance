@@ -56,7 +56,7 @@
         nav ul {
             display: flex;
             list-style: none;
-            gap: 2rem;
+            gap: 1rem;
         }
 
         nav a {
@@ -116,17 +116,17 @@
         .nav-pills a.active { background: white; color: var(--cost-blue); }
 
         .container {
-            max-width: 1000px;
+            max-width: 1200px;
             margin: 0 auto;
-            padding: 2rem;
+            padding: 1rem;
         }
 
         .filters {
             background: white;
-            padding: 1.5rem;
-            border-radius: 12px;
+            padding: 1rem;
+            border-radius: 10px;
             box-shadow: 0 4px 20px rgba(0,0,0,0.08);
-            margin-bottom: 1.5rem;
+            margin-bottom: 0.75rem;
             display: flex;
             flex-wrap: wrap;
             gap: 1rem;
@@ -155,7 +155,7 @@
 
         .author-table {
             background: white;
-            border-radius: 12px;
+            border-radius: 10px;
             box-shadow: 0 4px 20px rgba(0,0,0,0.08);
             overflow: hidden;
         }
@@ -233,9 +233,9 @@
         footer {
             background: var(--dark);
             color: white;
-            padding: 2rem;
+            padding: 1rem;
             text-align: center;
-            margin-top: 3rem;
+            margin-top: 1.5rem;
         }
 
         footer a {
@@ -247,24 +247,164 @@
             nav ul { display: none; }
             .filters { flex-direction: column; }
             .filters input { width: 100%; }
-            .stats-row { gap: 1.5rem; }
+            .stats-row { gap: 1rem; }
             th, td { padding: 0.6rem; font-size: 0.8rem; }
         }
     </style>
+    <link rel="stylesheet" href="css/mega-menu.css">
 </head>
 <body>
-    <nav>
-        <div class="nav-content">
-            <div class="logo"><a href="index.html" style="color: inherit; text-decoration: none;">COST <span>CA19130</span></a></div>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="leadership.html">Leadership</a></li>
-                <li><a href="mc-members.html">MC Members</a></li>
-                <li><a href="wg-members.html">WG Members</a></li>
-                <li><a href="publications.html">Publications</a></li>
+        <!-- COST CA19130 Legacy Archive - Mega Menu Navigation -->
+    <nav class="mega-nav">
+        <div class="mega-nav-content">
+            <a href="index.html" class="mega-nav-logo">
+                COST <span>CA19130</span>
+                <span class="completed-badge">2020-2024</span>
+            </a>
+            <ul class="mega-nav-menu">
+                <li><a href="index.html" data-category="home">HOME</a></li>
+                <li>
+                    <a href="#" data-category="impact">IMPACT <span class="arrow">&#9660;</span></a>
+                    <div class="mega-dropdown mega-dropdown-single">
+                        <a href="final-achievements.html">Final Achievements</a>
+                        <a href="final-report.html">Objectives Met (16/16)</a>
+                        <a href="work-budget-plans/deliverables.html">Deliverables Completed (15/15)</a>
+                        <a href="final-impacts.html">Scientific Impact</a>
+                        <a href="final-publications.html">Legacy & Continuation</a>
+                        <a href="comparison-enhanced.html">Report Comparison</a>
+                    </div>
+                </li>
+                <li>
+                    <a href="#" data-category="network">NETWORK <span class="arrow">&#9660;</span></a>
+                    <div class="mega-dropdown mega-dropdown-single">
+                        <a href="members.html">All Members (426)</a>
+                        <a href="leadership.html">Leadership Team</a>
+                        <a href="mc-members.html">Management Committee (70)</a>
+                        <a href="wg-members.html">Working Groups</a>
+                        <a href="country-contributions.html">Countries (48)</a>
+                        <a href="author-stats.html">Author Statistics</a>
+                    </div>
+                </li>
+                <li>
+                    <a href="#" data-category="research">RESEARCH <span class="arrow">&#9660;</span></a>
+                    <div class="mega-dropdown mega-dropdown-single">
+                        <a href="publications.html">Publications</a>
+                        <a href="preprints.html">Preprints</a>
+                        <a href="datasets.html">Datasets</a>
+                        <a href="other-outputs.html">Other Outputs</a>
+                        <a href="documents.html">Documents</a>
+                    </div>
+                </li>
+                <li>
+                    <a href="#" data-category="activities">ACTIVITIES <span class="arrow">&#9660;</span></a>
+                    <div class="mega-dropdown mega-dropdown-multi">
+                        <div class="mega-dropdown-column">
+                            <h4>Meetings</h4>
+                            <a href="financial-reports/meetings.html">All Meetings</a>
+                            <a href="progress-reports.html">By Grant Period</a>
+                            <a href="financial-reports/participants.html">Participants</a>
+                        </div>
+                        <div class="mega-dropdown-column">
+                            <h4>Mobility</h4>
+                            <a href="financial-reports/stsm.html">STSMs</a>
+                            <a href="financial-reports/virtual-mobility.html">Virtual Mobility</a>
+                            <a href="financial-reports/countries.html">ITC Grants</a>
+                        </div>
+                        <div class="mega-dropdown-column">
+                            <h4>Training</h4>
+                            <a href="financial-reports/training-schools.html">Training Schools</a>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <a href="#" data-category="archive">ARCHIVE <span class="arrow">&#9660;</span></a>
+                    <div class="mega-dropdown mega-dropdown-multi wide">
+                        <div class="mega-dropdown-column">
+                            <h4>Reports</h4>
+                            <a href="final-action-chair-report-full.html">Final Report (Full)</a>
+                            <a href="midterm-action-chair-report-full.html">Mid-Term Report (Full)</a>
+                            <a href="progress-reports.html">Progress Reports</a>
+                            <a href="midterm-rapporteur-review.html">Rapporteur Review</a>
+                        </div>
+                        <div class="mega-dropdown-column">
+                            <h4>Finances</h4>
+                            <a href="financial-reports/overview.html">Financial Overview</a>
+                            <a href="work-budget-plans/index.html">Budget Plans</a>
+                            <a href="financial-reports/ffr1.html">FFR 1-5</a>
+                        </div>
+                        <div class="mega-dropdown-column">
+                            <h4>Tools</h4>
+                            <a href="report-editor.html">Report Editor</a>
+                            <a href="comparison-enhanced.html">Report Comparison</a>
+                        </div>
+                    </div>
+                </li>
             </ul>
+            <button class="mega-nav-hamburger" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
         </div>
     </nav>
+
+    <!-- Mobile Menu -->
+    <div class="mega-mobile-menu">
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li>
+                <button>IMPACT <span class="toggle-icon">+</span></button>
+                <div class="mega-mobile-submenu">
+                    <a href="final-achievements.html">Final Achievements</a>
+                    <a href="final-report.html">Objectives Met (16/16)</a>
+                    <a href="work-budget-plans/deliverables.html">Deliverables Completed</a>
+                    <a href="final-impacts.html">Scientific Impact</a>
+                    <a href="final-publications.html">Legacy & Continuation</a>
+                    <a href="comparison-enhanced.html">Report Comparison</a>
+                </div>
+            </li>
+            <li>
+                <button>NETWORK <span class="toggle-icon">+</span></button>
+                <div class="mega-mobile-submenu">
+                    <a href="members.html">All Members (426)</a>
+                    <a href="leadership.html">Leadership Team</a>
+                    <a href="mc-members.html">Management Committee</a>
+                    <a href="wg-members.html">Working Groups</a>
+                    <a href="country-contributions.html">Countries (48)</a>
+                    <a href="author-stats.html">Author Statistics</a>
+                </div>
+            </li>
+            <li>
+                <button>RESEARCH <span class="toggle-icon">+</span></button>
+                <div class="mega-mobile-submenu">
+                    <a href="publications.html">Publications</a>
+                    <a href="preprints.html">Preprints</a>
+                    <a href="datasets.html">Datasets</a>
+                    <a href="other-outputs.html">Other Outputs</a>
+                    <a href="documents.html">Documents</a>
+                </div>
+            </li>
+            <li>
+                <button>ACTIVITIES <span class="toggle-icon">+</span></button>
+                <div class="mega-mobile-submenu">
+                    <a href="financial-reports/meetings.html">All Meetings</a>
+                    <a href="financial-reports/stsm.html">STSMs</a>
+                    <a href="financial-reports/virtual-mobility.html">Virtual Mobility</a>
+                    <a href="financial-reports/training-schools.html">Training Schools</a>
+                </div>
+            </li>
+            <li>
+                <button>ARCHIVE <span class="toggle-icon">+</span></button>
+                <div class="mega-mobile-submenu">
+                    <a href="final-action-chair-report-full.html">Final Report</a>
+                    <a href="midterm-action-chair-report-full.html">Mid-Term Report</a>
+                    <a href="progress-reports.html">Progress Reports</a>
+                    <a href="financial-reports/overview.html">Financial Overview</a>
+                    <a href="report-editor.html">Report Editor</a>
+                </div>
+            </li>
+        </ul>
+    </div>
 
     <header class="header">
         <h1>Author Statistics</h1>
@@ -303,63 +443,114 @@
             <table>
                 <thead>
                     <tr>
-                        <th class="rank" data-sort="rank">Rank</th>
+                        <th class="rank" data-sort="rank">#</th>
                         <th data-sort="name">Author</th>
-                        <th data-sort="orcid">ORCID</th>
-                        <th data-sort="count" class="sorted-desc">Publications</th>
+                        <th data-sort="finance_related" title="Finance/AI related publications">Finance</th>
+                        <th data-sort="peer_reviewed" title="Peer-reviewed articles + reviews">Peer-Rev</th>
+                        <th data-sort="books_chapters" title="Books + Book Chapters">Books</th>
+                        <th data-sort="conference" title="Conference papers">Conf</th>
+                        <th data-sort="preprints" title="Preprints + Working papers">Pre</th>
+                        <th data-sort="datasets" title="Datasets + Software">Data</th>
+                        <th data-sort="open_access" title="Open Access publications">OA</th>
+                        <th data-sort="cited_works" title="Publications with citations">Cited</th>
+                        <th data-sort="total" class="sorted-desc" title="Total publications">Total</th>
                     </tr>
                 </thead>
                 <tbody id="authorBody">
-                    <tr><td colspan="4" class="loading">Loading...</td></tr>
+                    <tr><td colspan="11" class="loading">Loading...</td></tr>
                 </tbody>
             </table>
         </div>
     </div>
 
-    <footer>
-        <p><a href="publications.html">Publications</a> | <a href="preprints.html">Preprints</a> | <a href="datasets.html">Datasets</a> | <a href="other-outputs.html">Other</a> | <a href="author-stats.html">Authors</a></p>
-        <p style="margin-top: 1rem; opacity: 0.7;">Data sourced from OpenAlex and ORCID</p>
+        <!-- Legacy Footer -->
+    <footer class="legacy-footer">
+        <div class="legacy-footer-content">
+            <div class="legacy-footer-title">
+                <h3>COST Action CA19130 - Fintech and Artificial Intelligence in Finance</h3>
+                <p class="completed">October 2020 - October 2024 (Completed)</p>
+            </div>
+            <div class="legacy-footer-grid">
+                <div class="legacy-footer-col">
+                    <h4>Impact</h4>
+                    <a href="final-achievements.html">Achievements</a>
+                    <a href="final-report.html">16/16 Objectives</a>
+                    <a href="work-budget-plans/deliverables.html">15/15 Deliverables</a>
+                </div>
+                <div class="legacy-footer-col">
+                    <h4>Network</h4>
+                    <a href="members.html">426 Members</a>
+                    <a href="country-contributions.html">48 Countries</a>
+                    <a href="leadership.html">Leadership</a>
+                </div>
+                <div class="legacy-footer-col">
+                    <h4>Archive</h4>
+                    <a href="final-action-chair-report-full.html">Final Report</a>
+                    <a href="midterm-action-chair-report-full.html">Mid-Term Report</a>
+                    <a href="financial-reports/overview.html">Financial Reports</a>
+                </div>
+            </div>
+            <div class="legacy-footer-grid" style="margin-bottom: 0;">
+                <div class="legacy-footer-col">
+                    <h4>Connect</h4>
+                    <a href="https://www.cost.eu/actions/CA19130/" target="_blank" rel="noopener">COST Official Page</a>
+                    <a href="https://fin-ai.eu" target="_blank" rel="noopener">fin-ai.eu</a>
+                    <a href="https://github.com/Digital-AI-Finance" target="_blank" rel="noopener">GitHub</a>
+                </div>
+            </div>
+            <div class="legacy-footer-bottom">
+                <p>Data sourced from <a href="https://openalex.org" target="_blank" rel="noopener">OpenAlex</a> and <a href="https://orcid.org" target="_blank" rel="noopener">ORCID</a> | Archive maintained since 2024</p>
+            </div>
+        </div>
     </footer>
 
     <script>
         let authorData = [];
         let filteredData = [];
-        let sortColumn = 'count';
+        let sortColumn = 'total';
         let sortAsc = false;
         let maxCount = 0;
 
         fetch('data/publications_apa.json')
             .then(r => r.json())
             .then(data => {
-                // Count publications per author
-                const counts = {};
-                const orcids = {};
+                // Use author_stats from the JSON (computed by combine_publications.py)
+                const authorStats = data.author_stats || {};
 
-                data.publications.forEach(p => {
-                    const author = p.author || 'Unknown';
-                    const orcid = p.author_orcid || '';
-                    counts[author] = (counts[author] || 0) + 1;
-                    if (orcid) orcids[author] = orcid;
+                // Convert to array with grouped type breakdown
+                authorData = Object.entries(authorStats).map(([orcid, stats]) => {
+                    const bg = stats.by_group || {};
+                    return {
+                        name: stats.name || 'Unknown',
+                        orcid: orcid,
+                        total: stats.total || 0,
+                        finance_related: stats.finance_related || 0,
+                        // Grouped categories
+                        peer_reviewed: bg.peer_reviewed || 0,
+                        books_chapters: bg.books_chapters || 0,
+                        conference: bg.conference || 0,
+                        preprints: bg.preprints || 0,
+                        datasets: bg.datasets || 0,
+                        other: bg.other || 0,
+                        // Additional metrics
+                        open_access: stats.open_access || 0,
+                        cited_works: stats.cited_works || 0,
+                        total_citations: stats.total_citations || 0
+                    };
                 });
 
-                // Convert to array
-                authorData = Object.entries(counts).map(([name, count]) => ({
-                    name,
-                    orcid: orcids[name] || '',
-                    count
-                }));
-
-                // Sort by count descending
-                authorData.sort((a, b) => b.count - a.count);
+                // Sort by total descending
+                authorData.sort((a, b) => b.total - a.total);
 
                 // Add ranks
                 authorData.forEach((a, i) => a.rank = i + 1);
 
-                maxCount = authorData[0]?.count || 1;
+                maxCount = authorData[0]?.total || 1;
                 filteredData = [...authorData];
 
                 // Update stats
-                const totalPubs = authorData.reduce((sum, a) => sum + a.count, 0);
+                const totalPubs = authorData.reduce((sum, a) => sum + a.total, 0);
+                const totalOA = authorData.reduce((sum, a) => sum + a.open_access, 0);
                 document.getElementById('totalAuthors').textContent = authorData.length;
                 document.getElementById('totalPubs').textContent = totalPubs.toLocaleString();
                 document.getElementById('avgPubs').textContent = (totalPubs / authorData.length).toFixed(1);
@@ -368,14 +559,14 @@
             })
             .catch(err => {
                 console.error(err);
-                document.getElementById('authorBody').innerHTML = '<tr><td colspan="4" class="loading">Error loading data.</td></tr>';
+                document.getElementById('authorBody').innerHTML = '<tr><td colspan="11" class="loading">Error loading data.</td></tr>';
             });
 
         function renderTable() {
             const tbody = document.getElementById('authorBody');
 
             if (filteredData.length === 0) {
-                tbody.innerHTML = '<tr><td colspan="4" class="loading">No authors match your search.</td></tr>';
+                tbody.innerHTML = '<tr><td colspan="11" class="loading">No authors match your search.</td></tr>';
                 document.getElementById('resultsInfo').textContent = 'No results';
                 return;
             }
@@ -383,18 +574,28 @@
             document.getElementById('resultsInfo').textContent = `Showing ${filteredData.length} of ${authorData.length} authors`;
 
             tbody.innerHTML = filteredData.map(a => {
-                const barWidth = (a.count / maxCount * 100).toFixed(1);
-                const orcidLink = a.orcid ?
-                    `<a href="https://orcid.org/${a.orcid}" target="_blank" class="orcid-link">${a.orcid}</a>` :
-                    '<span style="color:#ccc">-</span>';
+                const barWidth = (a.total / maxCount * 100).toFixed(1);
+                const nameLink = a.orcid ?
+                    `<a href="https://orcid.org/${a.orcid}" target="_blank" style="color:inherit;text-decoration:none;" title="${a.orcid}">${a.name}</a>` :
+                    a.name;
+
+                // Helper to show 0 as dash for cleaner display
+                const fmt = (v) => v > 0 ? v : '-';
 
                 return `
                     <tr>
                         <td class="rank">${a.rank}</td>
-                        <td class="author-name">${a.name}</td>
-                        <td>${orcidLink}</td>
+                        <td class="author-name">${nameLink}</td>
+                        <td style="text-align:center;color:var(--cost-green);font-weight:700;">${fmt(a.finance_related)}</td>
+                        <td style="text-align:center;color:var(--cost-purple);font-weight:600;">${fmt(a.peer_reviewed)}</td>
+                        <td style="text-align:center;color:var(--cost-blue);">${fmt(a.books_chapters)}</td>
+                        <td style="text-align:center;color:var(--cost-teal);">${fmt(a.conference)}</td>
+                        <td style="text-align:center;color:var(--gray);">${fmt(a.preprints)}</td>
+                        <td style="text-align:center;color:var(--cost-orange);">${fmt(a.datasets)}</td>
+                        <td style="text-align:center;color:var(--cost-green);">${fmt(a.open_access)}</td>
+                        <td style="text-align:center;color:#666;">${fmt(a.cited_works)}</td>
                         <td class="pub-count">
-                            ${a.count}
+                            ${a.total}
                             <div class="pub-bar" style="width: ${barWidth}%"></div>
                         </td>
                     </tr>
@@ -407,7 +608,8 @@
                 sortAsc = !sortAsc;
             } else {
                 sortColumn = column;
-                sortAsc = column === 'name' || column === 'orcid';
+                // Name sorts A-Z by default, numbers sort high-to-low
+                sortAsc = column === 'name';
             }
 
             // Update header classes
@@ -418,9 +620,12 @@
                 }
             });
 
+            // Column names map directly to data properties
+            const sortKey = column;
+
             filteredData.sort((a, b) => {
-                let valA = a[column];
-                let valB = b[column];
+                let valA = a[sortKey];
+                let valB = b[sortKey];
 
                 if (typeof valA === 'string') {
                     valA = valA.toLowerCase();
@@ -453,5 +658,6 @@
             th.addEventListener('click', () => sortData(th.dataset.sort));
         });
     </script>
+    <script src="js/mobile-menu.js"></script>
 </body>
 </html>
