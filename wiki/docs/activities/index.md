@@ -1,0 +1,3 @@
+# Activities
+
+Content coming soon.
