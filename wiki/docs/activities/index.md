@@ -46,11 +46,11 @@ Our dissemination activities reached thousands through media appearances, public
 
 | Grant Period | Meetings | Training Schools | STSMs | Virtual Mobility |
 |--------------|----------|------------------|-------|------------------|
-| GP1 | 21 | 0 | 9 | 0 |
-| GP2 | 4 | 0 | 0 | 1 |
-| GP3 | 9 | 0 | 10 | 12 |
-| GP4 | 8 | 4 | 6 | 12 |
-| GP5 | 10 | 3 | 2 | 14 |
+| GP1 | 0 | 0 | 0 | 0 |
+| GP2 | 0 | 0 | 0 | 0 |
+| GP3 | 0 | 0 | 0 | 0 |
+| GP4 | 0 | 0 | 0 | 0 |
+| GP5 | 0 | 0 | 0 | 0 |
 
 ## Financial Investment in Activities
 

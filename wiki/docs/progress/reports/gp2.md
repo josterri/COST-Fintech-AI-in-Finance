@@ -14,10 +14,9 @@
 
 | Category | Amount |
 |----------|--------|
-| Meetings | EUR 22,058.77 |
-| Virtual Networking | EUR 6,775.52 |
-| Dissemination | EUR 541.00 |
-| Fsac | EUR 4,395.17 |
+| Meetings | EUR 29,175.62 |
+| Virtual Networking | EUR 190.00 |
+| Fsac | EUR 4,404.84 |
 
 ## Key Achievements
 

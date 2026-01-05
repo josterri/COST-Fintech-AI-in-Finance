@@ -13,6 +13,9 @@ Netherlands
 <a href="https://orcid.org/0000-0003-0189-8636" target="_blank">
 <img src="https://orcid.org/sites/default/files/images/orcid_16x16.png" alt="ORCID"> 0000-0003-0189-8636</a>
 
+<div class="badges">
+<span class="badge-chair">Action Chair</span>
+</div>
 </div>
 </div>
 
@@ -28,7 +31,7 @@ Netherlands
 <span class="metric-label">Working Groups</span>
 </div>
 <div class="metric-card" markdown>
-<span class="metric-value">0</span>
+<span class="metric-value">1</span>
 <span class="metric-label">Leadership Roles</span>
 </div>
 <div class="metric-card" markdown>
@@ -48,6 +51,10 @@ Netherlands
 - [WG1: Transparency in FinTech](../../working-groups/wg1/)
 - [WG2: XAI & Decision Models](../../working-groups/wg2/)
 - [WG3: Investment Performance](../../working-groups/wg3/)
+
+## Leadership Positions
+
+- **Action Chair**
 
 ## Publications
 

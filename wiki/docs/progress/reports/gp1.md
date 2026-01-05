@@ -16,8 +16,8 @@
 |----------|--------|
 | Meetings | EUR 10,300.30 |
 | Stsm | EUR 20,800.00 |
-| Itc Grants | EUR 375.00 |
 | Virtual Networking | EUR 4,000.00 |
+| Itc Grants | EUR 375.00 |
 | Dissemination | EUR 294.12 |
 | Oersa | EUR 5,500.00 |
 | Fsac | EUR 6,190.41 |

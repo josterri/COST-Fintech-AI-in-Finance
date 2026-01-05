@@ -14,7 +14,7 @@ Lithuania
 <img src="https://orcid.org/sites/default/files/images/orcid_16x16.png" alt="ORCID"> 0000-0001-5412-3194</a>
 
 <div class="badges">
-<span class="badge-mc">MC Member</span> <span class="badge-itc">ITC</span>
+<span class="badge-coordinator">Working Group 2 co-leader</span> <span class="badge-mc">MC Member</span> <span class="badge-itc">ITC</span>
 </div>
 </div>
 </div>
@@ -31,7 +31,7 @@ Lithuania
 <span class="metric-label">Working Groups</span>
 </div>
 <div class="metric-card" markdown>
-<span class="metric-value">0</span>
+<span class="metric-value">1</span>
 <span class="metric-label">Leadership Roles</span>
 </div>
 <div class="metric-card" markdown>
@@ -49,6 +49,10 @@ Lithuania
 ## Working Group Memberships
 
 - [WG2: XAI & Decision Models](../../working-groups/wg2/)
+
+## Leadership Positions
+
+- **Working Group 2 co-leader**
 
 ## Publications
 

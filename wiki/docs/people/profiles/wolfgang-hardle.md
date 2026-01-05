@@ -11,7 +11,7 @@
 Germany
 
 <div class="badges">
-<span class="badge-mc">MC Member</span>
+<span class="badge-wg-leader">WG1 Leader</span> <span class="badge-mc">MC Member</span>
 </div>
 </div>
 </div>
@@ -28,7 +28,7 @@ Germany
 <span class="metric-label">Working Groups</span>
 </div>
 <div class="metric-card" markdown>
-<span class="metric-value">0</span>
+<span class="metric-value">1</span>
 <span class="metric-label">Leadership Roles</span>
 </div>
 <div class="metric-card" markdown>
@@ -46,6 +46,10 @@ Germany
 ## Working Group Memberships
 
 - [WG1: Transparency in FinTech](../../working-groups/wg1/)
+
+## Leadership Positions
+
+- **WG1 Leader**
 
 ## Publications
 

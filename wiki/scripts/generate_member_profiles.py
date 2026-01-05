@@ -39,9 +39,12 @@ def load_json(filepath):
 
 
 def normalize_name(name):
-    """Normalize a name for matching."""
+    """Normalize a name for matching (handles unicode, titles, etc.)."""
     if not name:
         return ""
+    # Normalize unicode (remove accents/umlauts for matching)
+    name = unicodedata.normalize('NFKD', name)
+    name = name.encode('ASCII', 'ignore').decode('ASCII')
     # Remove titles
     name = re.sub(r'\b(Prof|Dr|Mr|Ms|Mrs|Assoc|Assist)\b\.?\s*', '', name, flags=re.IGNORECASE)
     # Handle "Last, First" format

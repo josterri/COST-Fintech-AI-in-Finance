@@ -14,12 +14,11 @@
 
 | Category | Amount |
 |----------|--------|
-| Meetings | EUR 111,588.20 |
+| Meetings | EUR 96,782.98 |
 | Stsm | EUR 24,140.00 |
-| Itc Grants | EUR 2,343.00 |
-| Virtual Networking | EUR 6,000.00 |
-| Dissemination | EUR 540.00 |
-| Fsac | EUR 21,651.18 |
+| Virtual Mobility | EUR 21,310.00 |
+| Dissemination | EUR 2,343.00 |
+| Fsac | EUR 21,686.40 |
 
 ## Key Achievements
 

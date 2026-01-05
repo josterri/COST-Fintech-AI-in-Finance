@@ -1412,11 +1412,66 @@ def populate_research_publications_top_cited(data):
 
 
 def populate_research_datasets_index(data):
-    """Generate research/datasets/index.md"""
+    """Generate research/datasets/index.md with full dataset catalog."""
+    datasets = data.get('datasets', {})
+    if not datasets:
+        datasets = load_json('datasets.json') or {}
+
+    metadata = datasets.get('metadata', {})
+    stats = datasets.get('statistics', {})
+    pubs = datasets.get('publications', [])
+
+    total = metadata.get('total_publications', len(pubs))
+
     md = [
         "# Datasets",
         "",
-        "Research datasets and resources produced by COST Action CA19130.",
+        f"COST Action CA19130 members produced **{total} datasets and data resources** with DOIs.",
+        "",
+        "## Overview",
+        "",
+        '<div class="stats-banner" markdown>',
+        "",
+        '<div class="stat-card" markdown>',
+        f'<span class="stat-value">{total}</span>',
+        '<span class="stat-label">Total Datasets</span>',
+        "</div>",
+        "",
+        '<div class="stat-card" markdown>',
+        f'<span class="stat-value">{metadata.get("unique_dois", 0)}</span>',
+        '<span class="stat-label">Unique DOIs</span>',
+        "</div>",
+        "",
+        '<div class="stat-card" markdown>',
+        f'<span class="stat-value">{metadata.get("total_authors", 0)}</span>',
+        '<span class="stat-label">Contributors</span>',
+        "</div>",
+        "",
+        "</div>",
+        "",
+        "## Datasets by Year",
+        "",
+        "| Year | Count |",
+        "|------|-------|",
+    ]
+
+    by_year = stats.get('by_year', {})
+    for year in sorted(by_year.keys(), reverse=True):
+        md.append(f"| {year} | {by_year[year]} |")
+
+    md.extend([
+        "",
+        "## Top Contributors",
+        "",
+        "| Author | Datasets |",
+        "|--------|----------|",
+    ])
+
+    all_authors = stats.get('all_authors', {})
+    for author, count in sorted(all_authors.items(), key=lambda x: -x[1])[:10]:
+        md.append(f"| {author} | {count} |")
+
+    md.extend([
         "",
         "## Dataset Categories",
         "",
@@ -1426,15 +1481,24 @@ def populate_research_datasets_index(data):
         "### [Code Repositories](code.md)",
         "Open-source code and software packages.",
         "",
-        "## Key Datasets",
+        "## All Datasets",
         "",
-        "The Action produced several important datasets:",
+        "*Showing first 50 of {total} datasets. Full dataset available via DOI links.*".format(total=total),
         "",
-        "1. **ICO Documentation Database** - Pre-ICO documentation linked to post-ICO performance",
-        "2. **Crowdfunding Platform Features** - Database for fraud prediction",
-        "3. **Financial Time Series** - Exchange data for research",
-        "4. **Cryptocurrency Market Data** - Historical price and volume data",
-    ]
+        "| # | Title | Author | Year | DOI |",
+        "|---|-------|--------|------|-----|",
+    ])
+
+    for i, pub in enumerate(pubs[:50], 1):
+        author = pub.get('author', 'Unknown')
+        year = pub.get('year', '')
+        doi = pub.get('doi', '')
+        # Extract title from APA citation
+        apa = pub.get('apa', '')
+        title = apa.split(').')[1].split('.')[0].strip() if ').' in apa else apa[:50]
+        title = title[:60] + '...' if len(title) > 60 else title
+        doi_link = f"[Link]({doi})" if doi else ""
+        md.append(f"| {i} | {title} | {author} | {year} | {doi_link} |")
 
     write_md("research/datasets/index.md", '\n'.join(md))
 
@@ -1466,54 +1530,154 @@ def populate_research_datasets_open(data):
 
 
 def populate_research_datasets_code(data):
-    """Generate research/datasets/code.md"""
+    """Generate research/datasets/code.md with software from datasets.json."""
+    datasets = data.get('datasets', {})
+    if not datasets:
+        datasets = load_json('datasets.json') or {}
+
+    pubs = datasets.get('publications', [])
+    # Filter for software type
+    software = [p for p in pubs if p.get('type') == 'software']
+
     md = [
         "# Code Repositories",
         "",
-        "Open-source software and code from COST Action CA19130.",
+        f"Open-source software and code from COST Action CA19130 ({len(software)} software packages with DOIs).",
         "",
         "## Software Packages",
         "",
-        "Action members contributed to various open-source packages:",
-        "",
-        "- **Cryptocurrency analysis tools**",
-        "- **XAI libraries for finance**",
-        "- **Risk modeling frameworks**",
-        "- **Backtesting systems**",
-        "",
-        "## GitHub Repositories",
-        "",
-        "Code is available at [github.com/Digital-AI-Finance](https://github.com/Digital-AI-Finance).",
     ]
+
+    if software:
+        md.extend([
+            "| # | Package | Author | Year | DOI |",
+            "|---|---------|--------|------|-----|",
+        ])
+        for i, pub in enumerate(software, 1):
+            apa = pub.get('apa', '')
+            title = apa.split(').')[1].split('.')[0].strip() if ').' in apa else apa[:60]
+            author = pub.get('author', 'Unknown')
+            year = pub.get('year', '')
+            doi = pub.get('doi', '')
+            doi_link = f"[Link]({doi})" if doi else ""
+            md.append(f"| {i} | {title} | {author} | {year} | {doi_link} |")
+    else:
+        md.append("Software packages from Action members are listed in the main [Datasets](index.md) catalog.")
+
+    md.extend([
+        "",
+        "## GitHub Organizations",
+        "",
+        "Code is also available at:",
+        "",
+        "- [github.com/Digital-AI-Finance](https://github.com/Digital-AI-Finance) - Main organization",
+        "- [github.com/QuantLet](https://github.com/QuantLet) - QuantLet reproducible research",
+        "",
+        "## Related Repositories",
+        "",
+        "Action members contributed to various open-source projects:",
+        "",
+        "- **Cryptocurrency analysis tools** - Price prediction, market analysis",
+        "- **XAI libraries for finance** - Explainable credit scoring, model interpretation",
+        "- **Risk modeling frameworks** - VaR, stress testing implementations",
+        "- **Backtesting systems** - Trading strategy evaluation tools",
+    ])
 
     write_md("research/datasets/code.md", '\n'.join(md))
 
 
 def populate_research_other_outputs(data):
-    """Generate research/other-outputs.md"""
+    """Generate research/other-outputs.md with full data from other_outputs.json."""
+    outputs = data.get('other_outputs', {})
+    if not outputs:
+        outputs = load_json('other_outputs.json') or {}
+
+    metadata = outputs.get('metadata', {})
+    stats = outputs.get('statistics', {})
+    pubs = outputs.get('publications', [])
+
+    total = metadata.get('total_publications', len(pubs))
+
     md = [
         "# Other Research Outputs",
         "",
-        "Additional research outputs from COST Action CA19130.",
+        f"COST Action CA19130 members produced **{total} additional research outputs** beyond journal articles.",
         "",
-        "## Reports and White Papers",
+        "## Overview",
         "",
-        "- Position papers for regulators",
-        "- Best practice guidelines",
-        "- Technical reports",
+        '<div class="stats-banner" markdown>',
         "",
-        "## Media and Presentations",
+        '<div class="stat-card" markdown>',
+        f'<span class="stat-value">{total}</span>',
+        '<span class="stat-label">Total Outputs</span>',
+        "</div>",
         "",
-        "- Conference presentations",
-        "- Webinar recordings",
-        "- Media interviews",
+        '<div class="stat-card" markdown>',
+        f'<span class="stat-value">{metadata.get("unique_dois", 0)}</span>',
+        '<span class="stat-label">Unique DOIs</span>',
+        "</div>",
         "",
-        "## Educational Materials",
+        '<div class="stat-card" markdown>',
+        f'<span class="stat-value">{metadata.get("total_authors", 0)}</span>',
+        '<span class="stat-label">Contributors</span>',
+        "</div>",
         "",
-        "- Training school materials",
-        "- Lecture slides",
-        "- Tutorial notebooks",
+        "</div>",
+        "",
+        "## Output Types",
+        "",
+        "| Type | Count |",
+        "|------|-------|",
     ]
+
+    by_type = stats.get('by_type', {})
+    for output_type, count in sorted(by_type.items(), key=lambda x: -x[1]):
+        type_name = output_type.replace('-', ' ').title()
+        md.append(f"| {type_name} | {count} |")
+
+    md.extend([
+        "",
+        "## Outputs by Year",
+        "",
+        "| Year | Count |",
+        "|------|-------|",
+    ])
+
+    by_year = stats.get('by_year', {})
+    for year in sorted(by_year.keys(), reverse=True):
+        md.append(f"| {year} | {by_year[year]} |")
+
+    md.extend([
+        "",
+        "## Top Contributors",
+        "",
+        "| Author | Outputs |",
+        "|--------|---------|",
+    ])
+
+    all_authors = stats.get('all_authors', {})
+    for author, count in sorted(all_authors.items(), key=lambda x: -x[1])[:10]:
+        md.append(f"| {author} | {count} |")
+
+    md.extend([
+        "",
+        "## Recent Outputs",
+        "",
+        "*Showing first 30 outputs. Full list available via DOI links.*",
+        "",
+        "| # | Reference | Type | Year | DOI |",
+        "|---|-----------|------|------|-----|",
+    ])
+
+    for i, pub in enumerate(pubs[:30], 1):
+        apa = pub.get('apa', '')[:80]
+        if len(pub.get('apa', '')) > 80:
+            apa += '...'
+        output_type = pub.get('type', 'other').replace('-', ' ').title()
+        year = pub.get('year', '')
+        doi = pub.get('doi', '')
+        doi_link = f"[Link]({doi})" if doi else ""
+        md.append(f"| {i} | {apa} | {output_type} | {year} | {doi_link} |")
 
     write_md("research/other-outputs.md", '\n'.join(md))
 
@@ -1673,50 +1837,171 @@ def populate_progress_final(data):
 
 
 def populate_progress_financial(data):
-    """Generate progress/financial.md"""
+    """Generate progress/financial.md with Chart.js visualizations."""
     budget = data.get('budget', {})
     totals = budget.get('totals', {})
+
+    # Default values if not in data
+    total_budget = totals.get('total_budget', 963654.17)
+    total_actual = totals.get('total_actual', 774662.32)
+    execution_rate = (total_actual / total_budget * 100) if total_budget else 0
+
+    # Default category breakdown
+    by_category = totals.get('by_category', {
+        'meetings': 423694.69,
+        'training_schools': 108816.05,
+        'stsm': 60082.00,
+        'virtual_mobility': 56500.00,
+        'other': 125569.58
+    })
 
     md = [
         "# Financial Summary",
         "",
         "Complete financial overview of COST Action CA19130.",
         "",
-        "## Overall Budget",
+        "## Key Metrics",
         "",
-        "| Metric | Amount |",
-        "|--------|--------|",
-        f"| Total Budget | {format_currency(totals.get('total_budget', 963654.17))} |",
-        f"| Total Spent | {format_currency(totals.get('total_actual', 774662.32))} |",
-        f"| Execution Rate | {totals.get('total_actual', 0) / totals.get('total_budget', 1) * 100:.1f}% |" if totals.get('total_budget') else "",
+        '<div class="stats-banner" markdown>',
+        "",
+        '<div class="stat-card" markdown>',
+        f'<span class="stat-value">EUR {total_budget/1000:.0f}K</span>',
+        '<span class="stat-label">Total Budget</span>',
+        "</div>",
+        "",
+        '<div class="stat-card" markdown>',
+        f'<span class="stat-value">EUR {total_actual/1000:.0f}K</span>',
+        '<span class="stat-label">Total Spent</span>',
+        "</div>",
+        "",
+        '<div class="stat-card" markdown>',
+        f'<span class="stat-value">{execution_rate:.1f}%</span>',
+        '<span class="stat-label">Execution Rate</span>',
+        "</div>",
+        "",
+        "</div>",
         "",
         "## Spending by Category",
+        "",
+        '<div class="chart-row" markdown>',
+        '<div class="chart-container" style="max-width: 500px; margin: auto;">',
+        '<canvas id="categoryChart"></canvas>',
+        '</div>',
+        '</div>',
         "",
         "| Category | Amount | Percentage |",
         "|----------|--------|------------|",
     ]
 
-    by_category = totals.get('by_category', {})
-    total_actual = totals.get('total_actual', 1)
+    # Add category rows and collect chart data
+    cat_labels = []
+    cat_values = []
     for cat, amount in sorted(by_category.items(), key=lambda x: -x[1]):
         cat_name = cat.replace('_', ' ').title()
         pct = amount / total_actual * 100 if total_actual else 0
         md.append(f"| {cat_name} | {format_currency(amount)} | {pct:.1f}% |")
+        cat_labels.append(cat_name)
+        cat_values.append(round(amount, 2))
 
     md.extend([
         "",
-        "## Spending by Grant Period",
+        "## Budget vs Actual by Grant Period",
+        "",
+        '<div class="chart-container" style="max-width: 700px; margin: auto;">',
+        '<canvas id="gpChart"></canvas>',
+        '</div>',
         "",
         "| Grant Period | Budget | Actual | Execution |",
         "|--------------|--------|--------|-----------|",
     ])
 
-    for gp in budget.get('grant_periods', []):
+    # Build GP data for chart
+    gp_labels = []
+    gp_budget = []
+    gp_actual = []
+
+    gps = budget.get('grant_periods', [
+        {'id': 'GP1', 'budget': 171500, 'actual': 126893.83},
+        {'id': 'GP2', 'budget': 93800, 'actual': 75395.94},
+        {'id': 'GP3', 'budget': 82200, 'actual': 74098.34},
+        {'id': 'GP4', 'budget': 355500, 'actual': 270119.38},
+        {'id': 'GP5', 'budget': 260654.17, 'actual': 228154.83}
+    ])
+
+    for gp in gps:
         gp_id = gp.get('id', '')
         budget_amt = gp.get('budget', 0)
         actual = gp.get('actual', 0)
         execution = actual / budget_amt * 100 if budget_amt else 0
         md.append(f"| {gp_id} | {format_currency(budget_amt)} | {format_currency(actual)} | {execution:.1f}% |")
+        gp_labels.append(gp_id)
+        gp_budget.append(round(budget_amt, 2))
+        gp_actual.append(round(actual, 2))
+
+    # Add Chart.js scripts
+    md.extend([
+        "",
+        '<script>',
+        'document.addEventListener("DOMContentLoaded", function() {',
+        '  // Category Doughnut Chart',
+        '  var ctx1 = document.getElementById("categoryChart");',
+        '  if (ctx1) {',
+        '    new Chart(ctx1, {',
+        '      type: "doughnut",',
+        '      data: {',
+        f'        labels: {cat_labels},',
+        '        datasets: [{{',
+        f'          data: {cat_values},',
+        '          backgroundColor: ["#7B1FA2", "#FF9800", "#4CAF50", "#2196F3", "#9E9E9E"]',
+        '        }}]',
+        '      },',
+        '      options: {',
+        '        plugins: {',
+        '          legend: {{ position: "bottom" }},',
+        '          title: {{ display: true, text: "Spending by Category" }}',
+        '        }',
+        '      }',
+        '    });',
+        '  }',
+        '',
+        '  // GP Budget vs Actual Bar Chart',
+        '  var ctx2 = document.getElementById("gpChart");',
+        '  if (ctx2) {',
+        '    new Chart(ctx2, {',
+        '      type: "bar",',
+        '      data: {',
+        f'        labels: {gp_labels},',
+        '        datasets: [',
+        '          {{',
+        '            label: "Budget",',
+        f'            data: {gp_budget},',
+        '            backgroundColor: "#7B1FA2"',
+        '          }},',
+        '          {{',
+        '            label: "Actual",',
+        f'            data: {gp_actual},',
+        '            backgroundColor: "#FF9800"',
+        '          }}',
+        '        ]',
+        '      },',
+        '      options: {',
+        '        plugins: {{',
+        '          title: {{ display: true, text: "Budget vs Actual by Grant Period" }}',
+        '        }},',
+        '        scales: {{',
+        '          y: {{',
+        '            beginAtZero: true,',
+        '            ticks: {{',
+        '              callback: function(value) {{ return "EUR " + (value/1000).toFixed(0) + "K"; }}',
+        '            }}',
+        '          }}',
+        '        }}',
+        '      }',
+        '    });',
+        '  }',
+        '});',
+        '</script>',
+    ])
 
     write_md("progress/financial.md", '\n'.join(md))
 
@@ -1967,14 +2252,160 @@ def populate_resources_faq(data):
 # ============================================================================
 
 def populate_wg_topics(data, wg_num):
-    """Generate working-groups/wgX/topics.md"""
+    """Generate working-groups/wgX/topics.md with expanded descriptions."""
     wgs = data.get('working_groups', {}).get('working_groups', [])
     wg = next((w for w in wgs if w.get('id') == f'WG{wg_num}'), {})
+
+    # Expanded topic descriptions by WG
+    WG_TOPIC_DESCRIPTIONS = {
+        1: {
+            "Blockchain": """**Distributed Ledger Technology (DLT) Transparency**
+
+Research focuses on improving transparency in blockchain-based systems, including:
+
+- Transparency mechanisms in public and private blockchains
+- Auditability and traceability in DLT systems
+- Smart contract verification and transparency
+- Cross-chain interoperability and transparency implications""",
+
+            "Cryptocurrencies": """**Cryptocurrency Market Analysis**
+
+Investigating transparency issues in cryptocurrency markets:
+
+- Price discovery mechanisms and market efficiency
+- Exchange transparency and order book analysis
+- Stablecoin backing and reserve transparency
+- Market manipulation detection using ML techniques""",
+
+            "NFTs": """**Non-Fungible Token Valuation**
+
+Examining transparency in the NFT ecosystem:
+
+- NFT valuation methodologies and pricing transparency
+- Creator attribution and provenance tracking
+- Secondary market dynamics and fee transparency
+- Wash trading detection in NFT markets""",
+
+            "Digital Assets": """**Digital Asset Transparency**
+
+Comprehensive research on digital asset markets:
+
+- Tokenization of traditional assets
+- Regulatory transparency requirements (MiCA, etc.)
+- Institutional digital asset custody and reporting
+- Digital asset classification and disclosure""",
+
+            "Fraud Detection": """**Fraud Detection Using Machine Learning**
+
+Applying ML techniques for fraud prevention:
+
+- ICO/crowdfunding fraud prediction models
+- Phishing and scam detection in DeFi
+- Money laundering detection in crypto transactions
+- Anomaly detection for suspicious trading patterns"""
+        },
+        2: {
+            "Explainable AI": """**Explainable AI (XAI) Frameworks**
+
+Making black-box models transparent and interpretable:
+
+- Post-hoc explanation methods (SHAP, LIME, etc.)
+- Intrinsically interpretable models for finance
+- Contrastive and counterfactual explanations
+- Human-AI interaction and explanation interfaces""",
+
+            "Credit Risk": """**Credit Risk Model Interpretability**
+
+Enhancing transparency in credit decisions:
+
+- Explainable credit scoring systems
+- Regulatory compliance (GDPR Article 22, SR 11-7)
+- Adverse action explanations and recourse
+- Bias detection in lending algorithms""",
+
+            "Model Interpretability": """**ML Model Interpretability**
+
+General approaches to model transparency:
+
+- Feature importance and attribution methods
+- Model-agnostic interpretation techniques
+- Visualization methods for complex models
+- Uncertainty quantification and confidence""",
+
+            "Decision Support": """**Transparent Decision Support Systems**
+
+Building interpretable financial decision tools:
+
+- Algorithmic trading transparency
+- Robo-advisor explainability
+- Insurance underwriting transparency
+- Portfolio allocation explanation""",
+
+            "ML Robustness": """**ML Model Robustness Testing**
+
+Ensuring model reliability and fairness:
+
+- Adversarial robustness in financial models
+- Fairness testing across demographic groups
+- Model stability under distribution shift
+- Stress testing ML-based systems"""
+        },
+        3: {
+            "Investment Performance": """**Investment Product Performance Metrics**
+
+Evaluating and improving performance transparency:
+
+- Performance attribution methodologies
+- Risk-adjusted return measures
+- Benchmark selection and comparison
+- Performance reporting standards""",
+
+            "ESG": """**ESG and Sustainable Investing**
+
+Transparency in environmental, social, and governance:
+
+- ESG data quality and transparency
+- Greenwashing detection methods
+- Climate risk disclosure and reporting
+- Social impact measurement""",
+
+            "Stress Testing": """**Stress Testing AI/ML Models**
+
+Ensuring model reliability under extreme conditions:
+
+- Tail risk modeling with ML
+- Scenario generation and simulation
+- Model validation under stress
+- Regulatory stress testing compliance""",
+
+            "Digital Assets": """**Digital Asset Investment Performance**
+
+Evaluating digital asset investment products:
+
+- Cryptocurrency fund performance measurement
+- DeFi yield comparison and risk assessment
+- Token economics and investment analysis
+- Crypto portfolio optimization""",
+
+            "Performance Attribution": """**Performance Attribution Methods**
+
+Understanding sources of returns:
+
+- Factor-based attribution analysis
+- ML-enhanced attribution techniques
+- False discovery rate reduction in factor research
+- Multi-asset attribution frameworks"""
+        }
+    }
+
+    topic_descs = WG_TOPIC_DESCRIPTIONS.get(wg_num, {})
 
     md = [
         f"# WG{wg_num} Research Topics",
         "",
         f"## {wg.get('name', f'Working Group {wg_num}')}",
+        "",
+        f"**Leader**: {wg.get('leader', 'TBD')}",
         "",
         wg.get('description', ''),
         "",
@@ -1985,14 +2416,21 @@ def populate_wg_topics(data, wg_num):
     for topic in wg.get('topics', []):
         md.append(f"### {topic}")
         md.append("")
-        md.append(f"Research focus area within WG{wg_num}.")
+        # Use expanded description if available
+        if topic in topic_descs:
+            md.append(topic_descs[topic])
+        else:
+            md.append(f"Research focus area within WG{wg_num} covering aspects of {topic.lower()}.")
         md.append("")
 
     md.extend([
+        "---",
+        "",
         "## Related Resources",
         "",
         f"- [WG{wg_num} Publications](publications.md)",
         f"- [WG{wg_num} Members](members.md)",
+        f"- [Back to WG{wg_num} Overview](index.md)",
     ])
 
     write_md(f"working-groups/wg{wg_num}/topics.md", '\n'.join(md))
@@ -2173,6 +2611,8 @@ def main():
         'deliverables': load_json('deliverables.json'),
         'members': load_json('members.json'),
         'mc_members': load_json('mc_members.json'),
+        'datasets': load_json('datasets.json'),
+        'other_outputs': load_json('other_outputs.json'),
     }
 
     print("\nPopulating Activities section...")

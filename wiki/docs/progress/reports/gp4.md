@@ -14,14 +14,13 @@
 
 | Category | Amount |
 |----------|--------|
-| Meetings | EUR 111,299.53 |
+| Meetings | EUR 139,240.80 |
 | Training Schools | EUR 49,401.09 |
 | Stsm | EUR 10,500.00 |
-| Virtual Mobility | EUR 36,000.00 |
-| Itc Grants | EUR 3,000.00 |
-| Dissemination | EUR 10,500.00 |
-| Oersa | EUR 2,500.00 |
-| Fsac | EUR 33,653.77 |
+| Virtual Mobility | EUR 22,000.00 |
+| Dissemination | EUR 2,000.00 |
+| Oersa | EUR 209.75 |
+| Fsac | EUR 33,502.75 |
 
 ## Key Achievements
 
