@@ -3824,10 +3824,21 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#country-participation" class="md-nav__link">
+  <a href="#member-distribution-by-country" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Country Participation
+        Member Distribution by Country
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#itc-vs-non-itc-comparison" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ITC vs Non-ITC Comparison
       
     </span>
   </a>
@@ -3839,17 +3850,6 @@
     <span class="md-ellipsis">
       
         Top Contributing Countries
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#itc-vs-non-itc-distribution" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        ITC vs Non-ITC Distribution
       
     </span>
   </a>
@@ -4359,10 +4359,21 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#country-participation" class="md-nav__link">
+  <a href="#member-distribution-by-country" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Country Participation
+        Member Distribution by Country
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#itc-vs-non-itc-comparison" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ITC vs Non-ITC Comparison
       
     </span>
   </a>
@@ -4374,17 +4385,6 @@
     <span class="md-ellipsis">
       
         Top Contributing Countries
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#itc-vs-non-itc-distribution" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        ITC vs Non-ITC Distribution
       
     </span>
   </a>
@@ -4412,9 +4412,32 @@
 
 
 <h1 id="geographic-distribution">Geographic Distribution<a class="headerlink" href="#geographic-distribution" title="Permanent link">&para;</a></h1>
-<p>Member distribution and contributions across countries.</p>
-<h2 id="country-participation">Country Participation<a class="headerlink" href="#country-participation" title="Permanent link">&para;</a></h2>
-<p>COST Action CA19130 involved researchers from <strong>48 countries</strong> spanning Europe and beyond.</p>
+<p>Member distribution and contributions across <strong>36 countries</strong>.</p>
+<div class="stats-banner">
+<div class="stat-card">
+<p><span class="stat-value">36</span>
+<span class="stat-label">Countries</span></p>
+</div>
+<div class="stat-card">
+<p><span class="stat-value">19</span>
+<span class="stat-label">ITC Countries</span></p>
+</div>
+<div class="stat-card">
+<p><span class="stat-value">EUR 389K</span>
+<span class="stat-label">Total Contributions</span></p>
+</div>
+</div>
+<h2 id="member-distribution-by-country">Member Distribution by Country<a class="headerlink" href="#member-distribution-by-country" title="Permanent link">&para;</a></h2>
+<div class="chart-container" style="max-width: 800px; margin: auto;">
+<canvas id="countryChart"></canvas>
+</div>
+
+<h2 id="itc-vs-non-itc-comparison">ITC vs Non-ITC Comparison<a class="headerlink" href="#itc-vs-non-itc-comparison" title="Permanent link">&para;</a></h2>
+<div class="chart-row">
+<div class="chart-container" style="max-width: 400px; margin: auto;">
+<canvas id="itcChart"></canvas>
+</div>
+</div>
 <h2 id="top-contributing-countries">Top Contributing Countries<a class="headerlink" href="#top-contributing-countries" title="Permanent link">&para;</a></h2>
 <table>
 <thead>
@@ -4422,103 +4445,383 @@
 <th>Country</th>
 <th>Members</th>
 <th>Total Contribution</th>
+<th>ITC</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>Romania (ITC)</td>
+<td>Romania</td>
 <td>23</td>
 <td>EUR 71,345.43</td>
+<td>Yes</td>
 </tr>
 <tr>
 <td>Switzerland</td>
 <td>19</td>
 <td>EUR 41,966.99</td>
+<td>No</td>
 </tr>
 <tr>
 <td>Italy</td>
 <td>17</td>
 <td>EUR 35,880.27</td>
+<td>No</td>
 </tr>
 <tr>
-<td>Poland (ITC)</td>
+<td>Poland</td>
 <td>7</td>
 <td>EUR 24,974.66</td>
+<td>Yes</td>
 </tr>
 <tr>
-<td>Turkey (ITC)</td>
+<td>Turkey</td>
 <td>13</td>
 <td>EUR 24,593.32</td>
+<td>Yes</td>
 </tr>
 <tr>
-<td>Albania (ITC)</td>
+<td>Albania</td>
 <td>17</td>
 <td>EUR 22,310.65</td>
+<td>Yes</td>
 </tr>
 <tr>
 <td>Netherlands</td>
 <td>10</td>
 <td>EUR 20,350.79</td>
+<td>No</td>
 </tr>
 <tr>
 <td>Germany</td>
 <td>10</td>
 <td>EUR 19,516.92</td>
+<td>No</td>
 </tr>
 <tr>
-<td>North Macedonia (ITC)</td>
+<td>North Macedonia</td>
 <td>11</td>
 <td>EUR 18,640.18</td>
+<td>Yes</td>
 </tr>
 <tr>
 <td>Ireland</td>
 <td>10</td>
 <td>EUR 16,961.80</td>
+<td>No</td>
 </tr>
 <tr>
-<td>Greece (ITC)</td>
+<td>Greece</td>
 <td>5</td>
 <td>EUR 15,563.68</td>
+<td>Yes</td>
 </tr>
 <tr>
 <td>France</td>
 <td>4</td>
 <td>EUR 11,663.89</td>
+<td>No</td>
 </tr>
 <tr>
-<td>Czech Republic (ITC)</td>
+<td>Czech Republic</td>
 <td>6</td>
 <td>EUR 11,296.00</td>
+<td>Yes</td>
 </tr>
 <tr>
 <td>Kosovo</td>
 <td>3</td>
 <td>EUR 8,264.64</td>
+<td>No</td>
+</tr>
+<tr>
+<td>Iceland</td>
+<td>2</td>
+<td>EUR 5,564.34</td>
+<td>No</td>
 </tr>
 </tbody>
 </table>
-<h2 id="itc-vs-non-itc-distribution">ITC vs Non-ITC Distribution<a class="headerlink" href="#itc-vs-non-itc-distribution" title="Permanent link">&para;</a></h2>
+<details class="info">
+<summary>View All 36 Countries</summary>
 <table>
 <thead>
 <tr>
-<th>Category</th>
-<th>Countries</th>
-<th>Total Amount</th>
+<th>Country</th>
+<th>Members</th>
+<th>Total Contribution</th>
+<th>ITC</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>ITC Countries</td>
-<td>19</td>
-<td>EUR 208,873.64</td>
+<td>Romania</td>
+<td>23</td>
+<td>EUR 71,345.43</td>
+<td>Yes</td>
 </tr>
 <tr>
-<td>Non-ITC Countries</td>
+<td>Switzerland</td>
+<td>19</td>
+<td>EUR 41,966.99</td>
+<td>No</td>
+</tr>
+<tr>
+<td>Italy</td>
 <td>17</td>
-<td>EUR 180,282.26</td>
+<td>EUR 35,880.27</td>
+<td>No</td>
+</tr>
+<tr>
+<td>Poland</td>
+<td>7</td>
+<td>EUR 24,974.66</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>Turkey</td>
+<td>13</td>
+<td>EUR 24,593.32</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>Albania</td>
+<td>17</td>
+<td>EUR 22,310.65</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>Netherlands</td>
+<td>10</td>
+<td>EUR 20,350.79</td>
+<td>No</td>
+</tr>
+<tr>
+<td>Germany</td>
+<td>10</td>
+<td>EUR 19,516.92</td>
+<td>No</td>
+</tr>
+<tr>
+<td>North Macedonia</td>
+<td>11</td>
+<td>EUR 18,640.18</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>Ireland</td>
+<td>10</td>
+<td>EUR 16,961.80</td>
+<td>No</td>
+</tr>
+<tr>
+<td>Greece</td>
+<td>5</td>
+<td>EUR 15,563.68</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>France</td>
+<td>4</td>
+<td>EUR 11,663.89</td>
+<td>No</td>
+</tr>
+<tr>
+<td>Czech Republic</td>
+<td>6</td>
+<td>EUR 11,296.00</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>Kosovo</td>
+<td>3</td>
+<td>EUR 8,264.64</td>
+<td>No</td>
+</tr>
+<tr>
+<td>Iceland</td>
+<td>2</td>
+<td>EUR 5,564.34</td>
+<td>No</td>
+</tr>
+<tr>
+<td>Slovakia</td>
+<td>5</td>
+<td>EUR 5,524.16</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>Lithuania</td>
+<td>3</td>
+<td>EUR 3,805.15</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>United Kingdom</td>
+<td>4</td>
+<td>EUR 3,237.06</td>
+<td>No</td>
+</tr>
+<tr>
+<td>Spain</td>
+<td>3</td>
+<td>EUR 3,163.93</td>
+<td>No</td>
+</tr>
+<tr>
+<td>Hungary</td>
+<td>3</td>
+<td>EUR 2,670.41</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>Portugal</td>
+<td>2</td>
+<td>EUR 2,467.51</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>Latvia</td>
+<td>2</td>
+<td>EUR 2,230.92</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>Austria</td>
+<td>1</td>
+<td>EUR 1,466.95</td>
+<td>No</td>
+</tr>
+<tr>
+<td>Ukraine</td>
+<td>2</td>
+<td>EUR 1,440.32</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>United States</td>
+<td>2</td>
+<td>EUR 1,324.92</td>
+<td>No</td>
+</tr>
+<tr>
+<td>Croatia</td>
+<td>3</td>
+<td>EUR 1,182.33</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>Israel</td>
+<td>1</td>
+<td>EUR 866.87</td>
+<td>No</td>
+</tr>
+<tr>
+<td>Norway</td>
+<td>2</td>
+<td>EUR 597.69</td>
+<td>No</td>
+</tr>
+<tr>
+<td>Liechtenstein</td>
+<td>1</td>
+<td>EUR 441.60</td>
+<td>No</td>
+</tr>
+<tr>
+<td>Cyprus</td>
+<td>2</td>
+<td>EUR 406.39</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>Belgium</td>
+<td>1</td>
+<td>EUR 308.00</td>
+<td>No</td>
+</tr>
+<tr>
+<td>Bulgaria</td>
+<td>1</td>
+<td>EUR 197.19</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>Finland</td>
+<td>1</td>
+<td>EUR 165.60</td>
+<td>No</td>
+</tr>
+<tr>
+<td>Serbia</td>
+<td>1</td>
+<td>EUR 128.64</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>Estonia</td>
+<td>1</td>
+<td>EUR 82.80</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>Bosnia and Herzegovina</td>
+<td>1</td>
+<td>EUR 13.90</td>
+<td>Yes</td>
 </tr>
 </tbody>
 </table>
+</details>
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  // Country Bar Chart
+  var ctx1 = document.getElementById("countryChart");
+  if (ctx1) {
+    new Chart(ctx1, {
+      type: "bar",
+      data: {
+        labels: ["Romania", "Switzerland", "Italy", "Poland", "Turkey", "Albania", "Netherlands", "Germany", "North Macedonia", "Ireland", "Greece", "France"],
+        datasets: [{
+          label: "Members",
+          data: [23, 19, 17, 7, 13, 17, 10, 10, 11, 10, 5, 4],
+          backgroundColor: ["#FF9800", "#7B1FA2", "#7B1FA2", "#FF9800", "#FF9800", "#FF9800", "#7B1FA2", "#7B1FA2", "#FF9800", "#7B1FA2", "#FF9800", "#7B1FA2"]
+        }]
+      },
+      options: {
+        indexAxis: "y",
+        plugins: {
+          legend: { display: false },
+          title: { display: true, text: "Top 12 Countries by Member Count (Purple=Non-ITC, Orange=ITC)" }
+        },
+        scales: {
+          x: { beginAtZero: true }
+        }
+      }
+    });
+  }
+
+  // ITC Comparison Chart
+  var ctx2 = document.getElementById("itcChart");
+  if (ctx2) {
+    new Chart(ctx2, {
+      type: "doughnut",
+      data: {
+        labels: ["ITC Countries", "Non-ITC Countries"],
+        datasets: [{
+          data: [108, 91],
+          backgroundColor: ["#FF9800", "#7B1FA2"]
+        }]
+      },
+      options: {
+        plugins: {
+          legend: { position: "bottom" },
+          title: { display: true, text: "Member Distribution" }
+        }
+      }
+    });
+  }
+});
+</script>
 
 
 
