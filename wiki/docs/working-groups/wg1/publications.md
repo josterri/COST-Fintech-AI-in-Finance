@@ -1,9 +1,17 @@
 # WG1 Publications
 
-## Publications by WG1 Members
+## Transparency in FinTech
 
-This page lists publications by members of Working Group 1: Transparency in FinTech.
+Publications from WG1 members on topics including:
 
-*Publication data is being compiled from ORCID profiles.*
+- Blockchain
+- Cryptocurrencies
+- NFTs
+- Digital Assets
+- Fraud Detection
 
-[View all Action publications](../../research/publications/index.md){ .md-button }
+## Access Publications
+
+For the full searchable publication database, see the [Publications Dashboard](../../research/publications/index.md).
+
+Filter by WG1 to see publications from this working group.

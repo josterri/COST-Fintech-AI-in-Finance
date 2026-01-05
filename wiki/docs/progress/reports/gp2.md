@@ -1,24 +1,24 @@
 # Grant Period 2 Report
 
-## Overview
+**Period**: 2021-11-01 to 2022-05-31
 
-Grant Period 2  covered the period from previous period end to period end.
+## Financial Summary
 
-## Key Statistics
+| Metric | Amount |
+|--------|--------|
+| Budget | EUR 202,607.00 |
+| Actual Spending | EUR 33,770.46 |
+| Execution Rate | 16.7% |
 
-| Metric | Value |
-|--------|-------|
-| Meetings | TBD |
-| Training Schools | TBD |
-| STSMs | TBD |
-| Virtual Mobility Grants | TBD |
+## Spending Breakdown
 
-## Achievements
+| Category | Amount |
+|----------|--------|
+| Meetings | EUR 22,058.77 |
+| Virtual Networking | EUR 6,775.52 |
+| Dissemination | EUR 541.00 |
+| Fsac | EUR 4,395.17 |
 
-*Detailed achievements for this grant period...*
+## Key Achievements
 
-## Budget
-
-*Budget information for this grant period...*
-
-[View Financial Summary](../financial.md){ .md-button }
+See the [Activities](../../activities/index.md) section for detailed information about GP2 activities.

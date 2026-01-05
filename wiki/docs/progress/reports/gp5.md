@@ -1,24 +1,28 @@
 # Grant Period 5 Report
 
-## Overview
+**Period**: 2023-11-01 to 2024-09-13
 
-Grant Period 5 (Final) covered the period from previous period end to September 2024.
+## Financial Summary
 
-## Key Statistics
+| Metric | Amount |
+|--------|--------|
+| Budget | EUR 270,315.26 |
+| Actual Spending | EUR 270,315.26 |
+| Execution Rate | 100.0% |
 
-| Metric | Value |
-|--------|-------|
-| Meetings | TBD |
-| Training Schools | TBD |
-| STSMs | TBD |
-| Virtual Mobility Grants | TBD |
+## Spending Breakdown
 
-## Achievements
+| Category | Amount |
+|----------|--------|
+| Meetings | EUR 120,813.67 |
+| Training Schools | EUR 59,414.96 |
+| Stsm | EUR 4,642.00 |
+| Virtual Mobility | EUR 42,500.00 |
+| Itc Grants | EUR 3,500.00 |
+| Dissemination | EUR 4,250.00 |
+| Oersa | EUR 500.00 |
+| Fsac | EUR 34,694.63 |
 
-*Detailed achievements for this grant period...*
+## Key Achievements
 
-## Budget
-
-*Budget information for this grant period...*
-
-[View Financial Summary](../financial.md){ .md-button }
+See the [Activities](../../activities/index.md) section for detailed information about GP5 activities.

@@ -1,7 +1,17 @@
 # WG3 Members
 
-## Working Group 3: Transparency into Investment Product Performance
+## Investment Product Performance Transparency
 
-**223 members** from 40+ countries
+**Leader**: Prof. Peter Schwendner
 
-[View member profiles](../../people/profiles/index.md){ .md-button }
+## Membership Growth
+
+| Period | Members |
+|--------|---------|
+| GP1 | 30 |
+| GP3 | 41 |
+| GP5 | 218 |
+
+## Browse Members
+
+For the full member directory, see [Members by Working Group](../../people/members/by-wg.md).

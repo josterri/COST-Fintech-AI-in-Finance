@@ -1,9 +1,17 @@
 # WG2 Publications
 
-## Publications by WG2 Members
+## Transparent vs Black Box Decision-Support Models
 
-This page lists publications by members of Working Group 2: Transparent versus Black Box Decision-Support Models.
+Publications from WG2 members on topics including:
 
-*Publication data is being compiled from ORCID profiles.*
+- Explainable AI
+- Credit Risk
+- Model Interpretability
+- Decision Support
+- ML Robustness
 
-[View all Action publications](../../research/publications/index.md){ .md-button }
+## Access Publications
+
+For the full searchable publication database, see the [Publications Dashboard](../../research/publications/index.md).
+
+Filter by WG2 to see publications from this working group.

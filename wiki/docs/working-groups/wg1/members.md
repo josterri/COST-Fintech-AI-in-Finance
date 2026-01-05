@@ -1,7 +1,17 @@
 # WG1 Members
 
-## Working Group 1: Transparency in FinTech
+## Transparency in FinTech
 
-**281 members** from 40+ countries
+**Leader**: Prof. Wolfgang Hardle
 
-[View member profiles](../../people/profiles/index.md){ .md-button }
+## Membership Growth
+
+| Period | Members |
+|--------|---------|
+| GP1 | 30 |
+| GP3 | 50 |
+| GP5 | 277 |
+
+## Browse Members
+
+For the full member directory, see [Members by Working Group](../../people/members/by-wg.md).

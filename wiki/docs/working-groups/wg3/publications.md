@@ -1,9 +1,17 @@
 # WG3 Publications
 
-## Publications by WG3 Members
+## Investment Product Performance Transparency
 
-This page lists publications by members of Working Group 3: Transparency into Investment Product Performance.
+Publications from WG3 members on topics including:
 
-*Publication data is being compiled from ORCID profiles.*
+- Investment Performance
+- ESG
+- Stress Testing
+- Digital Assets
+- Performance Attribution
 
-[View all Action publications](../../research/publications/index.md){ .md-button }
+## Access Publications
+
+For the full searchable publication database, see the [Publications Dashboard](../../research/publications/index.md).
+
+Filter by WG3 to see publications from this working group.

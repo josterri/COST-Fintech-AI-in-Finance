@@ -1,55 +1,39 @@
 # Impact Assessment
 
-## Scientific Impact
+Assessment of COST Action CA19130's impact on research, policy, and industry.
+
+## Research Impact
 
 ### Publications
-- **1,000+ peer-reviewed publications** produced by network members
-- Publications in top-tier journals including JF, RFS, JFQA
-- Strong citation impact with **10,000+ total citations**
+- 1,000+ peer-reviewed publications
+- 10,000+ citations
+- Publications in top-tier journals
 
-### Methodological Advances
-- Novel XAI techniques for finance
-- New frameworks for model transparency
-- Innovative risk assessment methods
+### Datasets and Software
+- Multiple open datasets released
+- Open-source software packages
+- Reproducible research resources
+
+## Capacity Building Impact
 
 ### Career Development
-- **20 PhD completions** by network members
-- **10 professorships** achieved
-- Numerous career advancements
+- 20 PhD completions
+- 10 professorships attained
+- Numerous promotions and new positions
 
-## Economic Impact
-
-### Industry Partnerships
-- Collaborations with major financial institutions
-- Technology transfer to fintech companies
-- Consulting engagements with regulators
-
-### Innovation
-- Open-source tools adopted by practitioners
-- Databases used by researchers and industry
-- Frameworks influencing product development
-
-## Societal Impact
-
-### Policy Influence
-- Contributions to EU AI Act discussions
-- Input to financial regulatory frameworks
-- Evidence-based policy recommendations
-
-### Public Awareness
-- Media coverage of AI in finance issues
-- Public lectures and outreach events
-- Educational materials produced
-
-### Capacity Building
-- 420+ researchers trained
-- International collaboration networks
+### Training
+- 96 trainees at training schools
+- 27 STSM grantees
 - Knowledge transfer across borders
 
-## Sustainability
+## Policy Impact
 
-The Action established lasting structures:
-- Ongoing research collaborations
-- Follow-up project proposals
-- Alumni network maintenance
-- Open access resources
+- Position papers submitted to regulators
+- Policy workshops in Brussels
+- Engagement with EU institutions
+
+## Industry Impact
+
+- Industry partnerships developed
+- Knowledge transfer to private sector
+- Advisory roles established

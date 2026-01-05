@@ -1,24 +1,27 @@
 # Grant Period 1 Report
 
-## Overview
+**Period**: 2020-11-01 to 2021-10-31
 
-Grant Period 1  covered the period from November 2020 to period end.
+## Financial Summary
 
-## Key Statistics
+| Metric | Amount |
+|--------|--------|
+| Budget | EUR 62,985.50 |
+| Actual Spending | EUR 47,459.83 |
+| Execution Rate | 75.4% |
 
-| Metric | Value |
-|--------|-------|
-| Meetings | TBD |
-| Training Schools | TBD |
-| STSMs | TBD |
-| Virtual Mobility Grants | TBD |
+## Spending Breakdown
 
-## Achievements
+| Category | Amount |
+|----------|--------|
+| Meetings | EUR 10,300.30 |
+| Stsm | EUR 20,800.00 |
+| Itc Grants | EUR 375.00 |
+| Virtual Networking | EUR 4,000.00 |
+| Dissemination | EUR 294.12 |
+| Oersa | EUR 5,500.00 |
+| Fsac | EUR 6,190.41 |
 
-*Detailed achievements for this grant period...*
+## Key Achievements
 
-## Budget
-
-*Budget information for this grant period...*
-
-[View Financial Summary](../financial.md){ .md-button }
+See the [Activities](../../activities/index.md) section for detailed information about GP1 activities.

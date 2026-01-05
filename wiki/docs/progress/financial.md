@@ -1,45 +1,34 @@
 # Financial Summary
 
-## Budget Overview
+Complete financial overview of COST Action CA19130.
+
+## Overall Budget
 
 | Metric | Amount |
 |--------|--------|
-| **Total Allocated** | EUR 963,654 |
-| **Total Spent** | EUR 774,662 |
-| **Execution Rate** | 80.4% |
+| Total Budget | EUR 963,654.17 |
+| Total Spent | EUR 774,662.32 |
+| Execution Rate | 80.4% |
 
 ## Spending by Category
 
-<div class="dashboard-grid two-col" markdown>
+| Category | Amount | Percentage |
+|----------|--------|------------|
+| Meetings | EUR 376,060.47 | 48.5% |
+| Training Schools | EUR 108,816.05 | 14.0% |
+| Fsac | EUR 100,585.16 | 13.0% |
+| Virtual Mobility | EUR 95,275.52 | 12.3% |
+| Stsm | EUR 60,082.00 | 7.8% |
+| Dissemination | EUR 16,125.12 | 2.1% |
+| Itc Grants | EUR 9,218.00 | 1.2% |
+| Oersa | EUR 8,500.00 | 1.1% |
 
-<div class="chart-card" markdown>
+## Spending by Grant Period
 
-| Category | Amount | % |
-|----------|--------|---|
-| Meetings & Events | EUR 423,695 | 54.7% |
-| Training Schools | EUR 108,816 | 14.0% |
-| STSMs | EUR 60,082 | 7.8% |
-| Virtual Mobility | EUR 56,500 | 7.3% |
-| ITC Grants | EUR 38,000 | 4.9% |
-| Dissemination | EUR 87,569 | 11.3% |
-
-</div>
-
-</div>
-
-## Budget by Grant Period
-
-| Period | Allocated | Spent | Rate |
-|--------|-----------|-------|------|
-| GP1 | EUR 47,000 | EUR 46,500 | 98.9% |
-| GP2 | EUR 34,000 | EUR 33,800 | 99.4% |
-| GP3 | EUR 166,000 | EUR 165,200 | 99.5% |
-| GP4 | EUR 258,000 | EUR 256,854 | 99.6% |
-| GP5 | EUR 270,000 | EUR 272,308 | 100.9% |
-
-## Key Observations
-
-1. **High Execution Rate**: The Action achieved excellent budget execution across all categories
-2. **Meeting Focus**: Over half of spending supported networking meetings
-3. **Training Investment**: Significant resources devoted to capacity building
-4. **Mobility Programs**: STSMs and Virtual Mobility enabled researcher exchange
+| Grant Period | Budget | Actual | Execution |
+|--------------|--------|--------|-----------|
+| GP1 | EUR 62,985.50 | EUR 47,459.83 | 75.4% |
+| GP2 | EUR 202,607.00 | EUR 33,770.46 | 16.7% |
+| GP3 | EUR 169,820.50 | EUR 166,262.38 | 97.9% |
+| GP4 | EUR 257,925.91 | EUR 256,854.39 | 99.6% |
+| GP5 | EUR 270,315.26 | EUR 270,315.26 | 100.0% |

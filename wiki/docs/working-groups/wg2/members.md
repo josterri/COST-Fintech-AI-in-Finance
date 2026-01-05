@@ -1,7 +1,17 @@
 # WG2 Members
 
-## Working Group 2: Transparent versus Black Box Decision-Support Models
+## Transparent vs Black Box Decision-Support Models
 
-**254 members** from 40+ countries
+**Leader**: Dr. Petre Lameski
 
-[View member profiles](../../people/profiles/index.md){ .md-button }
+## Membership Growth
+
+| Period | Members |
+|--------|---------|
+| GP1 | 30 |
+| GP3 | 57 |
+| GP5 | 248 |
+
+## Browse Members
+
+For the full member directory, see [Members by Working Group](../../people/members/by-wg.md).

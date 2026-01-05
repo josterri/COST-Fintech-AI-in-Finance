@@ -2,40 +2,31 @@
 
 ## Transparency in FinTech
 
-### Core Research Areas
+Investigating transparency in blockchain, cryptocurrencies, NFTs, digital assets, and innovative financial services using ML methods. Focus on prediction of operational fragility and fraudulent behavior.
 
-#### 1. Blockchain technology and transparency
-Research in this area...
+## Key Research Topics
 
-#### 2. Cryptocurrency market analysis
-Research in this area...
+### Blockchain
 
-#### 3. Initial Coin Offerings (ICOs)
-Research in this area...
+Research focus area within WG1.
 
-#### 4. Decentralized Finance (DeFi)
-Research in this area...
+### Cryptocurrencies
 
-#### 5. NFT markets and valuation
-Research in this area...
+Research focus area within WG1.
 
-#### 6. Fraud detection in digital assets
-Research in this area...
+### NFTs
 
-#### 7. Smart contract analysis
-Research in this area...
+Research focus area within WG1.
 
-#### 8. Crypto exchange transparency
-Research in this area...
+### Digital Assets
 
+Research focus area within WG1.
 
-## Related Publications
+### Fraud Detection
 
-[View all WG1 publications](publications.md){ .md-button }
+Research focus area within WG1.
 
-## Related Deliverables
+## Related Resources
 
-- D1: Stakeholder Strategy
-- D3: ICO Database
-- D4: Crowdfunding Database
-- D6: Stress Tests AI/ML
+- [WG1 Publications](publications.md)
+- [WG1 Members](members.md)

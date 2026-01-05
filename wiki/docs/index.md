@@ -202,7 +202,7 @@ All 15 deliverables completed, 420 researchers from 55 countries
 | Virtual Mobility | EUR 56,500 | 7.3% |
 | Other Activities | EUR 125,569 | 16.2% |
 
-[View detailed financial analysis](progress/financial/){ .md-button }
+[View detailed financial analysis](progress/financial.md){ .md-button }
 
 ## Impact Highlights
 

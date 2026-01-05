@@ -1,41 +1,32 @@
 # WG2 Research Topics
 
-## Transparent versus Black Box Decision-Support Models
+## Transparent vs Black Box Decision-Support Models
 
-### Core Research Areas
+Development of conceptual and methodological tools for making black-box models transparent or interpretable/explainable. Focus on XAI approaches, credit risk modeling, and ML model robustness.
 
-#### 1. Explainable AI (XAI) methods
-Research in this area...
+## Key Research Topics
 
-#### 2. Credit risk scoring transparency
-Research in this area...
+### Explainable AI
 
-#### 3. Model interpretability techniques
-Research in this area...
+Research focus area within WG2.
 
-#### 4. Fairness in machine learning
-Research in this area...
+### Credit Risk
 
-#### 5. Algorithmic bias detection
-Research in this area...
+Research focus area within WG2.
 
-#### 6. Model robustness and reliability
-Research in this area...
+### Model Interpretability
 
-#### 7. Feature importance analysis
-Research in this area...
+Research focus area within WG2.
 
-#### 8. Counterfactual explanations
-Research in this area...
+### Decision Support
 
+Research focus area within WG2.
 
-## Related Publications
+### ML Robustness
 
-[View all WG2 publications](publications.md){ .md-button }
+Research focus area within WG2.
 
-## Related Deliverables
+## Related Resources
 
-- D2: Best Practices Report
-- D7: AI Testing Position Papers
-- D8: Real-time AI Testing Criteria
-- D11: Stress Testing Methodology
+- [WG2 Publications](publications.md)
+- [WG2 Members](members.md)

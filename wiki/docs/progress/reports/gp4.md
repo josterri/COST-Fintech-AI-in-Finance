@@ -1,24 +1,28 @@
 # Grant Period 4 Report
 
-## Overview
+**Period**: 2022-11-01 to 2023-10-31
 
-Grant Period 4  covered the period from previous period end to period end.
+## Financial Summary
 
-## Key Statistics
+| Metric | Amount |
+|--------|--------|
+| Budget | EUR 257,925.91 |
+| Actual Spending | EUR 256,854.39 |
+| Execution Rate | 99.6% |
 
-| Metric | Value |
-|--------|-------|
-| Meetings | TBD |
-| Training Schools | TBD |
-| STSMs | TBD |
-| Virtual Mobility Grants | TBD |
+## Spending Breakdown
 
-## Achievements
+| Category | Amount |
+|----------|--------|
+| Meetings | EUR 111,299.53 |
+| Training Schools | EUR 49,401.09 |
+| Stsm | EUR 10,500.00 |
+| Virtual Mobility | EUR 36,000.00 |
+| Itc Grants | EUR 3,000.00 |
+| Dissemination | EUR 10,500.00 |
+| Oersa | EUR 2,500.00 |
+| Fsac | EUR 33,653.77 |
 
-*Detailed achievements for this grant period...*
+## Key Achievements
 
-## Budget
-
-*Budget information for this grant period...*
-
-[View Financial Summary](../financial.md){ .md-button }
+See the [Activities](../../activities/index.md) section for detailed information about GP4 activities.

@@ -1,41 +1,32 @@
 # WG3 Research Topics
 
-## Transparency into Investment Product Performance
+## Investment Product Performance Transparency
 
-### Core Research Areas
+Investment product performance evaluation, sustainable investments, stress testing AI/ML models, digital asset investments, performance attribution, and false discovery rate reduction.
 
-#### 1. Investment performance analytics
-Research in this area...
+## Key Research Topics
 
-#### 2. ESG (Environmental, Social, Governance) metrics
-Research in this area...
+### Investment Performance
 
-#### 3. Sustainable investment evaluation
-Research in this area...
+Research focus area within WG3.
 
-#### 4. Portfolio risk transparency
-Research in this area...
+### ESG
 
-#### 5. Digital asset investment strategies
-Research in this area...
+Research focus area within WG3.
 
-#### 6. Performance attribution analysis
-Research in this area...
+### Stress Testing
 
-#### 7. False discovery rate control
-Research in this area...
+Research focus area within WG3.
 
-#### 8. Factor model transparency
-Research in this area...
+### Digital Assets
 
+Research focus area within WG3.
 
-## Related Publications
+### Performance Attribution
 
-[View all WG3 publications](publications.md){ .md-button }
+Research focus area within WG3.
 
-## Related Deliverables
+## Related Resources
 
-- D5: Backtesting Framework
-- D9: Risk Management Handbook
-- D10: Digital Asset Risk Position Paper
-- D12: AI Models for Network Analysis
+- [WG3 Publications](publications.md)
+- [WG3 Members](members.md)
