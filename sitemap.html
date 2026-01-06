@@ -6,6 +6,7 @@
     <title>Site Map - COST Action CA19130</title>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/mega-menu.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <style>
         :root {
             --cost-purple: #5B2D8A;
@@ -167,6 +168,108 @@
         .section-header.activities { border-left-color: var(--cost-orange); }
         .section-header.archive { border-left-color: var(--cost-purple); }
 
+        /* Visualization Section */
+        .visualization-section {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 1.5rem 2rem;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1.5rem;
+        }
+
+        .chart-card {
+            background: white;
+            border-radius: 12px;
+            padding: 1.25rem;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+        }
+
+        .chart-card h3 {
+            font-size: 1rem;
+            color: var(--cost-purple);
+            margin-bottom: 1rem;
+            text-align: center;
+            font-weight: 600;
+        }
+
+        .chart-wrapper {
+            position: relative;
+            height: 220px;
+        }
+
+        .chart-center-text {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            pointer-events: none;
+        }
+
+        .chart-center-text .number {
+            font-size: 2rem;
+            font-weight: 700;
+            color: var(--cost-purple);
+            line-height: 1;
+        }
+
+        .chart-center-text .label {
+            font-size: 0.75rem;
+            color: var(--gray);
+            text-transform: uppercase;
+        }
+
+        /* Filter Pills */
+        .filter-section {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 2rem 1rem;
+        }
+
+        .filter-pills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+            justify-content: center;
+        }
+
+        .filter-pill {
+            padding: 0.4rem 0.9rem;
+            border: 2px solid var(--border);
+            border-radius: 20px;
+            background: white;
+            font-size: 0.75rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.2s;
+            font-family: inherit;
+            text-transform: uppercase;
+            letter-spacing: 0.03em;
+        }
+
+        .filter-pill:hover {
+            border-color: var(--cost-purple);
+            color: var(--cost-purple);
+        }
+
+        .filter-pill.active {
+            background: var(--cost-purple);
+            border-color: var(--cost-purple);
+            color: white;
+        }
+
+        .filter-pill[data-filter="impact"] { border-color: var(--cost-green); color: var(--cost-green); }
+        .filter-pill[data-filter="impact"].active { background: var(--cost-green); color: white; }
+        .filter-pill[data-filter="network"] { border-color: var(--cost-teal); color: var(--cost-teal); }
+        .filter-pill[data-filter="network"].active { background: var(--cost-teal); color: white; }
+        .filter-pill[data-filter="research"] { border-color: var(--cost-blue); color: var(--cost-blue); }
+        .filter-pill[data-filter="research"].active { background: var(--cost-blue); color: white; }
+        .filter-pill[data-filter="activities"] { border-color: var(--cost-orange); color: var(--cost-orange); }
+        .filter-pill[data-filter="activities"].active { background: var(--cost-orange); color: white; }
+        .filter-pill[data-filter="archive"] { border-color: var(--cost-purple); color: var(--cost-purple); }
+        .filter-pill[data-filter="archive"].active { background: var(--cost-purple); color: white; }
+
         footer {
             background: var(--dark);
             color: white;
@@ -184,6 +287,15 @@
             .stats-banner { gap: 1.5rem; padding: 1rem; }
             .container { padding: 1.5rem 1rem; }
             .page-path { display: none; }
+            .visualization-section {
+                grid-template-columns: 1fr;
+                padding: 1rem;
+                gap: 1rem;
+            }
+            .chart-wrapper { height: 200px; }
+            .filter-section { padding: 0 1rem 1rem; }
+            .filter-pills { gap: 0.4rem; }
+            .filter-pill { padding: 0.35rem 0.7rem; font-size: 0.7rem; }
         }
     </style>
 
@@ -323,6 +435,38 @@
         </div>
     </div>
 
+    <!-- Visualization Section -->
+    <div class="visualization-section">
+        <div class="chart-card">
+            <h3>Page Distribution</h3>
+            <div class="chart-wrapper">
+                <canvas id="donutChart"></canvas>
+                <div class="chart-center-text">
+                    <div class="number" id="chart-total">-</div>
+                    <div class="label">Pages</div>
+                </div>
+            </div>
+        </div>
+        <div class="chart-card">
+            <h3>Content by Section</h3>
+            <div class="chart-wrapper">
+                <canvas id="barChart"></canvas>
+            </div>
+        </div>
+    </div>
+
+    <!-- Filter Pills -->
+    <div class="filter-section">
+        <div class="filter-pills">
+            <button class="filter-pill active" data-filter="all" onclick="filterByCategory('all')">All</button>
+            <button class="filter-pill" data-filter="impact" onclick="filterByCategory('IMPACT')">Impact</button>
+            <button class="filter-pill" data-filter="network" onclick="filterByCategory('NETWORK')">Network</button>
+            <button class="filter-pill" data-filter="research" onclick="filterByCategory('RESEARCH')">Research</button>
+            <button class="filter-pill" data-filter="activities" onclick="filterByCategory('ACTIVITIES')">Activities</button>
+            <button class="filter-pill" data-filter="archive" onclick="filterByCategory('ARCHIVE')">Archive</button>
+        </div>
+    </div>
+
     <div class="container">
         <div class="search-box">
             <input type="text" id="search-input" placeholder="Search pages..." oninput="filterPages()">
@@ -365,6 +509,9 @@
             }
         }
 
+        let donutChart = null;
+        let barChart = null;
+
         function renderStats() {
             const stats = sitemapData.statistics;
             document.getElementById('stat-total').textContent = stats.total_pages;
@@ -372,6 +519,217 @@
             document.getElementById('stat-financial').textContent = stats.financial_reports + stats.work_budget_plans;
             document.getElementById('stat-archive').textContent = stats.action_chair_documents;
             document.getElementById('stat-data').textContent = stats.json_data_files;
+            document.getElementById('chart-total').textContent = stats.total_pages;
+
+            // Render charts
+            renderDonutChart();
+            renderBarChart();
+        }
+
+        function renderDonutChart() {
+            const ctx = document.getElementById('donutChart').getContext('2d');
+            const stats = sitemapData.statistics;
+
+            // Calculate category totals from actual data
+            const categoryTotals = {};
+            for (const [cat, pages] of Object.entries(sitemapData.categories)) {
+                if (pages.length > 0) {
+                    categoryTotals[cat] = pages.length;
+                }
+            }
+
+            const data = {
+                labels: ['Archive Docs', 'Root Pages', 'Financial', 'Budget Plans'],
+                datasets: [{
+                    data: [
+                        stats.action_chair_documents,
+                        stats.root_pages,
+                        stats.financial_reports,
+                        stats.work_budget_plans
+                    ],
+                    backgroundColor: [
+                        '#00A0B0', // teal
+                        '#5B2D8A', // purple
+                        '#E87722', // orange
+                        '#2B5F9E'  // blue
+                    ],
+                    borderWidth: 0,
+                    hoverOffset: 8
+                }]
+            };
+
+            donutChart = new Chart(ctx, {
+                type: 'doughnut',
+                data: data,
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    cutout: '65%',
+                    plugins: {
+                        legend: {
+                            position: 'bottom',
+                            labels: {
+                                padding: 15,
+                                usePointStyle: true,
+                                pointStyle: 'circle',
+                                font: { size: 11 }
+                            }
+                        },
+                        tooltip: {
+                            callbacks: {
+                                label: function(context) {
+                                    const total = context.dataset.data.reduce((a, b) => a + b, 0);
+                                    const percentage = ((context.raw / total) * 100).toFixed(1);
+                                    return `${context.label}: ${context.raw} (${percentage}%)`;
+                                }
+                            }
+                        }
+                    },
+                    onClick: (event, elements) => {
+                        if (elements.length > 0) {
+                            const index = elements[0].index;
+                            const sectionMap = ['action-chair', 'root', 'financial', 'budget'];
+                            scrollToSection(sectionMap[index]);
+                        }
+                    }
+                }
+            });
+        }
+
+        function renderBarChart() {
+            const ctx = document.getElementById('barChart').getContext('2d');
+            const stats = sitemapData.statistics;
+
+            const data = {
+                labels: ['Action Chair', 'Data Files', 'Root Pages', 'Financial', 'Budget'],
+                datasets: [{
+                    data: [
+                        stats.action_chair_documents,
+                        stats.json_data_files,
+                        stats.root_pages,
+                        stats.financial_reports,
+                        stats.work_budget_plans
+                    ],
+                    backgroundColor: [
+                        '#00A0B0',
+                        '#6c757d',
+                        '#5B2D8A',
+                        '#E87722',
+                        '#2B5F9E'
+                    ],
+                    borderRadius: 4,
+                    barThickness: 24
+                }]
+            };
+
+            barChart = new Chart(ctx, {
+                type: 'bar',
+                data: data,
+                options: {
+                    indexAxis: 'y',
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: {
+                        legend: { display: false },
+                        tooltip: {
+                            callbacks: {
+                                label: function(context) {
+                                    return `${context.raw} items`;
+                                }
+                            }
+                        }
+                    },
+                    scales: {
+                        x: {
+                            beginAtZero: true,
+                            grid: { display: false },
+                            ticks: { font: { size: 10 } }
+                        },
+                        y: {
+                            grid: { display: false },
+                            ticks: { font: { size: 11 } }
+                        }
+                    },
+                    onClick: (event, elements) => {
+                        if (elements.length > 0) {
+                            const index = elements[0].index;
+                            const sectionMap = ['action-chair', 'data', 'root', 'financial', 'budget'];
+                            scrollToSection(sectionMap[index]);
+                        }
+                    }
+                }
+            });
+        }
+
+        function scrollToSection(sectionType) {
+            const sections = document.querySelectorAll('.sitemap-section');
+            let targetSection = null;
+
+            sections.forEach(section => {
+                const header = section.querySelector('.section-header h2');
+                if (!header) return;
+                const text = header.textContent.toLowerCase();
+
+                if (sectionType === 'action-chair' && text.includes('action chair')) {
+                    targetSection = section;
+                } else if (sectionType === 'data' && text.includes('json')) {
+                    targetSection = section;
+                } else if (sectionType === 'financial' && text.includes('financial')) {
+                    targetSection = section;
+                } else if (sectionType === 'budget' && text.includes('budget')) {
+                    targetSection = section;
+                }
+            });
+
+            if (targetSection) {
+                // Expand the section
+                const content = targetSection.querySelector('.section-content');
+                const header = targetSection.querySelector('.section-header');
+                if (content.classList.contains('collapsed')) {
+                    content.classList.remove('collapsed');
+                    header.classList.remove('collapsed');
+                }
+                // Scroll to it
+                targetSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            }
+        }
+
+        function filterByCategory(category) {
+            // Update pill active states
+            document.querySelectorAll('.filter-pill').forEach(pill => {
+                pill.classList.remove('active');
+                if (pill.getAttribute('data-filter') === category.toLowerCase() ||
+                    (category === 'all' && pill.getAttribute('data-filter') === 'all')) {
+                    pill.classList.add('active');
+                }
+            });
+
+            // Show/hide sections
+            const sections = document.querySelectorAll('.sitemap-section');
+            sections.forEach(section => {
+                const header = section.querySelector('.section-header');
+                const headerText = section.querySelector('h2')?.textContent || '';
+
+                if (category === 'all') {
+                    section.style.display = 'block';
+                } else {
+                    // Check if section matches category
+                    const categoryMap = {
+                        'IMPACT': ['impact'],
+                        'NETWORK': ['network'],
+                        'RESEARCH': ['research'],
+                        'ACTIVITIES': ['activities', 'financial', 'budget', 'work'],
+                        'ARCHIVE': ['archive', 'action chair', 'json']
+                    };
+
+                    const keywords = categoryMap[category] || [category.toLowerCase()];
+                    const matches = keywords.some(kw => headerText.toLowerCase().includes(kw));
+                    section.style.display = matches ? 'block' : 'none';
+                }
+            });
+
+            // Scroll to content
+            document.querySelector('.container').scrollIntoView({ behavior: 'smooth', block: 'start' });
         }
 
         function renderSitemap() {
