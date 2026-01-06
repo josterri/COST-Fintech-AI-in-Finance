@@ -198,6 +198,21 @@
             height: 220px;
         }
 
+        .chart-card-full {
+            grid-column: 1 / -1;
+        }
+
+        .graph-wrapper {
+            text-align: center;
+            padding: 0.5rem;
+        }
+
+        .site-graph {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+
         .chart-center-text {
             position: absolute;
             top: 50%;
@@ -451,6 +466,12 @@
             <h3>Content by Section</h3>
             <div class="chart-wrapper">
                 <canvas id="barChart"></canvas>
+            </div>
+        </div>
+        <div class="chart-card chart-card-full">
+            <h3>Site Link Structure</h3>
+            <div class="graph-wrapper">
+                <img src="site_graph.png" alt="COST CA19130 site structure showing 217 pages across 5 categories" class="site-graph">
             </div>
         </div>
     </div>
