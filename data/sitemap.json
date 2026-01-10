@@ -1,8 +1,8 @@
 {
-  "generated": "2026-01-06T15:03:43.455997",
+  "generated": "2026-01-10T10:34:36.478453",
   "statistics": {
-    "total_pages": 217,
-    "root_pages": 38,
+    "total_pages": 218,
+    "root_pages": 39,
     "financial_reports": 13,
     "work_budget_plans": 9,
     "action_chair_documents": 157,
@@ -286,6 +286,13 @@
         "title": "Comparison Action Chair",
         "category": "OTHER",
         "path": "comparison-action-chair.html",
+        "type": "page"
+      },
+      {
+        "name": "sitemap.html",
+        "title": "Site Map",
+        "category": "OTHER",
+        "path": "sitemap.html",
         "type": "page"
       }
     ]
