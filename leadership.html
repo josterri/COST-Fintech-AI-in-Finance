@@ -824,6 +824,35 @@
             .sl-sidebar { transform: translateX(-100%); transition: transform 0.3s; }
             .sl-sidebar.open { transform: translateX(0); }
         }
+    
+        .legacy-footer-acknowledgement {
+            background: rgba(255,255,255,0.05);
+            border-radius: 8px;
+            padding: 1rem 1.5rem;
+            margin: 1.5rem auto;
+            max-width: 800px;
+            text-align: center;
+        }
+
+        .legacy-footer-acknowledgement p {
+            color: rgba(255,255,255,0.85);
+            font-size: 0.85rem;
+            margin-bottom: 0.5rem;
+            line-height: 1.6;
+        }
+
+        .legacy-footer-acknowledgement p:last-child {
+            margin-bottom: 0;
+        }
+
+        .legacy-footer-acknowledgement .officers {
+            color: rgba(255,255,255,0.7);
+            font-size: 0.8rem;
+            margin-top: 0.75rem;
+            padding-top: 0.75rem;
+            border-top: 1px solid rgba(255,255,255,0.1);
+        }
+
     </style>
 </head>
 <body>
@@ -1045,6 +1074,7 @@
                 <a href="midterm-action-chair-report-full.html">Mid-Term Report</a>
                 <a href="financial-reports/overview.html">Financial Overview</a>
                 <a href="sitemap.html">Site Map</a>
+                <a href="about.html">About</a>
             </div>
         </div>
     </aside>
@@ -1307,7 +1337,12 @@
                     <a href="https://github.com/Digital-AI-Finance" target="_blank" rel="noopener">GitHub</a>
                 </div>
             </div>
-            <div class="legacy-footer-bottom">
+                        <div class="legacy-footer-acknowledgement">
+                <p>This archive is based upon work from COST Action CA19130 - Fintech and Artificial Intelligence in Finance, supported by COST (European Cooperation in Science and Technology).</p>
+                <p>Funded by the Horizon 2020 Framework Programme of the European Union.</p>
+                <p class="officers"><strong>Science Officer:</strong> Dr Ralph Stuebner | <strong>Administrative Officer:</strong> Ms Rose Cruz Santos</p>
+            </div>
+<div class="legacy-footer-bottom">
                 <p>Data sourced from <a href="https://openalex.org" target="_blank" rel="noopener">OpenAlex</a> and <a href="https://orcid.org" target="_blank" rel="noopener">ORCID</a> | Archive maintained since 2024</p>
             </div>
         </div>
