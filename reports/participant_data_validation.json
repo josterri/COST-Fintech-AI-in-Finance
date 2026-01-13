@@ -1,0 +1,243 @@
+{
+  "duplicates": [],
+  "count_mismatches": [
+    {
+      "meeting_id": "GP1_M19",
+      "title": "WG2 Workshop and Meeting in Skopje, North Macedonia",
+      "json_count": 6,
+      "ffr_expected": 7,
+      "ffr_parsed": 6,
+      "difference": -1
+    },
+    {
+      "meeting_id": "GP1_M21",
+      "title": "COST FinAI Annual Meeting in Bucharest",
+      "json_count": 7,
+      "ffr_expected": 9,
+      "ffr_parsed": 7,
+      "difference": -2
+    },
+    {
+      "meeting_id": "GP2_M1",
+      "title": "ML approaches Finance and Management",
+      "json_count": 3,
+      "ffr_expected": 4,
+      "ffr_parsed": 3,
+      "difference": -1
+    },
+    {
+      "meeting_id": "GP2_M2",
+      "title": "WG1 meeting",
+      "json_count": 2,
+      "ffr_expected": 3,
+      "ffr_parsed": 2,
+      "difference": -1
+    },
+    {
+      "meeting_id": "GP2_M3",
+      "title": "Technology, Innovation and Stability: New Directions in Finance (TINFIN)",
+      "json_count": 6,
+      "ffr_expected": 7,
+      "ffr_parsed": 6,
+      "difference": -1
+    },
+    {
+      "meeting_id": "GP2_M4",
+      "title": "COST FinAI Diversity research workshop",
+      "json_count": 12,
+      "ffr_expected": 13,
+      "ffr_parsed": 12,
+      "difference": -1
+    },
+    {
+      "meeting_id": "GP3_M1",
+      "title": "COST FinAI - The 5th International conference on economics and social sciences",
+      "json_count": 2,
+      "ffr_expected": 3,
+      "ffr_parsed": 2,
+      "difference": -1
+    },
+    {
+      "meeting_id": "GP3_M3",
+      "title": "COST FinAI Research Workshop on Transparency in Financial Markets, Core group",
+      "json_count": 14,
+      "ffr_expected": 15,
+      "ffr_parsed": 14,
+      "difference": -1
+    },
+    {
+      "meeting_id": "GP3_M4",
+      "title": "Women in Fintech and Artificial Intelligence",
+      "json_count": 12,
+      "ffr_expected": 13,
+      "ffr_parsed": 12,
+      "difference": -1
+    },
+    {
+      "meeting_id": "GP3_M5",
+      "title": "European COST Conference on Artificial Intelligence in Finance",
+      "json_count": 10,
+      "ffr_expected": 11,
+      "ffr_parsed": 10,
+      "difference": -1
+    },
+    {
+      "meeting_id": "GP3_M6",
+      "title": "COST FinAI Transparency in Finance",
+      "json_count": 30,
+      "ffr_expected": 31,
+      "ffr_parsed": 30,
+      "difference": -1
+    },
+    {
+      "meeting_id": "GP3_M7",
+      "title": "Working group meeting - Action Deliverables and goals",
+      "json_count": 5,
+      "ffr_expected": 6,
+      "ffr_parsed": 5,
+      "difference": -1
+    },
+    {
+      "meeting_id": "GP3_M8",
+      "title": "Brno Workshop on Artificial Intelligence in Finance",
+      "json_count": 2,
+      "ffr_expected": 3,
+      "ffr_parsed": 2,
+      "difference": -1
+    },
+    {
+      "meeting_id": "GP3_M9",
+      "title": "Fintech across Europe and in Romania",
+      "json_count": 10,
+      "ffr_expected": 11,
+      "ffr_parsed": 10,
+      "difference": -1
+    },
+    {
+      "meeting_id": "GP4_M1",
+      "title": "Diversity challenges and stakeholders' engagement",
+      "json_count": 15,
+      "ffr_expected": 16,
+      "ffr_parsed": 15,
+      "difference": -1
+    },
+    {
+      "meeting_id": "GP4_M2",
+      "title": "Diversity challenges for a sustainable Fintech",
+      "json_count": 13,
+      "ffr_expected": 14,
+      "ffr_parsed": 13,
+      "difference": -1
+    },
+    {
+      "meeting_id": "GP4_M4",
+      "title": "Women in Fintech III - Portugal",
+      "json_count": 16,
+      "ffr_expected": 17,
+      "ffr_parsed": 16,
+      "difference": -1
+    },
+    {
+      "meeting_id": "GP4_M5",
+      "title": "Nordic AI and Fintech",
+      "json_count": 10,
+      "ffr_expected": 11,
+      "ffr_parsed": 10,
+      "difference": -1
+    },
+    {
+      "meeting_id": "GP4_M6",
+      "title": "Machine Learning, Artificial Intelligence and Data Protection in Fintech Conference",
+      "json_count": 6,
+      "ffr_expected": 7,
+      "ffr_parsed": 6,
+      "difference": -1
+    },
+    {
+      "meeting_id": "GP4_M7",
+      "title": "COST FinAI - Fintech and AI in Finance - MC, WG and Core group meeting",
+      "json_count": 28,
+      "ffr_expected": 29,
+      "ffr_parsed": 28,
+      "difference": -1
+    },
+    {
+      "meeting_id": "GP4_M8",
+      "title": "AI Innovations in finance and society",
+      "json_count": 14,
+      "ffr_expected": 15,
+      "ffr_parsed": 14,
+      "difference": -1
+    },
+    {
+      "meeting_id": "GP5_M1",
+      "title": "Core Group and Working Group Meeting in Cluj-Napoca",
+      "json_count": 17,
+      "ffr_expected": 18,
+      "ffr_parsed": 17,
+      "difference": -1
+    },
+    {
+      "meeting_id": "GP5_M2",
+      "title": "COST FinAI meets Brussels",
+      "json_count": 26,
+      "ffr_expected": 27,
+      "ffr_parsed": 26,
+      "difference": -1
+    },
+    {
+      "meeting_id": "GP5_M3",
+      "title": "Models for data analysis and integration for artificial intelligence: concepts,",
+      "json_count": 0,
+      "ffr_expected": 1,
+      "ffr_parsed": 0,
+      "difference": -1
+    },
+    {
+      "meeting_id": "GP5_M6",
+      "title": "Women in Fintech and AI - 4th edition",
+      "json_count": 20,
+      "ffr_expected": 21,
+      "ffr_parsed": 20,
+      "difference": -1
+    },
+    {
+      "meeting_id": "GP5_M7",
+      "title": "COST FinAI Meets Coimbra",
+      "json_count": 14,
+      "ffr_expected": 15,
+      "ffr_parsed": 14,
+      "difference": -1
+    },
+    {
+      "meeting_id": "GP5_M8",
+      "title": "AI in finance and society - challenges and opportunities",
+      "json_count": 18,
+      "ffr_expected": 19,
+      "ffr_parsed": 18,
+      "difference": -1
+    },
+    {
+      "meeting_id": "GP5_M9",
+      "title": "COST FinAI Meets Iceland",
+      "json_count": 16,
+      "ffr_expected": 17,
+      "ffr_parsed": 16,
+      "difference": -1
+    }
+  ],
+  "amount_discrepancies": [],
+  "name_variants": [],
+  "category_totals": {
+    "meetings": 364741.8,
+    "stsm": 60082.0,
+    "vm": 56500.0,
+    "training_schools": 93816.05,
+    "vns": 8000.0,
+    "dissemination": 180.0,
+    "los": 73952.89
+  },
+  "json_grand_total": 657272.74,
+  "expected_grand_total": 774662.32,
+  "expected_grand_total_excl_fsac": 673619.4099999999
+}

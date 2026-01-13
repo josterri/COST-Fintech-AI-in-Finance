@@ -1,0 +1,200 @@
+================================================================================
+PARTICIPANT DATA VALIDATION REPORT
+Generated: 2026-01-13 00:07:39
+================================================================================
+
+SUMMARY
+----------------------------------------
+  Within-meeting duplicates: 0
+  Participant count mismatches: 28
+  Thousands parsing bugs: 0
+  Other amount discrepancies: 0
+  Potential name variants: 0
+  Total reconciliation errors: 0
+
+================================================================================
+WITHIN-MEETING DUPLICATES
+================================================================================
+  No duplicates found.
+
+================================================================================
+PARTICIPANT COUNT MISMATCHES (JSON vs FFR)
+================================================================================
+
+GP1_M21: COST FinAI Annual Meeting in Bucharest...
+  JSON count: 7
+  FFR expected: 9
+  DIFFERENCE: -2
+
+GP1_M19: WG2 Workshop and Meeting in Skopje, North Macedoni...
+  JSON count: 6
+  FFR expected: 7
+  DIFFERENCE: -1
+
+GP2_M1: ML approaches Finance and Management...
+  JSON count: 3
+  FFR expected: 4
+  DIFFERENCE: -1
+
+GP2_M2: WG1 meeting...
+  JSON count: 2
+  FFR expected: 3
+  DIFFERENCE: -1
+
+GP2_M3: Technology, Innovation and Stability: New Directio...
+  JSON count: 6
+  FFR expected: 7
+  DIFFERENCE: -1
+
+GP2_M4: COST FinAI Diversity research workshop...
+  JSON count: 12
+  FFR expected: 13
+  DIFFERENCE: -1
+
+GP3_M1: COST FinAI - The 5th International conference on e...
+  JSON count: 2
+  FFR expected: 3
+  DIFFERENCE: -1
+
+GP3_M3: COST FinAI Research Workshop on Transparency in Fi...
+  JSON count: 14
+  FFR expected: 15
+  DIFFERENCE: -1
+
+GP3_M4: Women in Fintech and Artificial Intelligence...
+  JSON count: 12
+  FFR expected: 13
+  DIFFERENCE: -1
+
+GP3_M5: European COST Conference on Artificial Intelligenc...
+  JSON count: 10
+  FFR expected: 11
+  DIFFERENCE: -1
+
+GP3_M6: COST FinAI Transparency in Finance...
+  JSON count: 30
+  FFR expected: 31
+  DIFFERENCE: -1
+
+GP3_M7: Working group meeting - Action Deliverables and go...
+  JSON count: 5
+  FFR expected: 6
+  DIFFERENCE: -1
+
+GP3_M8: Brno Workshop on Artificial Intelligence in Financ...
+  JSON count: 2
+  FFR expected: 3
+  DIFFERENCE: -1
+
+GP3_M9: Fintech across Europe and in Romania...
+  JSON count: 10
+  FFR expected: 11
+  DIFFERENCE: -1
+
+GP4_M1: Diversity challenges and stakeholders' engagement...
+  JSON count: 15
+  FFR expected: 16
+  DIFFERENCE: -1
+
+GP4_M2: Diversity challenges for a sustainable Fintech...
+  JSON count: 13
+  FFR expected: 14
+  DIFFERENCE: -1
+
+GP4_M4: Women in Fintech III - Portugal...
+  JSON count: 16
+  FFR expected: 17
+  DIFFERENCE: -1
+
+GP4_M5: Nordic AI and Fintech...
+  JSON count: 10
+  FFR expected: 11
+  DIFFERENCE: -1
+
+GP4_M6: Machine Learning, Artificial Intelligence and Data...
+  JSON count: 6
+  FFR expected: 7
+  DIFFERENCE: -1
+
+GP4_M7: COST FinAI - Fintech and AI in Finance - MC, WG an...
+  JSON count: 28
+  FFR expected: 29
+  DIFFERENCE: -1
+
+GP4_M8: AI Innovations in finance and society...
+  JSON count: 14
+  FFR expected: 15
+  DIFFERENCE: -1
+
+GP5_M1: Core Group and Working Group Meeting in Cluj-Napoc...
+  JSON count: 17
+  FFR expected: 18
+  DIFFERENCE: -1
+
+GP5_M2: COST FinAI meets Brussels...
+  JSON count: 26
+  FFR expected: 27
+  DIFFERENCE: -1
+
+GP5_M3: Models for data analysis and integration for artif...
+  JSON count: 0
+  FFR expected: 1
+  DIFFERENCE: -1
+
+GP5_M6: Women in Fintech and AI - 4th edition...
+  JSON count: 20
+  FFR expected: 21
+  DIFFERENCE: -1
+
+GP5_M7: COST FinAI Meets Coimbra...
+  JSON count: 14
+  FFR expected: 15
+  DIFFERENCE: -1
+
+GP5_M8: AI in finance and society - challenges and opportu...
+  JSON count: 18
+  FFR expected: 19
+  DIFFERENCE: -1
+
+GP5_M9: COST FinAI Meets Iceland...
+  JSON count: 16
+  FFR expected: 17
+  DIFFERENCE: -1
+
+================================================================================
+THOUSANDS PARSING BUG (Amounts differing by ~1000 EUR)
+================================================================================
+  No thousands parsing bugs detected.
+
+================================================================================
+OTHER AMOUNT DISCREPANCIES
+================================================================================
+  No other discrepancies found.
+
+================================================================================
+POTENTIAL NAME VARIANTS (may be same person)
+================================================================================
+  No potential name variants found.
+
+================================================================================
+MEETING SUM RECONCILIATION
+================================================================================
+  All meeting sums reconcile correctly.
+
+================================================================================
+PARTICIPANT TOTAL RECONCILIATION
+================================================================================
+  All participant totals reconcile correctly.
+
+================================================================================
+GRAND TOTAL VALIDATION
+================================================================================
+
+  JSON grand total:          657,272.74 EUR
+  FFR expected total:        774,662.32 EUR
+  Difference:               -117,389.58 EUR
+  Status: MISMATCH
+
+================================================================================
+END OF REPORT
+================================================================================

@@ -25,7 +25,7 @@ from datetime import datetime
 
 # Paths
 EXTRACTED_TEXT_DIR = Path(r"D:\Joerg\Research\slides\COST_Work_and_Budget_Plans\extracted_text")
-OUTPUT_DIR = Path(r"D:\Joerg\Research\slides\COST_Work_and_Budget_Plans\COST-Fintech-AI-in-Finance\data")
+OUTPUT_DIR = Path(r"D:\Joerg\Research\slides\COST-Fintech-AI-in-Finance\data")
 
 # FFR files by grant period
 FFR_FILES = {
@@ -79,6 +79,23 @@ def extract_meetings_with_participants(text, grant_period):
 
         meeting_num = int(meeting_sections[i])
         section = meeting_sections[i + 1]
+
+        # CRITICAL FIX: Stop section at major section boundaries
+        # This prevents Training School, VM, STSM data from being merged into meetings
+        SECTION_BOUNDARIES = [
+            'Training Schools Expenditure',
+            'Training School 1',
+            'Short-Term Scientific Mission',
+            'Virtual Mobility Grant Expenditure',
+            'Dissemination Conference Grant',
+            'Inclusiveness Target Countries',
+            'Virtual Networking Support',
+            'FSAC Expenditure',
+        ]
+        for boundary in SECTION_BOUNDARIES:
+            if boundary in section:
+                section = section.split(boundary)[0]
+                break
 
         # Extract meeting metadata
         meeting = {
@@ -136,7 +153,7 @@ def extract_meetings_with_participants(text, grant_period):
         # Use precise number pattern to avoid matching across columns
         # Number pattern: 1-3 digits, optional (space + 3 digits) for thousands, decimal + 2 digits
         euro_num = r'(\d{1,3}(?:\s\d{3})*[,\.]\d{2})'
-        participant_pattern = rf'^(\d+)\s+([A-Za-z\u00C0-\u017F\s,\(\)\-\.\']+?)\s+([A-Z]{{2}})\s+{euro_num}\s+{euro_num}\s+{euro_num}\s+{euro_num}\s*$'
+        participant_pattern = rf'^(\d+)\s+([A-Za-z\u00C0-\u024F\s,\(\)\-\.\'\"\u0130\u0131]+?)\s+([A-Z]{{2}})\s+{euro_num}\s+{euro_num}\s+{euro_num}\s+{euro_num}\s*$'
 
         for line in section.split('\n'):
             match = re.match(participant_pattern, line.strip())
@@ -186,7 +203,7 @@ def extract_justifications(text, grant_period):
 
         # Parse individual justifications
         # Pattern: number name (country)
-        person_pattern = r'(\d+)\s+([A-Za-z\u00C0-\u017F\s,\(\)\-\.\']+?)\s+\(([A-Za-z\s]+)\)'
+        person_pattern = r'(\d+)\s+([A-Za-z\u00C0-\u024F\s,\(\)\-\.\'\"\u0130\u0131]+?)\s+\(([A-Za-z\s]+)\)'
 
         for person_match in re.finditer(person_pattern, section):
             name = person_match.group(2).strip()
@@ -277,7 +294,7 @@ def extract_training_schools(text, grant_period):
         participants = []
         # Use precise European number pattern to avoid matching across columns
         euro_num = r'(\d{1,3}(?:\s\d{3})*[,\.]\d{2})'
-        participant_pattern = rf'^(\d+)\s+([A-Za-z\u00C0-\u017F\s,\(\)\-\.\']+?)\s+([A-Z]{{2}})\s+{euro_num}\s+{euro_num}\s+{euro_num}\s+{euro_num}\s*$'
+        participant_pattern = rf'^(\d+)\s+([A-Za-z\u00C0-\u024F\s,\(\)\-\.\'\"\u0130\u0131]+?)\s+([A-Z]{{2}})\s+{euro_num}\s+{euro_num}\s+{euro_num}\s+{euro_num}\s*$'
 
         for line in section.split('\n'):
             match = re.match(participant_pattern, line.strip())
@@ -320,7 +337,7 @@ def extract_stsm(text, grant_period):
     # GP3-5 format: "Short-Term Scientific Mission Grant Expenditure"
 
     stsm_section = re.search(
-        r'Short-?Term Scientific Mission.*?Expenditure.*?(?:List of paid|Grantee name).*?(?=\n(?:Virtual Mobility|Dissemination|Inclusiveness|No Short-Term|\d+ of \d+))',
+        r'Short.?Term Scientific Mission.*?Expenditure.*?(?:List of paid|Grantee name).*?(?=\n(?:Total expenditure|Sub-total|Virtual Mobility|Dissemination|Inclusiveness|No Short.?Term|\d+ of \d+))',
         text, re.DOTALL | re.IGNORECASE
     )
 
@@ -329,12 +346,23 @@ def extract_stsm(text, grant_period):
 
     section = stsm_section.group(0)
 
-    # Pattern: number name YRI host home start_date end_date days amount
-    # Example: 1 Coita, Ioana NO SK RO 06/04/2024 14/04/2024 10 1 997.00
-    stsm_pattern = r'^(\d+)\s+([A-Za-z\u00C0-\u017F\s,\(\)\-\.\']+?)\s+(YES|NO|Y|N)\s+([A-Z]{2})\s+([A-Z]{2})\s+(\d{2}/\d{2}/\d{4})\s+(\d{2}/\d{2}/\d{4})\s+(\d+)\s+([\d\s,\.]+)\s*$'
+    # Two patterns for different FFR formats:
+    # GP3-5: "1 Coita, Ioana NO SK RO 06/04/2024 14/04/2024 10 1 997.00"
+    # GP1-2: "1 Dr Stjepan Picek Y HR NL 11/01/2021 26/01/2021 16 NO 1 520.00" (has Prepayment column)
+
+    # Pattern for GP3-5 (no Prepayment column)
+    stsm_pattern_new = r'^(\d+)\s+([A-Za-z\u00C0-\u024F\s,\(\)\-\.\'\"\u0130\u0131]+?)\s+(YES|NO|Y|N)\s+([A-Z]{2})\s+([A-Z]{2})\s+(\d{2}/\d{2}/\d{4})\s+(\d{2}/\d{2}/\d{4})\s+(\d+)\s+([\d\s,\.]+)\s*$'
+
+    # Pattern for GP1-2 (has Prepayment column after days)
+    stsm_pattern_old = r'^(\d+)\s+(?:Dr|Mr|Ms|Miss|Prof\.?)?\s*([A-Za-z\u00C0-\u024F\s,\(\)\-\.\'\"\u0130\u0131]+?)\s+(Y|N)\s+([A-Z]{2})\s+([A-Z]{2})\s+(\d{2}/\d{2}/\d{4})\s+(\d{2}/\d{2}/\d{4})\s+(\d+)\s+(?:YES|NO)\s+([\d\s,\.]+)\s*$'
 
     for line in section.split('\n'):
-        match = re.match(stsm_pattern, line.strip())
+        # Try new format first (GP3-5)
+        match = re.match(stsm_pattern_new, line.strip())
+        if not match:
+            # Try old format (GP1-2 with Prepayment column)
+            match = re.match(stsm_pattern_old, line.strip())
+
         if match:
             yri_str = match.group(3).upper()
             yri = yri_str in ('YES', 'Y')
@@ -419,7 +447,7 @@ def extract_virtual_mobility(text, grant_period):
                 # GP4 format: "Wolfgang Härdle VM Bibvliometrics..."
                 # GP5 format: "Maria Iannario NO Advanced statistical..."
 
-                vm_marker_match = re.match(r'^([A-Za-z\u00C0-\u017F\s,\(\)\-\.\']+?)\s+(VM|YES|NO|Y|N)\s+(.*)$', rest)
+                vm_marker_match = re.match(r'^([A-Za-z\u00C0-\u024F\s,\(\)\-\.\'\"\u0130\u0131]+?)\s+(VM|YES|NO|Y|N)\s+(.*)$', rest)
 
                 if vm_marker_match:
                     name = vm_marker_match.group(1).strip()
@@ -427,10 +455,15 @@ def extract_virtual_mobility(text, grant_period):
                     title_part = vm_marker_match.group(3).strip()
                     yri = yri_marker in ('YES', 'Y')
                 else:
-                    # Fallback - no marker found
+                    # Fallback - strip trailing YES/NO/VM from name
                     name = rest
                     title_part = ''
                     yri = False
+                    # Remove trailing YRI markers that might be stuck to name
+                    trailing_match = re.match(r'^(.+?)\s+(YES|NO|VM|Y|N)$', name, re.IGNORECASE)
+                    if trailing_match:
+                        name = trailing_match.group(1).strip()
+                        yri = trailing_match.group(2).upper() in ('YES', 'Y')
 
                 current_entry = {
                     'num': entry_num,
@@ -461,7 +494,7 @@ def extract_virtual_mobility(text, grant_period):
                     entry_num = new_entry_match.group(1)
                     rest = new_entry_match.group(2).strip()
 
-                    vm_marker_match = re.match(r'^([A-Za-z\u00C0-\u017F\s,\(\)\-\.\']+?)\s+(VM|YES|NO|Y|N)\s+(.*)$', rest)
+                    vm_marker_match = re.match(r'^([A-Za-z\u00C0-\u024F\s,\(\)\-\.\'\"\u0130\u0131]+?)\s+(VM|YES|NO|Y|N)\s+(.*)$', rest)
 
                     if vm_marker_match:
                         name = vm_marker_match.group(1).strip()
@@ -469,9 +502,15 @@ def extract_virtual_mobility(text, grant_period):
                         title_part = vm_marker_match.group(3).strip()
                         yri = yri_marker in ('YES', 'Y')
                     else:
+                        # Fallback - strip trailing YES/NO/VM from name
                         name = rest
                         title_part = ''
                         yri = False
+                        # Remove trailing YRI markers that might be stuck to name
+                        trailing_match = re.match(r'^(.+?)\s+(YES|NO|VM|Y|N)$', name, re.IGNORECASE)
+                        if trailing_match:
+                            name = trailing_match.group(1).strip()
+                            yri = trailing_match.group(2).upper() in ('YES', 'Y')
 
                     current_entry = {
                         'num': entry_num,
@@ -530,7 +569,7 @@ def extract_itc_conference_grants(text, grant_period):
     section = itc_section.group(0)
 
     # Pattern: number name YRI home conf_country conference_title start_date end_date days amount
-    itc_pattern = r'^(\d+)\s+([A-Za-z\u00C0-\u017F\s,\(\)\-\.\']+?)\s+(YES|NO|Y|N)\s+([A-Z]{2})\s+([A-Z]{2})\s+(.+?)\s+(\d{2}/\d{2}/\d{4})\s+(\d{2}/\d{2}/\d{4})\s+(\d+)\s+([\d\s,\.]+)\s*$'
+    itc_pattern = r'^(\d+)\s+([A-Za-z\u00C0-\u024F\s,\(\)\-\.\'\"\u0130\u0131]+?)\s+(YES|NO|Y|N)\s+([A-Z]{2})\s+([A-Z]{2})\s+(.+?)\s+(\d{2}/\d{2}/\d{4})\s+(\d{2}/\d{2}/\d{4})\s+(\d+)\s+([\d\s,\.]+)\s*$'
 
     for line in section.split('\n'):
         match = re.match(itc_pattern, line.strip())
@@ -572,7 +611,7 @@ def extract_dissemination_grants(text, grant_period):
     section = diss_section.group(0)
 
     # Pattern: number name YRI home conf_country conference_title start_date end_date days amount
-    diss_pattern = r'^(\d+)\s+([A-Za-z\u00C0-\u017F\s,\(\)\-\.\']+?)\s+(YES|NO|Y|N|DCG)\s+(.+?)\s+([A-Z]{2})\s+(\d{2}/\d{2}/\d{4})\s+(\d{2}/\d{2}/\d{4})\s+([\d\s,\.]+)\s*$'
+    diss_pattern = r'^(\d+)\s+([A-Za-z\u00C0-\u024F\s,\(\)\-\.\'\"\u0130\u0131]+?)\s+(YES|NO|Y|N|DCG)\s+(.+?)\s+([A-Z]{2})\s+(\d{2}/\d{2}/\d{4})\s+(\d{2}/\d{2}/\d{4})\s+([\d\s,\.]+)\s*$'
 
     for line in section.split('\n'):
         match = re.match(diss_pattern, line.strip())
@@ -600,9 +639,9 @@ def extract_vns_grants(text, grant_period):
     """Extract Virtual Networking Support grants"""
     grants = []
 
-    # Find VNS section
+    # Find VNS section - look for the actual expenditure section header, not budget summary
     vns_section = re.search(
-        r'Virtual Networking Support.*?(?:List of paid|Grantee name).*?(?=\n(?:Total Networking|FSAC|Eligible|\d+ of \d+))',
+        r'Virtual Networking Support Grant Expenditure.*?(?:List of paid|Grantee name).*?(?=\n(?:Sub-total|Total expenditure|FSAC|\d+ of \d+))',
         text, re.DOTALL | re.IGNORECASE
     )
 
@@ -611,25 +650,24 @@ def extract_vns_grants(text, grant_period):
 
     section = vns_section.group(0)
 
-    # VNS pattern varies, look for basic entries
-    vns_pattern = r'^(\d+)\s+([A-Za-z\u00C0-\u017F\s,\(\)\-\.\']+?)\s+(YES|NO|Y|N)\s+(.+?)\s+([A-Z]{2})\s+(\d{2}/\d{2}/\d{4})\s+(\d{2}/\d{2}/\d{4})\s+([\d\s,\.]+)\s*$'
+    # VNS format: "1 Vasile Strat VNS VNS RO 07/07/2022 30/10/2022 4 000.00"
+    # Columns: number name Type Title Home Start End Amount
+    # Note: VNS has no YRI column - it has Type (VNS) and Title instead
+    vns_pattern = r'^(\d+)\s+([A-Za-z\u00C0-\u024F\s,\(\)\-\.\'\"\u0130\u0131]+?)\s+VNS\s+(.+?)\s+([A-Z]{2})\s+(\d{2}/\d{2}/\d{4})\s+(\d{2}/\d{2}/\d{4})\s+([\d\s,\.]+)\s*$'
 
     for line in section.split('\n'):
         match = re.match(vns_pattern, line.strip())
         if match:
-            yri_str = match.group(3).upper()
-            yri = yri_str in ('YES', 'Y')
-
             grant = {
                 'id': f"GP{grant_period}_VNS{match.group(1)}",
                 'grant_period': grant_period,
                 'name': match.group(2).strip(),
-                'yri': yri,
-                'title': match.group(4).strip(),
-                'country': match.group(5),
-                'start_date': match.group(6),
-                'end_date': match.group(7),
-                'amount': parse_amount(match.group(8)),
+                'yri': False,  # VNS doesn't have YRI column
+                'title': match.group(3).strip(),
+                'country': match.group(4),
+                'start_date': match.group(5),
+                'end_date': match.group(6),
+                'amount': parse_amount(match.group(7)),
             }
             grants.append(grant)
 

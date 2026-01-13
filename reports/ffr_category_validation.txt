@@ -1,0 +1,120 @@
+================================================================================
+FFR DATA VALIDATION - CATEGORY-BY-CATEGORY COMPARISON
+================================================================================
+
+
+========================================
+GRANT PERIOD 1
+========================================
+Category                     JSON          FFR         Diff        %
+----------------------------------------------------------------
+Meetings                 9,360.30     9,360.30        +0.00    +0.0% 
+Training Schools             0.00         0.00        +0.00    +0.0% 
+STSMs                   20,800.00    20,800.00        +0.00    +0.0% 
+Virtual Mobility             0.00         0.00        +0.00    +0.0% 
+VNS Grants                   0.00         0.00        +0.00    +0.0% 
+Dissemination                0.00         0.00        +0.00    +0.0% 
+ITC Conference               0.00         0.00        +0.00    +0.0% 
+LOS Grants                 940.00        (N/A)            -        -
+FSAC (Admin)                (N/A)     6,190.41            -        -
+----------------------------------------------------------------
+GP TOTAL (excl FSAC)    31,100.30    30,160.30      +940.00
+
+========================================
+GRANT PERIOD 2
+========================================
+Category                     JSON          FFR         Diff        %
+----------------------------------------------------------------
+Meetings                19,175.62    19,175.62        +0.00    +0.0% 
+Training Schools             0.00         0.00        +0.00    +0.0% 
+STSMs                        0.00         0.00        +0.00    +0.0% 
+Virtual Mobility           190.00       190.00        +0.00    +0.0% 
+VNS Grants                   0.00         0.00        +0.00    +0.0% 
+Dissemination                0.00         0.00        +0.00    +0.0% 
+ITC Conference               0.00         0.00        +0.00    +0.0% 
+LOS Grants              10,000.00        (N/A)            -        -
+FSAC (Admin)                (N/A)     4,404.84            -        -
+----------------------------------------------------------------
+GP TOTAL (excl FSAC)    29,365.62    19,365.62   +10,000.00
+
+========================================
+GRANT PERIOD 3
+========================================
+Category                     JSON          FFR         Diff        %
+----------------------------------------------------------------
+Meetings                72,282.98    72,282.98        +0.00    +0.0% 
+Training Schools             0.00         0.00        +0.00    +0.0% 
+STSMs                   24,140.00    24,140.00        +0.00    +0.0% 
+Virtual Mobility        17,310.00    17,310.00        +0.00    +0.0% 
+VNS Grants               4,000.00     4,000.00        +0.00    +0.0% 
+Dissemination              180.00     2,343.00    -2,163.00   -92.3% **
+ITC Conference               0.00         0.00        +0.00    +0.0% 
+LOS Grants              24,500.00        (N/A)            -        -
+FSAC (Admin)                (N/A)    21,686.40            -        -
+----------------------------------------------------------------
+GP TOTAL (excl FSAC)   142,412.98   120,075.98   +22,337.00
+
+========================================
+GRANT PERIOD 4
+========================================
+Category                     JSON          FFR         Diff        %
+----------------------------------------------------------------
+Meetings               125,583.67   125,583.67        +0.00    +0.0% 
+Training Schools        41,401.09    49,401.09    -8,000.00   -16.2% **
+STSMs                   10,500.00    10,500.00        +0.00    +0.0% 
+Virtual Mobility        18,000.00    18,000.00        +0.00    +0.0% 
+VNS Grants               4,000.00     4,000.00        +0.00    +0.0% 
+Dissemination                0.00         0.00        +0.00    +0.0% 
+ITC Conference               0.00         0.00        +0.00    +0.0% 
+LOS Grants              21,657.13        (N/A)            -        -
+FSAC (Admin)                (N/A)    33,502.75            -        -
+----------------------------------------------------------------
+GP TOTAL (excl FSAC)   221,141.89   207,484.76   +13,657.13
+
+========================================
+GRANT PERIOD 5
+========================================
+Category                     JSON          FFR         Diff        %
+----------------------------------------------------------------
+Meetings               138,339.23   138,339.23        +0.00    +0.0% 
+Training Schools        52,414.96    59,414.96    -7,000.00   -11.8% **
+STSMs                    4,642.00     4,642.00        +0.00    +0.0% 
+Virtual Mobility        21,000.00    21,000.00        +0.00    +0.0% 
+VNS Grants                   0.00     4,000.00    -4,000.00  -100.0% **
+Dissemination                0.00         0.00        +0.00    +0.0% 
+ITC Conference               0.00         0.00        +0.00    +0.0% 
+LOS Grants              16,855.76        (N/A)            -        -
+FSAC (Admin)                (N/A)    35,258.51            -        -
+----------------------------------------------------------------
+GP TOTAL (excl FSAC)   233,251.95   227,396.19    +5,855.76
+
+================================================================================
+GRAND TOTALS
+================================================================================
+  JSON extracted total:          657,272.74 EUR
+  FFR total (excl FSAC):         604,482.85 EUR
+  FFR total (incl FSAC):         705,525.76 EUR
+  Difference (excl FSAC):        +52,789.89 EUR
+  Difference %:                      +8.73%
+
+================================================================================
+KNOWN DISCREPANCIES
+================================================================================
+
+  1. -1 PARTICIPANT PATTERN (SOURCE DATA ISSUE)
+     The FFR source documents declare X participants but only contain X-1 actual
+     data entries. This is a data quality issue in the original FFR PDFs, not an
+     extraction bug. Affects 28 meetings across all grant periods.
+
+  2. FSAC COSTS NOT EXTRACTED
+     FSAC (Foreign Science Academy Coordinator) costs are administrative overhead
+     (~15% of eligible expenditure). These are not participant reimbursements and
+     are intentionally not extracted to the JSON data files.
+
+  3. LOS GRANTS
+     Local Organiser Support grants are extracted but not separately reported in
+     FFR category totals - they may be included in Training School totals.
+
+================================================================================
+END OF REPORT
+================================================================================

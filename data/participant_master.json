@@ -2,8 +2,8 @@
   {
     "name": "Osterrieder, Jörg",
     "countries": [
-      "CH",
-      "NL"
+      "NL",
+      "CH"
     ],
     "meetings": [
       {
@@ -85,18 +85,6 @@
         "amount": 659.4
       },
       {
-        "meeting_id": "GP4_M8",
-        "title": "AI Innovations in finance and society",
-        "date": "30/10/2023",
-        "amount": 1391.27
-      },
-      {
-        "meeting_id": "GP4_M8",
-        "title": "AI Innovations in finance and society",
-        "date": "30/10/2023",
-        "amount": 1729.8
-      },
-      {
         "meeting_id": "GP5_M1",
         "title": "Core Group and Working Group Meeting in Cluj-Napoca",
         "date": "24/04/2024",
@@ -131,24 +119,6 @@
         "title": "COST FinAI Meets Iceland",
         "date": "27/08/2024",
         "amount": 1575.66
-      },
-      {
-        "meeting_id": "GP5_M10",
-        "title": "COST FinAI Action Management Committee (MC) Meeting",
-        "date": "06/09/2024",
-        "amount": 1552.47
-      },
-      {
-        "meeting_id": "GP5_M10",
-        "title": "COST FinAI Action Management Committee (MC) Meeting",
-        "date": "06/09/2024",
-        "amount": 1717.2
-      },
-      {
-        "meeting_id": "GP5_M10",
-        "title": "COST FinAI Action Management Committee (MC) Meeting",
-        "date": "06/09/2024",
-        "amount": 649.0
       }
     ],
     "stsm": [],
@@ -163,6 +133,12 @@
         "id": "GP4_VM5",
         "title": "on stress tests for finAI models evaluation Towards good practices for",
         "dates": "25/09/2023 - 26/09/2023",
+        "amount": 1500.0
+      },
+      {
+        "id": "GP5_VM5",
+        "title": "European Finance with a Policy- Focused Impact",
+        "dates": "08/04/2024 - 17/04/2024",
         "amount": 1500.0
       },
       {
@@ -205,7 +181,7 @@
       }
     ],
     "itc_conferences": [],
-    "total_reimbursed": 41119.950000000004,
+    "total_reimbursed": 35580.21,
     "grant_periods": [
       1,
       2,
@@ -213,9 +189,9 @@
       4,
       5
     ],
-    "primary_country": "CH",
+    "primary_country": "NL",
     "is_itc": false,
-    "activity_count": 32
+    "activity_count": 28
   },
   {
     "name": "Coita, Ioana",
@@ -284,12 +260,6 @@
         "amount": 1445.28
       },
       {
-        "meeting_id": "GP4_M8",
-        "title": "AI Innovations in finance and society",
-        "date": "30/10/2023",
-        "amount": 996.59
-      },
-      {
         "meeting_id": "GP5_M1",
         "title": "Core Group and Working Group Meeting in Cluj-Napoca",
         "date": "24/04/2024",
@@ -330,15 +300,16 @@
         "title": "AI in finance and society - challenges and opportunities",
         "date": "18/07/2024",
         "amount": 1766.36
-      },
-      {
-        "meeting_id": "GP5_M10",
-        "title": "COST FinAI Action Management Committee (MC) Meeting",
-        "date": "06/09/2024",
-        "amount": 1304.42
       }
     ],
     "stsm": [
+      {
+        "id": "GP1_STSM8",
+        "host": "DE",
+        "dates": "22/10/2021 - 31/10/2021",
+        "days": 10,
+        "amount": 2500.0
+      },
       {
         "id": "GP3_STSM6",
         "host": "CH",
@@ -360,6 +331,12 @@
         "title": "Fintech innovations – from technical to regulatory Data mining event to investigate",
         "dates": "29/09/2022 - 12/10/2022",
         "amount": 1500.0
+      },
+      {
+        "id": "GP5_VM9",
+        "title": "detection/early warning about fraud/illegal behaviour with emphasis on AI tools Empowering Women in FinTech:",
+        "dates": "01/06/2024 - 06/09/2024",
+        "amount": 1500.0
       }
     ],
     "training_schools": [
@@ -377,8 +354,9 @@
       }
     ],
     "itc_conferences": [],
-    "total_reimbursed": 29675.920000000006,
+    "total_reimbursed": 31374.910000000003,
     "grant_periods": [
+      1,
       3,
       4,
       5
@@ -424,18 +402,6 @@
         "amount": 1032.85
       },
       {
-        "meeting_id": "GP4_M8",
-        "title": "AI Innovations in finance and society",
-        "date": "30/10/2023",
-        "amount": 1454.95
-      },
-      {
-        "meeting_id": "GP4_M8",
-        "title": "AI Innovations in finance and society",
-        "date": "30/10/2023",
-        "amount": 1194.96
-      },
-      {
         "meeting_id": "GP5_M1",
         "title": "Core Group and Working Group Meeting in Cluj-Napoca",
         "date": "24/04/2024",
@@ -476,18 +442,6 @@
         "title": "COST FinAI Meets Iceland",
         "date": "27/08/2024",
         "amount": 1119.88
-      },
-      {
-        "meeting_id": "GP5_M10",
-        "title": "COST FinAI Action Management Committee (MC) Meeting",
-        "date": "06/09/2024",
-        "amount": 1680.52
-      },
-      {
-        "meeting_id": "GP5_M10",
-        "title": "COST FinAI Action Management Committee (MC) Meeting",
-        "date": "06/09/2024",
-        "amount": 1167.51
       }
     ],
     "stsm": [
@@ -506,7 +460,14 @@
         "amount": 1900.0
       }
     ],
-    "virtual_mobility": [],
+    "virtual_mobility": [
+      {
+        "id": "GP5_VM11",
+        "title": "prevention in crowdfunding Deliverable 13: 2020 annual report (for lay audience)",
+        "dates": "03/06/2024 - 03/08/2024",
+        "amount": 1500.0
+      }
+    ],
     "training_schools": [
       {
         "school_id": "GP4_TS2",
@@ -534,7 +495,7 @@
       }
     ],
     "itc_conferences": [],
-    "total_reimbursed": 27072.7,
+    "total_reimbursed": 23074.76,
     "grant_periods": [
       3,
       4,
@@ -542,7 +503,7 @@
     ],
     "primary_country": "RO",
     "is_itc": true,
-    "activity_count": 22
+    "activity_count": 19
   },
   {
     "name": "MARE, Codruta",
@@ -663,16 +624,23 @@
         "title": "COST FinAI Meets Iceland",
         "date": "27/08/2024",
         "amount": 1198.44
-      },
-      {
-        "meeting_id": "GP5_M10",
-        "title": "COST FinAI Action Management Committee (MC) Meeting",
-        "date": "06/09/2024",
-        "amount": 1065.01
       }
     ],
     "stsm": [],
-    "virtual_mobility": [],
+    "virtual_mobility": [
+      {
+        "id": "GP3_VM6",
+        "title": "and the Balkans Challenges and opportunities for",
+        "dates": "12/09/2022 - 30/10/2022",
+        "amount": 1500.0
+      },
+      {
+        "id": "GP3_VM12",
+        "title": "GP2 reports",
+        "dates": "31/10/2022 - 31/10/2022",
+        "amount": 1500.0
+      }
+    ],
     "training_schools": [
       {
         "school_id": "GP5_TS1",
@@ -682,7 +650,7 @@
       }
     ],
     "itc_conferences": [],
-    "total_reimbursed": 21077.919999999995,
+    "total_reimbursed": 23012.909999999996,
     "grant_periods": [
       2,
       3,
@@ -691,7 +659,7 @@
     ],
     "primary_country": "RO",
     "is_itc": true,
-    "activity_count": 21
+    "activity_count": 22
   },
   {
     "name": "Filipovska, Olivija",
@@ -776,16 +744,17 @@
         "title": "COST FinAI Meets Iceland",
         "date": "27/08/2024",
         "amount": 1352.6
-      },
-      {
-        "meeting_id": "GP5_M10",
-        "title": "COST FinAI Action Management Committee (MC) Meeting",
-        "date": "06/09/2024",
-        "amount": 1260.18
       }
     ],
     "stsm": [],
-    "virtual_mobility": [],
+    "virtual_mobility": [
+      {
+        "id": "GP5_VM13",
+        "title": "and web site update Methodological discussion paper on AI models to generate “failed trials” of investment product",
+        "dates": "15/06/2024 - 15/08/2024",
+        "amount": 1500.0
+      }
+    ],
     "training_schools": [
       {
         "school_id": "GP5_TS3",
@@ -795,7 +764,7 @@
       }
     ],
     "itc_conferences": [],
-    "total_reimbursed": 17802.47,
+    "total_reimbursed": 18042.29,
     "grant_periods": [
       2,
       3,
@@ -807,109 +776,10 @@
     "activity_count": 15
   },
   {
-    "name": "Liu, Yiting",
-    "countries": [
-      "CH"
-    ],
-    "meetings": [
-      {
-        "meeting_id": "GP4_M3",
-        "title": "COST FinAI - Fintech and AI in Finance - Policy implications",
-        "date": "15/05/2023",
-        "amount": 1266.72
-      },
-      {
-        "meeting_id": "GP4_M8",
-        "title": "AI Innovations in finance and society",
-        "date": "30/10/2023",
-        "amount": 877.33
-      },
-      {
-        "meeting_id": "GP4_M8",
-        "title": "AI Innovations in finance and society",
-        "date": "30/10/2023",
-        "amount": 1750.26
-      },
-      {
-        "meeting_id": "GP5_M2",
-        "title": "COST FinAI meets Brussels",
-        "date": "14/05/2024",
-        "amount": 947.4
-      },
-      {
-        "meeting_id": "GP5_M5",
-        "title": "COST FinAI Meets Istanbul",
-        "date": "20/05/2024",
-        "amount": 1267.84
-      },
-      {
-        "meeting_id": "GP5_M7",
-        "title": "COST FinAI Meets Coimbra",
-        "date": "10/07/2024",
-        "amount": 1233.35
-      },
-      {
-        "meeting_id": "GP5_M8",
-        "title": "AI in finance and society - challenges and opportunities",
-        "date": "18/07/2024",
-        "amount": 1501.14
-      },
-      {
-        "meeting_id": "GP5_M9",
-        "title": "COST FinAI Meets Iceland",
-        "date": "27/08/2024",
-        "amount": 1535.93
-      },
-      {
-        "meeting_id": "GP5_M10",
-        "title": "COST FinAI Action Management Committee (MC) Meeting",
-        "date": "06/09/2024",
-        "amount": 1353.95
-      },
-      {
-        "meeting_id": "GP5_M10",
-        "title": "COST FinAI Action Management Committee (MC) Meeting",
-        "date": "06/09/2024",
-        "amount": 1348.23
-      }
-    ],
-    "stsm": [],
-    "virtual_mobility": [],
-    "training_schools": [
-      {
-        "school_id": "GP4_TS2",
-        "title": "COSTFinAI-FintechandAIinFinance-TrainingSchooloncurrentstate-of-the-art",
-        "date": "12/06/2023",
-        "amount": 1750.26
-      },
-      {
-        "school_id": "GP5_TS2",
-        "title": "COST FinAI PhD School on Fintech and AI in Finance",
-        "date": "10/06/2024",
-        "amount": 1353.95
-      },
-      {
-        "school_id": "GP5_TS3",
-        "title": "Advanced Statistical Modelling for Fintech, Financial Inclusion and Inequality",
-        "date": "05/09/2024",
-        "amount": 1348.23
-      }
-    ],
-    "itc_conferences": [],
-    "total_reimbursed": 17534.59,
-    "grant_periods": [
-      4,
-      5
-    ],
-    "primary_country": "CH",
-    "is_itc": false,
-    "activity_count": 13
-  },
-  {
     "name": "Bolesta, Karolina",
     "countries": [
-      "CH",
-      "PL"
+      "PL",
+      "CH"
     ],
     "meetings": [
       {
@@ -989,16 +859,16 @@
         "title": "COST FinAI Meets Iceland",
         "date": "27/08/2024",
         "amount": 1230.19
-      },
-      {
-        "meeting_id": "GP5_M10",
-        "title": "COST FinAI Action Management Committee (MC) Meeting",
-        "date": "06/09/2024",
-        "amount": 914.92
       }
     ],
     "stsm": [],
     "virtual_mobility": [
+      {
+        "id": "GP3_VM11",
+        "title": "finance industry with guidelines to improve transparency Coordination of deliverables and",
+        "dates": "18/10/2022 - 31/10/2022",
+        "amount": 1500.0
+      },
       {
         "id": "GP5_VM14",
         "title": "producers and on quantitative strategies with the usage of the promising field of network data analysis",
@@ -1015,7 +885,102 @@
       }
     ],
     "itc_conferences": [],
-    "total_reimbursed": 17372.269999999997,
+    "total_reimbursed": 17957.35,
+    "grant_periods": [
+      3,
+      4,
+      5
+    ],
+    "primary_country": "PL",
+    "is_itc": true,
+    "activity_count": 16
+  },
+  {
+    "name": "Hadji Misheva, Branka",
+    "countries": [
+      "CH"
+    ],
+    "meetings": [
+      {
+        "meeting_id": "GP3_M3",
+        "title": "COST FinAI Research Workshop on Transparency in Financial Markets, Core group",
+        "date": "22/08/2022",
+        "amount": 1358.6
+      },
+      {
+        "meeting_id": "GP4_M3",
+        "title": "COST FinAI - Fintech and AI in Finance - Policy implications",
+        "date": "15/05/2023",
+        "amount": 967.02
+      },
+      {
+        "meeting_id": "GP4_M4",
+        "title": "Women in Fintech III - Portugal",
+        "date": "01/06/2023",
+        "amount": 881.18
+      },
+      {
+        "meeting_id": "GP4_M6",
+        "title": "Machine Learning, Artificial Intelligence and Data Protection in Fintech Conference",
+        "date": "03/09/2023",
+        "amount": 1064.53
+      },
+      {
+        "meeting_id": "GP4_M7",
+        "title": "COST FinAI - Fintech and AI in Finance - MC, WG and Core group meeting",
+        "date": "27/09/2023",
+        "amount": 167.2
+      },
+      {
+        "meeting_id": "GP5_M2",
+        "title": "COST FinAI meets Brussels",
+        "date": "14/05/2024",
+        "amount": 1073.73
+      }
+    ],
+    "stsm": [],
+    "virtual_mobility": [
+      {
+        "id": "GP4_VM6",
+        "title": "applying eXplainable Artificial Intelligence (XAI) for forecasting Economic Technology:",
+        "dates": "30/10/2023 - 31/10/2023",
+        "amount": 1500.0
+      },
+      {
+        "id": "GP4_VM11",
+        "title": "implementing AI-based models for finance Business Intelligence Reporting",
+        "dates": "11/10/2023 - 29/10/2023",
+        "amount": 1500.0
+      },
+      {
+        "id": "GP5_VM7",
+        "title": "Standards in European Finance with a Policy-Focused Impact The Best WI-FI 2024 Young",
+        "dates": "08/05/2024 - 20/05/2024",
+        "amount": 1500.0
+      }
+    ],
+    "training_schools": [
+      {
+        "school_id": "GP4_TS2",
+        "title": "COSTFinAI-FintechandAIinFinance-TrainingSchooloncurrentstate-of-the-art",
+        "date": "12/06/2023",
+        "amount": 864.74
+      },
+      {
+        "school_id": "GP5_TS2",
+        "title": "COST FinAI PhD School on Fintech and AI in Finance",
+        "date": "10/06/2024",
+        "amount": 1654.6
+      },
+      {
+        "school_id": "GP5_TS3",
+        "title": "Advanced Statistical Modelling for Fintech, Financial Inclusion and Inequality",
+        "date": "05/09/2024",
+        "amount": 1160.39
+      }
+    ],
+    "itc_conferences": [],
+    "total_reimbursed": 13691.99,
     "grant_periods": [
       3,
       4,
@@ -1023,7 +988,7 @@
     ],
     "primary_country": "CH",
     "is_itc": false,
-    "activity_count": 16
+    "activity_count": 12
   },
   {
     "name": "Liana, Stanca",
@@ -1042,18 +1007,6 @@
         "title": "Nordic AI and Fintech",
         "date": "10/07/2023",
         "amount": 1403.36
-      },
-      {
-        "meeting_id": "GP4_M8",
-        "title": "AI Innovations in finance and society",
-        "date": "30/10/2023",
-        "amount": 1187.08
-      },
-      {
-        "meeting_id": "GP4_M8",
-        "title": "AI Innovations in finance and society",
-        "date": "30/10/2023",
-        "amount": 1003.75
       },
       {
         "meeting_id": "GP5_M1",
@@ -1090,12 +1043,6 @@
         "title": "AI in finance and society - challenges and opportunities",
         "date": "18/07/2024",
         "amount": 1554.47
-      },
-      {
-        "meeting_id": "GP5_M10",
-        "title": "COST FinAI Action Management Committee (MC) Meeting",
-        "date": "06/09/2024",
-        "amount": 1297.87
       }
     ],
     "stsm": [],
@@ -1134,14 +1081,14 @@
       }
     ],
     "itc_conferences": [],
-    "total_reimbursed": 17125.05,
+    "total_reimbursed": 13636.350000000002,
     "grant_periods": [
       4,
       5
     ],
     "primary_country": "RO",
     "is_itc": true,
-    "activity_count": 16
+    "activity_count": 13
   },
   {
     "name": "Będowska-Sójka, Barbara",
@@ -1204,28 +1151,10 @@
         "amount": 1241.45
       },
       {
-        "meeting_id": "GP4_M8",
-        "title": "AI Innovations in finance and society",
-        "date": "30/10/2023",
-        "amount": 998.6
-      },
-      {
         "meeting_id": "GP5_M6",
         "title": "Women in Fintech and AI - 4th edition",
         "date": "27/06/2024",
         "amount": 986.15
-      },
-      {
-        "meeting_id": "GP5_M10",
-        "title": "COST FinAI Action Management Committee (MC) Meeting",
-        "date": "06/09/2024",
-        "amount": 982.62
-      },
-      {
-        "meeting_id": "GP5_M10",
-        "title": "COST FinAI Action Management Committee (MC) Meeting",
-        "date": "06/09/2024",
-        "amount": 1178.36
       }
     ],
     "stsm": [],
@@ -1258,7 +1187,7 @@
       }
     ],
     "itc_conferences": [],
-    "total_reimbursed": 16669.62,
+    "total_reimbursed": 13510.04,
     "grant_periods": [
       3,
       4,
@@ -1266,206 +1195,6 @@
     ],
     "primary_country": "PL",
     "is_itc": true,
-    "activity_count": 17
-  },
-  {
-    "name": "Baals, Lennart John",
-    "countries": [
-      "CH"
-    ],
-    "meetings": [
-      {
-        "meeting_id": "GP4_M3",
-        "title": "COST FinAI - Fintech and AI in Finance - Policy implications",
-        "date": "15/05/2023",
-        "amount": 1328.2
-      },
-      {
-        "meeting_id": "GP4_M8",
-        "title": "AI Innovations in finance and society",
-        "date": "30/10/2023",
-        "amount": 1814.16
-      },
-      {
-        "meeting_id": "GP5_M2",
-        "title": "COST FinAI meets Brussels",
-        "date": "14/05/2024",
-        "amount": 1023.8
-      },
-      {
-        "meeting_id": "GP5_M5",
-        "title": "COST FinAI Meets Istanbul",
-        "date": "20/05/2024",
-        "amount": 1124.97
-      },
-      {
-        "meeting_id": "GP5_M7",
-        "title": "COST FinAI Meets Coimbra",
-        "date": "10/07/2024",
-        "amount": 1128.84
-      },
-      {
-        "meeting_id": "GP5_M8",
-        "title": "AI in finance and society - challenges and opportunities",
-        "date": "18/07/2024",
-        "amount": 1412.69
-      },
-      {
-        "meeting_id": "GP5_M9",
-        "title": "COST FinAI Meets Iceland",
-        "date": "27/08/2024",
-        "amount": 1523.92
-      },
-      {
-        "meeting_id": "GP5_M10",
-        "title": "COST FinAI Action Management Committee (MC) Meeting",
-        "date": "06/09/2024",
-        "amount": 1235.8
-      },
-      {
-        "meeting_id": "GP5_M10",
-        "title": "COST FinAI Action Management Committee (MC) Meeting",
-        "date": "06/09/2024",
-        "amount": 1333.36
-      }
-    ],
-    "stsm": [],
-    "virtual_mobility": [],
-    "training_schools": [
-      {
-        "school_id": "GP4_TS2",
-        "title": "COSTFinAI-FintechandAIinFinance-TrainingSchooloncurrentstate-of-the-art",
-        "date": "12/06/2023",
-        "amount": 1814.16
-      },
-      {
-        "school_id": "GP5_TS2",
-        "title": "COST FinAI PhD School on Fintech and AI in Finance",
-        "date": "10/06/2024",
-        "amount": 1235.8
-      },
-      {
-        "school_id": "GP5_TS3",
-        "title": "Advanced Statistical Modelling for Fintech, Financial Inclusion and Inequality",
-        "date": "05/09/2024",
-        "amount": 1333.36
-      }
-    ],
-    "itc_conferences": [],
-    "total_reimbursed": 16309.06,
-    "grant_periods": [
-      4,
-      5
-    ],
-    "primary_country": "CH",
-    "is_itc": false,
-    "activity_count": 12
-  },
-  {
-    "name": "Hadji Misheva, Branka",
-    "countries": [
-      "CH"
-    ],
-    "meetings": [
-      {
-        "meeting_id": "GP3_M3",
-        "title": "COST FinAI Research Workshop on Transparency in Financial Markets, Core group",
-        "date": "22/08/2022",
-        "amount": 1358.6
-      },
-      {
-        "meeting_id": "GP4_M3",
-        "title": "COST FinAI - Fintech and AI in Finance - Policy implications",
-        "date": "15/05/2023",
-        "amount": 967.02
-      },
-      {
-        "meeting_id": "GP4_M4",
-        "title": "Women in Fintech III - Portugal",
-        "date": "01/06/2023",
-        "amount": 881.18
-      },
-      {
-        "meeting_id": "GP4_M6",
-        "title": "Machine Learning, Artificial Intelligence and Data Protection in Fintech Conference",
-        "date": "03/09/2023",
-        "amount": 1064.53
-      },
-      {
-        "meeting_id": "GP4_M7",
-        "title": "COST FinAI - Fintech and AI in Finance - MC, WG and Core group meeting",
-        "date": "27/09/2023",
-        "amount": 167.2
-      },
-      {
-        "meeting_id": "GP4_M8",
-        "title": "AI Innovations in finance and society",
-        "date": "30/10/2023",
-        "amount": 864.74
-      },
-      {
-        "meeting_id": "GP5_M2",
-        "title": "COST FinAI meets Brussels",
-        "date": "14/05/2024",
-        "amount": 1073.73
-      },
-      {
-        "meeting_id": "GP5_M10",
-        "title": "COST FinAI Action Management Committee (MC) Meeting",
-        "date": "06/09/2024",
-        "amount": 1654.6
-      },
-      {
-        "meeting_id": "GP5_M10",
-        "title": "COST FinAI Action Management Committee (MC) Meeting",
-        "date": "06/09/2024",
-        "amount": 1160.39
-      }
-    ],
-    "stsm": [],
-    "virtual_mobility": [
-      {
-        "id": "GP4_VM6",
-        "title": "applying eXplainable Artificial Intelligence (XAI) for forecasting Economic Technology:",
-        "dates": "30/10/2023 - 31/10/2023",
-        "amount": 1500.0
-      },
-      {
-        "id": "GP4_VM11",
-        "title": "implementing AI-based models for finance Business Intelligence Reporting",
-        "dates": "11/10/2023 - 29/10/2023",
-        "amount": 1500.0
-      }
-    ],
-    "training_schools": [
-      {
-        "school_id": "GP4_TS2",
-        "title": "COSTFinAI-FintechandAIinFinance-TrainingSchooloncurrentstate-of-the-art",
-        "date": "12/06/2023",
-        "amount": 864.74
-      },
-      {
-        "school_id": "GP5_TS2",
-        "title": "COST FinAI PhD School on Fintech and AI in Finance",
-        "date": "10/06/2024",
-        "amount": 1654.6
-      },
-      {
-        "school_id": "GP5_TS3",
-        "title": "Advanced Statistical Modelling for Fintech, Financial Inclusion and Inequality",
-        "date": "05/09/2024",
-        "amount": 1160.39
-      }
-    ],
-    "itc_conferences": [],
-    "total_reimbursed": 15871.72,
-    "grant_periods": [
-      3,
-      4,
-      5
-    ],
-    "primary_country": "CH",
-    "is_itc": false,
     "activity_count": 14
   },
   {
@@ -1517,12 +1246,6 @@
         "amount": 1049.54
       },
       {
-        "meeting_id": "GP4_M8",
-        "title": "AI Innovations in finance and society",
-        "date": "30/10/2023",
-        "amount": 1292.33
-      },
-      {
         "meeting_id": "GP5_M6",
         "title": "Women in Fintech and AI - 4th edition",
         "date": "27/06/2024",
@@ -1536,7 +1259,14 @@
       }
     ],
     "stsm": [],
-    "virtual_mobility": [],
+    "virtual_mobility": [
+      {
+        "id": "GP3_VM5",
+        "title": "Analysis on Venture Capital The Fintech Sector in Romania",
+        "dates": "21/07/2022 - 30/10/2022",
+        "amount": 1500.0
+      }
+    ],
     "training_schools": [
       {
         "school_id": "GP4_TS4",
@@ -1546,7 +1276,7 @@
       }
     ],
     "itc_conferences": [],
-    "total_reimbursed": 13230.03,
+    "total_reimbursed": 13437.7,
     "grant_periods": [
       2,
       3,
@@ -1556,6 +1286,247 @@
     "primary_country": "TR",
     "is_itc": true,
     "activity_count": 11
+  },
+  {
+    "name": "Liu, Yiting",
+    "countries": [
+      "CH"
+    ],
+    "meetings": [
+      {
+        "meeting_id": "GP4_M3",
+        "title": "COST FinAI - Fintech and AI in Finance - Policy implications",
+        "date": "15/05/2023",
+        "amount": 1266.72
+      },
+      {
+        "meeting_id": "GP4_M8",
+        "title": "AI Innovations in finance and society",
+        "date": "30/10/2023",
+        "amount": 877.33
+      },
+      {
+        "meeting_id": "GP5_M2",
+        "title": "COST FinAI meets Brussels",
+        "date": "14/05/2024",
+        "amount": 947.4
+      },
+      {
+        "meeting_id": "GP5_M5",
+        "title": "COST FinAI Meets Istanbul",
+        "date": "20/05/2024",
+        "amount": 1267.84
+      },
+      {
+        "meeting_id": "GP5_M7",
+        "title": "COST FinAI Meets Coimbra",
+        "date": "10/07/2024",
+        "amount": 1233.35
+      },
+      {
+        "meeting_id": "GP5_M8",
+        "title": "AI in finance and society - challenges and opportunities",
+        "date": "18/07/2024",
+        "amount": 1501.14
+      },
+      {
+        "meeting_id": "GP5_M9",
+        "title": "COST FinAI Meets Iceland",
+        "date": "27/08/2024",
+        "amount": 1535.93
+      }
+    ],
+    "stsm": [],
+    "virtual_mobility": [],
+    "training_schools": [
+      {
+        "school_id": "GP4_TS2",
+        "title": "COSTFinAI-FintechandAIinFinance-TrainingSchooloncurrentstate-of-the-art",
+        "date": "12/06/2023",
+        "amount": 1750.26
+      },
+      {
+        "school_id": "GP5_TS2",
+        "title": "COST FinAI PhD School on Fintech and AI in Finance",
+        "date": "10/06/2024",
+        "amount": 1353.95
+      },
+      {
+        "school_id": "GP5_TS3",
+        "title": "Advanced Statistical Modelling for Fintech, Financial Inclusion and Inequality",
+        "date": "05/09/2024",
+        "amount": 1348.23
+      }
+    ],
+    "itc_conferences": [],
+    "total_reimbursed": 13082.15,
+    "grant_periods": [
+      4,
+      5
+    ],
+    "primary_country": "CH",
+    "is_itc": false,
+    "activity_count": 10
+  },
+  {
+    "name": "Baals, Lennart John",
+    "countries": [
+      "CH"
+    ],
+    "meetings": [
+      {
+        "meeting_id": "GP4_M3",
+        "title": "COST FinAI - Fintech and AI in Finance - Policy implications",
+        "date": "15/05/2023",
+        "amount": 1328.2
+      },
+      {
+        "meeting_id": "GP5_M2",
+        "title": "COST FinAI meets Brussels",
+        "date": "14/05/2024",
+        "amount": 1023.8
+      },
+      {
+        "meeting_id": "GP5_M5",
+        "title": "COST FinAI Meets Istanbul",
+        "date": "20/05/2024",
+        "amount": 1124.97
+      },
+      {
+        "meeting_id": "GP5_M7",
+        "title": "COST FinAI Meets Coimbra",
+        "date": "10/07/2024",
+        "amount": 1128.84
+      },
+      {
+        "meeting_id": "GP5_M8",
+        "title": "AI in finance and society - challenges and opportunities",
+        "date": "18/07/2024",
+        "amount": 1412.69
+      },
+      {
+        "meeting_id": "GP5_M9",
+        "title": "COST FinAI Meets Iceland",
+        "date": "27/08/2024",
+        "amount": 1523.92
+      }
+    ],
+    "stsm": [],
+    "virtual_mobility": [],
+    "training_schools": [
+      {
+        "school_id": "GP4_TS2",
+        "title": "COSTFinAI-FintechandAIinFinance-TrainingSchooloncurrentstate-of-the-art",
+        "date": "12/06/2023",
+        "amount": 1814.16
+      },
+      {
+        "school_id": "GP5_TS2",
+        "title": "COST FinAI PhD School on Fintech and AI in Finance",
+        "date": "10/06/2024",
+        "amount": 1235.8
+      },
+      {
+        "school_id": "GP5_TS3",
+        "title": "Advanced Statistical Modelling for Fintech, Financial Inclusion and Inequality",
+        "date": "05/09/2024",
+        "amount": 1333.36
+      }
+    ],
+    "itc_conferences": [],
+    "total_reimbursed": 11925.74,
+    "grant_periods": [
+      4,
+      5
+    ],
+    "primary_country": "CH",
+    "is_itc": false,
+    "activity_count": 9
+  },
+  {
+    "name": "Pisoni, Galena",
+    "countries": [
+      "FR"
+    ],
+    "meetings": [
+      {
+        "meeting_id": "GP4_M4",
+        "title": "Women in Fintech III - Portugal",
+        "date": "01/06/2023",
+        "amount": 664.1
+      },
+      {
+        "meeting_id": "GP4_M7",
+        "title": "COST FinAI - Fintech and AI in Finance - MC, WG and Core group meeting",
+        "date": "27/09/2023",
+        "amount": 1106.1
+      },
+      {
+        "meeting_id": "GP5_M6",
+        "title": "Women in Fintech and AI - 4th edition",
+        "date": "27/06/2024",
+        "amount": 806.88
+      },
+      {
+        "meeting_id": "GP5_M9",
+        "title": "COST FinAI Meets Iceland",
+        "date": "27/08/2024",
+        "amount": 1109.15
+      }
+    ],
+    "stsm": [
+      {
+        "id": "GP1_STSM9",
+        "host": "NO",
+        "dates": "24/10/2021 - 31/10/2021",
+        "days": 8,
+        "amount": 2030.0
+      }
+    ],
+    "virtual_mobility": [
+      {
+        "id": "GP4_VM3",
+        "title": "methodology for testing AI techniques in real-time",
+        "dates": "30/03/2023 - 15/05/2023",
+        "amount": 1500.0
+      },
+      {
+        "id": "GP4_VM12",
+        "title": "by Linguistic Summaries",
+        "dates": "11/10/2023 - 29/10/2023",
+        "amount": 1500.0
+      },
+      {
+        "id": "GP5_VM3",
+        "title": "processes for finance A discussion paper for possible approaches to building a",
+        "dates": "08/03/2024 - 29/04/2024",
+        "amount": 1500.0
+      }
+    ],
+    "training_schools": [
+      {
+        "school_id": "GP5_TS1",
+        "title": "Advances in Data Science and AI for Finance: Bridging Academia and Industry",
+        "date": "03/06/2024",
+        "amount": 691.96
+      },
+      {
+        "school_id": "GP5_TS3",
+        "title": "Advanced Statistical Modelling for Fintech, Financial Inclusion and Inequality",
+        "date": "05/09/2024",
+        "amount": 889.2
+      }
+    ],
+    "itc_conferences": [],
+    "total_reimbursed": 11797.39,
+    "grant_periods": [
+      1,
+      4,
+      5
+    ],
+    "primary_country": "FR",
+    "is_itc": false,
+    "activity_count": 10
   },
   {
     "name": "Skaftadóttir, Hanna Kristín",
@@ -1594,12 +1565,6 @@
         "amount": 1229.2
       },
       {
-        "meeting_id": "GP4_M8",
-        "title": "AI Innovations in finance and society",
-        "date": "30/10/2023",
-        "amount": 1557.28
-      },
-      {
         "meeting_id": "GP5_M5",
         "title": "COST FinAI Meets Istanbul",
         "date": "20/05/2024",
@@ -1610,12 +1575,6 @@
         "title": "COST FinAI Meets Iceland",
         "date": "27/08/2024",
         "amount": 165.6
-      },
-      {
-        "meeting_id": "GP5_M10",
-        "title": "COST FinAI Action Management Committee (MC) Meeting",
-        "date": "06/09/2024",
-        "amount": 1418.72
       }
     ],
     "stsm": [],
@@ -1635,7 +1594,7 @@
       }
     ],
     "itc_conferences": [],
-    "total_reimbursed": 12953.939999999999,
+    "total_reimbursed": 9977.939999999999,
     "grant_periods": [
       2,
       3,
@@ -1644,7 +1603,229 @@
     ],
     "primary_country": "IS",
     "is_itc": false,
-    "activity_count": 11
+    "activity_count": 9
+  },
+  {
+    "name": "Shala, Albulena",
+    "countries": [
+      "KV"
+    ],
+    "meetings": [
+      {
+        "meeting_id": "GP2_M4",
+        "title": "COST FinAI Diversity research workshop",
+        "date": "16/05/2022",
+        "amount": 909.93
+      },
+      {
+        "meeting_id": "GP3_M4",
+        "title": "Women in Fintech and Artificial Intelligence",
+        "date": "21/09/2022",
+        "amount": 642.0
+      },
+      {
+        "meeting_id": "GP4_M3",
+        "title": "COST FinAI - Fintech and AI in Finance - Policy implications",
+        "date": "15/05/2023",
+        "amount": 1130.98
+      },
+      {
+        "meeting_id": "GP4_M4",
+        "title": "Women in Fintech III - Portugal",
+        "date": "01/06/2023",
+        "amount": 401.73
+      }
+    ],
+    "stsm": [],
+    "virtual_mobility": [
+      {
+        "id": "GP3_VM2",
+        "title": "Datathon Quantinar a p2p knowledge",
+        "dates": "06/07/2022 - 10/09/2022",
+        "amount": 1500.0
+      },
+      {
+        "id": "GP4_VM2",
+        "title": "digital financial inclusion Position paper aimed at regulators and policy-makers, on",
+        "dates": "28/02/2023 - 15/05/2023",
+        "amount": 1500.0
+      },
+      {
+        "id": "GP5_VM8",
+        "title": "researcher Paper Deliverable 7: Methodology for evaluating/rating crowdfunding/P2P platforms for",
+        "dates": "15/05/2024 - 31/07/2024",
+        "amount": 1500.0
+      }
+    ],
+    "training_schools": [
+      {
+        "school_id": "GP4_TS2",
+        "title": "COSTFinAI-FintechandAIinFinance-TrainingSchooloncurrentstate-of-the-art",
+        "date": "12/06/2023",
+        "amount": 1840.0
+      }
+    ],
+    "itc_conferences": [],
+    "total_reimbursed": 9424.64,
+    "grant_periods": [
+      2,
+      3,
+      4,
+      5
+    ],
+    "primary_country": "KV",
+    "is_itc": false,
+    "activity_count": 8
+  },
+  {
+    "name": "Maxhelaku (Vasil), Suela",
+    "countries": [
+      "AL"
+    ],
+    "meetings": [
+      {
+        "meeting_id": "GP3_M6",
+        "title": "COST FinAI Transparency in Finance",
+        "date": "05/10/2022",
+        "amount": 967.3
+      },
+      {
+        "meeting_id": "GP4_M4",
+        "title": "Women in Fintech III - Portugal",
+        "date": "01/06/2023",
+        "amount": 1336.52
+      },
+      {
+        "meeting_id": "GP4_M8",
+        "title": "AI Innovations in finance and society",
+        "date": "30/10/2023",
+        "amount": 917.48
+      },
+      {
+        "meeting_id": "GP5_M2",
+        "title": "COST FinAI meets Brussels",
+        "date": "14/05/2024",
+        "amount": 1108.67
+      },
+      {
+        "meeting_id": "GP5_M5",
+        "title": "COST FinAI Meets Istanbul",
+        "date": "20/05/2024",
+        "amount": 1119.3
+      },
+      {
+        "meeting_id": "GP5_M7",
+        "title": "COST FinAI Meets Coimbra",
+        "date": "10/07/2024",
+        "amount": 991.16
+      },
+      {
+        "meeting_id": "GP5_M8",
+        "title": "AI in finance and society - challenges and opportunities",
+        "date": "18/07/2024",
+        "amount": 1334.32
+      }
+    ],
+    "stsm": [],
+    "virtual_mobility": [],
+    "training_schools": [
+      {
+        "school_id": "GP4_TS1",
+        "title": "COSTFinAI-FintechandAIinFinance-TrainingSchoolforthelatesttechnologies",
+        "date": "26/04/2023",
+        "amount": 216.0
+      },
+      {
+        "school_id": "GP5_TS3",
+        "title": "Advanced Statistical Modelling for Fintech, Financial Inclusion and Inequality",
+        "date": "05/09/2024",
+        "amount": 710.7
+      }
+    ],
+    "itc_conferences": [],
+    "total_reimbursed": 8701.449999999999,
+    "grant_periods": [
+      3,
+      4,
+      5
+    ],
+    "primary_country": "AL",
+    "is_itc": true,
+    "activity_count": 9
+  },
+  {
+    "name": "kabaklarli, esra",
+    "countries": [
+      "TR"
+    ],
+    "meetings": [
+      {
+        "meeting_id": "GP2_M4",
+        "title": "COST FinAI Diversity research workshop",
+        "date": "16/05/2022",
+        "amount": 853.71
+      },
+      {
+        "meeting_id": "GP3_M4",
+        "title": "Women in Fintech and Artificial Intelligence",
+        "date": "21/09/2022",
+        "amount": 1013.43
+      },
+      {
+        "meeting_id": "GP4_M1",
+        "title": "Diversity challenges and stakeholders' engagement",
+        "date": "01/02/2023",
+        "amount": 899.17
+      },
+      {
+        "meeting_id": "GP4_M3",
+        "title": "COST FinAI - Fintech and AI in Finance - Policy implications",
+        "date": "15/05/2023",
+        "amount": 1131.68
+      },
+      {
+        "meeting_id": "GP5_M6",
+        "title": "Women in Fintech and AI - 4th edition",
+        "date": "27/06/2024",
+        "amount": 1074.07
+      }
+    ],
+    "stsm": [
+      {
+        "id": "GP4_STSM5",
+        "host": "DE",
+        "dates": "27/08/2023 - 31/08/2023",
+        "days": 6,
+        "amount": 1500.0
+      }
+    ],
+    "virtual_mobility": [
+      {
+        "id": "GP3_VM4",
+        "title": "Economy and Green Growth Literature Review and Bibliometric",
+        "dates": "27/09/2022 - 06/10/2022",
+        "amount": 1000.0
+      }
+    ],
+    "training_schools": [
+      {
+        "school_id": "GP4_TS4",
+        "title": "Advanced Statistical Modelling for Fintech, financial inclusion and inequality (AFFINE)",
+        "date": "13/09/2023",
+        "amount": 1061.24
+      }
+    ],
+    "itc_conferences": [],
+    "total_reimbursed": 8533.3,
+    "grant_periods": [
+      2,
+      3,
+      4,
+      5
+    ],
+    "primary_country": "TR",
+    "is_itc": true,
+    "activity_count": 8
   },
   {
     "name": "Tarantola, Claudia",
@@ -1689,12 +1870,6 @@
         "amount": 863.1
       },
       {
-        "meeting_id": "GP4_M8",
-        "title": "AI Innovations in finance and society",
-        "date": "30/10/2023",
-        "amount": 774.02
-      },
-      {
         "meeting_id": "GP5_M1",
         "title": "Core Group and Working Group Meeting in Cluj-Napoca",
         "date": "24/04/2024",
@@ -1705,12 +1880,6 @@
         "title": "Women in Fintech and AI - 4th edition",
         "date": "27/06/2024",
         "amount": 962.11
-      },
-      {
-        "meeting_id": "GP5_M10",
-        "title": "COST FinAI Action Management Committee (MC) Meeting",
-        "date": "06/09/2024",
-        "amount": 865.54
       }
     ],
     "stsm": [],
@@ -1730,7 +1899,7 @@
       }
     ],
     "itc_conferences": [],
-    "total_reimbursed": 9726.32,
+    "total_reimbursed": 8086.760000000001,
     "grant_periods": [
       2,
       3,
@@ -1739,95 +1908,7 @@
     ],
     "primary_country": "IT",
     "is_itc": false,
-    "activity_count": 12
-  },
-  {
-    "name": "Maxhelaku (Vasil), Suela",
-    "countries": [
-      "AL"
-    ],
-    "meetings": [
-      {
-        "meeting_id": "GP3_M6",
-        "title": "COST FinAI Transparency in Finance",
-        "date": "05/10/2022",
-        "amount": 967.3
-      },
-      {
-        "meeting_id": "GP4_M4",
-        "title": "Women in Fintech III - Portugal",
-        "date": "01/06/2023",
-        "amount": 1336.52
-      },
-      {
-        "meeting_id": "GP4_M8",
-        "title": "AI Innovations in finance and society",
-        "date": "30/10/2023",
-        "amount": 917.48
-      },
-      {
-        "meeting_id": "GP4_M8",
-        "title": "AI Innovations in finance and society",
-        "date": "30/10/2023",
-        "amount": 216.0
-      },
-      {
-        "meeting_id": "GP5_M2",
-        "title": "COST FinAI meets Brussels",
-        "date": "14/05/2024",
-        "amount": 1108.67
-      },
-      {
-        "meeting_id": "GP5_M5",
-        "title": "COST FinAI Meets Istanbul",
-        "date": "20/05/2024",
-        "amount": 1119.3
-      },
-      {
-        "meeting_id": "GP5_M7",
-        "title": "COST FinAI Meets Coimbra",
-        "date": "10/07/2024",
-        "amount": 991.16
-      },
-      {
-        "meeting_id": "GP5_M8",
-        "title": "AI in finance and society - challenges and opportunities",
-        "date": "18/07/2024",
-        "amount": 1334.32
-      },
-      {
-        "meeting_id": "GP5_M10",
-        "title": "COST FinAI Action Management Committee (MC) Meeting",
-        "date": "06/09/2024",
-        "amount": 710.7
-      }
-    ],
-    "stsm": [],
-    "virtual_mobility": [],
-    "training_schools": [
-      {
-        "school_id": "GP4_TS1",
-        "title": "COSTFinAI-FintechandAIinFinance-TrainingSchoolforthelatesttechnologies",
-        "date": "26/04/2023",
-        "amount": 216.0
-      },
-      {
-        "school_id": "GP5_TS3",
-        "title": "Advanced Statistical Modelling for Fintech, Financial Inclusion and Inequality",
-        "date": "05/09/2024",
-        "amount": 710.7
-      }
-    ],
-    "itc_conferences": [],
-    "total_reimbursed": 9628.15,
-    "grant_periods": [
-      3,
-      4,
-      5
-    ],
-    "primary_country": "AL",
-    "is_itc": true,
-    "activity_count": 11
+    "activity_count": 10
   },
   {
     "name": "Maxhelaku, Armela",
@@ -1848,12 +1929,6 @@
         "amount": 917.48
       },
       {
-        "meeting_id": "GP4_M8",
-        "title": "AI Innovations in finance and society",
-        "date": "30/10/2023",
-        "amount": 216.0
-      },
-      {
         "meeting_id": "GP5_M2",
         "title": "COST FinAI meets Brussels",
         "date": "14/05/2024",
@@ -1876,12 +1951,6 @@
         "title": "AI in finance and society - challenges and opportunities",
         "date": "18/07/2024",
         "amount": 1334.32
-      },
-      {
-        "meeting_id": "GP5_M10",
-        "title": "COST FinAI Action Management Committee (MC) Meeting",
-        "date": "06/09/2024",
-        "amount": 710.7
       }
     ],
     "stsm": [],
@@ -1901,241 +1970,14 @@
       }
     ],
     "itc_conferences": [],
-    "total_reimbursed": 8619.33,
+    "total_reimbursed": 7692.629999999999,
     "grant_periods": [
       4,
       5
     ],
     "primary_country": "AL",
     "is_itc": true,
-    "activity_count": 10
-  },
-  {
-    "name": "kabaklarli, esra",
-    "countries": [
-      "TR"
-    ],
-    "meetings": [
-      {
-        "meeting_id": "GP2_M4",
-        "title": "COST FinAI Diversity research workshop",
-        "date": "16/05/2022",
-        "amount": 853.71
-      },
-      {
-        "meeting_id": "GP3_M4",
-        "title": "Women in Fintech and Artificial Intelligence",
-        "date": "21/09/2022",
-        "amount": 1013.43
-      },
-      {
-        "meeting_id": "GP4_M1",
-        "title": "Diversity challenges and stakeholders' engagement",
-        "date": "01/02/2023",
-        "amount": 899.17
-      },
-      {
-        "meeting_id": "GP4_M3",
-        "title": "COST FinAI - Fintech and AI in Finance - Policy implications",
-        "date": "15/05/2023",
-        "amount": 1131.68
-      },
-      {
-        "meeting_id": "GP4_M8",
-        "title": "AI Innovations in finance and society",
-        "date": "30/10/2023",
-        "amount": 1061.24
-      },
-      {
-        "meeting_id": "GP5_M6",
-        "title": "Women in Fintech and AI - 4th edition",
-        "date": "27/06/2024",
-        "amount": 1074.07
-      }
-    ],
-    "stsm": [
-      {
-        "id": "GP4_STSM5",
-        "host": "DE",
-        "dates": "27/08/2023 - 31/08/2023",
-        "days": 6,
-        "amount": 1500.0
-      }
-    ],
-    "virtual_mobility": [],
-    "training_schools": [
-      {
-        "school_id": "GP4_TS4",
-        "title": "Advanced Statistical Modelling for Fintech, financial inclusion and inequality (AFFINE)",
-        "date": "13/09/2023",
-        "amount": 1061.24
-      }
-    ],
-    "itc_conferences": [],
-    "total_reimbursed": 8594.539999999999,
-    "grant_periods": [
-      2,
-      3,
-      4,
-      5
-    ],
-    "primary_country": "TR",
-    "is_itc": true,
     "activity_count": 8
-  },
-  {
-    "name": "Pele, Daniel Traian",
-    "countries": [
-      "RO"
-    ],
-    "meetings": [
-      {
-        "meeting_id": "GP4_M1",
-        "title": "Diversity challenges and stakeholders' engagement",
-        "date": "01/02/2023",
-        "amount": 407.98
-      },
-      {
-        "meeting_id": "GP4_M7",
-        "title": "COST FinAI - Fintech and AI in Finance - MC, WG and Core group meeting",
-        "date": "27/09/2023",
-        "amount": 1120.59
-      },
-      {
-        "meeting_id": "GP4_M8",
-        "title": "AI Innovations in finance and society",
-        "date": "30/10/2023",
-        "amount": 474.64
-      },
-      {
-        "meeting_id": "GP5_M1",
-        "title": "Core Group and Working Group Meeting in Cluj-Napoca",
-        "date": "24/04/2024",
-        "amount": 435.24
-      },
-      {
-        "meeting_id": "GP5_M4",
-        "title": "COST FinAI - Empowering Transformations: Digital Assets, AI, and the Future of",
-        "date": "17/05/2024",
-        "amount": 74.8
-      },
-      {
-        "meeting_id": "GP5_M5",
-        "title": "COST FinAI Meets Istanbul",
-        "date": "20/05/2024",
-        "amount": 699.72
-      },
-      {
-        "meeting_id": "GP5_M10",
-        "title": "COST FinAI Action Management Committee (MC) Meeting",
-        "date": "06/09/2024",
-        "amount": 1294.32
-      }
-    ],
-    "stsm": [
-      {
-        "id": "GP3_STSM1",
-        "host": "DE",
-        "dates": "26/09/2022 - 04/10/2022",
-        "days": 10,
-        "amount": 1800.0
-      }
-    ],
-    "virtual_mobility": [],
-    "training_schools": [
-      {
-        "school_id": "GP5_TS2",
-        "title": "COST FinAI PhD School on Fintech and AI in Finance",
-        "date": "10/06/2024",
-        "amount": 1294.32
-      }
-    ],
-    "itc_conferences": [],
-    "total_reimbursed": 7601.61,
-    "grant_periods": [
-      3,
-      4,
-      5
-    ],
-    "primary_country": "RO",
-    "is_itc": true,
-    "activity_count": 9
-  },
-  {
-    "name": "Akar, Mutlu",
-    "countries": [
-      "TR"
-    ],
-    "meetings": [
-      {
-        "meeting_id": "GP3_M9",
-        "title": "Fintech across Europe and in Romania",
-        "date": "28/10/2022",
-        "amount": 779.03
-      },
-      {
-        "meeting_id": "GP4_M3",
-        "title": "COST FinAI - Fintech and AI in Finance - Policy implications",
-        "date": "15/05/2023",
-        "amount": 1124.06
-      },
-      {
-        "meeting_id": "GP4_M8",
-        "title": "AI Innovations in finance and society",
-        "date": "30/10/2023",
-        "amount": 482.4
-      },
-      {
-        "meeting_id": "GP5_M4",
-        "title": "COST FinAI - Empowering Transformations: Digital Assets, AI, and the Future of",
-        "date": "17/05/2024",
-        "amount": 687.92
-      },
-      {
-        "meeting_id": "GP5_M5",
-        "title": "COST FinAI Meets Istanbul",
-        "date": "20/05/2024",
-        "amount": 267.4
-      },
-      {
-        "meeting_id": "GP5_M6",
-        "title": "Women in Fintech and AI - 4th edition",
-        "date": "27/06/2024",
-        "amount": 994.48
-      },
-      {
-        "meeting_id": "GP5_M7",
-        "title": "COST FinAI Meets Coimbra",
-        "date": "10/07/2024",
-        "amount": 1397.53
-      },
-      {
-        "meeting_id": "GP5_M9",
-        "title": "COST FinAI Meets Iceland",
-        "date": "27/08/2024",
-        "amount": 1358.07
-      }
-    ],
-    "stsm": [],
-    "virtual_mobility": [],
-    "training_schools": [
-      {
-        "school_id": "GP4_TS4",
-        "title": "Advanced Statistical Modelling for Fintech, financial inclusion and inequality (AFFINE)",
-        "date": "13/09/2023",
-        "amount": 482.4
-      }
-    ],
-    "itc_conferences": [],
-    "total_reimbursed": 7573.289999999999,
-    "grant_periods": [
-      3,
-      4,
-      5
-    ],
-    "primary_country": "TR",
-    "is_itc": true,
-    "activity_count": 9
   },
   {
     "name": "Lameski, Petre",
@@ -2208,312 +2050,213 @@
     "activity_count": 8
   },
   {
-    "name": "Gómez Teijeiro, Lucía",
+    "name": "Akar, Mutlu",
     "countries": [
-      "CH"
+      "TR"
     ],
     "meetings": [
       {
-        "meeting_id": "GP5_M2",
-        "title": "COST FinAI meets Brussels",
-        "date": "14/05/2024",
-        "amount": 681.08
-      },
-      {
-        "meeting_id": "GP5_M8",
-        "title": "AI in finance and society - challenges and opportunities",
-        "date": "18/07/2024",
-        "amount": 1152.81
-      },
-      {
-        "meeting_id": "GP5_M10",
-        "title": "COST FinAI Action Management Committee (MC) Meeting",
-        "date": "06/09/2024",
-        "amount": 1213.75
-      },
-      {
-        "meeting_id": "GP5_M10",
-        "title": "COST FinAI Action Management Committee (MC) Meeting",
-        "date": "06/09/2024",
-        "amount": 1309.8
-      }
-    ],
-    "stsm": [],
-    "virtual_mobility": [],
-    "training_schools": [
-      {
-        "school_id": "GP5_TS2",
-        "title": "COST FinAI PhD School on Fintech and AI in Finance",
-        "date": "10/06/2024",
-        "amount": 1213.75
-      },
-      {
-        "school_id": "GP5_TS3",
-        "title": "Advanced Statistical Modelling for Fintech, Financial Inclusion and Inequality",
-        "date": "05/09/2024",
-        "amount": 1309.8
-      }
-    ],
-    "itc_conferences": [],
-    "total_reimbursed": 6880.99,
-    "grant_periods": [
-      5
-    ],
-    "primary_country": "CH",
-    "is_itc": false,
-    "activity_count": 6
-  },
-  {
-    "name": "Pisoni, Galena",
-    "countries": [
-      "FR"
-    ],
-    "meetings": [
-      {
-        "meeting_id": "GP4_M4",
-        "title": "Women in Fintech III - Portugal",
-        "date": "01/06/2023",
-        "amount": 664.1
-      },
-      {
-        "meeting_id": "GP4_M7",
-        "title": "COST FinAI - Fintech and AI in Finance - MC, WG and Core group meeting",
-        "date": "27/09/2023",
-        "amount": 1106.1
-      },
-      {
-        "meeting_id": "GP5_M6",
-        "title": "Women in Fintech and AI - 4th edition",
-        "date": "27/06/2024",
-        "amount": 806.88
-      },
-      {
-        "meeting_id": "GP5_M9",
-        "title": "COST FinAI Meets Iceland",
-        "date": "27/08/2024",
-        "amount": 1109.15
-      },
-      {
-        "meeting_id": "GP5_M10",
-        "title": "COST FinAI Action Management Committee (MC) Meeting",
-        "date": "06/09/2024",
-        "amount": 691.96
-      },
-      {
-        "meeting_id": "GP5_M10",
-        "title": "COST FinAI Action Management Committee (MC) Meeting",
-        "date": "06/09/2024",
-        "amount": 889.2
-      }
-    ],
-    "stsm": [],
-    "virtual_mobility": [],
-    "training_schools": [
-      {
-        "school_id": "GP5_TS1",
-        "title": "Advances in Data Science and AI for Finance: Bridging Academia and Industry",
-        "date": "03/06/2024",
-        "amount": 691.96
-      },
-      {
-        "school_id": "GP5_TS3",
-        "title": "Advanced Statistical Modelling for Fintech, Financial Inclusion and Inequality",
-        "date": "05/09/2024",
-        "amount": 889.2
-      }
-    ],
-    "itc_conferences": [],
-    "total_reimbursed": 6848.55,
-    "grant_periods": [
-      4,
-      5
-    ],
-    "primary_country": "FR",
-    "is_itc": false,
-    "activity_count": 8
-  },
-  {
-    "name": "Shala, Albulena",
-    "countries": [
-      "KV"
-    ],
-    "meetings": [
-      {
-        "meeting_id": "GP2_M4",
-        "title": "COST FinAI Diversity research workshop",
-        "date": "16/05/2022",
-        "amount": 909.93
-      },
-      {
-        "meeting_id": "GP3_M4",
-        "title": "Women in Fintech and Artificial Intelligence",
-        "date": "21/09/2022",
-        "amount": 642.0
+        "meeting_id": "GP3_M9",
+        "title": "Fintech across Europe and in Romania",
+        "date": "28/10/2022",
+        "amount": 779.03
       },
       {
         "meeting_id": "GP4_M3",
         "title": "COST FinAI - Fintech and AI in Finance - Policy implications",
         "date": "15/05/2023",
-        "amount": 1130.98
+        "amount": 1124.06
       },
       {
-        "meeting_id": "GP4_M4",
-        "title": "Women in Fintech III - Portugal",
-        "date": "01/06/2023",
-        "amount": 401.73
-      },
-      {
-        "meeting_id": "GP4_M8",
-        "title": "AI Innovations in finance and society",
-        "date": "30/10/2023",
-        "amount": 1840.0
-      }
-    ],
-    "stsm": [],
-    "virtual_mobility": [],
-    "training_schools": [
-      {
-        "school_id": "GP4_TS2",
-        "title": "COSTFinAI-FintechandAIinFinance-TrainingSchooloncurrentstate-of-the-art",
-        "date": "12/06/2023",
-        "amount": 1840.0
-      }
-    ],
-    "itc_conferences": [],
-    "total_reimbursed": 6764.639999999999,
-    "grant_periods": [
-      2,
-      3,
-      4
-    ],
-    "primary_country": "KV",
-    "is_itc": false,
-    "activity_count": 6
-  },
-  {
-    "name": "Thomaidis, Nikolaos S.",
-    "countries": [
-      "EL"
-    ],
-    "meetings": [
-      {
-        "meeting_id": "GP4_M1",
-        "title": "Diversity challenges and stakeholders' engagement",
-        "date": "01/02/2023",
-        "amount": 785.72
-      },
-      {
-        "meeting_id": "GP4_M2",
-        "title": "Diversity challenges for a sustainable Fintech",
-        "date": "13/04/2023",
-        "amount": 992.4
-      },
-      {
-        "meeting_id": "GP4_M3",
-        "title": "COST FinAI - Fintech and AI in Finance - Policy implications",
-        "date": "15/05/2023",
-        "amount": 1455.39
-      },
-      {
-        "meeting_id": "GP4_M8",
-        "title": "AI Innovations in finance and society",
-        "date": "30/10/2023",
-        "amount": 1308.42
-      },
-      {
-        "meeting_id": "GP5_M6",
-        "title": "Women in Fintech and AI - 4th edition",
-        "date": "27/06/2024",
-        "amount": 798.12
-      }
-    ],
-    "stsm": [],
-    "virtual_mobility": [],
-    "training_schools": [
-      {
-        "school_id": "GP4_TS2",
-        "title": "COSTFinAI-FintechandAIinFinance-TrainingSchooloncurrentstate-of-the-art",
-        "date": "12/06/2023",
-        "amount": 1308.42
-      }
-    ],
-    "itc_conferences": [],
-    "total_reimbursed": 6648.47,
-    "grant_periods": [
-      4,
-      5
-    ],
-    "primary_country": "EL",
-    "is_itc": true,
-    "activity_count": 6
-  },
-  {
-    "name": "van Heeswijk, Wouter",
-    "countries": [
-      "NL"
-    ],
-    "meetings": [
-      {
-        "meeting_id": "GP5_M1",
-        "title": "Core Group and Working Group Meeting in Cluj-Napoca",
-        "date": "24/04/2024",
-        "amount": 928.68
-      },
-      {
-        "meeting_id": "GP5_M2",
-        "title": "COST FinAI meets Brussels",
-        "date": "14/05/2024",
-        "amount": 570.0
+        "meeting_id": "GP5_M4",
+        "title": "COST FinAI - Empowering Transformations: Digital Assets, AI, and the Future of",
+        "date": "17/05/2024",
+        "amount": 687.92
       },
       {
         "meeting_id": "GP5_M5",
         "title": "COST FinAI Meets Istanbul",
         "date": "20/05/2024",
-        "amount": 980.64
+        "amount": 267.4
+      },
+      {
+        "meeting_id": "GP5_M6",
+        "title": "Women in Fintech and AI - 4th edition",
+        "date": "27/06/2024",
+        "amount": 994.48
+      },
+      {
+        "meeting_id": "GP5_M7",
+        "title": "COST FinAI Meets Coimbra",
+        "date": "10/07/2024",
+        "amount": 1397.53
       },
       {
         "meeting_id": "GP5_M9",
         "title": "COST FinAI Meets Iceland",
         "date": "27/08/2024",
-        "amount": 1020.63
-      },
-      {
-        "meeting_id": "GP5_M10",
-        "title": "COST FinAI Action Management Committee (MC) Meeting",
-        "date": "06/09/2024",
-        "amount": 907.3
-      },
-      {
-        "meeting_id": "GP5_M10",
-        "title": "COST FinAI Action Management Committee (MC) Meeting",
-        "date": "06/09/2024",
-        "amount": 600.0
+        "amount": 1358.07
       }
     ],
     "stsm": [],
     "virtual_mobility": [],
     "training_schools": [
       {
-        "school_id": "GP5_TS2",
-        "title": "COST FinAI PhD School on Fintech and AI in Finance",
-        "date": "10/06/2024",
-        "amount": 907.3
-      },
-      {
-        "school_id": "GP5_TS3",
-        "title": "Advanced Statistical Modelling for Fintech, Financial Inclusion and Inequality",
-        "date": "05/09/2024",
-        "amount": 600.0
+        "school_id": "GP4_TS4",
+        "title": "Advanced Statistical Modelling for Fintech, financial inclusion and inequality (AFFINE)",
+        "date": "13/09/2023",
+        "amount": 482.4
       }
     ],
     "itc_conferences": [],
-    "total_reimbursed": 6514.55,
+    "total_reimbursed": 7090.889999999999,
     "grant_periods": [
+      3,
+      4,
       5
     ],
-    "primary_country": "NL",
-    "is_itc": false,
+    "primary_country": "TR",
+    "is_itc": true,
     "activity_count": 8
+  },
+  {
+    "name": "Petukhina, Alla",
+    "countries": [
+      "DE"
+    ],
+    "meetings": [
+      {
+        "meeting_id": "GP2_M2",
+        "title": "WG1 meeting",
+        "date": "08/04/2022",
+        "amount": 864.41
+      },
+      {
+        "meeting_id": "GP3_M8",
+        "title": "Brno Workshop on Artificial Intelligence in Finance",
+        "date": "21/10/2022",
+        "amount": 827.2
+      },
+      {
+        "meeting_id": "GP5_M4",
+        "title": "COST FinAI - Empowering Transformations: Digital Assets, AI, and the Future of",
+        "date": "17/05/2024",
+        "amount": 631.5
+      },
+      {
+        "meeting_id": "GP5_M6",
+        "title": "Women in Fintech and AI - 4th edition",
+        "date": "27/06/2024",
+        "amount": 912.52
+      }
+    ],
+    "stsm": [
+      {
+        "id": "GP1_STSM7",
+        "host": "RO",
+        "dates": "20/10/2021 - 31/10/2021",
+        "days": 12,
+        "amount": 1500.0
+      },
+      {
+        "id": "GP3_STSM5",
+        "host": "IT",
+        "dates": "18/09/2022 - 26/09/2022",
+        "days": 10,
+        "amount": 2000.0
+      }
+    ],
+    "virtual_mobility": [],
+    "training_schools": [],
+    "itc_conferences": [],
+    "total_reimbursed": 6735.63,
+    "grant_periods": [
+      1,
+      2,
+      3,
+      5
+    ],
+    "primary_country": "DE",
+    "is_itc": false,
+    "activity_count": 6
+  },
+  {
+    "name": "Tanda, Alessandra",
+    "countries": [
+      "IT"
+    ],
+    "meetings": [
+      {
+        "meeting_id": "GP3_M4",
+        "title": "Women in Fintech and Artificial Intelligence",
+        "date": "21/09/2022",
+        "amount": 313.78
+      },
+      {
+        "meeting_id": "GP3_M5",
+        "title": "European COST Conference on Artificial Intelligence in Finance",
+        "date": "30/09/2022",
+        "amount": 396.7
+      },
+      {
+        "meeting_id": "GP4_M7",
+        "title": "COST FinAI - Fintech and AI in Finance - MC, WG and Core group meeting",
+        "date": "27/09/2023",
+        "amount": 560.7
+      },
+      {
+        "meeting_id": "GP5_M1",
+        "title": "Core Group and Working Group Meeting in Cluj-Napoca",
+        "date": "24/04/2024",
+        "amount": 739.14
+      },
+      {
+        "meeting_id": "GP5_M6",
+        "title": "Women in Fintech and AI - 4th edition",
+        "date": "27/06/2024",
+        "amount": 888.17
+      }
+    ],
+    "stsm": [],
+    "virtual_mobility": [
+      {
+        "id": "GP2_VM1",
+        "title": "products: is there a role for transparency?",
+        "dates": "01/05/2022 - 15/05/2022",
+        "amount": 190.0
+      },
+      {
+        "id": "GP3_VM1",
+        "title": "products: is there a role for transparency? Women in Fintech European",
+        "dates": "15/07/2022 - 15/09/2022",
+        "amount": 1310.0
+      },
+      {
+        "id": "GP5_VM12",
+        "title": "distributed via local and national media Science Communication Strategy",
+        "dates": "05/07/2024 - 15/08/2024",
+        "amount": 1500.0
+      }
+    ],
+    "training_schools": [
+      {
+        "school_id": "GP5_TS1",
+        "title": "Advances in Data Science and AI for Finance: Bridging Academia and Industry",
+        "date": "03/06/2024",
+        "amount": 605.38
+      }
+    ],
+    "itc_conferences": [],
+    "total_reimbursed": 6503.87,
+    "grant_periods": [
+      2,
+      3,
+      4,
+      5
+    ],
+    "primary_country": "IT",
+    "is_itc": false,
+    "activity_count": 9
   },
   {
     "name": "Silva, Catarina",
@@ -2631,174 +2374,76 @@
     "activity_count": 6
   },
   {
-    "name": "Shkurti (Perri), Rezarta",
+    "name": "Pele, Daniel Traian",
     "countries": [
-      "AL"
-    ],
-    "meetings": [
-      {
-        "meeting_id": "GP3_M6",
-        "title": "COST FinAI Transparency in Finance",
-        "date": "05/10/2022",
-        "amount": 662.08
-      },
-      {
-        "meeting_id": "GP4_M7",
-        "title": "COST FinAI - Fintech and AI in Finance - MC, WG and Core group meeting",
-        "date": "27/09/2023",
-        "amount": 1038.73
-      },
-      {
-        "meeting_id": "GP5_M9",
-        "title": "COST FinAI Meets Iceland",
-        "date": "27/08/2024",
-        "amount": 1276.24
-      },
-      {
-        "meeting_id": "GP5_M10",
-        "title": "COST FinAI Action Management Committee (MC) Meeting",
-        "date": "06/09/2024",
-        "amount": 1135.12
-      }
-    ],
-    "stsm": [
-      {
-        "id": "GP4_STSM1",
-        "host": "IT",
-        "dates": "09/10/2023 - 13/10/2023",
-        "days": 6,
-        "amount": 1000.0
-      }
-    ],
-    "virtual_mobility": [],
-    "training_schools": [
-      {
-        "school_id": "GP5_TS3",
-        "title": "Advanced Statistical Modelling for Fintech, Financial Inclusion and Inequality",
-        "date": "05/09/2024",
-        "amount": 1135.12
-      }
-    ],
-    "itc_conferences": [],
-    "total_reimbursed": 6247.29,
-    "grant_periods": [
-      3,
-      4,
-      5
-    ],
-    "primary_country": "AL",
-    "is_itc": true,
-    "activity_count": 6
-  },
-  {
-    "name": "Cetintav, Bekir",
-    "countries": [
-      "TR"
-    ],
-    "meetings": [
-      {
-        "meeting_id": "GP4_M4",
-        "title": "Women in Fintech III - Portugal",
-        "date": "01/06/2023",
-        "amount": 1173.67
-      },
-      {
-        "meeting_id": "GP5_M10",
-        "title": "COST FinAI Action Management Committee (MC) Meeting",
-        "date": "06/09/2024",
-        "amount": 1194.72
-      }
-    ],
-    "stsm": [
-      {
-        "id": "GP5_STSM2",
-        "host": "PT",
-        "dates": "18/07/2024 - 28/07/2024",
-        "days": 12,
-        "amount": 2645.0
-      }
-    ],
-    "virtual_mobility": [],
-    "training_schools": [
-      {
-        "school_id": "GP5_TS1",
-        "title": "Advances in Data Science and AI for Finance: Bridging Academia and Industry",
-        "date": "03/06/2024",
-        "amount": 1194.72
-      }
-    ],
-    "itc_conferences": [],
-    "total_reimbursed": 6208.110000000001,
-    "grant_periods": [
-      4,
-      5
-    ],
-    "primary_country": "TR",
-    "is_itc": true,
-    "activity_count": 4
-  },
-  {
-    "name": "Paschalidou, Eleftheria",
-    "countries": [
-      "EL"
+      "RO"
     ],
     "meetings": [
       {
         "meeting_id": "GP4_M1",
         "title": "Diversity challenges and stakeholders' engagement",
         "date": "01/02/2023",
-        "amount": 909.27
+        "amount": 407.98
       },
       {
-        "meeting_id": "GP4_M2",
-        "title": "Diversity challenges for a sustainable Fintech",
-        "date": "13/04/2023",
-        "amount": 800.06
+        "meeting_id": "GP4_M7",
+        "title": "COST FinAI - Fintech and AI in Finance - MC, WG and Core group meeting",
+        "date": "27/09/2023",
+        "amount": 1120.59
+      },
+      {
+        "meeting_id": "GP4_M8",
+        "title": "AI Innovations in finance and society",
+        "date": "30/10/2023",
+        "amount": 474.64
+      },
+      {
+        "meeting_id": "GP5_M1",
+        "title": "Core Group and Working Group Meeting in Cluj-Napoca",
+        "date": "24/04/2024",
+        "amount": 435.24
+      },
+      {
+        "meeting_id": "GP5_M4",
+        "title": "COST FinAI - Empowering Transformations: Digital Assets, AI, and the Future of",
+        "date": "17/05/2024",
+        "amount": 74.8
       },
       {
         "meeting_id": "GP5_M5",
         "title": "COST FinAI Meets Istanbul",
         "date": "20/05/2024",
-        "amount": 759.2
-      },
-      {
-        "meeting_id": "GP5_M6",
-        "title": "Women in Fintech and AI - 4th edition",
-        "date": "27/06/2024",
-        "amount": 797.15
-      },
-      {
-        "meeting_id": "GP5_M7",
-        "title": "COST FinAI Meets Coimbra",
-        "date": "10/07/2024",
-        "amount": 657.96
-      },
-      {
-        "meeting_id": "GP5_M10",
-        "title": "COST FinAI Action Management Committee (MC) Meeting",
-        "date": "06/09/2024",
-        "amount": 846.0
+        "amount": 699.72
       }
     ],
-    "stsm": [],
+    "stsm": [
+      {
+        "id": "GP3_STSM1",
+        "host": "DE",
+        "dates": "26/09/2022 - 04/10/2022",
+        "days": 10,
+        "amount": 1800.0
+      }
+    ],
     "virtual_mobility": [],
     "training_schools": [
       {
-        "school_id": "GP5_TS1",
-        "title": "Advances in Data Science and AI for Finance: Bridging Academia and Industry",
-        "date": "03/06/2024",
-        "amount": 846.0
+        "school_id": "GP5_TS2",
+        "title": "COST FinAI PhD School on Fintech and AI in Finance",
+        "date": "10/06/2024",
+        "amount": 1294.32
       }
     ],
     "itc_conferences": [],
-    "total_reimbursed": 5615.639999999999,
+    "total_reimbursed": 6307.29,
     "grant_periods": [
+      3,
       4,
       5
     ],
-    "primary_country": "EL",
+    "primary_country": "RO",
     "is_itc": true,
-    "activity_count": 7
+    "activity_count": 8
   },
   {
     "name": "Härdle, Wolfgang",
@@ -2823,16 +2468,16 @@
         "title": "COST FinAI - Empowering Transformations: Digital Assets, AI, and the Future of",
         "date": "17/05/2024",
         "amount": 871.27
-      },
-      {
-        "meeting_id": "GP5_M10",
-        "title": "COST FinAI Action Management Committee (MC) Meeting",
-        "date": "06/09/2024",
-        "amount": 942.6
       }
     ],
     "stsm": [],
     "virtual_mobility": [
+      {
+        "id": "GP3_VM3",
+        "title": "exchange platform The Role of FinTech in Cashless",
+        "dates": "27/07/2022 - 26/10/2022",
+        "amount": 1500.0
+      },
       {
         "id": "GP4_VM1",
         "title": "Bibvliometrics of cost members Fintech: a new way for women’s",
@@ -2849,7 +2494,7 @@
       }
     ],
     "itc_conferences": [],
-    "total_reimbursed": 5340.07,
+    "total_reimbursed": 5897.47,
     "grant_periods": [
       3,
       4,
@@ -2860,57 +2505,251 @@
     "activity_count": 6
   },
   {
-    "name": "Petukhina, Alla",
+    "name": "Thomaidis, Nikolaos S.",
     "countries": [
-      "DE"
+      "EL"
     ],
     "meetings": [
       {
-        "meeting_id": "GP2_M2",
-        "title": "WG1 meeting",
-        "date": "08/04/2022",
-        "amount": 864.41
+        "meeting_id": "GP4_M1",
+        "title": "Diversity challenges and stakeholders' engagement",
+        "date": "01/02/2023",
+        "amount": 785.72
       },
       {
-        "meeting_id": "GP3_M8",
-        "title": "Brno Workshop on Artificial Intelligence in Finance",
-        "date": "21/10/2022",
-        "amount": 827.2
+        "meeting_id": "GP4_M2",
+        "title": "Diversity challenges for a sustainable Fintech",
+        "date": "13/04/2023",
+        "amount": 992.4
       },
       {
-        "meeting_id": "GP5_M4",
-        "title": "COST FinAI - Empowering Transformations: Digital Assets, AI, and the Future of",
-        "date": "17/05/2024",
-        "amount": 631.5
+        "meeting_id": "GP4_M3",
+        "title": "COST FinAI - Fintech and AI in Finance - Policy implications",
+        "date": "15/05/2023",
+        "amount": 1455.39
       },
       {
         "meeting_id": "GP5_M6",
         "title": "Women in Fintech and AI - 4th edition",
         "date": "27/06/2024",
-        "amount": 912.52
+        "amount": 798.12
+      }
+    ],
+    "stsm": [],
+    "virtual_mobility": [],
+    "training_schools": [
+      {
+        "school_id": "GP4_TS2",
+        "title": "COSTFinAI-FintechandAIinFinance-TrainingSchooloncurrentstate-of-the-art",
+        "date": "12/06/2023",
+        "amount": 1308.42
+      }
+    ],
+    "itc_conferences": [],
+    "total_reimbursed": 5340.05,
+    "grant_periods": [
+      4,
+      5
+    ],
+    "primary_country": "EL",
+    "is_itc": true,
+    "activity_count": 5
+  },
+  {
+    "name": "Shkurti (Perri), Rezarta",
+    "countries": [
+      "AL"
+    ],
+    "meetings": [
+      {
+        "meeting_id": "GP3_M6",
+        "title": "COST FinAI Transparency in Finance",
+        "date": "05/10/2022",
+        "amount": 662.08
+      },
+      {
+        "meeting_id": "GP4_M7",
+        "title": "COST FinAI - Fintech and AI in Finance - MC, WG and Core group meeting",
+        "date": "27/09/2023",
+        "amount": 1038.73
+      },
+      {
+        "meeting_id": "GP5_M9",
+        "title": "COST FinAI Meets Iceland",
+        "date": "27/08/2024",
+        "amount": 1276.24
       }
     ],
     "stsm": [
       {
-        "id": "GP3_STSM5",
+        "id": "GP4_STSM1",
         "host": "IT",
-        "dates": "18/09/2022 - 26/09/2022",
-        "days": 10,
-        "amount": 2000.0
+        "dates": "09/10/2023 - 13/10/2023",
+        "days": 6,
+        "amount": 1000.0
       }
     ],
     "virtual_mobility": [],
-    "training_schools": [],
+    "training_schools": [
+      {
+        "school_id": "GP5_TS3",
+        "title": "Advanced Statistical Modelling for Fintech, Financial Inclusion and Inequality",
+        "date": "05/09/2024",
+        "amount": 1135.12
+      }
+    ],
     "itc_conferences": [],
-    "total_reimbursed": 5235.63,
+    "total_reimbursed": 5112.17,
     "grant_periods": [
-      2,
       3,
+      4,
       5
     ],
-    "primary_country": "DE",
-    "is_itc": false,
+    "primary_country": "AL",
+    "is_itc": true,
     "activity_count": 5
+  },
+  {
+    "name": "Veni Arakelian",
+    "countries": [
+      "EL"
+    ],
+    "meetings": [
+      {
+        "meeting_id": "GP4_M3",
+        "title": "COST FinAI - Fintech and AI in Finance - Policy implications",
+        "date": "15/05/2023",
+        "amount": 1160.1
+      },
+      {
+        "meeting_id": "GP4_M7",
+        "title": "COST FinAI - Fintech and AI in Finance - MC, WG and Core group meeting",
+        "date": "27/09/2023",
+        "amount": 1277.36
+      },
+      {
+        "meeting_id": "GP5_M2",
+        "title": "COST FinAI meets Brussels",
+        "date": "14/05/2024",
+        "amount": 1090.39
+      }
+    ],
+    "stsm": [],
+    "virtual_mobility": [
+      {
+        "id": "GP5_VM4",
+        "title": "statistically valid backtesting framework Pioneering Visual Analytics for Establishing XAI Standards in",
+        "dates": "01/05/2024 - 01/08/2024",
+        "amount": 1500.0
+      }
+    ],
+    "training_schools": [],
+    "itc_conferences": [],
+    "total_reimbursed": 5027.85,
+    "grant_periods": [
+      4,
+      5
+    ],
+    "primary_country": "EL",
+    "is_itc": true,
+    "activity_count": 4
+  },
+  {
+    "name": "Cetintav, Bekir",
+    "countries": [
+      "TR"
+    ],
+    "meetings": [
+      {
+        "meeting_id": "GP4_M4",
+        "title": "Women in Fintech III - Portugal",
+        "date": "01/06/2023",
+        "amount": 1173.67
+      }
+    ],
+    "stsm": [
+      {
+        "id": "GP5_STSM2",
+        "host": "PT",
+        "dates": "18/07/2024 - 28/07/2024",
+        "days": 12,
+        "amount": 2645.0
+      }
+    ],
+    "virtual_mobility": [],
+    "training_schools": [
+      {
+        "school_id": "GP5_TS1",
+        "title": "Advances in Data Science and AI for Finance: Bridging Academia and Industry",
+        "date": "03/06/2024",
+        "amount": 1194.72
+      }
+    ],
+    "itc_conferences": [],
+    "total_reimbursed": 5013.39,
+    "grant_periods": [
+      4,
+      5
+    ],
+    "primary_country": "TR",
+    "is_itc": true,
+    "activity_count": 3
+  },
+  {
+    "name": "van Heeswijk, Wouter",
+    "countries": [
+      "NL"
+    ],
+    "meetings": [
+      {
+        "meeting_id": "GP5_M1",
+        "title": "Core Group and Working Group Meeting in Cluj-Napoca",
+        "date": "24/04/2024",
+        "amount": 928.68
+      },
+      {
+        "meeting_id": "GP5_M2",
+        "title": "COST FinAI meets Brussels",
+        "date": "14/05/2024",
+        "amount": 570.0
+      },
+      {
+        "meeting_id": "GP5_M5",
+        "title": "COST FinAI Meets Istanbul",
+        "date": "20/05/2024",
+        "amount": 980.64
+      },
+      {
+        "meeting_id": "GP5_M9",
+        "title": "COST FinAI Meets Iceland",
+        "date": "27/08/2024",
+        "amount": 1020.63
+      }
+    ],
+    "stsm": [],
+    "virtual_mobility": [],
+    "training_schools": [
+      {
+        "school_id": "GP5_TS2",
+        "title": "COST FinAI PhD School on Fintech and AI in Finance",
+        "date": "10/06/2024",
+        "amount": 907.3
+      },
+      {
+        "school_id": "GP5_TS3",
+        "title": "Advanced Statistical Modelling for Fintech, Financial Inclusion and Inequality",
+        "date": "05/09/2024",
+        "amount": 600.0
+      }
+    ],
+    "itc_conferences": [],
+    "total_reimbursed": 5007.25,
+    "grant_periods": [
+      5
+    ],
+    "primary_country": "NL",
+    "is_itc": false,
+    "activity_count": 6
   },
   {
     "name": "Maria Iannario",
@@ -2959,48 +2798,104 @@
     "activity_count": 4
   },
   {
-    "name": "Nur Yilmaz, Gokce",
+    "name": "Paschalidou, Eleftheria",
     "countries": [
-      "TR"
+      "EL"
     ],
     "meetings": [
       {
-        "meeting_id": "GP5_M1",
-        "title": "Core Group and Working Group Meeting in Cluj-Napoca",
-        "date": "24/04/2024",
-        "amount": 1286.73
+        "meeting_id": "GP4_M1",
+        "title": "Diversity challenges and stakeholders' engagement",
+        "date": "01/02/2023",
+        "amount": 909.27
+      },
+      {
+        "meeting_id": "GP4_M2",
+        "title": "Diversity challenges for a sustainable Fintech",
+        "date": "13/04/2023",
+        "amount": 800.06
       },
       {
         "meeting_id": "GP5_M5",
         "title": "COST FinAI Meets Istanbul",
         "date": "20/05/2024",
-        "amount": 772.7
+        "amount": 759.2
       },
       {
-        "meeting_id": "GP5_M10",
-        "title": "COST FinAI Action Management Committee (MC) Meeting",
-        "date": "06/09/2024",
-        "amount": 1413.32
+        "meeting_id": "GP5_M6",
+        "title": "Women in Fintech and AI - 4th edition",
+        "date": "27/06/2024",
+        "amount": 797.15
+      },
+      {
+        "meeting_id": "GP5_M7",
+        "title": "COST FinAI Meets Coimbra",
+        "date": "10/07/2024",
+        "amount": 657.96
       }
     ],
     "stsm": [],
     "virtual_mobility": [],
     "training_schools": [
       {
-        "school_id": "GP5_TS3",
-        "title": "Advanced Statistical Modelling for Fintech, Financial Inclusion and Inequality",
-        "date": "05/09/2024",
-        "amount": 1413.32
+        "school_id": "GP5_TS1",
+        "title": "Advances in Data Science and AI for Finance: Bridging Academia and Industry",
+        "date": "03/06/2024",
+        "amount": 846.0
       }
     ],
     "itc_conferences": [],
-    "total_reimbursed": 4886.07,
+    "total_reimbursed": 4769.639999999999,
     "grant_periods": [
+      4,
       5
     ],
-    "primary_country": "TR",
+    "primary_country": "EL",
     "is_itc": true,
-    "activity_count": 4
+    "activity_count": 6
+  },
+  {
+    "name": "Dalla Valle, Luciana",
+    "countries": [
+      "GB",
+      "UK"
+    ],
+    "meetings": [],
+    "stsm": [
+      {
+        "id": "GP1_STSM3",
+        "host": "IT",
+        "dates": "14/06/2021 - 19/06/2021",
+        "days": 6,
+        "amount": 1260.0
+      },
+      {
+        "id": "GP3_STSM3",
+        "host": "IT",
+        "dates": "11/07/2022 - 18/07/2022",
+        "days": 9,
+        "amount": 1440.0
+      },
+      {
+        "id": "GP4_STSM3",
+        "host": "IT",
+        "dates": "01/07/2023 - 09/07/2023",
+        "days": 10,
+        "amount": 2000.0
+      }
+    ],
+    "virtual_mobility": [],
+    "training_schools": [],
+    "itc_conferences": [],
+    "total_reimbursed": 4700.0,
+    "grant_periods": [
+      1,
+      3,
+      4
+    ],
+    "primary_country": "GB",
+    "is_itc": false,
+    "activity_count": 3
   },
   {
     "name": "Xhumari, Elda",
@@ -3031,12 +2926,6 @@
         "title": "Women in Fintech III - Portugal",
         "date": "01/06/2023",
         "amount": 1336.52
-      },
-      {
-        "meeting_id": "GP4_M8",
-        "title": "AI Innovations in finance and society",
-        "date": "30/10/2023",
-        "amount": 216.0
       }
     ],
     "stsm": [],
@@ -3050,56 +2939,56 @@
       }
     ],
     "itc_conferences": [],
-    "total_reimbursed": 4867.5,
+    "total_reimbursed": 4651.5,
     "grant_periods": [
       3,
       4
     ],
     "primary_country": "AL",
     "is_itc": true,
-    "activity_count": 6
+    "activity_count": 5
   },
   {
-    "name": "Dellaportas, Petros",
+    "name": "Gómez Teijeiro, Lucía",
     "countries": [
-      "UK"
+      "CH"
     ],
     "meetings": [
       {
-        "meeting_id": "GP5_M10",
-        "title": "COST FinAI Action Management Committee (MC) Meeting",
-        "date": "06/09/2024",
-        "amount": 1106.76
+        "meeting_id": "GP5_M2",
+        "title": "COST FinAI meets Brussels",
+        "date": "14/05/2024",
+        "amount": 681.08
       },
       {
-        "meeting_id": "GP5_M10",
-        "title": "COST FinAI Action Management Committee (MC) Meeting",
-        "date": "06/09/2024",
-        "amount": 1228.24
+        "meeting_id": "GP5_M8",
+        "title": "AI in finance and society - challenges and opportunities",
+        "date": "18/07/2024",
+        "amount": 1152.81
       }
     ],
     "stsm": [],
     "virtual_mobility": [],
     "training_schools": [
       {
-        "school_id": "GP5_TS1",
-        "title": "Advances in Data Science and AI for Finance: Bridging Academia and Industry",
-        "date": "03/06/2024",
-        "amount": 1106.76
+        "school_id": "GP5_TS2",
+        "title": "COST FinAI PhD School on Fintech and AI in Finance",
+        "date": "10/06/2024",
+        "amount": 1213.75
       },
       {
         "school_id": "GP5_TS3",
         "title": "Advanced Statistical Modelling for Fintech, Financial Inclusion and Inequality",
         "date": "05/09/2024",
-        "amount": 1228.24
+        "amount": 1309.8
       }
     ],
     "itc_conferences": [],
-    "total_reimbursed": 4670.0,
+    "total_reimbursed": 4357.44,
     "grant_periods": [
       5
     ],
-    "primary_country": "UK",
+    "primary_country": "CH",
     "is_itc": false,
     "activity_count": 4
   },
@@ -3166,337 +3055,37 @@
     "activity_count": 7
   },
   {
-    "name": "MATKOVSKYY, Roman",
+    "name": "Danial Saef",
     "countries": [
-      "FR"
+      "DE"
     ],
     "meetings": [
       {
-        "meeting_id": "GP4_M8",
-        "title": "AI Innovations in finance and society",
-        "date": "30/10/2023",
-        "amount": 1370.33
-      },
-      {
-        "meeting_id": "GP5_M10",
-        "title": "COST FinAI Action Management Committee (MC) Meeting",
-        "date": "06/09/2024",
-        "amount": 787.34
+        "meeting_id": "GP1_M21",
+        "title": "COST FinAI Annual Meeting in Bucharest",
+        "date": "28/10/2021",
+        "amount": 614.4
       }
     ],
-    "stsm": [],
+    "stsm": [
+      {
+        "id": "GP1_STSM4",
+        "host": "UK",
+        "dates": "24/09/2021 - 23/10/2021",
+        "days": 30,
+        "amount": 3500.0
+      }
+    ],
     "virtual_mobility": [],
-    "training_schools": [
-      {
-        "school_id": "GP4_TS2",
-        "title": "COSTFinAI-FintechandAIinFinance-TrainingSchooloncurrentstate-of-the-art",
-        "date": "12/06/2023",
-        "amount": 1370.33
-      },
-      {
-        "school_id": "GP5_TS2",
-        "title": "COST FinAI PhD School on Fintech and AI in Finance",
-        "date": "10/06/2024",
-        "amount": 787.34
-      }
-    ],
+    "training_schools": [],
     "itc_conferences": [],
-    "total_reimbursed": 4315.34,
+    "total_reimbursed": 4114.4,
     "grant_periods": [
-      4,
-      5
+      1
     ],
-    "primary_country": "FR",
+    "primary_country": "DE",
     "is_itc": false,
-    "activity_count": 4
-  },
-  {
-    "name": "Moukas, Alexios Ioannis",
-    "countries": [
-      "EL"
-    ],
-    "meetings": [
-      {
-        "meeting_id": "GP4_M2",
-        "title": "Diversity challenges for a sustainable Fintech",
-        "date": "13/04/2023",
-        "amount": 841.06
-      },
-      {
-        "meeting_id": "GP4_M8",
-        "title": "AI Innovations in finance and society",
-        "date": "30/10/2023",
-        "amount": 984.23
-      },
-      {
-        "meeting_id": "GP5_M10",
-        "title": "COST FinAI Action Management Committee (MC) Meeting",
-        "date": "06/09/2024",
-        "amount": 731.1
-      }
-    ],
-    "stsm": [],
-    "virtual_mobility": [],
-    "training_schools": [
-      {
-        "school_id": "GP4_TS2",
-        "title": "COSTFinAI-FintechandAIinFinance-TrainingSchooloncurrentstate-of-the-art",
-        "date": "12/06/2023",
-        "amount": 984.23
-      },
-      {
-        "school_id": "GP5_TS1",
-        "title": "Advances in Data Science and AI for Finance: Bridging Academia and Industry",
-        "date": "03/06/2024",
-        "amount": 731.1
-      }
-    ],
-    "itc_conferences": [],
-    "total_reimbursed": 4271.72,
-    "grant_periods": [
-      4,
-      5
-    ],
-    "primary_country": "EL",
-    "is_itc": true,
-    "activity_count": 5
-  },
-  {
-    "name": "Muniz Martinez, Jose Antonio",
-    "countries": [
-      "UK"
-    ],
-    "meetings": [
-      {
-        "meeting_id": "GP5_M2",
-        "title": "COST FinAI meets Brussels",
-        "date": "14/05/2024",
-        "amount": 385.38
-      },
-      {
-        "meeting_id": "GP5_M9",
-        "title": "COST FinAI Meets Iceland",
-        "date": "27/08/2024",
-        "amount": 1005.9
-      },
-      {
-        "meeting_id": "GP5_M10",
-        "title": "COST FinAI Action Management Committee (MC) Meeting",
-        "date": "06/09/2024",
-        "amount": 1413.87
-      }
-    ],
-    "stsm": [],
-    "virtual_mobility": [],
-    "training_schools": [
-      {
-        "school_id": "GP5_TS2",
-        "title": "COST FinAI PhD School on Fintech and AI in Finance",
-        "date": "10/06/2024",
-        "amount": 1413.87
-      }
-    ],
-    "itc_conferences": [],
-    "total_reimbursed": 4219.0199999999995,
-    "grant_periods": [
-      5
-    ],
-    "primary_country": "UK",
-    "is_itc": false,
-    "activity_count": 4
-  },
-  {
-    "name": "Rupeika-Apoga, Ramona",
-    "countries": [
-      "LV"
-    ],
-    "meetings": [
-      {
-        "meeting_id": "GP4_M7",
-        "title": "COST FinAI - Fintech and AI in Finance - MC, WG and Core group meeting",
-        "date": "27/09/2023",
-        "amount": 1008.48
-      },
-      {
-        "meeting_id": "GP5_M8",
-        "title": "AI in finance and society - challenges and opportunities",
-        "date": "18/07/2024",
-        "amount": 1323.22
-      },
-      {
-        "meeting_id": "GP5_M10",
-        "title": "COST FinAI Action Management Committee (MC) Meeting",
-        "date": "06/09/2024",
-        "amount": 897.26
-      }
-    ],
-    "stsm": [],
-    "virtual_mobility": [],
-    "training_schools": [
-      {
-        "school_id": "GP5_TS3",
-        "title": "Advanced Statistical Modelling for Fintech, Financial Inclusion and Inequality",
-        "date": "05/09/2024",
-        "amount": 897.26
-      }
-    ],
-    "itc_conferences": [],
-    "total_reimbursed": 4126.22,
-    "grant_periods": [
-      4,
-      5
-    ],
-    "primary_country": "LV",
-    "is_itc": true,
-    "activity_count": 4
-  },
-  {
-    "name": "Tanda, Alessandra",
-    "countries": [
-      "IT"
-    ],
-    "meetings": [
-      {
-        "meeting_id": "GP3_M4",
-        "title": "Women in Fintech and Artificial Intelligence",
-        "date": "21/09/2022",
-        "amount": 313.78
-      },
-      {
-        "meeting_id": "GP3_M5",
-        "title": "European COST Conference on Artificial Intelligence in Finance",
-        "date": "30/09/2022",
-        "amount": 396.7
-      },
-      {
-        "meeting_id": "GP4_M7",
-        "title": "COST FinAI - Fintech and AI in Finance - MC, WG and Core group meeting",
-        "date": "27/09/2023",
-        "amount": 560.7
-      },
-      {
-        "meeting_id": "GP5_M1",
-        "title": "Core Group and Working Group Meeting in Cluj-Napoca",
-        "date": "24/04/2024",
-        "amount": 739.14
-      },
-      {
-        "meeting_id": "GP5_M6",
-        "title": "Women in Fintech and AI - 4th edition",
-        "date": "27/06/2024",
-        "amount": 888.17
-      },
-      {
-        "meeting_id": "GP5_M10",
-        "title": "COST FinAI Action Management Committee (MC) Meeting",
-        "date": "06/09/2024",
-        "amount": 605.38
-      }
-    ],
-    "stsm": [],
-    "virtual_mobility": [],
-    "training_schools": [
-      {
-        "school_id": "GP5_TS1",
-        "title": "Advances in Data Science and AI for Finance: Bridging Academia and Industry",
-        "date": "03/06/2024",
-        "amount": 605.38
-      }
-    ],
-    "itc_conferences": [],
-    "total_reimbursed": 4109.25,
-    "grant_periods": [
-      3,
-      4,
-      5
-    ],
-    "primary_country": "IT",
-    "is_itc": false,
-    "activity_count": 7
-  },
-  {
-    "name": "Peliova, Jana",
-    "countries": [
-      "SK"
-    ],
-    "meetings": [
-      {
-        "meeting_id": "GP3_M6",
-        "title": "COST FinAI Transparency in Finance",
-        "date": "05/10/2022",
-        "amount": 827.55
-      },
-      {
-        "meeting_id": "GP4_M7",
-        "title": "COST FinAI - Fintech and AI in Finance - MC, WG and Core group meeting",
-        "date": "27/09/2023",
-        "amount": 1168.61
-      },
-      {
-        "meeting_id": "GP5_M10",
-        "title": "COST FinAI Action Management Committee (MC) Meeting",
-        "date": "06/09/2024",
-        "amount": 1028.22
-      }
-    ],
-    "stsm": [],
-    "virtual_mobility": [],
-    "training_schools": [
-      {
-        "school_id": "GP5_TS3",
-        "title": "Advanced Statistical Modelling for Fintech, Financial Inclusion and Inequality",
-        "date": "05/09/2024",
-        "amount": 1028.22
-      }
-    ],
-    "itc_conferences": [],
-    "total_reimbursed": 4052.6000000000004,
-    "grant_periods": [
-      3,
-      4,
-      5
-    ],
-    "primary_country": "SK",
-    "is_itc": true,
-    "activity_count": 4
-  },
-  {
-    "name": "Taibi, Gabin",
-    "countries": [
-      "CH"
-    ],
-    "meetings": [
-      {
-        "meeting_id": "GP5_M2",
-        "title": "COST FinAI meets Brussels",
-        "date": "14/05/2024",
-        "amount": 1045.0
-      },
-      {
-        "meeting_id": "GP5_M10",
-        "title": "COST FinAI Action Management Committee (MC) Meeting",
-        "date": "06/09/2024",
-        "amount": 1486.05
-      }
-    ],
-    "stsm": [],
-    "virtual_mobility": [],
-    "training_schools": [
-      {
-        "school_id": "GP5_TS2",
-        "title": "COST FinAI PhD School on Fintech and AI in Finance",
-        "date": "10/06/2024",
-        "amount": 1486.05
-      }
-    ],
-    "itc_conferences": [],
-    "total_reimbursed": 4017.1000000000004,
-    "grant_periods": [
-      5
-    ],
-    "primary_country": "CH",
-    "is_itc": false,
-    "activity_count": 3
+    "activity_count": 2
   },
   {
     "name": "Plihal, Tomas",
@@ -3560,50 +3149,6 @@
     "activity_count": 2
   },
   {
-    "name": "Wenzlaff, Karsten",
-    "countries": [
-      "DE"
-    ],
-    "meetings": [
-      {
-        "meeting_id": "GP5_M2",
-        "title": "COST FinAI meets Brussels",
-        "date": "14/05/2024",
-        "amount": 761.15
-      },
-      {
-        "meeting_id": "GP5_M8",
-        "title": "AI in finance and society - challenges and opportunities",
-        "date": "18/07/2024",
-        "amount": 1495.19
-      },
-      {
-        "meeting_id": "GP5_M10",
-        "title": "COST FinAI Action Management Committee (MC) Meeting",
-        "date": "06/09/2024",
-        "amount": 801.9
-      }
-    ],
-    "stsm": [],
-    "virtual_mobility": [],
-    "training_schools": [
-      {
-        "school_id": "GP5_TS2",
-        "title": "COST FinAI PhD School on Fintech and AI in Finance",
-        "date": "10/06/2024",
-        "amount": 801.9
-      }
-    ],
-    "itc_conferences": [],
-    "total_reimbursed": 3860.1400000000003,
-    "grant_periods": [
-      5
-    ],
-    "primary_country": "DE",
-    "is_itc": false,
-    "activity_count": 4
-  },
-  {
     "name": "Kayis, Enis",
     "countries": [
       "TR"
@@ -3643,85 +3188,42 @@
     "activity_count": 3
   },
   {
-    "name": "Giordano, Sabrina",
+    "name": "Miroslav Hudec",
     "countries": [
-      "IT"
+      "SK"
     ],
     "meetings": [
       {
-        "meeting_id": "GP4_M1",
-        "title": "Diversity challenges and stakeholders' engagement",
-        "date": "01/02/2023",
-        "amount": 658.71
+        "meeting_id": "GP2_M4",
+        "title": "COST FinAI Diversity research workshop",
+        "date": "16/05/2022",
+        "amount": 901.29
       },
       {
-        "meeting_id": "GP5_M6",
-        "title": "Women in Fintech and AI - 4th edition",
-        "date": "27/06/2024",
-        "amount": 1131.77
-      },
-      {
-        "meeting_id": "GP5_M10",
-        "title": "COST FinAI Action Management Committee (MC) Meeting",
-        "date": "06/09/2024",
-        "amount": 915.2
+        "meeting_id": "GP4_M4",
+        "title": "Women in Fintech III - Portugal",
+        "date": "01/06/2023",
+        "amount": 1236.39
       }
     ],
     "stsm": [],
-    "virtual_mobility": [],
-    "training_schools": [
+    "virtual_mobility": [
       {
-        "school_id": "GP5_TS3",
-        "title": "Advanced Statistical Modelling for Fintech, Financial Inclusion and Inequality",
-        "date": "05/09/2024",
-        "amount": 915.2
+        "id": "GP5_VM2",
+        "title": "approaches in mining patterns from p2p loan data Responsible AI-based business",
+        "dates": "01/03/2024 - 30/08/2024",
+        "amount": 1500.0
       }
     ],
-    "itc_conferences": [],
-    "total_reimbursed": 3620.88,
-    "grant_periods": [
-      4,
-      5
-    ],
-    "primary_country": "IT",
-    "is_itc": false,
-    "activity_count": 4
-  },
-  {
-    "name": "Arakelian, Veni",
-    "countries": [
-      "EL"
-    ],
-    "meetings": [
-      {
-        "meeting_id": "GP4_M3",
-        "title": "COST FinAI - Fintech and AI in Finance - Policy implications",
-        "date": "15/05/2023",
-        "amount": 1160.1
-      },
-      {
-        "meeting_id": "GP4_M7",
-        "title": "COST FinAI - Fintech and AI in Finance - MC, WG and Core group meeting",
-        "date": "27/09/2023",
-        "amount": 1277.36
-      },
-      {
-        "meeting_id": "GP5_M2",
-        "title": "COST FinAI meets Brussels",
-        "date": "14/05/2024",
-        "amount": 1090.39
-      }
-    ],
-    "stsm": [],
-    "virtual_mobility": [],
     "training_schools": [],
     "itc_conferences": [],
-    "total_reimbursed": 3527.8500000000004,
+    "total_reimbursed": 3637.6800000000003,
     "grant_periods": [
+      2,
       4,
       5
     ],
-    "primary_country": "EL",
+    "primary_country": "SK",
     "is_itc": true,
     "activity_count": 3
   },
@@ -3803,38 +3305,68 @@
     "activity_count": 3
   },
   {
-    "name": "Dalla Valle, Luciana",
+    "name": "Wei Li",
     "countries": [
-      "GB"
+      "NO"
     ],
     "meetings": [],
     "stsm": [
       {
-        "id": "GP3_STSM3",
-        "host": "IT",
-        "dates": "11/07/2022 - 18/07/2022",
-        "days": 9,
-        "amount": 1440.0
-      },
-      {
-        "id": "GP4_STSM3",
-        "host": "IT",
-        "dates": "01/07/2023 - 09/07/2023",
-        "days": 10,
-        "amount": 2000.0
+        "id": "GP1_STSM2",
+        "host": "DE",
+        "dates": "01/02/2021 - 31/05/2021",
+        "days": 120,
+        "amount": 3500.0
       }
     ],
     "virtual_mobility": [],
     "training_schools": [],
     "itc_conferences": [],
-    "total_reimbursed": 3440.0,
+    "total_reimbursed": 3500.0,
     "grant_periods": [
-      3,
-      4
+      1
     ],
-    "primary_country": "GB",
+    "primary_country": "NO",
     "is_itc": false,
-    "activity_count": 2
+    "activity_count": 1
+  },
+  {
+    "name": "Nur Yilmaz, Gokce",
+    "countries": [
+      "TR"
+    ],
+    "meetings": [
+      {
+        "meeting_id": "GP5_M1",
+        "title": "Core Group and Working Group Meeting in Cluj-Napoca",
+        "date": "24/04/2024",
+        "amount": 1286.73
+      },
+      {
+        "meeting_id": "GP5_M5",
+        "title": "COST FinAI Meets Istanbul",
+        "date": "20/05/2024",
+        "amount": 772.7
+      }
+    ],
+    "stsm": [],
+    "virtual_mobility": [],
+    "training_schools": [
+      {
+        "school_id": "GP5_TS3",
+        "title": "Advanced Statistical Modelling for Fintech, Financial Inclusion and Inequality",
+        "date": "05/09/2024",
+        "amount": 1413.32
+      }
+    ],
+    "itc_conferences": [],
+    "total_reimbursed": 3472.75,
+    "grant_periods": [
+      5
+    ],
+    "primary_country": "TR",
+    "is_itc": true,
+    "activity_count": 3
   },
   {
     "name": "Šutienė, Kristina",
@@ -3875,60 +3407,22 @@
     "activity_count": 3
   },
   {
-    "name": "Zhu, Laqiqige",
+    "name": "Rupeika-Apoga, Ramona",
     "countries": [
-      "IE"
+      "LV"
     ],
     "meetings": [
       {
-        "meeting_id": "GP4_M8",
-        "title": "AI Innovations in finance and society",
-        "date": "30/10/2023",
-        "amount": 1652.24
-      }
-    ],
-    "stsm": [],
-    "virtual_mobility": [],
-    "training_schools": [
-      {
-        "school_id": "GP4_TS2",
-        "title": "COSTFinAI-FintechandAIinFinance-TrainingSchooloncurrentstate-of-the-art",
-        "date": "12/06/2023",
-        "amount": 1652.24
-      }
-    ],
-    "itc_conferences": [],
-    "total_reimbursed": 3304.48,
-    "grant_periods": [
-      4
-    ],
-    "primary_country": "IE",
-    "is_itc": false,
-    "activity_count": 2
-  },
-  {
-    "name": "Bernard, Frédérik Sinan",
-    "countries": [
-      "NL"
-    ],
-    "meetings": [
-      {
-        "meeting_id": "GP5_M7",
-        "title": "COST FinAI Meets Coimbra",
-        "date": "10/07/2024",
-        "amount": 1137.4
+        "meeting_id": "GP4_M7",
+        "title": "COST FinAI - Fintech and AI in Finance - MC, WG and Core group meeting",
+        "date": "27/09/2023",
+        "amount": 1008.48
       },
       {
         "meeting_id": "GP5_M8",
         "title": "AI in finance and society - challenges and opportunities",
         "date": "18/07/2024",
-        "amount": 841.97
-      },
-      {
-        "meeting_id": "GP5_M10",
-        "title": "COST FinAI Action Management Committee (MC) Meeting",
-        "date": "06/09/2024",
-        "amount": 600.0
+        "amount": 1323.22
       }
     ],
     "stsm": [],
@@ -3938,17 +3432,96 @@
         "school_id": "GP5_TS3",
         "title": "Advanced Statistical Modelling for Fintech, Financial Inclusion and Inequality",
         "date": "05/09/2024",
-        "amount": 600.0
+        "amount": 897.26
       }
     ],
     "itc_conferences": [],
-    "total_reimbursed": 3179.37,
+    "total_reimbursed": 3228.96,
+    "grant_periods": [
+      4,
+      5
+    ],
+    "primary_country": "LV",
+    "is_itc": true,
+    "activity_count": 3
+  },
+  {
+    "name": "Wenzlaff, Karsten",
+    "countries": [
+      "DE"
+    ],
+    "meetings": [
+      {
+        "meeting_id": "GP5_M2",
+        "title": "COST FinAI meets Brussels",
+        "date": "14/05/2024",
+        "amount": 761.15
+      },
+      {
+        "meeting_id": "GP5_M8",
+        "title": "AI in finance and society - challenges and opportunities",
+        "date": "18/07/2024",
+        "amount": 1495.19
+      }
+    ],
+    "stsm": [],
+    "virtual_mobility": [],
+    "training_schools": [
+      {
+        "school_id": "GP5_TS2",
+        "title": "COST FinAI PhD School on Fintech and AI in Finance",
+        "date": "10/06/2024",
+        "amount": 801.9
+      }
+    ],
+    "itc_conferences": [],
+    "total_reimbursed": 3058.2400000000002,
     "grant_periods": [
       5
     ],
-    "primary_country": "NL",
+    "primary_country": "DE",
     "is_itc": false,
-    "activity_count": 4
+    "activity_count": 3
+  },
+  {
+    "name": "Peliova, Jana",
+    "countries": [
+      "SK"
+    ],
+    "meetings": [
+      {
+        "meeting_id": "GP3_M6",
+        "title": "COST FinAI Transparency in Finance",
+        "date": "05/10/2022",
+        "amount": 827.55
+      },
+      {
+        "meeting_id": "GP4_M7",
+        "title": "COST FinAI - Fintech and AI in Finance - MC, WG and Core group meeting",
+        "date": "27/09/2023",
+        "amount": 1168.61
+      }
+    ],
+    "stsm": [],
+    "virtual_mobility": [],
+    "training_schools": [
+      {
+        "school_id": "GP5_TS3",
+        "title": "Advanced Statistical Modelling for Fintech, Financial Inclusion and Inequality",
+        "date": "05/09/2024",
+        "amount": 1028.22
+      }
+    ],
+    "itc_conferences": [],
+    "total_reimbursed": 3024.38,
+    "grant_periods": [
+      3,
+      4,
+      5
+    ],
+    "primary_country": "SK",
+    "is_itc": true,
+    "activity_count": 3
   },
   {
     "name": "Kozmik, Karel",
@@ -3975,100 +3548,6 @@
     "primary_country": "CZ",
     "is_itc": true,
     "activity_count": 1
-  },
-  {
-    "name": "Albulena Shala VM",
-    "countries": [
-      "KV"
-    ],
-    "meetings": [],
-    "stsm": [],
-    "virtual_mobility": [
-      {
-        "id": "GP3_VM2",
-        "title": "Datathon Quantinar a p2p knowledge",
-        "dates": "06/07/2022 - 10/09/2022",
-        "amount": 1500.0
-      },
-      {
-        "id": "GP4_VM2",
-        "title": "digital financial inclusion Position paper aimed at regulators and policy-makers, on",
-        "dates": "28/02/2023 - 15/05/2023",
-        "amount": 1500.0
-      }
-    ],
-    "training_schools": [],
-    "itc_conferences": [],
-    "total_reimbursed": 3000.0,
-    "grant_periods": [
-      3,
-      4
-    ],
-    "primary_country": "KV",
-    "is_itc": false,
-    "activity_count": 2
-  },
-  {
-    "name": "Codruta MARE VM",
-    "countries": [
-      "RO"
-    ],
-    "meetings": [],
-    "stsm": [],
-    "virtual_mobility": [
-      {
-        "id": "GP3_VM6",
-        "title": "and the Balkans Challenges and opportunities for",
-        "dates": "12/09/2022 - 30/10/2022",
-        "amount": 1500.0
-      },
-      {
-        "id": "GP3_VM12",
-        "title": "GP2 reports",
-        "dates": "31/10/2022 - 31/10/2022",
-        "amount": 1500.0
-      }
-    ],
-    "training_schools": [],
-    "itc_conferences": [],
-    "total_reimbursed": 3000.0,
-    "grant_periods": [
-      3
-    ],
-    "primary_country": "RO",
-    "is_itc": true,
-    "activity_count": 2
-  },
-  {
-    "name": "Galena Pisoni VM",
-    "countries": [
-      "FR"
-    ],
-    "meetings": [],
-    "stsm": [],
-    "virtual_mobility": [
-      {
-        "id": "GP4_VM3",
-        "title": "methodology for testing AI techniques in real-time",
-        "dates": "30/03/2023 - 15/05/2023",
-        "amount": 1500.0
-      },
-      {
-        "id": "GP4_VM12",
-        "title": "by Linguistic Summaries",
-        "dates": "11/10/2023 - 29/10/2023",
-        "amount": 1500.0
-      }
-    ],
-    "training_schools": [],
-    "itc_conferences": [],
-    "total_reimbursed": 3000.0,
-    "grant_periods": [
-      4
-    ],
-    "primary_country": "FR",
-    "is_itc": false,
-    "activity_count": 2
   },
   {
     "name": "Poti, Valerio",
@@ -4116,32 +3595,212 @@
     "activity_count": 4
   },
   {
-    "name": "Spindler, Christian",
+    "name": "Muniz Martinez, Jose Antonio",
     "countries": [
-      "CH"
+      "UK"
     ],
     "meetings": [
       {
-        "meeting_id": "GP4_M8",
-        "title": "AI Innovations in finance and society",
-        "date": "30/10/2023",
-        "amount": 1309.07
+        "meeting_id": "GP5_M2",
+        "title": "COST FinAI meets Brussels",
+        "date": "14/05/2024",
+        "amount": 385.38
+      },
+      {
+        "meeting_id": "GP5_M9",
+        "title": "COST FinAI Meets Iceland",
+        "date": "27/08/2024",
+        "amount": 1005.9
       }
     ],
     "stsm": [],
     "virtual_mobility": [],
     "training_schools": [
       {
-        "school_id": "GP4_TS3",
-        "title": "COST FinAI Training school Data science for sustainable economics and finance",
-        "date": "28/08/2023",
-        "amount": 1309.07
+        "school_id": "GP5_TS2",
+        "title": "COST FinAI PhD School on Fintech and AI in Finance",
+        "date": "10/06/2024",
+        "amount": 1413.87
       }
     ],
     "itc_conferences": [],
-    "total_reimbursed": 2618.14,
+    "total_reimbursed": 2805.1499999999996,
     "grant_periods": [
-      4
+      5
+    ],
+    "primary_country": "UK",
+    "is_itc": false,
+    "activity_count": 3
+  },
+  {
+    "name": "Giordano, Sabrina",
+    "countries": [
+      "IT"
+    ],
+    "meetings": [
+      {
+        "meeting_id": "GP4_M1",
+        "title": "Diversity challenges and stakeholders' engagement",
+        "date": "01/02/2023",
+        "amount": 658.71
+      },
+      {
+        "meeting_id": "GP5_M6",
+        "title": "Women in Fintech and AI - 4th edition",
+        "date": "27/06/2024",
+        "amount": 1131.77
+      }
+    ],
+    "stsm": [],
+    "virtual_mobility": [],
+    "training_schools": [
+      {
+        "school_id": "GP5_TS3",
+        "title": "Advanced Statistical Modelling for Fintech, Financial Inclusion and Inequality",
+        "date": "05/09/2024",
+        "amount": 915.2
+      }
+    ],
+    "itc_conferences": [],
+    "total_reimbursed": 2705.6800000000003,
+    "grant_periods": [
+      4,
+      5
+    ],
+    "primary_country": "IT",
+    "is_itc": false,
+    "activity_count": 3
+  },
+  {
+    "name": "Bernard, Frédérik Sinan",
+    "countries": [
+      "NL"
+    ],
+    "meetings": [
+      {
+        "meeting_id": "GP5_M7",
+        "title": "COST FinAI Meets Coimbra",
+        "date": "10/07/2024",
+        "amount": 1137.4
+      },
+      {
+        "meeting_id": "GP5_M8",
+        "title": "AI in finance and society - challenges and opportunities",
+        "date": "18/07/2024",
+        "amount": 841.97
+      }
+    ],
+    "stsm": [],
+    "virtual_mobility": [],
+    "training_schools": [
+      {
+        "school_id": "GP5_TS3",
+        "title": "Advanced Statistical Modelling for Fintech, Financial Inclusion and Inequality",
+        "date": "05/09/2024",
+        "amount": 600.0
+      }
+    ],
+    "itc_conferences": [],
+    "total_reimbursed": 2579.37,
+    "grant_periods": [
+      5
+    ],
+    "primary_country": "NL",
+    "is_itc": false,
+    "activity_count": 3
+  },
+  {
+    "name": "Moukas, Alexios Ioannis",
+    "countries": [
+      "EL"
+    ],
+    "meetings": [
+      {
+        "meeting_id": "GP4_M2",
+        "title": "Diversity challenges for a sustainable Fintech",
+        "date": "13/04/2023",
+        "amount": 841.06
+      }
+    ],
+    "stsm": [],
+    "virtual_mobility": [],
+    "training_schools": [
+      {
+        "school_id": "GP4_TS2",
+        "title": "COSTFinAI-FintechandAIinFinance-TrainingSchooloncurrentstate-of-the-art",
+        "date": "12/06/2023",
+        "amount": 984.23
+      },
+      {
+        "school_id": "GP5_TS1",
+        "title": "Advances in Data Science and AI for Finance: Bridging Academia and Industry",
+        "date": "03/06/2024",
+        "amount": 731.1
+      }
+    ],
+    "itc_conferences": [],
+    "total_reimbursed": 2556.39,
+    "grant_periods": [
+      4,
+      5
+    ],
+    "primary_country": "EL",
+    "is_itc": true,
+    "activity_count": 3
+  },
+  {
+    "name": "Jasone Ramírez-Ayerbe",
+    "countries": [
+      "ES"
+    ],
+    "meetings": [],
+    "stsm": [
+      {
+        "id": "GP1_STSM6",
+        "host": "DK",
+        "dates": "13/10/2021 - 26/10/2021",
+        "days": 14,
+        "amount": 2540.0
+      }
+    ],
+    "virtual_mobility": [],
+    "training_schools": [],
+    "itc_conferences": [],
+    "total_reimbursed": 2540.0,
+    "grant_periods": [
+      1
+    ],
+    "primary_country": "ES",
+    "is_itc": false,
+    "activity_count": 1
+  },
+  {
+    "name": "Taibi, Gabin",
+    "countries": [
+      "CH"
+    ],
+    "meetings": [
+      {
+        "meeting_id": "GP5_M2",
+        "title": "COST FinAI meets Brussels",
+        "date": "14/05/2024",
+        "amount": 1045.0
+      }
+    ],
+    "stsm": [],
+    "virtual_mobility": [],
+    "training_schools": [
+      {
+        "school_id": "GP5_TS2",
+        "title": "COST FinAI PhD School on Fintech and AI in Finance",
+        "date": "10/06/2024",
+        "amount": 1486.05
+      }
+    ],
+    "itc_conferences": [],
+    "total_reimbursed": 2531.05,
+    "grant_periods": [
+      5
     ],
     "primary_country": "CH",
     "is_itc": false,
@@ -4185,38 +3844,6 @@
     "activity_count": 3
   },
   {
-    "name": "çitçi, Sadettin haluk",
-    "countries": [
-      "TR"
-    ],
-    "meetings": [
-      {
-        "meeting_id": "GP4_M8",
-        "title": "AI Innovations in finance and society",
-        "date": "30/10/2023",
-        "amount": 1250.81
-      }
-    ],
-    "stsm": [],
-    "virtual_mobility": [],
-    "training_schools": [
-      {
-        "school_id": "GP4_TS2",
-        "title": "COSTFinAI-FintechandAIinFinance-TrainingSchooloncurrentstate-of-the-art",
-        "date": "12/06/2023",
-        "amount": 1250.81
-      }
-    ],
-    "itc_conferences": [],
-    "total_reimbursed": 2501.62,
-    "grant_periods": [
-      4
-    ],
-    "primary_country": "TR",
-    "is_itc": true,
-    "activity_count": 2
-  },
-  {
     "name": "Papavassiliou, Vassilios",
     "countries": [
       "IE"
@@ -4240,6 +3867,32 @@
     ],
     "primary_country": "IE",
     "is_itc": false,
+    "activity_count": 1
+  },
+  {
+    "name": "Apostolos Chalkis",
+    "countries": [
+      "EL"
+    ],
+    "meetings": [],
+    "stsm": [
+      {
+        "id": "GP1_STSM5",
+        "host": "FR",
+        "dates": "10/10/2021 - 23/10/2021",
+        "days": 14,
+        "amount": 2450.0
+      }
+    ],
+    "virtual_mobility": [],
+    "training_schools": [],
+    "itc_conferences": [],
+    "total_reimbursed": 2450.0,
+    "grant_periods": [
+      1
+    ],
+    "primary_country": "EL",
+    "is_itc": true,
     "activity_count": 1
   },
   {
@@ -4276,35 +3929,34 @@
     "activity_count": 2
   },
   {
-    "name": "Temkov, Slave",
+    "name": "Dellaportas, Petros",
     "countries": [
-      "MK"
+      "UK"
     ],
-    "meetings": [
-      {
-        "meeting_id": "GP4_M8",
-        "title": "AI Innovations in finance and society",
-        "date": "30/10/2023",
-        "amount": 1150.04
-      }
-    ],
+    "meetings": [],
     "stsm": [],
     "virtual_mobility": [],
     "training_schools": [
       {
-        "school_id": "GP4_TS2",
-        "title": "COSTFinAI-FintechandAIinFinance-TrainingSchooloncurrentstate-of-the-art",
-        "date": "12/06/2023",
-        "amount": 1150.04
+        "school_id": "GP5_TS1",
+        "title": "Advances in Data Science and AI for Finance: Bridging Academia and Industry",
+        "date": "03/06/2024",
+        "amount": 1106.76
+      },
+      {
+        "school_id": "GP5_TS3",
+        "title": "Advanced Statistical Modelling for Fintech, Financial Inclusion and Inequality",
+        "date": "05/09/2024",
+        "amount": 1228.24
       }
     ],
     "itc_conferences": [],
-    "total_reimbursed": 2300.08,
+    "total_reimbursed": 2335.0,
     "grant_periods": [
-      4
+      5
     ],
-    "primary_country": "MK",
-    "is_itc": true,
+    "primary_country": "UK",
+    "is_itc": false,
     "activity_count": 2
   },
   {
@@ -4410,76 +4062,6 @@
     "activity_count": 3
   },
   {
-    "name": "Ortiz, Cristina",
-    "countries": [
-      "ES"
-    ],
-    "meetings": [
-      {
-        "meeting_id": "GP5_M1",
-        "title": "Core Group and Working Group Meeting in Cluj-Napoca",
-        "date": "24/04/2024",
-        "amount": 845.35
-      },
-      {
-        "meeting_id": "GP5_M10",
-        "title": "COST FinAI Action Management Committee (MC) Meeting",
-        "date": "06/09/2024",
-        "amount": 698.78
-      }
-    ],
-    "stsm": [],
-    "virtual_mobility": [],
-    "training_schools": [
-      {
-        "school_id": "GP5_TS1",
-        "title": "Advances in Data Science and AI for Finance: Bridging Academia and Industry",
-        "date": "03/06/2024",
-        "amount": 698.78
-      }
-    ],
-    "itc_conferences": [],
-    "total_reimbursed": 2242.91,
-    "grant_periods": [
-      5
-    ],
-    "primary_country": "ES",
-    "is_itc": false,
-    "activity_count": 3
-  },
-  {
-    "name": "Klein, Marius",
-    "countries": [
-      "CH"
-    ],
-    "meetings": [
-      {
-        "meeting_id": "GP5_M10",
-        "title": "COST FinAI Action Management Committee (MC) Meeting",
-        "date": "06/09/2024",
-        "amount": 1114.7
-      }
-    ],
-    "stsm": [],
-    "virtual_mobility": [],
-    "training_schools": [
-      {
-        "school_id": "GP5_TS2",
-        "title": "COST FinAI PhD School on Fintech and AI in Finance",
-        "date": "10/06/2024",
-        "amount": 1114.7
-      }
-    ],
-    "itc_conferences": [],
-    "total_reimbursed": 2229.4,
-    "grant_periods": [
-      5
-    ],
-    "primary_country": "CH",
-    "is_itc": false,
-    "activity_count": 2
-  },
-  {
     "name": "Mishev, Stoyan",
     "countries": [
       "BG"
@@ -4512,35 +4094,35 @@
     "activity_count": 2
   },
   {
-    "name": "Hudec, Miroslav",
+    "name": "MATKOVSKYY, Roman",
     "countries": [
-      "SK"
+      "FR"
     ],
-    "meetings": [
-      {
-        "meeting_id": "GP2_M4",
-        "title": "COST FinAI Diversity research workshop",
-        "date": "16/05/2022",
-        "amount": 901.29
-      },
-      {
-        "meeting_id": "GP4_M4",
-        "title": "Women in Fintech III - Portugal",
-        "date": "01/06/2023",
-        "amount": 1236.39
-      }
-    ],
+    "meetings": [],
     "stsm": [],
     "virtual_mobility": [],
-    "training_schools": [],
-    "itc_conferences": [],
-    "total_reimbursed": 2137.6800000000003,
-    "grant_periods": [
-      2,
-      4
+    "training_schools": [
+      {
+        "school_id": "GP4_TS2",
+        "title": "COSTFinAI-FintechandAIinFinance-TrainingSchooloncurrentstate-of-the-art",
+        "date": "12/06/2023",
+        "amount": 1370.33
+      },
+      {
+        "school_id": "GP5_TS2",
+        "title": "COST FinAI PhD School on Fintech and AI in Finance",
+        "date": "10/06/2024",
+        "amount": 787.34
+      }
     ],
-    "primary_country": "SK",
-    "is_itc": true,
+    "itc_conferences": [],
+    "total_reimbursed": 2157.67,
+    "grant_periods": [
+      4,
+      5
+    ],
+    "primary_country": "FR",
+    "is_itc": false,
     "activity_count": 2
   },
   {
@@ -4644,45 +4226,6 @@
     "activity_count": 2
   },
   {
-    "name": "Citterio, Alberto",
-    "countries": [
-      "IT"
-    ],
-    "meetings": [
-      {
-        "meeting_id": "GP3_M4",
-        "title": "Women in Fintech and Artificial Intelligence",
-        "date": "21/09/2022",
-        "amount": 401.98
-      },
-      {
-        "meeting_id": "GP4_M8",
-        "title": "AI Innovations in finance and society",
-        "date": "30/10/2023",
-        "amount": 770.9
-      }
-    ],
-    "stsm": [],
-    "virtual_mobility": [],
-    "training_schools": [
-      {
-        "school_id": "GP4_TS4",
-        "title": "Advanced Statistical Modelling for Fintech, financial inclusion and inequality (AFFINE)",
-        "date": "13/09/2023",
-        "amount": 770.9
-      }
-    ],
-    "itc_conferences": [],
-    "total_reimbursed": 1943.7800000000002,
-    "grant_periods": [
-      3,
-      4
-    ],
-    "primary_country": "IT",
-    "is_itc": false,
-    "activity_count": 3
-  },
-  {
     "name": "Ivanisevic Hernaus, Ana",
     "countries": [
       "HR"
@@ -4772,38 +4315,6 @@
     "activity_count": 2
   },
   {
-    "name": "Popa, Diana",
-    "countries": [
-      "RO"
-    ],
-    "meetings": [
-      {
-        "meeting_id": "GP4_M8",
-        "title": "AI Innovations in finance and society",
-        "date": "30/10/2023",
-        "amount": 911.0
-      }
-    ],
-    "stsm": [],
-    "virtual_mobility": [],
-    "training_schools": [
-      {
-        "school_id": "GP4_TS3",
-        "title": "COST FinAI Training school Data science for sustainable economics and finance",
-        "date": "28/08/2023",
-        "amount": 911.0
-      }
-    ],
-    "itc_conferences": [],
-    "total_reimbursed": 1822.0,
-    "grant_periods": [
-      4
-    ],
-    "primary_country": "RO",
-    "is_itc": true,
-    "activity_count": 2
-  },
-  {
     "name": "Paccagnini, Alessia",
     "countries": [
       "IE"
@@ -4868,36 +4379,29 @@
     "activity_count": 2
   },
   {
-    "name": "Mirzaei, Mahsa",
+    "name": "Zhu, Laqiqige",
     "countries": [
       "IE"
     ],
-    "meetings": [
-      {
-        "meeting_id": "GP4_M8",
-        "title": "AI Innovations in finance and society",
-        "date": "30/10/2023",
-        "amount": 806.62
-      }
-    ],
+    "meetings": [],
     "stsm": [],
     "virtual_mobility": [],
     "training_schools": [
       {
-        "school_id": "GP4_TS4",
-        "title": "Advanced Statistical Modelling for Fintech, financial inclusion and inequality (AFFINE)",
-        "date": "13/09/2023",
-        "amount": 806.62
+        "school_id": "GP4_TS2",
+        "title": "COSTFinAI-FintechandAIinFinance-TrainingSchooloncurrentstate-of-the-art",
+        "date": "12/06/2023",
+        "amount": 1652.24
       }
     ],
     "itc_conferences": [],
-    "total_reimbursed": 1613.24,
+    "total_reimbursed": 1652.24,
     "grant_periods": [
       4
     ],
     "primary_country": "IE",
     "is_itc": false,
-    "activity_count": 2
+    "activity_count": 1
   },
   {
     "name": "Hanna Kristin Skaftadottir",
@@ -5015,6 +4519,64 @@
     "activity_count": 3
   },
   {
+    "name": "Ortiz, Cristina",
+    "countries": [
+      "ES"
+    ],
+    "meetings": [
+      {
+        "meeting_id": "GP5_M1",
+        "title": "Core Group and Working Group Meeting in Cluj-Napoca",
+        "date": "24/04/2024",
+        "amount": 845.35
+      }
+    ],
+    "stsm": [],
+    "virtual_mobility": [],
+    "training_schools": [
+      {
+        "school_id": "GP5_TS1",
+        "title": "Advances in Data Science and AI for Finance: Bridging Academia and Industry",
+        "date": "03/06/2024",
+        "amount": 698.78
+      }
+    ],
+    "itc_conferences": [],
+    "total_reimbursed": 1544.13,
+    "grant_periods": [
+      5
+    ],
+    "primary_country": "ES",
+    "is_itc": false,
+    "activity_count": 2
+  },
+  {
+    "name": "Stjepan Picek",
+    "countries": [
+      "NL"
+    ],
+    "meetings": [],
+    "stsm": [
+      {
+        "id": "GP1_STSM1",
+        "host": "HR",
+        "dates": "11/01/2021 - 26/01/2021",
+        "days": 16,
+        "amount": 1520.0
+      }
+    ],
+    "virtual_mobility": [],
+    "training_schools": [],
+    "itc_conferences": [],
+    "total_reimbursed": 1520.0,
+    "grant_periods": [
+      1
+    ],
+    "primary_country": "NL",
+    "is_itc": false,
+    "activity_count": 1
+  },
+  {
     "name": "Nur, Pınar",
     "countries": [
       "TR"
@@ -5076,363 +4638,6 @@
     "primary_country": "RO",
     "is_itc": true,
     "activity_count": 2
-  },
-  {
-    "name": "Alessandra Tanda VM",
-    "countries": [
-      "IT"
-    ],
-    "meetings": [],
-    "stsm": [],
-    "virtual_mobility": [
-      {
-        "id": "GP2_VM1",
-        "title": "products: is there a role for transparency?",
-        "dates": "01/05/2022 - 15/05/2022",
-        "amount": 190.0
-      },
-      {
-        "id": "GP3_VM1",
-        "title": "products: is there a role for transparency? Women in Fintech European",
-        "dates": "15/07/2022 - 15/09/2022",
-        "amount": 1310.0
-      }
-    ],
-    "training_schools": [],
-    "itc_conferences": [],
-    "total_reimbursed": 1500.0,
-    "grant_periods": [
-      2,
-      3
-    ],
-    "primary_country": "IT",
-    "is_itc": false,
-    "activity_count": 2
-  },
-  {
-    "name": "Wolfgang Härdle VM",
-    "countries": [
-      "DE"
-    ],
-    "meetings": [],
-    "stsm": [],
-    "virtual_mobility": [
-      {
-        "id": "GP3_VM3",
-        "title": "exchange platform The Role of FinTech in Cashless",
-        "dates": "27/07/2022 - 26/10/2022",
-        "amount": 1500.0
-      }
-    ],
-    "training_schools": [],
-    "itc_conferences": [],
-    "total_reimbursed": 1500.0,
-    "grant_periods": [
-      3
-    ],
-    "primary_country": "DE",
-    "is_itc": false,
-    "activity_count": 1
-  },
-  {
-    "name": "Belma OZTURKKAL VM",
-    "countries": [
-      "TR"
-    ],
-    "meetings": [],
-    "stsm": [],
-    "virtual_mobility": [
-      {
-        "id": "GP3_VM5",
-        "title": "Analysis on Venture Capital The Fintech Sector in Romania",
-        "dates": "21/07/2022 - 30/10/2022",
-        "amount": 1500.0
-      }
-    ],
-    "training_schools": [],
-    "itc_conferences": [],
-    "total_reimbursed": 1500.0,
-    "grant_periods": [
-      3
-    ],
-    "primary_country": "TR",
-    "is_itc": true,
-    "activity_count": 1
-  },
-  {
-    "name": "Karolina Bolesta VM",
-    "countries": [
-      "PL"
-    ],
-    "meetings": [],
-    "stsm": [],
-    "virtual_mobility": [
-      {
-        "id": "GP3_VM11",
-        "title": "finance industry with guidelines to improve transparency Coordination of deliverables and",
-        "dates": "18/10/2022 - 31/10/2022",
-        "amount": 1500.0
-      }
-    ],
-    "training_schools": [],
-    "itc_conferences": [],
-    "total_reimbursed": 1500.0,
-    "grant_periods": [
-      3
-    ],
-    "primary_country": "PL",
-    "is_itc": true,
-    "activity_count": 1
-  },
-  {
-    "name": "Miroslav Hudec NO",
-    "countries": [
-      "SK"
-    ],
-    "meetings": [],
-    "stsm": [],
-    "virtual_mobility": [
-      {
-        "id": "GP5_VM2",
-        "title": "approaches in mining patterns from p2p loan data Responsible AI-based business",
-        "dates": "01/03/2024 - 30/08/2024",
-        "amount": 1500.0
-      }
-    ],
-    "training_schools": [],
-    "itc_conferences": [],
-    "total_reimbursed": 1500.0,
-    "grant_periods": [
-      5
-    ],
-    "primary_country": "SK",
-    "is_itc": true,
-    "activity_count": 1
-  },
-  {
-    "name": "Galena Pisoni YES",
-    "countries": [
-      "FR"
-    ],
-    "meetings": [],
-    "stsm": [],
-    "virtual_mobility": [
-      {
-        "id": "GP5_VM3",
-        "title": "processes for finance A discussion paper for possible approaches to building a",
-        "dates": "08/03/2024 - 29/04/2024",
-        "amount": 1500.0
-      }
-    ],
-    "training_schools": [],
-    "itc_conferences": [],
-    "total_reimbursed": 1500.0,
-    "grant_periods": [
-      5
-    ],
-    "primary_country": "FR",
-    "is_itc": false,
-    "activity_count": 1
-  },
-  {
-    "name": "Veni Arakelian NO",
-    "countries": [
-      "EL"
-    ],
-    "meetings": [],
-    "stsm": [],
-    "virtual_mobility": [
-      {
-        "id": "GP5_VM4",
-        "title": "statistically valid backtesting framework Pioneering Visual Analytics for Establishing XAI Standards in",
-        "dates": "01/05/2024 - 01/08/2024",
-        "amount": 1500.0
-      }
-    ],
-    "training_schools": [],
-    "itc_conferences": [],
-    "total_reimbursed": 1500.0,
-    "grant_periods": [
-      5
-    ],
-    "primary_country": "EL",
-    "is_itc": true,
-    "activity_count": 1
-  },
-  {
-    "name": "Jörg Osterrieder NO",
-    "countries": [
-      "CH"
-    ],
-    "meetings": [],
-    "stsm": [],
-    "virtual_mobility": [
-      {
-        "id": "GP5_VM5",
-        "title": "European Finance with a Policy- Focused Impact",
-        "dates": "08/04/2024 - 17/04/2024",
-        "amount": 1500.0
-      }
-    ],
-    "training_schools": [],
-    "itc_conferences": [],
-    "total_reimbursed": 1500.0,
-    "grant_periods": [
-      5
-    ],
-    "primary_country": "CH",
-    "is_itc": false,
-    "activity_count": 1
-  },
-  {
-    "name": "Branka Hadji Misheva YES",
-    "countries": [
-      "CH"
-    ],
-    "meetings": [],
-    "stsm": [],
-    "virtual_mobility": [
-      {
-        "id": "GP5_VM7",
-        "title": "Standards in European Finance with a Policy-Focused Impact The Best WI-FI 2024 Young",
-        "dates": "08/05/2024 - 20/05/2024",
-        "amount": 1500.0
-      }
-    ],
-    "training_schools": [],
-    "itc_conferences": [],
-    "total_reimbursed": 1500.0,
-    "grant_periods": [
-      5
-    ],
-    "primary_country": "CH",
-    "is_itc": false,
-    "activity_count": 1
-  },
-  {
-    "name": "Albulena Shala YES",
-    "countries": [
-      "KV"
-    ],
-    "meetings": [],
-    "stsm": [],
-    "virtual_mobility": [
-      {
-        "id": "GP5_VM8",
-        "title": "researcher Paper Deliverable 7: Methodology for evaluating/rating crowdfunding/P2P platforms for",
-        "dates": "15/05/2024 - 31/07/2024",
-        "amount": 1500.0
-      }
-    ],
-    "training_schools": [],
-    "itc_conferences": [],
-    "total_reimbursed": 1500.0,
-    "grant_periods": [
-      5
-    ],
-    "primary_country": "KV",
-    "is_itc": false,
-    "activity_count": 1
-  },
-  {
-    "name": "Ioana Coita NO",
-    "countries": [
-      "RO"
-    ],
-    "meetings": [],
-    "stsm": [],
-    "virtual_mobility": [
-      {
-        "id": "GP5_VM9",
-        "title": "detection/early warning about fraud/illegal behaviour with emphasis on AI tools Empowering Women in FinTech:",
-        "dates": "01/06/2024 - 06/09/2024",
-        "amount": 1500.0
-      }
-    ],
-    "training_schools": [],
-    "itc_conferences": [],
-    "total_reimbursed": 1500.0,
-    "grant_periods": [
-      5
-    ],
-    "primary_country": "RO",
-    "is_itc": true,
-    "activity_count": 1
-  },
-  {
-    "name": "Stefana Belbe YES",
-    "countries": [
-      "RO"
-    ],
-    "meetings": [],
-    "stsm": [],
-    "virtual_mobility": [
-      {
-        "id": "GP5_VM11",
-        "title": "prevention in crowdfunding Deliverable 13: 2020 annual report (for lay audience)",
-        "dates": "03/06/2024 - 03/08/2024",
-        "amount": 1500.0
-      }
-    ],
-    "training_schools": [],
-    "itc_conferences": [],
-    "total_reimbursed": 1500.0,
-    "grant_periods": [
-      5
-    ],
-    "primary_country": "RO",
-    "is_itc": true,
-    "activity_count": 1
-  },
-  {
-    "name": "Alessandra Tanda YES",
-    "countries": [
-      "IT"
-    ],
-    "meetings": [],
-    "stsm": [],
-    "virtual_mobility": [
-      {
-        "id": "GP5_VM12",
-        "title": "distributed via local and national media Science Communication Strategy",
-        "dates": "05/07/2024 - 15/08/2024",
-        "amount": 1500.0
-      }
-    ],
-    "training_schools": [],
-    "itc_conferences": [],
-    "total_reimbursed": 1500.0,
-    "grant_periods": [
-      5
-    ],
-    "primary_country": "IT",
-    "is_itc": false,
-    "activity_count": 1
-  },
-  {
-    "name": "Olivija Filipovska NO",
-    "countries": [
-      "MK"
-    ],
-    "meetings": [],
-    "stsm": [],
-    "virtual_mobility": [
-      {
-        "id": "GP5_VM13",
-        "title": "and web site update Methodological discussion paper on AI models to generate “failed trials” of investment product",
-        "dates": "15/06/2024 - 15/08/2024",
-        "amount": 1500.0
-      }
-    ],
-    "training_schools": [],
-    "itc_conferences": [],
-    "total_reimbursed": 1500.0,
-    "grant_periods": [
-      5
-    ],
-    "primary_country": "MK",
-    "is_itc": true,
-    "activity_count": 1
   },
   {
     "name": "Hochreiter, Ronald",
@@ -5500,8 +4705,8 @@
   {
     "name": "Pelegrina Jimenez, Antonio",
     "countries": [
-      "ES",
-      "HU"
+      "HU",
+      "ES"
     ],
     "meetings": [
       {
@@ -5526,39 +4731,7 @@
       1,
       3
     ],
-    "primary_country": "ES",
-    "is_itc": false,
-    "activity_count": 2
-  },
-  {
-    "name": "Birlan, Ioana",
-    "countries": [
-      "RO"
-    ],
-    "meetings": [
-      {
-        "meeting_id": "GP4_M8",
-        "title": "AI Innovations in finance and society",
-        "date": "30/10/2023",
-        "amount": 670.0
-      }
-    ],
-    "stsm": [],
-    "virtual_mobility": [],
-    "training_schools": [
-      {
-        "school_id": "GP4_TS3",
-        "title": "COST FinAI Training school Data science for sustainable economics and finance",
-        "date": "28/08/2023",
-        "amount": 670.0
-      }
-    ],
-    "itc_conferences": [],
-    "total_reimbursed": 1340.0,
-    "grant_periods": [
-      4
-    ],
-    "primary_country": "RO",
+    "primary_country": "HU",
     "is_itc": true,
     "activity_count": 2
   },
@@ -5619,6 +4792,56 @@
     "activity_count": 1
   },
   {
+    "name": "Spindler, Christian",
+    "countries": [
+      "CH"
+    ],
+    "meetings": [],
+    "stsm": [],
+    "virtual_mobility": [],
+    "training_schools": [
+      {
+        "school_id": "GP4_TS3",
+        "title": "COST FinAI Training school Data science for sustainable economics and finance",
+        "date": "28/08/2023",
+        "amount": 1309.07
+      }
+    ],
+    "itc_conferences": [],
+    "total_reimbursed": 1309.07,
+    "grant_periods": [
+      4
+    ],
+    "primary_country": "CH",
+    "is_itc": false,
+    "activity_count": 1
+  },
+  {
+    "name": "çitçi, Sadettin haluk",
+    "countries": [
+      "TR"
+    ],
+    "meetings": [],
+    "stsm": [],
+    "virtual_mobility": [],
+    "training_schools": [
+      {
+        "school_id": "GP4_TS2",
+        "title": "COSTFinAI-FintechandAIinFinance-TrainingSchooloncurrentstate-of-the-art",
+        "date": "12/06/2023",
+        "amount": 1250.81
+      }
+    ],
+    "itc_conferences": [],
+    "total_reimbursed": 1250.81,
+    "grant_periods": [
+      4
+    ],
+    "primary_country": "TR",
+    "is_itc": true,
+    "activity_count": 1
+  },
+  {
     "name": "DAVER, Gizay",
     "countries": [
       "TR"
@@ -5648,262 +4871,6 @@
     ],
     "primary_country": "TR",
     "is_itc": true,
-    "activity_count": 2
-  },
-  {
-    "name": "D'Elia, Samuele",
-    "countries": [
-      "IT"
-    ],
-    "meetings": [
-      {
-        "meeting_id": "GP4_M8",
-        "title": "AI Innovations in finance and society",
-        "date": "30/10/2023",
-        "amount": 600.0
-      }
-    ],
-    "stsm": [],
-    "virtual_mobility": [],
-    "training_schools": [
-      {
-        "school_id": "GP4_TS3",
-        "title": "COST FinAI Training school Data science for sustainable economics and finance",
-        "date": "28/08/2023",
-        "amount": 600.0
-      }
-    ],
-    "itc_conferences": [],
-    "total_reimbursed": 1200.0,
-    "grant_periods": [
-      4
-    ],
-    "primary_country": "IT",
-    "is_itc": false,
-    "activity_count": 2
-  },
-  {
-    "name": "Demolli, Erlind",
-    "countries": [
-      "CH"
-    ],
-    "meetings": [
-      {
-        "meeting_id": "GP4_M8",
-        "title": "AI Innovations in finance and society",
-        "date": "30/10/2023",
-        "amount": 600.0
-      }
-    ],
-    "stsm": [],
-    "virtual_mobility": [],
-    "training_schools": [
-      {
-        "school_id": "GP4_TS3",
-        "title": "COST FinAI Training school Data science for sustainable economics and finance",
-        "date": "28/08/2023",
-        "amount": 600.0
-      }
-    ],
-    "itc_conferences": [],
-    "total_reimbursed": 1200.0,
-    "grant_periods": [
-      4
-    ],
-    "primary_country": "CH",
-    "is_itc": false,
-    "activity_count": 2
-  },
-  {
-    "name": "Frigerio, Giorgio Pietro",
-    "countries": [
-      "IT"
-    ],
-    "meetings": [
-      {
-        "meeting_id": "GP4_M8",
-        "title": "AI Innovations in finance and society",
-        "date": "30/10/2023",
-        "amount": 600.0
-      }
-    ],
-    "stsm": [],
-    "virtual_mobility": [],
-    "training_schools": [
-      {
-        "school_id": "GP4_TS3",
-        "title": "COST FinAI Training school Data science for sustainable economics and finance",
-        "date": "28/08/2023",
-        "amount": 600.0
-      }
-    ],
-    "itc_conferences": [],
-    "total_reimbursed": 1200.0,
-    "grant_periods": [
-      4
-    ],
-    "primary_country": "IT",
-    "is_itc": false,
-    "activity_count": 2
-  },
-  {
-    "name": "Ghesini, Matteo",
-    "countries": [
-      "IT"
-    ],
-    "meetings": [
-      {
-        "meeting_id": "GP4_M8",
-        "title": "AI Innovations in finance and society",
-        "date": "30/10/2023",
-        "amount": 600.0
-      }
-    ],
-    "stsm": [],
-    "virtual_mobility": [],
-    "training_schools": [
-      {
-        "school_id": "GP4_TS3",
-        "title": "COST FinAI Training school Data science for sustainable economics and finance",
-        "date": "28/08/2023",
-        "amount": 600.0
-      }
-    ],
-    "itc_conferences": [],
-    "total_reimbursed": 1200.0,
-    "grant_periods": [
-      4
-    ],
-    "primary_country": "IT",
-    "is_itc": false,
-    "activity_count": 2
-  },
-  {
-    "name": "Jevtic, Danijel",
-    "countries": [
-      "CH"
-    ],
-    "meetings": [
-      {
-        "meeting_id": "GP4_M8",
-        "title": "AI Innovations in finance and society",
-        "date": "30/10/2023",
-        "amount": 600.0
-      }
-    ],
-    "stsm": [],
-    "virtual_mobility": [],
-    "training_schools": [
-      {
-        "school_id": "GP4_TS3",
-        "title": "COST FinAI Training school Data science for sustainable economics and finance",
-        "date": "28/08/2023",
-        "amount": 600.0
-      }
-    ],
-    "itc_conferences": [],
-    "total_reimbursed": 1200.0,
-    "grant_periods": [
-      4
-    ],
-    "primary_country": "CH",
-    "is_itc": false,
-    "activity_count": 2
-  },
-  {
-    "name": "Lefosse, Saverio Lorenzo",
-    "countries": [
-      "IT"
-    ],
-    "meetings": [
-      {
-        "meeting_id": "GP4_M8",
-        "title": "AI Innovations in finance and society",
-        "date": "30/10/2023",
-        "amount": 600.0
-      }
-    ],
-    "stsm": [],
-    "virtual_mobility": [],
-    "training_schools": [
-      {
-        "school_id": "GP4_TS3",
-        "title": "COST FinAI Training school Data science for sustainable economics and finance",
-        "date": "28/08/2023",
-        "amount": 600.0
-      }
-    ],
-    "itc_conferences": [],
-    "total_reimbursed": 1200.0,
-    "grant_periods": [
-      4
-    ],
-    "primary_country": "IT",
-    "is_itc": false,
-    "activity_count": 2
-  },
-  {
-    "name": "Migliore, Federico Guido",
-    "countries": [
-      "IT"
-    ],
-    "meetings": [
-      {
-        "meeting_id": "GP4_M8",
-        "title": "AI Innovations in finance and society",
-        "date": "30/10/2023",
-        "amount": 600.0
-      }
-    ],
-    "stsm": [],
-    "virtual_mobility": [],
-    "training_schools": [
-      {
-        "school_id": "GP4_TS3",
-        "title": "COST FinAI Training school Data science for sustainable economics and finance",
-        "date": "28/08/2023",
-        "amount": 600.0
-      }
-    ],
-    "itc_conferences": [],
-    "total_reimbursed": 1200.0,
-    "grant_periods": [
-      4
-    ],
-    "primary_country": "IT",
-    "is_itc": false,
-    "activity_count": 2
-  },
-  {
-    "name": "Raeli, Fabrizio",
-    "countries": [
-      "IT"
-    ],
-    "meetings": [
-      {
-        "meeting_id": "GP4_M8",
-        "title": "AI Innovations in finance and society",
-        "date": "30/10/2023",
-        "amount": 600.0
-      }
-    ],
-    "stsm": [],
-    "virtual_mobility": [],
-    "training_schools": [
-      {
-        "school_id": "GP4_TS3",
-        "title": "COST FinAI Training school Data science for sustainable economics and finance",
-        "date": "28/08/2023",
-        "amount": 600.0
-      }
-    ],
-    "itc_conferences": [],
-    "total_reimbursed": 1200.0,
-    "grant_periods": [
-      4
-    ],
-    "primary_country": "IT",
-    "is_itc": false,
     "activity_count": 2
   },
   {
@@ -5965,6 +4932,64 @@
     "activity_count": 2
   },
   {
+    "name": "Citterio, Alberto",
+    "countries": [
+      "IT"
+    ],
+    "meetings": [
+      {
+        "meeting_id": "GP3_M4",
+        "title": "Women in Fintech and Artificial Intelligence",
+        "date": "21/09/2022",
+        "amount": 401.98
+      }
+    ],
+    "stsm": [],
+    "virtual_mobility": [],
+    "training_schools": [
+      {
+        "school_id": "GP4_TS4",
+        "title": "Advanced Statistical Modelling for Fintech, financial inclusion and inequality (AFFINE)",
+        "date": "13/09/2023",
+        "amount": 770.9
+      }
+    ],
+    "itc_conferences": [],
+    "total_reimbursed": 1172.88,
+    "grant_periods": [
+      3,
+      4
+    ],
+    "primary_country": "IT",
+    "is_itc": false,
+    "activity_count": 2
+  },
+  {
+    "name": "Temkov, Slave",
+    "countries": [
+      "MK"
+    ],
+    "meetings": [],
+    "stsm": [],
+    "virtual_mobility": [],
+    "training_schools": [
+      {
+        "school_id": "GP4_TS2",
+        "title": "COSTFinAI-FintechandAIinFinance-TrainingSchooloncurrentstate-of-the-art",
+        "date": "12/06/2023",
+        "amount": 1150.04
+      }
+    ],
+    "itc_conferences": [],
+    "total_reimbursed": 1150.04,
+    "grant_periods": [
+      4
+    ],
+    "primary_country": "MK",
+    "is_itc": true,
+    "activity_count": 1
+  },
+  {
     "name": "Vučetić, Miljan",
     "countries": [
       "RS"
@@ -6012,6 +5037,31 @@
     ],
     "primary_country": "CY",
     "is_itc": true,
+    "activity_count": 1
+  },
+  {
+    "name": "Klein, Marius",
+    "countries": [
+      "CH"
+    ],
+    "meetings": [],
+    "stsm": [],
+    "virtual_mobility": [],
+    "training_schools": [
+      {
+        "school_id": "GP5_TS2",
+        "title": "COST FinAI PhD School on Fintech and AI in Finance",
+        "date": "10/06/2024",
+        "amount": 1114.7
+      }
+    ],
+    "itc_conferences": [],
+    "total_reimbursed": 1114.7,
+    "grant_periods": [
+      5
+    ],
+    "primary_country": "CH",
+    "is_itc": false,
     "activity_count": 1
   },
   {
@@ -6140,31 +5190,6 @@
     "activity_count": 1
   },
   {
-    "name": "esra kabaklarli VM",
-    "countries": [
-      "TR"
-    ],
-    "meetings": [],
-    "stsm": [],
-    "virtual_mobility": [
-      {
-        "id": "GP3_VM4",
-        "title": "Economy and Green Growth Literature Review and Bibliometric",
-        "dates": "27/09/2022 - 06/10/2022",
-        "amount": 1000.0
-      }
-    ],
-    "training_schools": [],
-    "itc_conferences": [],
-    "total_reimbursed": 1000.0,
-    "grant_periods": [
-      3
-    ],
-    "primary_country": "TR",
-    "is_itc": true,
-    "activity_count": 1
-  },
-  {
     "name": "Zuo, RongLin",
     "countries": [
       "HU"
@@ -6287,6 +5312,31 @@
     ],
     "primary_country": "NL",
     "is_itc": false,
+    "activity_count": 1
+  },
+  {
+    "name": "Popa, Diana",
+    "countries": [
+      "RO"
+    ],
+    "meetings": [],
+    "stsm": [],
+    "virtual_mobility": [],
+    "training_schools": [
+      {
+        "school_id": "GP4_TS3",
+        "title": "COST FinAI Training school Data science for sustainable economics and finance",
+        "date": "28/08/2023",
+        "amount": 911.0
+      }
+    ],
+    "itc_conferences": [],
+    "total_reimbursed": 911.0,
+    "grant_periods": [
+      4
+    ],
+    "primary_country": "RO",
+    "is_itc": true,
     "activity_count": 1
   },
   {
@@ -6471,6 +5521,31 @@
     "activity_count": 1
   },
   {
+    "name": "Mirzaei, Mahsa",
+    "countries": [
+      "IE"
+    ],
+    "meetings": [],
+    "stsm": [],
+    "virtual_mobility": [],
+    "training_schools": [
+      {
+        "school_id": "GP4_TS4",
+        "title": "Advanced Statistical Modelling for Fintech, financial inclusion and inequality (AFFINE)",
+        "date": "13/09/2023",
+        "amount": 806.62
+      }
+    ],
+    "itc_conferences": [],
+    "total_reimbursed": 806.62,
+    "grant_periods": [
+      4
+    ],
+    "primary_country": "IE",
+    "is_itc": false,
+    "activity_count": 1
+  },
+  {
     "name": "Perri, Rezarta",
     "countries": [
       "AL"
@@ -6646,6 +5721,31 @@
     "activity_count": 1
   },
   {
+    "name": "Birlan, Ioana",
+    "countries": [
+      "RO"
+    ],
+    "meetings": [],
+    "stsm": [],
+    "virtual_mobility": [],
+    "training_schools": [
+      {
+        "school_id": "GP4_TS3",
+        "title": "COST FinAI Training school Data science for sustainable economics and finance",
+        "date": "28/08/2023",
+        "amount": 670.0
+      }
+    ],
+    "itc_conferences": [],
+    "total_reimbursed": 670.0,
+    "grant_periods": [
+      4
+    ],
+    "primary_country": "RO",
+    "is_itc": true,
+    "activity_count": 1
+  },
+  {
     "name": "Kotlarz, Piotr",
     "countries": [
       "CH"
@@ -6721,31 +5821,6 @@
     "activity_count": 1
   },
   {
-    "name": "Danial Saef",
-    "countries": [
-      "DE"
-    ],
-    "meetings": [
-      {
-        "meeting_id": "GP1_M21",
-        "title": "COST FinAI Annual Meeting in Bucharest",
-        "date": "28/10/2021",
-        "amount": 614.4
-      }
-    ],
-    "stsm": [],
-    "virtual_mobility": [],
-    "training_schools": [],
-    "itc_conferences": [],
-    "total_reimbursed": 614.4,
-    "grant_periods": [
-      1
-    ],
-    "primary_country": "DE",
-    "is_itc": false,
-    "activity_count": 1
-  },
-  {
     "name": "Curticapean, Cosmin",
     "countries": [
       "RO"
@@ -6768,6 +5843,206 @@
     ],
     "primary_country": "RO",
     "is_itc": true,
+    "activity_count": 1
+  },
+  {
+    "name": "D'Elia, Samuele",
+    "countries": [
+      "IT"
+    ],
+    "meetings": [],
+    "stsm": [],
+    "virtual_mobility": [],
+    "training_schools": [
+      {
+        "school_id": "GP4_TS3",
+        "title": "COST FinAI Training school Data science for sustainable economics and finance",
+        "date": "28/08/2023",
+        "amount": 600.0
+      }
+    ],
+    "itc_conferences": [],
+    "total_reimbursed": 600.0,
+    "grant_periods": [
+      4
+    ],
+    "primary_country": "IT",
+    "is_itc": false,
+    "activity_count": 1
+  },
+  {
+    "name": "Demolli, Erlind",
+    "countries": [
+      "CH"
+    ],
+    "meetings": [],
+    "stsm": [],
+    "virtual_mobility": [],
+    "training_schools": [
+      {
+        "school_id": "GP4_TS3",
+        "title": "COST FinAI Training school Data science for sustainable economics and finance",
+        "date": "28/08/2023",
+        "amount": 600.0
+      }
+    ],
+    "itc_conferences": [],
+    "total_reimbursed": 600.0,
+    "grant_periods": [
+      4
+    ],
+    "primary_country": "CH",
+    "is_itc": false,
+    "activity_count": 1
+  },
+  {
+    "name": "Frigerio, Giorgio Pietro",
+    "countries": [
+      "IT"
+    ],
+    "meetings": [],
+    "stsm": [],
+    "virtual_mobility": [],
+    "training_schools": [
+      {
+        "school_id": "GP4_TS3",
+        "title": "COST FinAI Training school Data science for sustainable economics and finance",
+        "date": "28/08/2023",
+        "amount": 600.0
+      }
+    ],
+    "itc_conferences": [],
+    "total_reimbursed": 600.0,
+    "grant_periods": [
+      4
+    ],
+    "primary_country": "IT",
+    "is_itc": false,
+    "activity_count": 1
+  },
+  {
+    "name": "Ghesini, Matteo",
+    "countries": [
+      "IT"
+    ],
+    "meetings": [],
+    "stsm": [],
+    "virtual_mobility": [],
+    "training_schools": [
+      {
+        "school_id": "GP4_TS3",
+        "title": "COST FinAI Training school Data science for sustainable economics and finance",
+        "date": "28/08/2023",
+        "amount": 600.0
+      }
+    ],
+    "itc_conferences": [],
+    "total_reimbursed": 600.0,
+    "grant_periods": [
+      4
+    ],
+    "primary_country": "IT",
+    "is_itc": false,
+    "activity_count": 1
+  },
+  {
+    "name": "Jevtic, Danijel",
+    "countries": [
+      "CH"
+    ],
+    "meetings": [],
+    "stsm": [],
+    "virtual_mobility": [],
+    "training_schools": [
+      {
+        "school_id": "GP4_TS3",
+        "title": "COST FinAI Training school Data science for sustainable economics and finance",
+        "date": "28/08/2023",
+        "amount": 600.0
+      }
+    ],
+    "itc_conferences": [],
+    "total_reimbursed": 600.0,
+    "grant_periods": [
+      4
+    ],
+    "primary_country": "CH",
+    "is_itc": false,
+    "activity_count": 1
+  },
+  {
+    "name": "Lefosse, Saverio Lorenzo",
+    "countries": [
+      "IT"
+    ],
+    "meetings": [],
+    "stsm": [],
+    "virtual_mobility": [],
+    "training_schools": [
+      {
+        "school_id": "GP4_TS3",
+        "title": "COST FinAI Training school Data science for sustainable economics and finance",
+        "date": "28/08/2023",
+        "amount": 600.0
+      }
+    ],
+    "itc_conferences": [],
+    "total_reimbursed": 600.0,
+    "grant_periods": [
+      4
+    ],
+    "primary_country": "IT",
+    "is_itc": false,
+    "activity_count": 1
+  },
+  {
+    "name": "Migliore, Federico Guido",
+    "countries": [
+      "IT"
+    ],
+    "meetings": [],
+    "stsm": [],
+    "virtual_mobility": [],
+    "training_schools": [
+      {
+        "school_id": "GP4_TS3",
+        "title": "COST FinAI Training school Data science for sustainable economics and finance",
+        "date": "28/08/2023",
+        "amount": 600.0
+      }
+    ],
+    "itc_conferences": [],
+    "total_reimbursed": 600.0,
+    "grant_periods": [
+      4
+    ],
+    "primary_country": "IT",
+    "is_itc": false,
+    "activity_count": 1
+  },
+  {
+    "name": "Raeli, Fabrizio",
+    "countries": [
+      "IT"
+    ],
+    "meetings": [],
+    "stsm": [],
+    "virtual_mobility": [],
+    "training_schools": [
+      {
+        "school_id": "GP4_TS3",
+        "title": "COST FinAI Training school Data science for sustainable economics and finance",
+        "date": "28/08/2023",
+        "amount": 600.0
+      }
+    ],
+    "itc_conferences": [],
+    "total_reimbursed": 600.0,
+    "grant_periods": [
+      4
+    ],
+    "primary_country": "IT",
+    "is_itc": false,
     "activity_count": 1
   },
   {
@@ -6844,358 +6119,6 @@
     "primary_country": "NO",
     "is_itc": false,
     "activity_count": 1
-  },
-  {
-    "name": "Baka, Dea",
-    "countries": [
-      "AL"
-    ],
-    "meetings": [
-      {
-        "meeting_id": "GP4_M8",
-        "title": "AI Innovations in finance and society",
-        "date": "30/10/2023",
-        "amount": 216.0
-      }
-    ],
-    "stsm": [],
-    "virtual_mobility": [],
-    "training_schools": [
-      {
-        "school_id": "GP4_TS1",
-        "title": "COSTFinAI-FintechandAIinFinance-TrainingSchoolforthelatesttechnologies",
-        "date": "26/04/2023",
-        "amount": 216.0
-      }
-    ],
-    "itc_conferences": [],
-    "total_reimbursed": 432.0,
-    "grant_periods": [
-      4
-    ],
-    "primary_country": "AL",
-    "is_itc": true,
-    "activity_count": 2
-  },
-  {
-    "name": "Bekteshi, Erisa",
-    "countries": [
-      "AL"
-    ],
-    "meetings": [
-      {
-        "meeting_id": "GP4_M8",
-        "title": "AI Innovations in finance and society",
-        "date": "30/10/2023",
-        "amount": 216.0
-      }
-    ],
-    "stsm": [],
-    "virtual_mobility": [],
-    "training_schools": [
-      {
-        "school_id": "GP4_TS1",
-        "title": "COSTFinAI-FintechandAIinFinance-TrainingSchoolforthelatesttechnologies",
-        "date": "26/04/2023",
-        "amount": 216.0
-      }
-    ],
-    "itc_conferences": [],
-    "total_reimbursed": 432.0,
-    "grant_periods": [
-      4
-    ],
-    "primary_country": "AL",
-    "is_itc": true,
-    "activity_count": 2
-  },
-  {
-    "name": "Cokaj, Mentor",
-    "countries": [
-      "AL"
-    ],
-    "meetings": [
-      {
-        "meeting_id": "GP4_M8",
-        "title": "AI Innovations in finance and society",
-        "date": "30/10/2023",
-        "amount": 216.0
-      }
-    ],
-    "stsm": [],
-    "virtual_mobility": [],
-    "training_schools": [
-      {
-        "school_id": "GP4_TS1",
-        "title": "COSTFinAI-FintechandAIinFinance-TrainingSchoolforthelatesttechnologies",
-        "date": "26/04/2023",
-        "amount": 216.0
-      }
-    ],
-    "itc_conferences": [],
-    "total_reimbursed": 432.0,
-    "grant_periods": [
-      4
-    ],
-    "primary_country": "AL",
-    "is_itc": true,
-    "activity_count": 2
-  },
-  {
-    "name": "Halilaj, Malvina",
-    "countries": [
-      "AL"
-    ],
-    "meetings": [
-      {
-        "meeting_id": "GP4_M8",
-        "title": "AI Innovations in finance and society",
-        "date": "30/10/2023",
-        "amount": 216.0
-      }
-    ],
-    "stsm": [],
-    "virtual_mobility": [],
-    "training_schools": [
-      {
-        "school_id": "GP4_TS1",
-        "title": "COSTFinAI-FintechandAIinFinance-TrainingSchoolforthelatesttechnologies",
-        "date": "26/04/2023",
-        "amount": 216.0
-      }
-    ],
-    "itc_conferences": [],
-    "total_reimbursed": 432.0,
-    "grant_periods": [
-      4
-    ],
-    "primary_country": "AL",
-    "is_itc": true,
-    "activity_count": 2
-  },
-  {
-    "name": "Kosta, Anxhela",
-    "countries": [
-      "AL"
-    ],
-    "meetings": [
-      {
-        "meeting_id": "GP4_M8",
-        "title": "AI Innovations in finance and society",
-        "date": "30/10/2023",
-        "amount": 216.0
-      }
-    ],
-    "stsm": [],
-    "virtual_mobility": [],
-    "training_schools": [
-      {
-        "school_id": "GP4_TS1",
-        "title": "COSTFinAI-FintechandAIinFinance-TrainingSchoolforthelatesttechnologies",
-        "date": "26/04/2023",
-        "amount": 216.0
-      }
-    ],
-    "itc_conferences": [],
-    "total_reimbursed": 432.0,
-    "grant_periods": [
-      4
-    ],
-    "primary_country": "AL",
-    "is_itc": true,
-    "activity_count": 2
-  },
-  {
-    "name": "Lili, Ilma",
-    "countries": [
-      "AL"
-    ],
-    "meetings": [
-      {
-        "meeting_id": "GP4_M8",
-        "title": "AI Innovations in finance and society",
-        "date": "30/10/2023",
-        "amount": 216.0
-      }
-    ],
-    "stsm": [],
-    "virtual_mobility": [],
-    "training_schools": [
-      {
-        "school_id": "GP4_TS1",
-        "title": "COSTFinAI-FintechandAIinFinance-TrainingSchoolforthelatesttechnologies",
-        "date": "26/04/2023",
-        "amount": 216.0
-      }
-    ],
-    "itc_conferences": [],
-    "total_reimbursed": 432.0,
-    "grant_periods": [
-      4
-    ],
-    "primary_country": "AL",
-    "is_itc": true,
-    "activity_count": 2
-  },
-  {
-    "name": "Metani, Fiona",
-    "countries": [
-      "AL"
-    ],
-    "meetings": [
-      {
-        "meeting_id": "GP4_M8",
-        "title": "AI Innovations in finance and society",
-        "date": "30/10/2023",
-        "amount": 216.0
-      }
-    ],
-    "stsm": [],
-    "virtual_mobility": [],
-    "training_schools": [
-      {
-        "school_id": "GP4_TS1",
-        "title": "COSTFinAI-FintechandAIinFinance-TrainingSchoolforthelatesttechnologies",
-        "date": "26/04/2023",
-        "amount": 216.0
-      }
-    ],
-    "itc_conferences": [],
-    "total_reimbursed": 432.0,
-    "grant_periods": [
-      4
-    ],
-    "primary_country": "AL",
-    "is_itc": true,
-    "activity_count": 2
-  },
-  {
-    "name": "Metushi, Emirjan",
-    "countries": [
-      "AL"
-    ],
-    "meetings": [
-      {
-        "meeting_id": "GP4_M8",
-        "title": "AI Innovations in finance and society",
-        "date": "30/10/2023",
-        "amount": 216.0
-      }
-    ],
-    "stsm": [],
-    "virtual_mobility": [],
-    "training_schools": [
-      {
-        "school_id": "GP4_TS1",
-        "title": "COSTFinAI-FintechandAIinFinance-TrainingSchoolforthelatesttechnologies",
-        "date": "26/04/2023",
-        "amount": 216.0
-      }
-    ],
-    "itc_conferences": [],
-    "total_reimbursed": 432.0,
-    "grant_periods": [
-      4
-    ],
-    "primary_country": "AL",
-    "is_itc": true,
-    "activity_count": 2
-  },
-  {
-    "name": "Sauli, Gerta",
-    "countries": [
-      "AL"
-    ],
-    "meetings": [
-      {
-        "meeting_id": "GP4_M8",
-        "title": "AI Innovations in finance and society",
-        "date": "30/10/2023",
-        "amount": 216.0
-      }
-    ],
-    "stsm": [],
-    "virtual_mobility": [],
-    "training_schools": [
-      {
-        "school_id": "GP4_TS1",
-        "title": "COSTFinAI-FintechandAIinFinance-TrainingSchoolforthelatesttechnologies",
-        "date": "26/04/2023",
-        "amount": 216.0
-      }
-    ],
-    "itc_conferences": [],
-    "total_reimbursed": 432.0,
-    "grant_periods": [
-      4
-    ],
-    "primary_country": "AL",
-    "is_itc": true,
-    "activity_count": 2
-  },
-  {
-    "name": "Seci, Drita",
-    "countries": [
-      "AL"
-    ],
-    "meetings": [
-      {
-        "meeting_id": "GP4_M8",
-        "title": "AI Innovations in finance and society",
-        "date": "30/10/2023",
-        "amount": 216.0
-      }
-    ],
-    "stsm": [],
-    "virtual_mobility": [],
-    "training_schools": [
-      {
-        "school_id": "GP4_TS1",
-        "title": "COSTFinAI-FintechandAIinFinance-TrainingSchoolforthelatesttechnologies",
-        "date": "26/04/2023",
-        "amount": 216.0
-      }
-    ],
-    "itc_conferences": [],
-    "total_reimbursed": 432.0,
-    "grant_periods": [
-      4
-    ],
-    "primary_country": "AL",
-    "is_itc": true,
-    "activity_count": 2
-  },
-  {
-    "name": "Xhina, Endrit",
-    "countries": [
-      "AL"
-    ],
-    "meetings": [
-      {
-        "meeting_id": "GP4_M8",
-        "title": "AI Innovations in finance and society",
-        "date": "30/10/2023",
-        "amount": 216.0
-      }
-    ],
-    "stsm": [],
-    "virtual_mobility": [],
-    "training_schools": [
-      {
-        "school_id": "GP4_TS1",
-        "title": "COSTFinAI-FintechandAIinFinance-TrainingSchoolforthelatesttechnologies",
-        "date": "26/04/2023",
-        "amount": 216.0
-      }
-    ],
-    "itc_conferences": [],
-    "total_reimbursed": 432.0,
-    "grant_periods": [
-      4
-    ],
-    "primary_country": "AL",
-    "is_itc": true,
-    "activity_count": 2
   },
   {
     "name": "Strat, Vasile",
@@ -7295,6 +6218,281 @@
     ],
     "primary_country": "NL",
     "is_itc": false,
+    "activity_count": 1
+  },
+  {
+    "name": "Baka, Dea",
+    "countries": [
+      "AL"
+    ],
+    "meetings": [],
+    "stsm": [],
+    "virtual_mobility": [],
+    "training_schools": [
+      {
+        "school_id": "GP4_TS1",
+        "title": "COSTFinAI-FintechandAIinFinance-TrainingSchoolforthelatesttechnologies",
+        "date": "26/04/2023",
+        "amount": 216.0
+      }
+    ],
+    "itc_conferences": [],
+    "total_reimbursed": 216.0,
+    "grant_periods": [
+      4
+    ],
+    "primary_country": "AL",
+    "is_itc": true,
+    "activity_count": 1
+  },
+  {
+    "name": "Bekteshi, Erisa",
+    "countries": [
+      "AL"
+    ],
+    "meetings": [],
+    "stsm": [],
+    "virtual_mobility": [],
+    "training_schools": [
+      {
+        "school_id": "GP4_TS1",
+        "title": "COSTFinAI-FintechandAIinFinance-TrainingSchoolforthelatesttechnologies",
+        "date": "26/04/2023",
+        "amount": 216.0
+      }
+    ],
+    "itc_conferences": [],
+    "total_reimbursed": 216.0,
+    "grant_periods": [
+      4
+    ],
+    "primary_country": "AL",
+    "is_itc": true,
+    "activity_count": 1
+  },
+  {
+    "name": "Cokaj, Mentor",
+    "countries": [
+      "AL"
+    ],
+    "meetings": [],
+    "stsm": [],
+    "virtual_mobility": [],
+    "training_schools": [
+      {
+        "school_id": "GP4_TS1",
+        "title": "COSTFinAI-FintechandAIinFinance-TrainingSchoolforthelatesttechnologies",
+        "date": "26/04/2023",
+        "amount": 216.0
+      }
+    ],
+    "itc_conferences": [],
+    "total_reimbursed": 216.0,
+    "grant_periods": [
+      4
+    ],
+    "primary_country": "AL",
+    "is_itc": true,
+    "activity_count": 1
+  },
+  {
+    "name": "Halilaj, Malvina",
+    "countries": [
+      "AL"
+    ],
+    "meetings": [],
+    "stsm": [],
+    "virtual_mobility": [],
+    "training_schools": [
+      {
+        "school_id": "GP4_TS1",
+        "title": "COSTFinAI-FintechandAIinFinance-TrainingSchoolforthelatesttechnologies",
+        "date": "26/04/2023",
+        "amount": 216.0
+      }
+    ],
+    "itc_conferences": [],
+    "total_reimbursed": 216.0,
+    "grant_periods": [
+      4
+    ],
+    "primary_country": "AL",
+    "is_itc": true,
+    "activity_count": 1
+  },
+  {
+    "name": "Kosta, Anxhela",
+    "countries": [
+      "AL"
+    ],
+    "meetings": [],
+    "stsm": [],
+    "virtual_mobility": [],
+    "training_schools": [
+      {
+        "school_id": "GP4_TS1",
+        "title": "COSTFinAI-FintechandAIinFinance-TrainingSchoolforthelatesttechnologies",
+        "date": "26/04/2023",
+        "amount": 216.0
+      }
+    ],
+    "itc_conferences": [],
+    "total_reimbursed": 216.0,
+    "grant_periods": [
+      4
+    ],
+    "primary_country": "AL",
+    "is_itc": true,
+    "activity_count": 1
+  },
+  {
+    "name": "Lili, Ilma",
+    "countries": [
+      "AL"
+    ],
+    "meetings": [],
+    "stsm": [],
+    "virtual_mobility": [],
+    "training_schools": [
+      {
+        "school_id": "GP4_TS1",
+        "title": "COSTFinAI-FintechandAIinFinance-TrainingSchoolforthelatesttechnologies",
+        "date": "26/04/2023",
+        "amount": 216.0
+      }
+    ],
+    "itc_conferences": [],
+    "total_reimbursed": 216.0,
+    "grant_periods": [
+      4
+    ],
+    "primary_country": "AL",
+    "is_itc": true,
+    "activity_count": 1
+  },
+  {
+    "name": "Metani, Fiona",
+    "countries": [
+      "AL"
+    ],
+    "meetings": [],
+    "stsm": [],
+    "virtual_mobility": [],
+    "training_schools": [
+      {
+        "school_id": "GP4_TS1",
+        "title": "COSTFinAI-FintechandAIinFinance-TrainingSchoolforthelatesttechnologies",
+        "date": "26/04/2023",
+        "amount": 216.0
+      }
+    ],
+    "itc_conferences": [],
+    "total_reimbursed": 216.0,
+    "grant_periods": [
+      4
+    ],
+    "primary_country": "AL",
+    "is_itc": true,
+    "activity_count": 1
+  },
+  {
+    "name": "Metushi, Emirjan",
+    "countries": [
+      "AL"
+    ],
+    "meetings": [],
+    "stsm": [],
+    "virtual_mobility": [],
+    "training_schools": [
+      {
+        "school_id": "GP4_TS1",
+        "title": "COSTFinAI-FintechandAIinFinance-TrainingSchoolforthelatesttechnologies",
+        "date": "26/04/2023",
+        "amount": 216.0
+      }
+    ],
+    "itc_conferences": [],
+    "total_reimbursed": 216.0,
+    "grant_periods": [
+      4
+    ],
+    "primary_country": "AL",
+    "is_itc": true,
+    "activity_count": 1
+  },
+  {
+    "name": "Sauli, Gerta",
+    "countries": [
+      "AL"
+    ],
+    "meetings": [],
+    "stsm": [],
+    "virtual_mobility": [],
+    "training_schools": [
+      {
+        "school_id": "GP4_TS1",
+        "title": "COSTFinAI-FintechandAIinFinance-TrainingSchoolforthelatesttechnologies",
+        "date": "26/04/2023",
+        "amount": 216.0
+      }
+    ],
+    "itc_conferences": [],
+    "total_reimbursed": 216.0,
+    "grant_periods": [
+      4
+    ],
+    "primary_country": "AL",
+    "is_itc": true,
+    "activity_count": 1
+  },
+  {
+    "name": "Seci, Drita",
+    "countries": [
+      "AL"
+    ],
+    "meetings": [],
+    "stsm": [],
+    "virtual_mobility": [],
+    "training_schools": [
+      {
+        "school_id": "GP4_TS1",
+        "title": "COSTFinAI-FintechandAIinFinance-TrainingSchoolforthelatesttechnologies",
+        "date": "26/04/2023",
+        "amount": 216.0
+      }
+    ],
+    "itc_conferences": [],
+    "total_reimbursed": 216.0,
+    "grant_periods": [
+      4
+    ],
+    "primary_country": "AL",
+    "is_itc": true,
+    "activity_count": 1
+  },
+  {
+    "name": "Xhina, Endrit",
+    "countries": [
+      "AL"
+    ],
+    "meetings": [],
+    "stsm": [],
+    "virtual_mobility": [],
+    "training_schools": [
+      {
+        "school_id": "GP4_TS1",
+        "title": "COSTFinAI-FintechandAIinFinance-TrainingSchoolforthelatesttechnologies",
+        "date": "26/04/2023",
+        "amount": 216.0
+      }
+    ],
+    "itc_conferences": [],
+    "total_reimbursed": 216.0,
+    "grant_periods": [
+      4
+    ],
+    "primary_country": "AL",
+    "is_itc": true,
     "activity_count": 1
   },
   {

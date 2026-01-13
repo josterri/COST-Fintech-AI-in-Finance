@@ -115,6 +115,53 @@
             opacity: 0.8;
         }
 
+        .hero-logos {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 2rem;
+            margin-bottom: 1.5rem;
+            flex-wrap: wrap;
+        }
+
+        .hero-logos img {
+            height: 50px;
+            width: auto;
+        }
+
+        .hero-logos .eu-logo {
+            height: 45px;
+            background: white;
+            padding: 5px 10px;
+            border-radius: 4px;
+        }
+
+        .hero-officers {
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            margin-top: 1.5rem;
+            flex-wrap: wrap;
+            font-size: 0.9rem;
+            opacity: 0.9;
+        }
+
+        .hero-officers .officer {
+            text-align: center;
+        }
+
+        .hero-officers .officer-role {
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            opacity: 0.8;
+            margin-bottom: 0.2rem;
+        }
+
+        .hero-officers .officer-name {
+            font-weight: 500;
+        }
+
         /* Stats Banner */
         .stats-banner {
             background: white;
@@ -983,10 +1030,28 @@
     </div>
 
     <header class="hero">
+        <div class="hero-logos">
+            <img src="assets/cost_logo_white.svg" alt="COST - European Cooperation in Science and Technology">
+            <img src="assets/eu_funded_logo.png" alt="Co-funded by the European Union" class="eu-logo">
+        </div>
         <div class="action-id">COST Action CA19130</div>
         <h1>Fintech and Artificial Intelligence in Finance</h1>
         <p class="subtitle">Towards a transparent financial industry</p>
         <p class="period">Duration: October 2020 - October 2024</p>
+        <div class="hero-officers">
+            <div class="officer">
+                <div class="officer-role">Action Chair</div>
+                <div class="officer-name">Prof. Dr. Joerg Osterrieder</div>
+            </div>
+            <div class="officer">
+                <div class="officer-role">Science Officer</div>
+                <div class="officer-name">Dr Ralph Stuebner</div>
+            </div>
+            <div class="officer">
+                <div class="officer-role">Administrative Officer</div>
+                <div class="officer-name">Ms Rose Cruz Santos</div>
+            </div>
+        </div>
     </header>
 
     <div class="stats-banner">

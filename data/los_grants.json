@@ -252,15 +252,6 @@
     "amount": 2500.0
   },
   {
-    "event_type": "meeting",
-    "event_id": "GP5_M10",
-    "title": "COST FinAI Action Management Committee (MC) Meeting",
-    "location": "N/A / Switzerland",
-    "date": "06/09/2024",
-    "grant_period": 5,
-    "amount": 1000.0
-  },
-  {
     "event_type": "training_school",
     "event_id": "GP4_TS1",
     "title": "COSTFinAI-FintechandAIinFinance-TrainingSchoolforthelatesttechnologies",

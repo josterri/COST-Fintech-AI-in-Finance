@@ -2,7 +2,7 @@
   {
     "id": "GP2_VM1",
     "grant_period": 2,
-    "name": "Alessandra Tanda VM",
+    "name": "Alessandra Tanda",
     "yri": false,
     "title": "products: is there a role for transparency?",
     "country": "IT",
@@ -14,7 +14,7 @@
   {
     "id": "GP3_VM1",
     "grant_period": 3,
-    "name": "Alessandra Tanda VM",
+    "name": "Alessandra Tanda",
     "yri": false,
     "title": "products: is there a role for transparency? Women in Fintech European",
     "country": "IT",
@@ -26,7 +26,7 @@
   {
     "id": "GP3_VM2",
     "grant_period": 3,
-    "name": "Albulena Shala VM",
+    "name": "Albulena Shala",
     "yri": false,
     "title": "Datathon Quantinar a p2p knowledge",
     "country": "KV",
@@ -38,7 +38,7 @@
   {
     "id": "GP3_VM3",
     "grant_period": 3,
-    "name": "Wolfgang Härdle VM",
+    "name": "Wolfgang Härdle",
     "yri": false,
     "title": "exchange platform The Role of FinTech in Cashless",
     "country": "DE",
@@ -50,7 +50,7 @@
   {
     "id": "GP3_VM4",
     "grant_period": 3,
-    "name": "esra kabaklarli VM",
+    "name": "esra kabaklarli",
     "yri": false,
     "title": "Economy and Green Growth Literature Review and Bibliometric",
     "country": "TR",
@@ -62,7 +62,7 @@
   {
     "id": "GP3_VM5",
     "grant_period": 3,
-    "name": "Belma OZTURKKAL VM",
+    "name": "Belma OZTURKKAL",
     "yri": false,
     "title": "Analysis on Venture Capital The Fintech Sector in Romania",
     "country": "TR",
@@ -74,7 +74,7 @@
   {
     "id": "GP3_VM6",
     "grant_period": 3,
-    "name": "Codruta MARE VM",
+    "name": "Codruta MARE",
     "yri": false,
     "title": "and the Balkans Challenges and opportunities for",
     "country": "RO",
@@ -134,7 +134,7 @@
   {
     "id": "GP3_VM11",
     "grant_period": 3,
-    "name": "Karolina Bolesta VM",
+    "name": "Karolina Bolesta",
     "yri": false,
     "title": "finance industry with guidelines to improve transparency Coordination of deliverables and",
     "country": "PL",
@@ -146,7 +146,7 @@
   {
     "id": "GP3_VM12",
     "grant_period": 3,
-    "name": "Codruta MARE VM",
+    "name": "Codruta MARE",
     "yri": false,
     "title": "GP2 reports",
     "country": "RO",
@@ -170,7 +170,7 @@
   {
     "id": "GP4_VM2",
     "grant_period": 4,
-    "name": "Albulena Shala VM",
+    "name": "Albulena Shala",
     "yri": false,
     "title": "digital financial inclusion Position paper aimed at regulators and policy-makers, on",
     "country": "KV",
@@ -182,7 +182,7 @@
   {
     "id": "GP4_VM3",
     "grant_period": 4,
-    "name": "Galena Pisoni VM",
+    "name": "Galena Pisoni",
     "yri": false,
     "title": "methodology for testing AI techniques in real-time",
     "country": "FR",
@@ -290,7 +290,7 @@
   {
     "id": "GP4_VM12",
     "grant_period": 4,
-    "name": "Galena Pisoni VM",
+    "name": "Galena Pisoni",
     "yri": false,
     "title": "by Linguistic Summaries",
     "country": "FR",
@@ -314,7 +314,7 @@
   {
     "id": "GP5_VM2",
     "grant_period": 5,
-    "name": "Miroslav Hudec NO",
+    "name": "Miroslav Hudec",
     "yri": false,
     "title": "approaches in mining patterns from p2p loan data Responsible AI-based business",
     "country": "SK",
@@ -326,8 +326,8 @@
   {
     "id": "GP5_VM3",
     "grant_period": 5,
-    "name": "Galena Pisoni YES",
-    "yri": false,
+    "name": "Galena Pisoni",
+    "yri": true,
     "title": "processes for finance A discussion paper for possible approaches to building a",
     "country": "FR",
     "is_itc": false,
@@ -338,7 +338,7 @@
   {
     "id": "GP5_VM4",
     "grant_period": 5,
-    "name": "Veni Arakelian NO",
+    "name": "Veni Arakelian",
     "yri": false,
     "title": "statistically valid backtesting framework Pioneering Visual Analytics for Establishing XAI Standards in",
     "country": "EL",
@@ -350,7 +350,7 @@
   {
     "id": "GP5_VM5",
     "grant_period": 5,
-    "name": "Jörg Osterrieder NO",
+    "name": "Jörg Osterrieder",
     "yri": false,
     "title": "European Finance with a Policy- Focused Impact",
     "country": "CH",
@@ -374,8 +374,8 @@
   {
     "id": "GP5_VM7",
     "grant_period": 5,
-    "name": "Branka Hadji Misheva YES",
-    "yri": false,
+    "name": "Branka Hadji Misheva",
+    "yri": true,
     "title": "Standards in European Finance with a Policy-Focused Impact The Best WI-FI 2024 Young",
     "country": "CH",
     "is_itc": false,
@@ -386,8 +386,8 @@
   {
     "id": "GP5_VM8",
     "grant_period": 5,
-    "name": "Albulena Shala YES",
-    "yri": false,
+    "name": "Albulena Shala",
+    "yri": true,
     "title": "researcher Paper Deliverable 7: Methodology for evaluating/rating crowdfunding/P2P platforms for",
     "country": "KV",
     "is_itc": false,
@@ -398,7 +398,7 @@
   {
     "id": "GP5_VM9",
     "grant_period": 5,
-    "name": "Ioana Coita NO",
+    "name": "Ioana Coita",
     "yri": false,
     "title": "detection/early warning about fraud/illegal behaviour with emphasis on AI tools Empowering Women in FinTech:",
     "country": "RO",
@@ -422,8 +422,8 @@
   {
     "id": "GP5_VM11",
     "grant_period": 5,
-    "name": "Stefana Belbe YES",
-    "yri": false,
+    "name": "Stefana Belbe",
+    "yri": true,
     "title": "prevention in crowdfunding Deliverable 13: 2020 annual report (for lay audience)",
     "country": "RO",
     "is_itc": true,
@@ -434,8 +434,8 @@
   {
     "id": "GP5_VM12",
     "grant_period": 5,
-    "name": "Alessandra Tanda YES",
-    "yri": false,
+    "name": "Alessandra Tanda",
+    "yri": true,
     "title": "distributed via local and national media Science Communication Strategy",
     "country": "IT",
     "is_itc": false,
@@ -446,7 +446,7 @@
   {
     "id": "GP5_VM13",
     "grant_period": 5,
-    "name": "Olivija Filipovska NO",
+    "name": "Olivija Filipovska",
     "yri": false,
     "title": "and web site update Methodological discussion paper on AI models to generate “failed trials” of investment product",
     "country": "MK",
