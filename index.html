@@ -3,1478 +3,333 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>COST Action CA19130 - Fintech and AI in Finance</title>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-    <link rel="stylesheet" href="css/mega-menu.css">
+    <title>COST Action CA19130 | Fintech and AI in Finance</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <style>
         :root {
-            --cost-purple: #5B2D8A;
-            --cost-blue: #2B5F9E;
-            --cost-teal: #00A0B0;
-            --cost-orange: #E87722;
-            --cost-green: #7AB800;
-            --dark: #1a1a2e;
-            --light: #f8f9fa;
-            --gray: #6c757d;
-            --border: #dee2e6;
+            --primary: #3b82f6;
+            --accent: #f59e0b;
+            --dark: #0f172a;
+            --gray-700: #334155;
+            --gray-500: #64748b;
+            --gray-200: #e2e8f0;
+            --gray-100: #f1f5f9;
+            --background: #f8fafc;
+            --white: #ffffff;
+            --cost-blue: #003399;
         }
 
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
 
         body {
-            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
-            line-height: 1.6;
+            font-family: 'Inter', sans-serif;
+            background: var(--background);
             color: var(--dark);
-            background: var(--light);
+            line-height: 1.6;
         }
 
-        /* Navigation */
-        nav {
-            background: linear-gradient(135deg, var(--cost-purple), var(--cost-blue));
-            padding: 1rem 2rem;
-            position: fixed;
-            width: 100%;
-            top: 0;
-            z-index: 1000;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-        }
-
-        nav .nav-content {
-            max-width: 1400px;
-            margin: 0 auto;
+        .navbar {
+            background: var(--dark);
+            padding: 12px 24px;
             display: flex;
             justify-content: space-between;
             align-items: center;
         }
 
-        nav .logo {
-            color: white;
-            font-weight: 700;
-            font-size: 1.2rem;
-        }
+        .navbar a { color: var(--white); text-decoration: none; font-weight: 600; }
+        .navbar-links { display: flex; gap: 20px; }
+        .navbar-links a { color: #94a3b8; font-size: 14px; font-weight: 400; }
+        .navbar-links a:hover { color: var(--white); }
 
-        nav .logo span {
-            color: var(--cost-orange);
-        }
-
-        nav ul {
-            display: flex;
-            list-style: none;
-            gap: 2rem;
-        }
-
-        nav a {
-            color: rgba(255,255,255,0.9);
-            text-decoration: none;
-            font-size: 0.9rem;
-            font-weight: 500;
-            transition: color 0.3s;
-        }
-
-        nav a:hover {
-            color: white;
-        }
-
-        /* Hero Section */
         .hero {
-            background: linear-gradient(135deg, var(--cost-purple) 0%, var(--cost-blue) 50%, var(--cost-teal) 100%);
-            color: white;
-            padding: 4.5rem 2rem 2rem;
+            background: linear-gradient(135deg, var(--cost-blue), #001a4d);
+            color: var(--white);
+            padding: 60px 24px;
+        }
+
+        .hero-content { max-width: 900px; margin: 0 auto; }
+        .hero h1 { font-size: 32px; margin-bottom: 8px; }
+        .hero .action-id { font-size: 16px; opacity: 0.8; margin-bottom: 12px; }
+        .hero .subtitle { font-size: 18px; opacity: 0.9; margin-bottom: 24px; }
+
+        .hero-stats {
+            display: flex;
+            gap: 24px;
+            flex-wrap: wrap;
+        }
+
+        .hero-stat {
+            background: rgba(255,255,255,0.15);
+            padding: 16px 24px;
+            border-radius: 8px;
             text-align: center;
         }
 
-        .hero h1 {
-            font-size: 2.8rem;
+        .hero-stat .number { font-size: 28px; font-weight: 700; }
+        .hero-stat .label { font-size: 12px; opacity: 0.9; text-transform: uppercase; }
+
+        .container { max-width: 900px; margin: 0 auto; padding: 40px 24px; }
+
+        .section {
+            background: var(--white);
+            border: 1px solid var(--gray-200);
+            border-radius: 12px;
+            padding: 24px;
+            margin-bottom: 24px;
+        }
+
+        .section h2 {
+            font-size: 20px;
             font-weight: 700;
-            margin-bottom: 0.5rem;
-            letter-spacing: -0.02em;
-        }
-
-        .hero .action-id {
-            font-size: 1.2rem;
-            color: var(--cost-orange);
-            font-weight: 600;
-            margin-bottom: 1rem;
-        }
-
-        .hero .subtitle {
-            font-size: 1.4rem;
-            opacity: 0.95;
-            max-width: 800px;
-            margin: 0 auto 1rem;
-            font-weight: 300;
-        }
-
-        .hero .period {
-            font-size: 1rem;
-            opacity: 0.8;
-        }
-
-        .hero-logos {
+            margin-bottom: 16px;
+            color: var(--dark);
             display: flex;
-            justify-content: center;
             align-items: center;
-            gap: 2rem;
-            margin-bottom: 1.5rem;
-            flex-wrap: wrap;
+            gap: 10px;
         }
 
-        .hero-logos img {
-            height: 50px;
-            width: auto;
-        }
-
-        .hero-logos .eu-logo {
-            height: 45px;
-            background: white;
-            padding: 5px 10px;
-            border-radius: 4px;
-        }
-
-        .hero-officers {
+        .section h2 .icon {
+            width: 28px;
+            height: 28px;
+            background: var(--cost-blue);
+            border-radius: 6px;
             display: flex;
+            align-items: center;
             justify-content: center;
-            gap: 2rem;
-            margin-top: 1.5rem;
-            flex-wrap: wrap;
-            font-size: 0.9rem;
-            opacity: 0.9;
+            color: var(--white);
+            font-size: 14px;
         }
 
-        .hero-officers .officer {
-            text-align: center;
-        }
+        .section p { color: var(--gray-700); margin-bottom: 12px; }
 
-        .hero-officers .officer-role {
-            font-size: 0.75rem;
-            text-transform: uppercase;
-            letter-spacing: 0.1em;
-            opacity: 0.8;
-            margin-bottom: 0.2rem;
-        }
-
-        .hero-officers .officer-name {
-            font-weight: 500;
-        }
-
-        /* Stats Banner */
-        .stats-banner {
-            background: white;
-            padding: 1.25rem;
-            display: flex;
-            justify-content: center;
-            gap: 2rem;
-            flex-wrap: wrap;
-            box-shadow: 0 4px 20px rgba(0,0,0,0.08);
-        }
-
-        .stat-item {
-            text-align: center;
-        }
-
-        .stat-number {
-            font-size: 2rem;
-            font-weight: 700;
-            color: var(--cost-purple);
-        }
-
-        .stat-label {
-            font-size: 0.85rem;
-            color: var(--gray);
-            text-transform: uppercase;
-            letter-spacing: 0.05em;
-        }
-
-        /* Sections */
-        section {
-            padding: 2rem 2rem;
-            max-width: 1400px;
-            margin: 0 auto;
-        }
-
-        section h2 {
-            font-size: 1.75rem;
-            color: var(--cost-purple);
-            margin-bottom: 0.75rem;
-            text-align: center;
-        }
-
-        section h2::after {
-            content: '';
-            display: block;
-            width: 60px;
-            height: 3px;
-            background: var(--cost-orange);
-            margin: 0.5rem auto 0;
-        }
-
-        /* Working Groups */
         .wg-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-            gap: 1rem;
-            margin-top: 0.75rem;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 16px;
         }
 
         .wg-card {
-            background: white;
-            border-radius: 10px;
-            padding: 1rem;
-            box-shadow: 0 4px 20px rgba(0,0,0,0.08);
-            border-left: 4px solid var(--cost-teal);
-            transition: transform 0.3s, box-shadow 0.3s;
+            background: var(--gray-100);
+            border-radius: 8px;
+            padding: 20px;
         }
-
-        .wg-card:hover {
-            transform: translateY(-4px);
-            box-shadow: 0 8px 30px rgba(0,0,0,0.12);
-        }
-
-        .wg-card.wg1 { border-left-color: var(--cost-purple); }
-        .wg-card.wg2 { border-left-color: var(--cost-blue); }
-        .wg-card.wg3 { border-left-color: var(--cost-green); }
 
         .wg-card h3 {
-            font-size: 1.1rem;
-            color: var(--dark);
-            margin-bottom: 0.5rem;
-        }
-
-        .wg-card .wg-id {
-            font-size: 0.8rem;
-            color: var(--gray);
-            text-transform: uppercase;
-            letter-spacing: 0.05em;
-            margin-bottom: 0.5rem;
-        }
-
-        .wg-card p {
-            color: var(--gray);
-            font-size: 0.95rem;
-        }
-
-        .wg-card .member-count {
-            display: inline-block;
-            margin-top: 0.5rem;
-            background: var(--light);
-            padding: 0.2rem 0.6rem;
-            border-radius: 20px;
-            font-size: 0.8rem;
-            color: var(--cost-purple);
-            font-weight: 500;
-        }
-
-        /* Charts Section */
-        .charts-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-            gap: 1rem;
-            margin-top: 0.75rem;
-        }
-
-        .chart-container {
-            background: white;
-            border-radius: 10px;
-            padding: 1rem;
-            box-shadow: 0 4px 20px rgba(0,0,0,0.08);
-        }
-
-        .chart-container h3 {
-            font-size: 0.9rem;
-            color: var(--dark);
-            margin-bottom: 0.5rem;
-            text-align: center;
-        }
-
-        .chart-wrapper {
-            height: 200px;
-            position: relative;
-        }
-
-        /* Countries Section */
-        .countries-list {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 0.35rem;
-            justify-content: center;
-            margin-top: 0.75rem;
-        }
-
-        .country-pill {
-            background: white;
-            border: 1px solid var(--border);
-            padding: 0.25rem 0.6rem;
-            border-radius: 20px;
-            font-size: 0.8rem;
-            color: var(--dark);
-            transition: all 0.3s;
-        }
-
-        .country-pill:hover {
-            background: var(--cost-purple);
-            color: white;
-            border-color: var(--cost-purple);
-        }
-
-        .country-pill.itc {
-            border-color: var(--cost-orange);
-            background: rgba(232, 119, 34, 0.1);
-        }
-
-        /* Objectives */
-        .objectives-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 1rem;
-            margin-top: 0.75rem;
-        }
-
-        .objective-card {
-            background: white;
-            border-radius: 10px;
-            padding: 1rem;
-            box-shadow: 0 4px 20px rgba(0,0,0,0.08);
-        }
-
-        .objective-card .icon {
-            width: 40px;
-            height: 40px;
-            border-radius: 10px;
-            background: linear-gradient(135deg, var(--cost-purple), var(--cost-blue));
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            margin-bottom: 0.5rem;
-            font-size: 1.2rem;
-        }
-
-        .objective-card h4 {
-            font-size: 1rem;
-            color: var(--dark);
-            margin-bottom: 0.5rem;
-        }
-
-        .objective-card p {
-            font-size: 0.9rem;
-            color: var(--gray);
-        }
-
-        /* Timeline */
-        .timeline {
-            position: relative;
-            max-width: 800px;
-            margin: 0.75rem auto 0;
-        }
-
-        .timeline::before {
-            content: '';
-            position: absolute;
-            left: 50%;
-            transform: translateX(-50%);
-            width: 2px;
-            height: 100%;
-            background: var(--border);
-        }
-
-        .timeline-item {
-            display: flex;
-            justify-content: flex-end;
-            padding-right: 50%;
-            position: relative;
-            margin-bottom: 1rem;
-        }
-
-        .timeline-item:nth-child(even) {
-            justify-content: flex-start;
-            padding-right: 0;
-            padding-left: 50%;
-        }
-
-        .timeline-content {
-            background: white;
-            padding: 0.75rem 1rem;
-            border-radius: 10px;
-            box-shadow: 0 4px 20px rgba(0,0,0,0.08);
-            max-width: 350px;
-            margin-right: 1.5rem;
-        }
-
-        .timeline-item:nth-child(even) .timeline-content {
-            margin-right: 0;
-            margin-left: 1.5rem;
-        }
-
-        .timeline-date {
-            font-size: 0.85rem;
-            color: var(--cost-purple);
+            font-size: 16px;
             font-weight: 600;
-            margin-bottom: 0.3rem;
+            color: var(--cost-blue);
+            margin-bottom: 8px;
         }
 
-        .timeline-title {
-            font-size: 1rem;
-            color: var(--dark);
+        .wg-card p { font-size: 14px; color: var(--gray-700); margin: 0; }
+
+        .timeline { list-style: none; }
+        .timeline li {
+            padding: 16px 0;
+            border-bottom: 1px solid var(--gray-200);
+            display: flex;
+            gap: 16px;
+        }
+        .timeline li:last-child { border-bottom: none; }
+
+        .timeline .date {
+            font-weight: 600;
+            color: var(--cost-blue);
+            min-width: 100px;
         }
 
-        /* Footer */
-        footer {
-            background: var(--dark);
-            color: white;
-            padding: 1.5rem 2rem;
+        .outcomes-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 12px;
+        }
+
+        .outcome-item {
+            background: var(--gray-100);
+            padding: 16px;
+            border-radius: 8px;
             text-align: center;
         }
 
-        footer .cost-logo {
-            font-size: 1.25rem;
+        .outcome-item .number {
+            font-size: 24px;
             font-weight: 700;
-            margin-bottom: 0.5rem;
+            color: var(--cost-blue);
         }
 
-        footer p {
-            color: rgba(255,255,255,0.7);
-            font-size: 0.85rem;
-            max-width: 600px;
-            margin: 0 auto 0.75rem;
+        .outcome-item .label {
+            font-size: 13px;
+            color: var(--gray-700);
         }
 
-        footer .links {
-            display: flex;
-            justify-content: center;
-            gap: 1.5rem;
-            flex-wrap: wrap;
-        }
-
-        footer a {
-            color: var(--cost-orange);
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            padding: 12px 24px;
+            background: var(--cost-blue);
+            color: var(--white);
+            border-radius: 8px;
             text-decoration: none;
-            font-size: 0.9rem;
+            font-weight: 600;
+            font-size: 14px;
+            transition: background 0.2s;
+        }
+        .btn:hover { background: #002266; }
+
+        .footer {
+            text-align: center;
+            padding: 40px;
+            color: var(--gray-500);
+            font-size: 13px;
         }
 
-        footer a:hover {
-            text-decoration: underline;
-        }
-
-        /* Responsive */
         @media (max-width: 768px) {
-            nav ul {
-                display: none;
-            }
-
-            .hero {
-                padding: 3.5rem 1.5rem 1.5rem;
-            }
-
-            .hero h1 {
-                font-size: 1.75rem;
-            }
-
-            section {
-                padding: 1.5rem 1rem;
-            }
-
-            .stats-banner {
-                gap: 1.5rem;
-                padding: 1rem;
-            }
-
-            .timeline::before {
-                left: 20px;
-            }
-
-            .timeline-item,
-            .timeline-item:nth-child(even) {
-                padding-left: 50px;
-                padding-right: 0;
-                justify-content: flex-start;
-            }
-
-            .timeline-content,
-            .timeline-item:nth-child(even) .timeline-content {
-                margin-left: 0;
-                margin-right: 0;
-            }
-        }
-    
-        /* === Site-Wide Compaction (Option B: Moderate) === */
-        /* Hero: reduced padding */
-        .hero {
-            padding: 2rem 0 !important;
-        }
-        .hero h1 {
-            font-size: 2rem !important;
-        }
-
-        /* Content sections: tighter padding */
-        .content-section {
-            padding: 1.25rem !important;
-        }
-
-        /* Cards: reduced padding */
-        .stat-card {
-            padding: 0.875rem !important;
-        }
-
-        /* Grid gaps: tightened */
-        .stats-grid, .features-grid, .sections-grid {
-            gap: 0.75rem !important;
-        }
-
-        /* Sidebar: tighter spacing */
-        .sl-sidebar {
-            padding: 0.5rem !important;
-        }
-        .sl-links a {
-            padding: 0.35rem 0.75rem !important;
-        }
-        .sl-section-header {
-            padding: 0.5rem 0.75rem !important;
-        }
-
-        /* Tables: tighter */
-        th, td {
-            padding: 0.5rem 0.75rem !important;
-        }
-
-        /* Reduce margins on headings */
-        h2, h3, h4 {
-            margin-top: 1rem !important;
-            margin-bottom: 0.5rem !important;
-        }
-
-        /* Tighter list spacing */
-        ul, ol {
-            margin: 0.5rem 0 !important;
-        }
-        li {
-            margin-bottom: 0.25rem !important;
-        }
-        /* === End Compaction === */
-
-        /* === Phase 1: Additional Compaction === */
-        /* 1A: Narrower Sidebar (160px -> 120px) */
-        :root {
-            --sl-sidebar-width: 120px !important;
-            --sl-topbar-height: 32px !important;
-        }
-        .sl-sidebar { width: 120px !important; }
-        .sl-section-header { font-size: 0.6rem !important; }
-        .sl-links a { font-size: 0.65rem !important; padding: 0.3rem 0.5rem !important; }
-        .sl-main { margin-left: 120px !important; }
-
-        /* 1B: Thinner Topbar (36px -> 32px) */
-        .sl-topbar { height: 32px !important; }
-        .sl-topbar-tab { padding: 0.35rem 0.5rem !important; font-size: 0.6rem !important; }
-
-        /* 2A: Minimal Hero (2rem -> 1rem) */
-        .hero { padding: 1rem 0 !important; }
-        .hero h1 { font-size: 1.75rem !important; margin-bottom: 0.25rem !important; }
-        .hero .subtitle { font-size: 1rem !important; }
-        .hero .action-id { font-size: 0.85rem !important; }
-
-        /* 3B: Dense Table Typography */
-        table { font-size: 0.8rem !important; }
-        th { font-size: 0.75rem !important; padding: 0.375rem 0.5rem !important; }
-        td { padding: 0.35rem 0.5rem !important; }
-
-        /* 6B: Tighter Headings */
-        h2 { font-size: 1.5rem !important; margin: 0.75rem 0 0.5rem !important; }
-        h3 { font-size: 1.2rem !important; margin: 0.5rem 0 0.4rem !important; }
-        h4 { font-size: 1rem !important; margin: 0.4rem 0 0.3rem !important; }
-
-        /* 6C: Condensed Lists */
-        ul, ol { margin: 0.25rem 0 !important; }
-        li { margin-bottom: 0.15rem !important; }
-
-        /* 7A: Smaller Icons */
-        .objective-card .icon { width: 32px !important; height: 32px !important; }
-
-        /* 7B: Smaller Charts (200px -> 150px) */
-        .chart-wrapper { height: 150px !important; }
-        .chart-container { padding: 0.5rem !important; }
-
-        /* 8A: Compact Stats */
-        .stats-banner { padding: 0.75rem !important; gap: 1rem !important; }
-        .stat-number { font-size: 1.75rem !important; }
-        .stat-label { font-size: 0.7rem !important; }
-
-        /* Main content adjust for narrower sidebar */
-        @media (min-width: 901px) {
-            .sl-main { margin-left: 120px !important; }
-        }
-        /* === End Phase 1 === */
-
-        /* === Typography: 25% smaller, single-spaced === */
-        body {
-            font-size: 0.75rem !important;
-            line-height: 1.1 !important;
-        }
-        /* === End Typography === */
-</style>
-
-    <!-- SIDEBAR LAYOUT STYLES -->
-    <style id="sidebar-layout-css">
-        /* Hide old navigation */
-        body > nav:not(.sl-topbar-tabs), .mega-nav, .mega-mobile-menu, .nav-content { display: none !important; }
-
-        /* Override old nav styles that affect all nav elements */
-        nav.sl-topbar-tabs {
-            background: transparent !important;
-            padding: 0 !important;
-            position: static !important;
-            width: auto !important;
-            box-shadow: none !important;
-        }
-
-        /* Sidebar Layout Variables */
-        :root {
-            --sl-topbar-height: 36px;
-            --sl-sidebar-width: 160px;
-        }
-
-        /* Push all body content to make room for sidebar */
-        body {
-            padding-top: var(--sl-topbar-height) !important;
-            padding-left: var(--sl-sidebar-width) !important;
-        }
-
-        /* Top Bar */
-        .sl-topbar {
-            position: fixed !important;
-            top: 0 !important;
-            left: 0 !important;
-            right: 0 !important;
-            height: var(--sl-topbar-height) !important;
-            background: linear-gradient(135deg, #5B2D8A 0%, #2B5F9E 100%) !important;
-            z-index: 10001 !important;
-            display: flex !important;
-            align-items: center !important;
-            justify-content: space-between !important;
-            padding: 0 0.75rem !important;
-            box-shadow: 0 1px 6px rgba(0,0,0,0.12) !important;
-            font-family: 'Inter', -apple-system, sans-serif !important;
-        }
-
-        .sl-topbar-logo {
-            display: flex !important;
-            align-items: center !important;
-            text-decoration: none !important;
-            color: white !important;
-            font-weight: 700 !important;
-            font-size: 0.85rem !important;
-        }
-        .sl-topbar-logo .action-id { color: #E87722 !important; margin-left: 0.2rem !important; }
-        .sl-topbar-logo .badge {
-            font-size: 0.5rem !important;
-            background: rgba(255,255,255,0.2) !important;
-            padding: 0.1rem 0.35rem !important;
-            border-radius: 2px !important;
-            margin-left: 0.5rem !important;
-        }
-
-        .sl-topbar-tabs {
-            display: flex !important;
-            align-items: center !important;
-            height: 100% !important;
-        }
-
-        .sl-topbar-tab {
-            background: transparent !important;
-            border: none !important;
-            cursor: pointer !important;
-            height: 100% !important;
-            padding: 0 0.6rem !important;
-            color: rgba(255,255,255,0.8) !important;
-            font-family: inherit !important;
-            font-size: 0.65rem !important;
-            font-weight: 600 !important;
-            text-transform: uppercase !important;
-            border-bottom: 2px solid transparent !important;
-            transition: all 0.15s !important;
-        }
-        .sl-topbar-tab:hover { background: rgba(255,255,255,0.1) !important; color: white !important; }
-        .sl-topbar-tab.active { color: white !important; background: rgba(255,255,255,0.12) !important; border-bottom-color: #E87722 !important; }
-
-        .sl-hamburger {
-            display: none !important;
-            background: none !important;
-            border: none !important;
-            color: white !important;
-            cursor: pointer !important;
-            padding: 0.35rem !important;
-            flex-direction: column !important;
-            gap: 3px !important;
-        }
-        .sl-hamburger span { display: block; width: 18px; height: 2px; background: white; border-radius: 1px; }
-
-        /* Sidebar */
-        .sl-sidebar {
-            position: fixed !important;
-            top: var(--sl-topbar-height) !important;
-            left: 0 !important;
-            width: var(--sl-sidebar-width) !important;
-            height: calc(100vh - var(--sl-topbar-height)) !important;
-            background: #0f172a !important;
-            z-index: 10000 !important;
-            overflow-y: auto !important;
-            font-family: 'Inter', -apple-system, sans-serif !important;
-        }
-        .sl-sidebar::-webkit-scrollbar { width: 6px; }
-        .sl-sidebar::-webkit-scrollbar-thumb { background: #334155; border-radius: 3px; }
-
-        .sl-sidebar-home {
-            display: block !important;
-            padding: 0.4rem 0.6rem !important;
-            color: white !important;
-            text-decoration: none !important;
-            font-weight: 600 !important;
-            font-size: 0.7rem !important;
-            border-bottom: 1px solid #1e293b !important;
-        }
-        .sl-sidebar-home:hover { background: #1e293b !important; }
-        .sl-sidebar-home.current { background: linear-gradient(90deg, #5B2D8A, transparent) !important; border-left: 2px solid #E87722 !important; }
-
-        .sl-section-link {
-            color: inherit;
-            text-decoration: none;
-            flex: 1;
-            display: block;
-        }
-        .sl-section-link:hover {
-            color: #E87722;
-        }
-
-
-        .sl-section { border-bottom: 1px solid #1e293b !important; }
-        .sl-section-header {
-            display: flex !important;
-            align-items: center !important;
-            justify-content: space-between !important;
-            padding: 0.4rem 0.6rem !important;
-            color: #94a3b8 !important;
-            font-size: 0.65rem !important;
-            font-weight: 600 !important;
-            text-transform: uppercase !important;
-            cursor: pointer !important;
-        }
-        .sl-section-header:hover { background: #1e293b !important; color: white !important; }
-        .sl-section.active .sl-section-header { color: #E87722 !important; background: #1e293b !important; }
-        .sl-section-header .toggle { font-size: 0.5rem; transition: transform 0.2s; }
-        .sl-section.active .sl-section-header .toggle { transform: rotate(180deg); }
-
-        .sl-links { display: none !important; padding: 0 0 0.25rem 0 !important; }
-        .sl-section.active .sl-links { display: block !important; }
-        .sl-links a {
-            display: block !important;
-            padding: 0.2rem 0.5rem 0.2rem 0.8rem !important;
-            color: #64748b !important;
-            text-decoration: none !important;
-            font-size: 0.7rem !important;
-            border-left: 2px solid transparent !important;
-        }
-        .sl-links a:hover { color: white !important; background: rgba(255,255,255,0.05) !important; }
-        .sl-links a.current { color: #E87722 !important; border-left-color: #E87722 !important; background: rgba(232,119,34,0.1) !important; }
-
-        .sl-overlay {
-            display: none !important;
-            position: fixed !important;
-            top: var(--sl-topbar-height) !important;
-            left: 0 !important;
-            right: 0 !important;
-            bottom: 0 !important;
-            background: rgba(0,0,0,0.5) !important;
-            z-index: 9999 !important;
-        }
-        .sl-overlay.active { display: block !important; }
-
-        /* Hero section fix */
-        .hero { padding-top: 1.5rem !important; margin-top: 0 !important; }
-
-        /* Mobile */
-        @media (max-width: 900px) {
-            body { padding-left: 0 !important; }
-            .sl-topbar-tabs { display: none !important; }
-            .sl-hamburger { display: flex !important; }
-            .sl-sidebar { transform: translateX(-100%); transition: transform 0.3s; }
-            .sl-sidebar.open { transform: translateX(0); }
+            .hero h1 { font-size: 24px; }
+            .hero-stats { flex-direction: column; }
+            .wg-grid, .outcomes-grid { grid-template-columns: 1fr; }
         }
     </style>
 </head>
 <body>
-    <!-- SIDEBAR LAYOUT TOPBAR -->
-    <header class="sl-topbar">
-        <a href="index.html" class="sl-topbar-logo">
-            COST <span class="action-id">CA19130</span>
-            <span class="badge">2020-2024</span>
-        </a>
-        <nav class="sl-topbar-tabs">
-            <button class="sl-topbar-tab" data-category="home">HOME</button>
-            <button class="sl-topbar-tab" data-category="impact">IMPACT</button>
-            <button class="sl-topbar-tab" data-category="network">NETWORK</button>
-            <button class="sl-topbar-tab" data-category="research">RESEARCH</button>
-            <button class="sl-topbar-tab" data-category="activities">ACTIVITIES</button>
-            <button class="sl-topbar-tab" data-category="archive">ARCHIVE</button>
-        </nav>
-        <button class="sl-hamburger" onclick="slToggleSidebar()">
-            <span></span><span></span><span></span>
-        </button>
-    </header>
-    <div class="sl-overlay" onclick="slToggleSidebar()"></div>
-
-    <!-- SIDEBAR LAYOUT SIDEBAR -->
-    <aside class="sl-sidebar">
-        <a href="index.html" class="sl-sidebar-home" data-category="home">HOME</a>
-        <a href="facts-budget.html" class="sl-sidebar-home" data-category="home" style="font-size:0.65rem;padding-left:1rem;">Facts & Budget</a>
-        <div class="sl-section" data-category="impact">
-            <div class="sl-section-header"><a href="impact.html" class="sl-section-link">IMPACT</a> <span class="toggle" onclick="slToggleSection(this.parentNode)">&#9660;</span></div>
-            <div class="sl-links">
-                <a href="final-achievements.html">Final Achievements</a>
-                <a href="final-report.html">Objectives Met (16/16)</a>
-                <a href="work-budget-plans/deliverables.html">Deliverables (15/15)</a>
-                <a href="final-impacts.html">Scientific Impact</a>
-                <a href="final-publications.html">Legacy & Continuation</a>
-            </div>
-        </div>
-        <div class="sl-section" data-category="network">
-            <div class="sl-section-header"><a href="network.html" class="sl-section-link">NETWORK</a> <span class="toggle" onclick="slToggleSection(this.parentNode)">&#9660;</span></div>
-            <div class="sl-links">
-                <a href="members.html">All Members (426)</a>
-                <a href="leadership.html">Leadership Team</a>
-                <a href="mc-members.html">Management Committee</a>
-                <a href="wg-members.html">Working Groups</a>
-                <a href="country-contributions.html">Countries (48)</a>
-            </div>
-        </div>
-        <div class="sl-section" data-category="research">
-            <div class="sl-section-header"><a href="research.html" class="sl-section-link">RESEARCH</a> <span class="toggle" onclick="slToggleSection(this.parentNode)">&#9660;</span></div>
-            <div class="sl-links">
-                <a href="publications.html">Publications</a>
-                <a href="preprints.html">Preprints</a>
-                <a href="datasets.html">Datasets</a>
-                <a href="other-outputs.html">Other Outputs</a>
-            </div>
-        </div>
-        <div class="sl-section" data-category="activities">
-            <div class="sl-section-header"><a href="activities.html" class="sl-section-link">ACTIVITIES</a> <span class="toggle" onclick="slToggleSection(this.parentNode)">&#9660;</span></div>
-            <div class="sl-links">
-                <a href="financial-reports/meetings.html">All Meetings</a>
-                <a href="financial-reports/stsm.html">STSMs</a>
-                <a href="financial-reports/training-schools.html">Training Schools</a>
-            </div>
-        </div>
-        <div class="sl-section" data-category="archive">
-            <div class="sl-section-header"><a href="archive.html" class="sl-section-link">ARCHIVE</a> <span class="toggle" onclick="slToggleSection(this.parentNode)">&#9660;</span></div>
-            <div class="sl-links">
-                <a href="final-action-chair-report-full.html">Final Report</a>
-                <a href="midterm-action-chair-report-full.html">Mid-Term Report</a>
-                <a href="financial-reports/overview.html">Financial Overview</a>
-                <a href="sitemap.html">Site Map</a>
-            </div>
-        </div>
-    </aside>
-
-    <!-- COST CA19130 Legacy Archive - Mega Menu Navigation -->
-    <nav class="mega-nav">
-        <div class="mega-nav-content">
-            <a href="index.html" class="mega-nav-logo">
-                COST <span>CA19130</span>
-                <span class="completed-badge">2020-2024</span>
-            </a>
-            <ul class="mega-nav-menu">
-                <li><a href="index.html" data-category="home" class="active">HOME</a></li>
-                <li>
-                    <a href="#" data-category="impact">IMPACT <span class="arrow">&#9660;</span></a>
-                    <div class="mega-dropdown mega-dropdown-single">
-                        <a href="final-achievements.html">Final Achievements</a>
-                        <a href="final-report.html">Objectives Met (16/16)</a>
-                        <a href="work-budget-plans/deliverables.html">Deliverables Completed (15/15)</a>
-                        <a href="final-impacts.html">Scientific Impact</a>
-                        <a href="final-publications.html">Legacy & Continuation</a>
-                        <a href="comparison-enhanced.html">Report Comparison</a>
-                    </div>
-                </li>
-                <li>
-                    <a href="#" data-category="network">NETWORK <span class="arrow">&#9660;</span></a>
-                    <div class="mega-dropdown mega-dropdown-single">
-                        <a href="members.html">All Members (426)</a>
-                        <a href="leadership.html">Leadership Team</a>
-                        <a href="mc-members.html">Management Committee (70)</a>
-                        <a href="wg-members.html">Working Groups</a>
-                        <a href="country-contributions.html">Countries (48)</a>
-                        <a href="author-stats.html">Author Statistics</a>
-                    </div>
-                </li>
-                <li>
-                    <a href="#" data-category="research">RESEARCH <span class="arrow">&#9660;</span></a>
-                    <div class="mega-dropdown mega-dropdown-single">
-                        <a href="publications.html">Publications</a>
-                        <a href="preprints.html">Preprints</a>
-                        <a href="datasets.html">Datasets</a>
-                        <a href="other-outputs.html">Other Outputs</a>
-                        <a href="documents.html">Documents</a>
-                    </div>
-                </li>
-                <li>
-                    <a href="#" data-category="activities">ACTIVITIES <span class="arrow">&#9660;</span></a>
-                    <div class="mega-dropdown mega-dropdown-multi">
-                        <div class="mega-dropdown-column">
-                            <h4>Meetings</h4>
-                            <a href="financial-reports/meetings.html">All Meetings</a>
-                            <a href="progress-reports.html">By Grant Period</a>
-                            <a href="financial-reports/participants.html">Participants</a>
-                        </div>
-                        <div class="mega-dropdown-column">
-                            <h4>Mobility</h4>
-                            <a href="financial-reports/stsm.html">STSMs</a>
-                            <a href="financial-reports/virtual-mobility.html">Virtual Mobility</a>
-                            <a href="financial-reports/countries.html">ITC Grants</a>
-                        </div>
-                        <div class="mega-dropdown-column">
-                            <h4>Training</h4>
-                            <a href="financial-reports/training-schools.html">Training Schools</a>
-                        </div>
-                    </div>
-                </li>
-                <li>
-                    <a href="#" data-category="archive">ARCHIVE <span class="arrow">&#9660;</span></a>
-                    <div class="mega-dropdown mega-dropdown-multi wide">
-                        <div class="mega-dropdown-column">
-                            <h4>Reports</h4>
-                            <a href="final-action-chair-report-full.html">Final Report (Full)</a>
-                            <a href="midterm-action-chair-report-full.html">Mid-Term Report (Full)</a>
-                            <a href="progress-reports.html">Progress Reports</a>
-                            <a href="midterm-rapporteur-review.html">Rapporteur Review</a>
-                        </div>
-                        <div class="mega-dropdown-column">
-                            <h4>Finances</h4>
-                            <a href="financial-reports/overview.html">Financial Overview</a>
-                            <a href="work-budget-plans/index.html">Budget Plans</a>
-                            <a href="financial-reports/ffr1.html">FFR 1-5</a>
-                        </div>
-                        <div class="mega-dropdown-column">
-                            <h4>Tools</h4>
-                            <a href="report-editor.html">Report Editor</a>
-                            <a href="comparison-enhanced.html">Report Comparison</a>
-                        </div>
-                    </div>
-                </li>
-            </ul>
-            <button class="mega-nav-hamburger" aria-label="Toggle menu">
-                <span></span>
-                <span></span>
-                <span></span>
-            </button>
+    <nav class="navbar">
+        <a href="https://lennartjohnbaals.github.io/">Lennart John Baals</a>
+        <div class="navbar-links">
+            <a href="https://lennartjohnbaals.github.io/">Portfolio</a>
+            <a href="https://github.com/LennartJohnBaals/COST-Fintech-AI-in-Finance">GitHub</a>
         </div>
     </nav>
 
-    <!-- Mobile Menu -->
-    <div class="mega-mobile-menu">
-        <ul>
-            <li><a href="index.html">HOME</a></li>
-            <li>
-                <button>IMPACT <span class="toggle-icon">+</span></button>
-                <div class="mega-mobile-submenu">
-                    <a href="final-achievements.html">Final Achievements</a>
-                    <a href="final-report.html">Objectives Met (16/16)</a>
-                    <a href="work-budget-plans/deliverables.html">Deliverables Completed</a>
-                    <a href="final-impacts.html">Scientific Impact</a>
-                    <a href="final-publications.html">Legacy & Continuation</a>
-                    <a href="comparison-enhanced.html">Report Comparison</a>
-                </div>
-            </li>
-            <li>
-                <button>NETWORK <span class="toggle-icon">+</span></button>
-                <div class="mega-mobile-submenu">
-                    <a href="members.html">All Members (426)</a>
-                    <a href="leadership.html">Leadership Team</a>
-                    <a href="mc-members.html">Management Committee</a>
-                    <a href="wg-members.html">Working Groups</a>
-                    <a href="country-contributions.html">Countries (48)</a>
-                    <a href="author-stats.html">Author Statistics</a>
-                </div>
-            </li>
-            <li>
-                <button>RESEARCH <span class="toggle-icon">+</span></button>
-                <div class="mega-mobile-submenu">
-                    <a href="publications.html">Publications</a>
-                    <a href="preprints.html">Preprints</a>
-                    <a href="datasets.html">Datasets</a>
-                    <a href="other-outputs.html">Other Outputs</a>
-                    <a href="documents.html">Documents</a>
-                </div>
-            </li>
-            <li>
-                <button>ACTIVITIES <span class="toggle-icon">+</span></button>
-                <div class="mega-mobile-submenu">
-                    <a href="financial-reports/meetings.html">All Meetings</a>
-                    <a href="financial-reports/stsm.html">STSMs</a>
-                    <a href="financial-reports/virtual-mobility.html">Virtual Mobility</a>
-                    <a href="financial-reports/training-schools.html">Training Schools</a>
-                </div>
-            </li>
-            <li>
-                <button>ARCHIVE <span class="toggle-icon">+</span></button>
-                <div class="mega-mobile-submenu">
-                    <a href="final-action-chair-report-full.html">Final Report</a>
-                    <a href="midterm-action-chair-report-full.html">Mid-Term Report</a>
-                    <a href="progress-reports.html">Progress Reports</a>
-                    <a href="financial-reports/overview.html">Financial Overview</a>
-                    <a href="report-editor.html">Report Editor</a>
-                </div>
-            </li>
-        </ul>
-    </div>
-
     <header class="hero">
-        <div class="hero-logos">
-            <img src="assets/cost_logo_white.svg" alt="COST - European Cooperation in Science and Technology">
-            <img src="assets/eu_funded_logo.png" alt="Co-funded by the European Union" class="eu-logo">
-        </div>
-        <div class="action-id">COST Action CA19130</div>
-        <h1>Fintech and Artificial Intelligence in Finance</h1>
-        <p class="subtitle">Towards a transparent financial industry</p>
-        <p class="period">Duration: October 2020 - October 2024</p>
-        <div class="hero-officers">
-            <div class="officer">
-                <div class="officer-role">Action Chair</div>
-                <div class="officer-name">Prof. Dr. Joerg Osterrieder</div>
-            </div>
-            <div class="officer">
-                <div class="officer-role">Science Officer</div>
-                <div class="officer-name">Dr Ralph Stuebner</div>
-            </div>
-            <div class="officer">
-                <div class="officer-role">Administrative Officer</div>
-                <div class="officer-name">Ms Rose Cruz Santos</div>
+        <div class="hero-content">
+            <div class="action-id">COST Action CA19130</div>
+            <h1>Fintech and Artificial Intelligence in Finance</h1>
+            <p class="subtitle">European research network advancing AI applications in financial services</p>
+            <div class="hero-stats">
+                <div class="hero-stat">
+                    <div class="number">426</div>
+                    <div class="label">Members</div>
+                </div>
+                <div class="hero-stat">
+                    <div class="number">48</div>
+                    <div class="label">Countries</div>
+                </div>
+                <div class="hero-stat">
+                    <div class="number">3</div>
+                    <div class="label">Working Groups</div>
+                </div>
+                <div class="hero-stat">
+                    <div class="number">4</div>
+                    <div class="label">Years</div>
+                </div>
             </div>
         </div>
     </header>
 
-    <div class="stats-banner">
-        <div class="stat-item">
-            <div class="stat-number">426</div>
-            <div class="stat-label">Members</div>
-        </div>
-        <div class="stat-item">
-            <div class="stat-number">48</div>
-            <div class="stat-label">Countries</div>
-        </div>
-        <div class="stat-item">
-            <div class="stat-number">3</div>
-            <div class="stat-label">Working Groups</div>
-        </div>
-        <div class="stat-item">
-            <div class="stat-number">70</div>
-            <div class="stat-label">MC Members</div>
-        </div>
-    </div>
-
-    <section id="about">
-        <h2>About the Action</h2>
-        <div style="max-width: 900px; margin: 0 auto; text-align: center;">
-            <p style="font-size: 1.1rem; color: var(--gray);">
-                This COST Action brings together researchers, practitioners, and policymakers to address
-                the challenges and opportunities arising from the rapid adoption of artificial intelligence
-                and fintech solutions in the financial industry. Our mission is to promote transparency,
-                fairness, and accountability in financial services through interdisciplinary collaboration
-                and knowledge exchange across Europe and beyond.
+    <main class="container">
+        <section class="section">
+            <h2><span class="icon">A</span> About</h2>
+            <p>
+                COST Action CA19130 brought together researchers, practitioners, and policymakers from across Europe
+                to advance the understanding and application of artificial intelligence and fintech in the financial sector.
             </p>
-        </div>
-    </section>
+            <p>
+                The action ran from October 2020 to October 2024, fostering collaboration through working groups,
+                training schools, short-term scientific missions, and conferences.
+            </p>
+            <p>
+                <strong>Duration:</strong> October 2020 - October 2024<br>
+                <strong>Website:</strong> <a href="https://www.fintech-ho2020.eu/" style="color: var(--cost-blue);">www.fintech-ho2020.eu</a>
+            </p>
+        </section>
 
-    <section id="working-groups">
-        <h2>Working Groups</h2>
-        <div class="wg-grid">
-            <div class="wg-card wg1">
-                <div class="wg-id">Working Group 1</div>
-                <h3>Transparency in FinTech</h3>
-                <p>
-                    Investigating transparency requirements and solutions in fintech applications,
-                    including blockchain, digital payments, and regulatory compliance technologies.
-                </p>
-                <span class="member-count">280 Members</span>
+        <section class="section">
+            <h2><span class="icon">W</span> Working Groups</h2>
+            <div class="wg-grid">
+                <div class="wg-card">
+                    <h3>WG1: AI in Credit Risk</h3>
+                    <p>Machine learning approaches to credit scoring, default prediction, and risk assessment in lending markets.</p>
+                </div>
+                <div class="wg-card">
+                    <h3>WG2: AI in Market Microstructure</h3>
+                    <p>High-frequency trading, market making algorithms, and price discovery mechanisms.</p>
+                </div>
+                <div class="wg-card">
+                    <h3>WG3: Blockchain & Digital Assets</h3>
+                    <p>Cryptocurrency markets, DeFi protocols, and distributed ledger applications in finance.</p>
+                </div>
             </div>
-            <div class="wg-card wg2">
-                <div class="wg-id">Working Group 2</div>
-                <h3>Transparent vs Black Box Decision-Support Models</h3>
-                <p>
-                    Comparing transparent and opaque machine learning models in financial
-                    decision-making, focusing on explainability and interpretability.
-                </p>
-                <span class="member-count">253 Members</span>
-            </div>
-            <div class="wg-card wg3">
-                <div class="wg-id">Working Group 3</div>
-                <h3>Investment Product Performance Transparency</h3>
-                <p>
-                    Enhancing transparency in investment product performance reporting
-                    for retail and institutional clients.
-                </p>
-                <span class="member-count">223 Members</span>
-            </div>
-        </div>
-    </section>
+        </section>
 
-    <section id="statistics">
-        <h2>Member Statistics</h2>
-        <div class="charts-grid">
-            <div class="chart-container">
-                <h3>Gender Distribution</h3>
-                <div class="chart-wrapper">
-                    <canvas id="genderChart"></canvas>
-                </div>
-            </div>
-            <div class="chart-container">
-                <h3>Working Group Participation</h3>
-                <div class="chart-wrapper">
-                    <canvas id="wgChart"></canvas>
-                </div>
-            </div>
-            <div class="chart-container">
-                <h3>ITC vs Non-ITC Countries</h3>
-                <div class="chart-wrapper">
-                    <canvas id="itcChart"></canvas>
-                </div>
-            </div>
-            <div class="chart-container">
-                <h3>Membership Types</h3>
-                <div class="chart-wrapper">
-                    <canvas id="membershipChart"></canvas>
-                </div>
-            </div>
-        </div>
-    </section>
+        <section class="section">
+            <h2><span class="icon">T</span> Timeline</h2>
+            <ul class="timeline">
+                <li>
+                    <span class="date">Oct 2020</span>
+                    <span>Action officially launched with kick-off meeting</span>
+                </li>
+                <li>
+                    <span class="date">2021</span>
+                    <span>First training school and working group meetings established</span>
+                </li>
+                <li>
+                    <span class="date">2022</span>
+                    <span>Major conference in Dublin; 50+ short-term scientific missions completed</span>
+                </li>
+                <li>
+                    <span class="date">2023</span>
+                    <span>Special issues published; expanded to 426 members across 48 countries</span>
+                </li>
+                <li>
+                    <span class="date">Oct 2024</span>
+                    <span>Action concluded with final conference and outcomes documentation</span>
+                </li>
+            </ul>
+        </section>
 
-    <section id="countries">
-        <h2>Participating Countries</h2>
-        <p style="text-align: center; color: var(--gray); margin-bottom: 1rem;">
-            48 countries across Europe, the Mediterranean, and beyond.
-            <span style="color: var(--cost-orange);">ITC countries highlighted.</span>
-        </p>
-        <div class="countries-list" id="countriesList">
-            <!-- Populated by JavaScript -->
-        </div>
-    </section>
+        <section class="section">
+            <h2><span class="icon">O</span> Outcomes</h2>
+            <div class="outcomes-grid">
+                <div class="outcome-item">
+                    <div class="number">100+</div>
+                    <div class="label">Publications</div>
+                </div>
+                <div class="outcome-item">
+                    <div class="number">50+</div>
+                    <div class="label">STSMs</div>
+                </div>
+                <div class="outcome-item">
+                    <div class="number">10+</div>
+                    <div class="label">Training Schools</div>
+                </div>
+                <div class="outcome-item">
+                    <div class="number">5</div>
+                    <div class="label">Special Issues</div>
+                </div>
+            </div>
+        </section>
 
-    <section id="objectives">
-        <h2>Main Objectives</h2>
-        <div class="objectives-grid">
-            <div class="objective-card">
-                <div class="icon">1</div>
-                <h4>Research Networking</h4>
-                <p>Build a pan-European research network on AI and fintech transparency.</p>
-            </div>
-            <div class="objective-card">
-                <div class="icon">2</div>
-                <h4>Knowledge Transfer</h4>
-                <p>Facilitate knowledge exchange between academia, industry, and regulators.</p>
-            </div>
-            <div class="objective-card">
-                <div class="icon">3</div>
-                <h4>Early Career Support</h4>
-                <p>Support early-career researchers through training schools and STSMs.</p>
-            </div>
-            <div class="objective-card">
-                <div class="icon">4</div>
-                <h4>Policy Impact</h4>
-                <p>Contribute to evidence-based policy recommendations on financial AI.</p>
-            </div>
-            <div class="objective-card">
-                <div class="icon">5</div>
-                <h4>Best Practices</h4>
-                <p>Develop guidelines for transparent AI in financial services.</p>
-            </div>
-            <div class="objective-card">
-                <div class="icon">6</div>
-                <h4>ITC Inclusiveness</h4>
-                <p>Promote participation from Inclusiveness Target Countries.</p>
-            </div>
-        </div>
-    </section>
+        <section class="section">
+            <h2><span class="icon">R</span> Resources</h2>
+            <p>
+                Documentation and materials from the COST Action are available in the
+                <a href="https://github.com/LennartJohnBaals/COST-Fintech-AI-in-Finance" style="color: var(--cost-blue);">GitHub repository</a>.
+            </p>
+            <p>
+                For official COST Action information, visit the
+                <a href="https://www.cost.eu/actions/CA19130/" style="color: var(--cost-blue);">COST website</a>.
+            </p>
+        </section>
 
-    <section id="timeline">
-        <h2>Action Timeline</h2>
-        <div class="timeline">
-            <div class="timeline-item">
-                <div class="timeline-content">
-                    <div class="timeline-date">October 2020</div>
-                    <div class="timeline-title">Action Start - First MC Meeting</div>
-                </div>
-            </div>
-            <div class="timeline-item">
-                <div class="timeline-content">
-                    <div class="timeline-date">2021</div>
-                    <div class="timeline-title">Working Groups Formation & First Training School</div>
-                </div>
-            </div>
-            <div class="timeline-item">
-                <div class="timeline-content">
-                    <div class="timeline-date">2022</div>
-                    <div class="timeline-title">Multiple STSMs & Conference Organization</div>
-                </div>
-            </div>
-            <div class="timeline-item">
-                <div class="timeline-content">
-                    <div class="timeline-date">2023</div>
-                    <div class="timeline-title">Publications & International Collaborations</div>
-                </div>
-            </div>
-            <div class="timeline-item">
-                <div class="timeline-content">
-                    <div class="timeline-date">October 2024</div>
-                    <div class="timeline-title">Action Conclusion & Final Conference</div>
-                </div>
-            </div>
+        <div style="text-align: center; margin-top: 40px;">
+            <a href="https://github.com/LennartJohnBaals/COST-Fintech-AI-in-Finance" class="btn">
+                View on GitHub
+            </a>
         </div>
-    </section>
+    </main>
 
-    <!-- Legacy Footer -->
-    <footer class="legacy-footer">
-        <div class="legacy-footer-content">
-            <div class="legacy-footer-title">
-                <h3>COST Action CA19130 - Fintech and Artificial Intelligence in Finance</h3>
-                <p class="completed">October 2020 - October 2024 (Completed)</p>
-            </div>
-            <div class="legacy-footer-grid">
-                <div class="legacy-footer-col">
-                    <h4>Impact</h4>
-                    <a href="final-achievements.html">Achievements</a>
-                    <a href="final-report.html">16/16 Objectives</a>
-                    <a href="work-budget-plans/deliverables.html">15/15 Deliverables</a>
-                </div>
-                <div class="legacy-footer-col">
-                    <h4>Network</h4>
-                    <a href="members.html">426 Members</a>
-                    <a href="country-contributions.html">48 Countries</a>
-                    <a href="leadership.html">Leadership</a>
-                </div>
-                <div class="legacy-footer-col">
-                    <h4>Archive</h4>
-                    <a href="final-action-chair-report-full.html">Final Report</a>
-                    <a href="midterm-action-chair-report-full.html">Mid-Term Report</a>
-                    <a href="financial-reports/overview.html">Financial Reports</a>
-                </div>
-            </div>
-            <div class="legacy-footer-grid" style="margin-bottom: 0;">
-                <div class="legacy-footer-col">
-                    <h4>Connect</h4>
-                    <a href="https://www.cost.eu/actions/CA19130/" target="_blank" rel="noopener">COST Official Page</a>
-                    <a href="https://digital-ai-finance.github.io/COST-Fintech-AI-in-Finance" target="_blank" rel="noopener">digital-ai-finance.github.io/COST-Fintech-AI-in-Finance</a>
-                    <a href="https://github.com/Digital-AI-Finance" target="_blank" rel="noopener">GitHub</a>
-                </div>
-            </div>
-            <div class="legacy-footer-bottom">
-                <p>Data sourced from <a href="https://openalex.org" target="_blank" rel="noopener">OpenAlex</a> and <a href="https://orcid.org" target="_blank" rel="noopener">ORCID</a> | Archive maintained since 2024</p>
-            </div>
-        </div>
+    <footer class="footer">
+        <p>&copy; 2025 Lennart John Baals | <a href="https://lennartjohnbaals.github.io/" style="color: var(--primary);">Back to Portfolio</a></p>
     </footer>
-
-    <script>
-        // Chart.js configurations
-        const chartColors = {
-            purple: '#5B2D8A',
-            blue: '#2B5F9E',
-            teal: '#00A0B0',
-            orange: '#E87722',
-            green: '#7AB800'
-        };
-
-        // Gender Chart
-        new Chart(document.getElementById('genderChart'), {
-            type: 'doughnut',
-            data: {
-                labels: ['Male', 'Female'],
-                datasets: [{
-                    data: [239, 187],
-                    backgroundColor: [chartColors.blue, chartColors.purple],
-                    borderWidth: 0
-                }]
-            },
-            options: {
-                responsive: true,
-                maintainAspectRatio: false,
-                plugins: {
-                    legend: {
-                        position: 'bottom'
-                    }
-                }
-            }
-        });
-
-        // Working Groups Chart
-        new Chart(document.getElementById('wgChart'), {
-            type: 'bar',
-            data: {
-                labels: ['WG1', 'WG2', 'WG3'],
-                datasets: [{
-                    label: 'Members',
-                    data: [280, 253, 223],
-                    backgroundColor: [chartColors.purple, chartColors.blue, chartColors.green],
-                    borderWidth: 0,
-                    borderRadius: 6
-                }]
-            },
-            options: {
-                responsive: true,
-                maintainAspectRatio: false,
-                plugins: {
-                    legend: {
-                        display: false
-                    }
-                },
-                scales: {
-                    y: {
-                        beginAtZero: true
-                    }
-                }
-            }
-        });
-
-        // ITC Chart
-        new Chart(document.getElementById('itcChart'), {
-            type: 'doughnut',
-            data: {
-                labels: ['ITC Countries', 'Non-ITC Countries'],
-                datasets: [{
-                    data: [222, 204],
-                    backgroundColor: [chartColors.orange, chartColors.teal],
-                    borderWidth: 0
-                }]
-            },
-            options: {
-                responsive: true,
-                maintainAspectRatio: false,
-                plugins: {
-                    legend: {
-                        position: 'bottom'
-                    }
-                }
-            }
-        });
-
-        // Membership Chart
-        new Chart(document.getElementById('membershipChart'), {
-            type: 'doughnut',
-            data: {
-                labels: ['MC Members', 'WG Members'],
-                datasets: [{
-                    data: [70, 356],
-                    backgroundColor: [chartColors.purple, chartColors.blue],
-                    borderWidth: 0
-                }]
-            },
-            options: {
-                responsive: true,
-                maintainAspectRatio: false,
-                plugins: {
-                    legend: {
-                        position: 'bottom'
-                    }
-                }
-            }
-        });
-
-        // Countries list
-        const countries = [
-            {name: 'Albania', itc: true}, {name: 'Algeria', itc: false}, {name: 'Austria', itc: false},
-            {name: 'Belgium', itc: false}, {name: 'Bosnia and Herzegovina', itc: true}, {name: 'Bulgaria', itc: true},
-            {name: 'Croatia', itc: true}, {name: 'Cyprus', itc: true}, {name: 'Czech Republic', itc: true},
-            {name: 'Denmark', itc: false}, {name: 'Estonia', itc: true}, {name: 'France', itc: false},
-            {name: 'Germany', itc: false}, {name: 'Greece', itc: true}, {name: 'Hungary', itc: true},
-            {name: 'Iceland', itc: false}, {name: 'Ireland', itc: false}, {name: 'Israel', itc: false},
-            {name: 'Italy', itc: false}, {name: 'Latvia', itc: true}, {name: 'Lithuania', itc: true},
-            {name: 'Luxembourg', itc: false}, {name: 'Malta', itc: true}, {name: 'Montenegro', itc: true},
-            {name: 'Netherlands', itc: false}, {name: 'North Macedonia', itc: true}, {name: 'Norway', itc: false},
-            {name: 'Poland', itc: true}, {name: 'Portugal', itc: true}, {name: 'Romania', itc: true},
-            {name: 'Serbia', itc: true}, {name: 'Slovakia', itc: true}, {name: 'Slovenia', itc: true},
-            {name: 'Spain', itc: false}, {name: 'Sweden', itc: false}, {name: 'Switzerland', itc: false},
-            {name: 'Tunisia', itc: false}, {name: 'Turkey', itc: true}, {name: 'Ukraine', itc: true},
-            {name: 'United Kingdom', itc: false}
-        ];
-
-        const countriesList = document.getElementById('countriesList');
-        countries.sort((a, b) => a.name.localeCompare(b.name));
-        countries.forEach(country => {
-            const pill = document.createElement('span');
-            pill.className = 'country-pill' + (country.itc ? ' itc' : '');
-            pill.textContent = country.name;
-            countriesList.appendChild(pill);
-        });
-    </script>
-    <script src="js/mobile-menu.js"></script>
-
-    <!-- SIDEBAR LAYOUT JS -->
-    <script>
-    (function() {
-        document.addEventListener('DOMContentLoaded', function() {
-            slDetectPage();
-            slInitTabs();
-        });
-
-        window.slToggleSidebar = function() {
-            var sb = document.querySelector('.sl-sidebar');
-            var ov = document.querySelector('.sl-overlay');
-            if (sb) sb.classList.toggle('open');
-            if (ov) ov.classList.toggle('active');
-        };
-
-        window.slToggleSection = function(header) {
-            var section = header.parentElement;
-            var wasActive = section.classList.contains('active');
-            document.querySelectorAll('.sl-section').forEach(function(s) { s.classList.remove('active'); });
-            if (!wasActive) {
-                section.classList.add('active');
-                slSetActiveTab(section.dataset.category);
-            }
-        };
-
-        function slDetectPage() {
-            var page = location.pathname.split('/').pop() || 'index.html';
-            var map = {
-                'index.html': 'home',
-                'final-achievements.html': 'impact', 'final-report.html': 'impact', 'final-impacts.html': 'impact',
-                'members.html': 'network', 'leadership.html': 'network', 'mc-members.html': 'network', 'wg-members.html': 'network',
-                'publications.html': 'research', 'preprints.html': 'research', 'datasets.html': 'research',
-                'progress-reports.html': 'activities'
-            };
-            var cat = map[page] || 'home';
-            if (location.pathname.includes('financial-reports/')) cat = 'archive';
-            if (location.pathname.includes('work-budget-plans/')) cat = 'archive';
-            slSetActiveTab(cat);
-            var sec = document.querySelector('.sl-section[data-category="' + cat + '"]');
-            if (sec) sec.classList.add('active');
-            document.querySelectorAll('.sl-links a').forEach(function(a) {
-                if (a.href && a.href.endsWith(page)) a.classList.add('current');
-            });
-            if (cat === 'home') {
-                var home = document.querySelector('.sl-sidebar-home');
-                if (home) home.classList.add('current');
-            }
-        }
-
-        function slSetActiveTab(cat) {
-            document.querySelectorAll('.sl-topbar-tab').forEach(function(t) {
-                t.classList.toggle('active', t.dataset.category === cat);
-            });
-        }
-
-        function slInitTabs() {
-            document.querySelectorAll('.sl-topbar-tab').forEach(function(tab) {
-                tab.addEventListener('click', function() {
-                    var cat = this.dataset.category;
-                    slSetActiveTab(cat);
-                    document.querySelectorAll('.sl-section').forEach(function(s) { s.classList.remove('active'); });
-                    var sec = document.querySelector('.sl-section[data-category="' + cat + '"]');
-                    if (sec) sec.classList.add('active');
-                    if (window.innerWidth <= 900) slToggleSidebar();
-                });
-            });
-        }
-    })();
-    </script>
 </body>
 </html>
